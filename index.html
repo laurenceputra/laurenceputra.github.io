@@ -4,6 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="@laurenceputra's homepage">
+    <script>
+        // Redirect root path to laurenceputra.com, but keep sub-paths as-is
+        (function() {
+            var host = window.location.hostname;
+            var path = window.location.pathname;
+            // Only redirect on GitHub Pages domain
+            if (host === 'laurenceputra.github.io' && (path === '/' || path === '/index.html')) {
+                window.location.replace('https://laurenceputra.com');
+            }
+        })();
+    </script>
 
     <title>GeekSphere.net</title>
     <meta property="og:title" content="laurenceputra.com" />
