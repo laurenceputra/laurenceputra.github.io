@@ -7,8 +7,10 @@
     <script>
         // Redirect root path to laurenceputra.com, but keep sub-paths as-is
         (function() {
+            var host = window.location.hostname;
             var path = window.location.pathname;
-            if (path === '/' || path === '/index.html') {
+            // Only redirect on GitHub Pages domain
+            if (host === 'laurenceputra.github.io' && (path === '/' || path === '/index.html')) {
                 window.location.replace('https://laurenceputra.com');
             }
         })();
