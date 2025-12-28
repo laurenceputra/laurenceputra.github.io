@@ -170,11 +170,20 @@ a.pure-button-primary {
     color: white;
 }
 
-/* This is the subheading that appears on the blue section */
 .splash-subhead {
     color: white;
     letter-spacing: 0.05em;
-    opacity: 0.8;
+    opacity: 0.9;
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.splash-tagline {
+    color: white;
+    opacity: 0.85;
+    font-style: italic;
+    line-height: 1.5em;
+    margin-top: 1em;
 }
 
 /*
@@ -330,4 +339,24 @@ a.pure-button-primary {
 
 .footer a {
     color: white;
+}
+
+.category-writeup h4 {
+    color: #1f8dd6;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+}
+
+.impact-callout {
+    background: #f7f9fa;
+    border-left: 4px solid #1f8dd6;
+    padding: 1em;
+    margin-top: 1.5em;
+    font-size: 1.05em;
+    line-height: 1.6em;
+}
+
+#philanthropy h4 {
+    color: #1f8dd6;
 }
