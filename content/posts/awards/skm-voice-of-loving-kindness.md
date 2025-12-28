@@ -18,4 +18,4 @@ Received the recognition as a Voice of Loving Kindness from Singapore Kindness M
 >   
 > The Voice of Loving Kindness (VoLK) recognition from [Singapore Kindness Movement](https://www.linkedin.com/company/singapore-kindness-movement/) on Kindness Day SG on Friday is not mine alone. It really serves to recognize the folks who ignited this spark in me. As I said to Zaobao, getting this (and previous awards) is not a goal in itself, nor is it something to be proud of. It is an affirmation that we are heading down the right path, and that we need to do more.  
 >   
-> As Singapore exits COVID into a chicken shortage, let's all be kind, be caring, and we will get through this next challenge together!
+> As Singapore moves beyond the pandemic and faces a chicken shortage, let's be kind and caring so we can get through this next challenge together!

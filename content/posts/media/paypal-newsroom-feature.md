@@ -11,6 +11,7 @@ tags:
   - "youtube"
 ---
 
-{{< youtube ygvN5bSmwy4 >}} 
+{{< youtube ygvN5bSmwy4 >}}
 
-PayPal Newsroom Link: <https://newsroom.paypal-corp.com/2022-01-27-Project-Stable-Staples-One-PayPal-engineer-on-his-mission-to-help-families-in-need>
+PayPal Newsroom featured Project Stable Staples. Watch the video above or read the full feature on PayPal Newsroom:
+https://newsroom.paypal-corp.com/2022-01-27-Project-Stable-Staples-One-PayPal-engineer-on-his-mission-to-help-families-in-need

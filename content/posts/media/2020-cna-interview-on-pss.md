@@ -13,3 +13,5 @@ tags:
 ---
 
 {{< youtube eapBEsycPwg >}}
+
+Channel NewsAsia interviewed us about Project Stable Staples. Watch the interview above.

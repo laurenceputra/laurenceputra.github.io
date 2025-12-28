@@ -13,4 +13,4 @@ tags:
 
 {{< youtube qOkFDYkJYnw >}}
 
-This was a Channel 8 Interview for the Frontline current affairs programme on Project Stable Staples, on what we've done previously, and what we were focusing on moving forward.
+Channel 8's Frontline interviewed us about Project Stable Staples. We talked about what we've achieved so far and what we plan to focus on next. Watch the full interview above.

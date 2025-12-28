@@ -12,9 +12,8 @@ tags:
 
 [LinkedIn Post](https://www.linkedin.com/posts/laurenceputra_nus-computing-activity-6979250104125804544-Uvzn)
 
-> Was an honor to have been invited back to [NUS Computing](https://www.linkedin.com/company/nuscomputing/) to celebrate the opening of the new Computing building, and to receive the Outstanding Computing Young Alumni award. At this stage in my life, I'm still extremely thankful that I am considered young.  
->   
-> As with the other awards I've gotten, it was never just recognition of me. I've been extremely lucky to have had a strong ecosystem of supporters, and it is with the support of all of these people that I'm able to do the stuff that I do. This award is for all of you who've walked alongside and supported me through the past decade, and I look forward to continuing to work with many of you to continue down the various paths that we are on.
+It was an honor to be invited back to [NUS Computing](https://www.linkedin.com/company/nuscomputing/) to celebrate the opening of the new Computing building and to receive the Outstanding Computing Young Alumni award. I'm still grateful to be considered 'young'.  
+As with my other awards, this recognition is not just about me. I've been lucky to have a strong ecosystem of supporters, and this award is for all of you who have walked alongside me over the past decade. I look forward to continuing to work with many of you.
 
 ![Laurence Putra holding the NUS Computing Outstanding Young Alumni Award trophy](/img/awards/nus-computing-young-alumni-1.jpeg)
 
