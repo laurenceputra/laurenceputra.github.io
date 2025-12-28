@@ -1,204 +1,916 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Laurence Putra - Tech Leader, Social Impact Advocate, and Philanthropist">
-
-    <title>Laurence Putra - Tech Leader & Philanthropist</title>
-    <meta property="og:title" content="Laurence Putra - Tech Leader & Philanthropist" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Tech and social sector leader driving innovation and social impact through technology and philanthropy" />
-    <meta property="og:url" content="https://laurenceputra.github.io" />
-    <meta property="og:image" content="https://laurenceputra.github.io/static/img/splash_image.jpg" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" href="/static/css/pure-min.css">
-    <link rel="stylesheet" href="/static/css/grids-responsive-min.css">
-    <link rel="stylesheet" href="/static/css/custom.css">
-    <!-- Mixpanel code -->
-    <script>(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
-        0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-        for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-        MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
-        mixpanel.init("e46e976944a6310b8451c76b9a33eaf7")</script>
+    <meta name="description" content="Laurence Putra Franslay - Engineering leader, social entrepreneur, and philanthropist driving innovation and community impact in Singapore">
+    <meta name="keywords" content="Laurence Putra, TikTok, Engineering Leader, Philanthropy, IAmTalented.SG, Project Stable Staples, Singapore Tech">
+    <meta name="author" content="Laurence Putra Franslay">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Laurence Putra Franslay - Engineering Leader & Philanthropist">
+    <meta property="og:description" content="Site Leader at TikTok Singapore, founder of Project Stable Staples, and advocate for tech-driven social change">
+    <meta property="og:image" content="/static/img/splash_image.jpg">
+    <meta property="og:url" content="https://laurenceputra.github.io">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Laurence Putra Franslay">
+    <meta name="twitter:description" content="Engineering Leader & Philanthropist">
+    <meta name="twitter:image" content="/static/img/splash_image.jpg">
+    
+    <title>Laurence Putra Franslay - Engineering Leader & Philanthropist</title>
+    
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #3b82f6;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --text-lighter: #9ca3af;
+            --bg-light: #f9fafb;
+            --bg-white: #ffffff;
+            --border-color: #e5e7eb;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            font-size: 16px;
+        }
+        
+        /* Header & Navigation */
+        header {
+            background: var(--bg-white);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        }
+        
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.95) 0%, rgba(30, 64, 175, 0.95) 100%),
+                        url('/static/img/splash_image.jpg') center/cover no-repeat;
+            color: white;
+            padding: 8rem 2rem 6rem;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            opacity: 0.95;
+        }
+        
+        .hero .tagline {
+            font-size: 1.125rem;
+            opacity: 0.9;
+            margin-bottom: 2.5rem;
+            line-height: 1.8;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 0.875rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        
+        .btn-primary {
+            background: white;
+            color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            color: var(--primary-color);
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 5rem 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .section-header h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .section-header p {
+            font-size: 1.125rem;
+            color: var(--text-light);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        /* About Section */
+        #about {
+            background: var(--bg-white);
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        
+        .about-text p {
+            margin-bottom: 1.5rem;
+            color: var(--text-light);
+            font-size: 1.0625rem;
+            line-height: 1.8;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+        
+        .stat-card {
+            background: var(--bg-light);
+            padding: 2rem;
+            border-radius: 0.75rem;
+            text-align: center;
+        }
+        
+        .stat-card .number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-card .label {
+            color: var(--text-light);
+            font-size: 0.9375rem;
+            font-weight: 500;
+        }
+        
+        /* Experience Section */
+        #experience {
+            background: var(--bg-light);
+        }
+        
+        .experience-grid {
+            display: grid;
+            gap: 2rem;
+        }
+        
+        .experience-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid var(--primary-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .experience-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .experience-card h3 {
+            font-size: 1.5rem;
+            color: var(--text-dark);
+            margin-bottom: 0.25rem;
+        }
+        
+        .company {
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 1.125rem;
+        }
+        
+        .period {
+            color: var(--text-lighter);
+            font-size: 0.9375rem;
+            font-weight: 500;
+        }
+        
+        .experience-card p {
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        
+        .experience-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .experience-card li {
+            padding-left: 1.5rem;
+            position: relative;
+            margin-bottom: 0.75rem;
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+        
+        .experience-card li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        
+        /* Philanthropy Section */
+        #philanthropy {
+            background: var(--bg-white);
+        }
+        
+        .philanthropy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+        
+        .philanthropy-card {
+            background: var(--bg-light);
+            padding: 2.5rem;
+            border-radius: 0.75rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .philanthropy-card:hover {
+            transform: translateY(-4px);
+        }
+        
+        .philanthropy-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 0.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .philanthropy-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+        
+        .philanthropy-card p {
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        
+        .impact-badge {
+            display: inline-block;
+            background: var(--success-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+        
+        .award-badge {
+            display: inline-block;
+            background: var(--warning-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+        
+        /* Community Section */
+        #community {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+        }
+        
+        #community .section-header h2,
+        #community .section-header p {
+            color: white;
+        }
+        
+        .community-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .community-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 0.75rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .community-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        
+        .community-card p {
+            opacity: 0.9;
+            line-height: 1.7;
+        }
+        
+        /* Recognition Section */
+        #recognition {
+            background: var(--bg-light);
+        }
+        
+        .recognition-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        
+        .recognition-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 0.75rem;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .recognition-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .recognition-card h3 {
+            font-size: 1.125rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+        }
+        
+        .recognition-card p {
+            color: var(--text-light);
+            font-size: 0.9375rem;
+        }
+        
+        /* Contact Section */
+        #contact {
+            background: var(--bg-white);
+            text-align: center;
+        }
+        
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        
+        .contact-link {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 2rem;
+            background: var(--bg-light);
+            border-radius: 0.5rem;
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-link:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .contact-link .icon {
+            font-size: 1.5rem;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        footer p {
+            opacity: 0.8;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.25rem;
+            }
+            
+            .hero .tagline {
+                font-size: 1rem;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .stats {
+                grid-template-columns: 1fr;
+            }
+            
+            section {
+                padding: 3rem 1.5rem;
+            }
+            
+            .section-header h2 {
+                font-size: 2rem;
+            }
+            
+            .philanthropy-grid,
+            .community-grid,
+            .recognition-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+        
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    </style>
 </head>
 <body>
-    <div class="splash-container">
-        <div class="splash">
-            <div class="splash-content">
-                <h1>Laurence Putra</h1>
-                <h2 class="splash-subhead">Tech Leader | Social Impact Advocate | Philanthropist</h2>
-                <p class="splash-tagline">
-                    Driving innovation and social change through technology leadership and community empowerment
-                </p>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="#" class="logo">LP</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#philanthropy">Philanthropy</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Laurence Putra Franslay</h1>
+            <p class="subtitle">Engineering Leader | Social Entrepreneur | Philanthropist</p>
+            <p class="tagline">
+                Building scalable systems at TikTok while creating lasting social impact through community-driven initiatives in Singapore
+            </p>
+            <div class="hero-buttons">
+                <a href="#philanthropy" class="btn btn-primary">View Social Impact</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="content-wrapper">
-        <div class="content category-content">
-            <h2 class="content-head is-center">About</h2>
-            <div class="category-writeup">
-                <p>
-                    I am a technology leader and social impact advocate with a deep commitment to leveraging innovation for positive social change. Throughout my career, I've combined technical expertise with a passion for community empowerment and philanthropy.
-                </p>
-
-                <p>
-                    With extensive experience in leading engineering teams at organizations including PayPal, 99.co, Nugit, and SP Group, I've developed a unique perspective on how technology can drive both business success and social impact. My work spans distributed systems, security, and building scalable platforms that serve millions.
-                </p>
-
-                <p>
-                    Beyond the corporate world, I dedicate significant time to social sector initiatives. As a core team member of IAmTalented.SG and co-founder of Project Stable Staples, I work to create opportunities for underserved youth and support families in need. I believe in using privilege and expertise to create lasting positive change in our communities.
-                </p>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Engineering leader with a passion for technology and social change</p>
             </div>
-            <div class="pure-g">
-                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                    <a class="content-subhead-link" href="#leadership">
-                        <h3 class="content-subhead">Tech Leadership</h3>
-                    </a>
-                </div>
-                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                    <a class="content-subhead-link" href="#philanthropy">
-                        <h3 class="content-subhead">Philanthropy</h3>
-                    </a>
-                </div>
-                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                    <a class="content-subhead-link" href="#community">
-                        <h3 class="content-subhead">Community Impact</h3>
-                    </a>
-                </div>
-                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                    <a class="content-subhead-link" href="#photography">
-                        <h3 class="content-subhead">Photography</h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="ribbon l-box-lrg pure-g">
-            <div class="pure-u-1">
-                <a name="leadership"></a>
-                <h2 class="content-head content-head-ribbon is-center">Tech Leadership & Innovation</h2>
-                <div class="category-writeup">
+            <div class="about-content">
+                <div class="about-text">
                     <p>
-                        As a technology leader, I bring together deep technical expertise with strategic vision to build teams and systems that create lasting impact. My journey spans from hands-on engineering to leading organizations in scaling their technology and people.
+                        I'm currently the <strong>Site Leader for Server Architecture at TikTok Singapore</strong>, where I lead teams building highly scalable, secure, and compliant infrastructure serving billions of users worldwide. My work focuses on microservices evolution, global multi-data center operations, and ensuring high availability for one of the world's fastest-growing platforms.
                     </p>
                     <p>
-                        Throughout my career at PayPal, 99.co, Nugit, and SP Group, I've led engineering initiatives in distributed systems, security, and platform architecture. I've managed teams building mobile applications serving millions, architected backend systems for fintech platforms, and directed digital infrastructure transformations. My leadership philosophy centers on empowering engineers to do their best work while maintaining technical excellence.
+                        With over a decade of experience in engineering leadership, I've built and scaled teams at <strong>PayPal, SP Group, Nugit, and 99.co</strong>. I hold a degree in Computer Science from the National University of Singapore (2013) and have deep expertise in distributed systems, security, and site reliability engineering.
                     </p>
                     <p>
-                        With an academic background spanning Computer Science and Liberal Arts, I approach technology leadership with both technical rigor and human-centered thinking. I believe the best technology solutions come from diverse teams working on problems that matter, which is why I'm passionate about creating inclusive engineering cultures and mentoring the next generation of technical leaders.
+                        Beyond technology, I'm deeply committed to <strong>social impact and community empowerment</strong>. I co-founded Project Stable Staples during COVID-19, raising over SGD 160,000 to support 600 families. I'm also a founding member of IAmTalented.SG, empowering at-risk youth through skills-based education since 2014.
                     </p>
                 </div>
-                    
-            </div>
-        </div>
-
-        <div class="content" id="philanthropy">
-            <div class="pure-g category-content">
-                <div class="pure-u-1">
-                    <a name="philanthropy"></a>
-                    <h2 class="content-head is-center">Philanthropy & Social Impact</h2>
-                </div>
-                <div class="pure-u-1 pure-u-md-1-2">
-                    <div class="category-writeup">
-                        <p>
-                            My commitment to social impact drives much of my work outside of technology. I believe in creating opportunities for those who need them most and building systems that support sustainable community development.
-                        </p>
-                        <h4>IAmTalented.SG</h4>
-                        <p>
-                            As a core team member of <a href="https://iamtalented.sg" target="_blank">IAmTalented.SG</a>, I work to empower underserved youth through skills-based education and mentorship. IAT reaches out to youths at Secondary 2 and 3 levels, providing opportunities to explore non-academic pathways through hands-on workshops. This program benefits youths without access to such resources within their schools or family environment.
-                        </p>
-                        <h4>Project Stable Staples</h4>
-                        <p>
-                            I co-founded <a href="https://projectstablestaples.sg" target="_blank">Project Stable Staples</a> to address food security for lower-income families in Singapore. What started as a response to COVID-19 has evolved into a sustained effort to ensure families have consistent access to essential supplies during difficult times.
-                        </p>
-                        <h4>Collaborate.SG</h4>
-                        <p>
-                            Through Collaborate.SG, I work to connect and coordinate social sector initiatives, helping organizations amplify their impact through collaboration and shared resources.
-                        </p>
-                        <p class="impact-callout">
-                            <strong>My philosophy:</strong> True leadership means using privilege, expertise, and resources to create lasting positive change. Technology and philanthropy are not separate pursuits—they're complementary tools for building a more equitable society.
-                        </p>
+                <div class="stats">
+                    <div class="stat-card">
+                        <span class="number">10+</span>
+                        <span class="label">Years in Tech Leadership</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">600+</span>
+                        <span class="label">Families Supported</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">1,500+</span>
+                        <span class="label">Youth Mentored</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">$160K+</span>
+                        <span class="label">Funds Raised</span>
                     </div>
                 </div>
-                <div class="pure-u-1 pure-u-md-1-2">
-                    <div id="iat-slideshow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Professional Experience</h2>
+                <p>Leading engineering teams and driving technical innovation at scale</p>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Site Leader, Server Architecture</h3>
+                            <p class="company">TikTok Singapore</p>
+                        </div>
+                        <span class="period">Present</span>
+                    </div>
+                    <p>
+                        Leading the Server Architecture organization and eSRE (Enhanced Site Reliability Engineering) function for TikTok Singapore. Responsible for building globally scalable, secure, and compliant infrastructure.
+                    </p>
+                    <ul>
+                        <li>Overseeing microservices architecture evolution supporting billions of users</li>
+                        <li>Leading multi-data center infrastructure planning and operations</li>
+                        <li>Driving architecture standardization and performance optimization</li>
+                        <li>Ensuring security, compliance, and high availability across global markets</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Engineering Manager</h3>
+                            <p class="company">PayPal</p>
+                        </div>
+                        <span class="period">2014 - 2019</span>
+                    </div>
+                    <p>
+                        Led engineering teams building mobile applications and backend services for PayPal's digital payment platform. Managed developer community engagement program.
+                    </p>
+                    <ul>
+                        <li>Built and led distributed teams across development and operations</li>
+                        <li>Developed mobile applications serving millions of users</li>
+                        <li>Established developer community program, growing from 2 to 20+ engineers</li>
+                        <li>Hosted 12+ monthly community meetups including UXSG, PyLadies, and others</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Head of Developer Operations</h3>
+                            <p class="company">SP Group</p>
+                        </div>
+                        <span class="period">2016 - 2018</span>
+                    </div>
+                    <p>
+                        Led digital infrastructure transformation for Singapore's largest power grid operator, managing DevOps teams and modernizing technology operations.
+                    </p>
+                    <ul>
+                        <li>Directed digital infrastructure modernization initiatives</li>
+                        <li>Implemented DevOps practices and continuous delivery pipelines</li>
+                        <li>Managed cross-functional teams in highly regulated environment</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Software Engineer & Tech Roles</h3>
+                            <p class="company">Nugit, 99.co, BillPin, Others</p>
+                        </div>
+                        <span class="period">2012 - 2016</span>
+                    </div>
+                    <p>
+                        Diverse engineering roles across Singapore's startup ecosystem, gaining hands-on experience in full-stack development, backend systems, and infrastructure.
+                    </p>
+                    <ul>
+                        <li>Built and scaled backend systems for fintech and proptech startups</li>
+                        <li>Developed distributed systems and data processing pipelines</li>
+                        <li>Contributed to early-stage product development and architecture</li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="pure-g" id="community">
-            <div class="pure-u-1 category-content category-content-mask">
-                <a name="community"></a>
-                <h2 class="content-head content-head-ribbon is-center">Community Building & Leadership</h2>
-                <div class="category-writeup">
+    <!-- Philanthropy Section -->
+    <section id="philanthropy">
+        <div class="container">
+            <div class="section-header">
+                <h2>Philanthropy & Social Impact</h2>
+                <p>Using technology and leadership to create lasting positive change</p>
+            </div>
+            <div class="philanthropy-grid">
+                <div class="philanthropy-card">
+                    <div class="philanthropy-icon">🌟</div>
+                    <h3>Project Stable Staples</h3>
                     <p>
-                        Community building has been central to my career. From organizing Singapore's largest tech unconference to creating inclusive spaces for developers and designers, I've worked to strengthen the bonds that make our tech ecosystem thrive.
+                        Co-founded during COVID-19 to address food security for lower-income families in Singapore. Successfully raised over <strong>SGD 160,000</strong> and supported <strong>600+ families</strong> with essential supplies, job search assistance, and long-term support programs.
                     </p>
                     <p>
-                        I led <a href="https://geekcamp.sg" target="_blank">GeekcampSG</a> from 2012 to 2014, growing the community from 200 participants to over 1,300, with a third being students. This platform provided a space for knowledge sharing, networking, and inspiration for Singapore's tech community.
+                        The initiative continues beyond the pandemic, including the Lai Yu Hua Bursary and ongoing support for vulnerable communities.
+                    </p>
+                    <span class="impact-badge">600+ Families Helped</span>
+                    <span class="award-badge">⭐ PVPA People of Good Award 2020</span>
+                </div>
+
+                <div class="philanthropy-card">
+                    <div class="philanthropy-icon">📚</div>
+                    <h3>IAmTalented.SG</h3>
+                    <p>
+                        Founding committee member since 2011, now core team member. IAT empowers at-risk and underprivileged youth (Secondary 2-3) through skills-based workshops and mentorship programs.
                     </p>
                     <p>
-                        At PayPal Singapore, I built a developer community engagement program from the ground up. Starting with a team of 2, we grew to over 20 PayPal engineers hosting up to 12 community meetups per month, creating a welcoming space for diverse groups including <a href="http://www.uxsg.org/2015/09/17/uxsg-meetup-17-paypal-singapore/" target="_blank">UXSG</a>, <a href="https://www.facebook.com/PyLadiesSG/posts/1629316240659426" target="_blank">PyLadies</a>, and many others.
+                        The program focuses on <strong>Discovery, Diligence, and Determination</strong>, offering workshops in broadcast journalism, dance, public speaking, mobile game development, web programming, and more—helping youth discover non-academic talents and pathways.
+                    </p>
+                    <span class="impact-badge">1,500+ Youth Empowered</span>
+                </div>
+
+                <div class="philanthropy-card">
+                    <div class="philanthropy-icon">🤝</div>
+                    <h3>Community Initiatives</h3>
+                    <p>
+                        Active involvement in multiple community-driven projects including <strong>Collaborate.SG</strong> (connecting social sector organizations), <strong>BlessSG</strong>, and various grassroots initiatives.
                     </p>
                     <p>
-                        I've also been privileged to share insights through speaking engagements, including <a href="https://www.facebook.com/events/790972321002794/" target="_blank">panel discussions with industry leaders</a> from Google and Pivotal Labs, and technical conferences on topics like Continuous Delivery and DevOps.
+                        Leveraging technical expertise to improve operational efficiency for non-profits and social enterprises, providing pro-bono technology consulting and development support.
+                    </p>
+                    <span class="impact-badge">Multiple Communities Served</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Leadership Section -->
+    <section id="community">
+        <div class="container">
+            <div class="section-header">
+                <h2>Community Leadership</h2>
+                <p>Building and nurturing Singapore's tech ecosystem</p>
+            </div>
+            <div class="community-grid">
+                <div class="community-card">
+                    <h3>GeekcampSG</h3>
+                    <p>
+                        Lead organizer from 2011-2014 of Singapore's largest community-driven tech unconference. Grew the event from <strong>200 to 1,500+ attendees</strong>, with one-third being students. Brought in keynote speakers including Dr. Vivian Balakrishnan and created a platform for knowledge sharing across the tech community.
+                    </p>
+                </div>
+
+                <div class="community-card">
+                    <h3>Developer Community Building</h3>
+                    <p>
+                        At PayPal, built a developer community engagement program from scratch. Started with 2 engineers and grew to <strong>20+ PayPal engineers</strong> hosting <strong>12 meetups per month</strong>. Created inclusive spaces for diverse groups including UXSG, PyLadies, and multiple developer communities.
+                    </p>
+                </div>
+
+                <div class="community-card">
+                    <h3>Speaking & Mentoring</h3>
+                    <p>
+                        Regular speaker at tech conferences and panels, including appearances alongside Google and Pivotal Labs leaders. Mentored students through NUS Orbital program and provided guidance to aspiring engineers entering the tech industry.
                     </p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="content category-content">
-            <a name="photography"></a>
-            <h2 class="content-head is-center">Photography</h2>
-            <div class="category-writeup">
-                <p>Photography is my creative outlet and a way to document the community and events I'm part of. I've photographed numerous tech conferences and community events across Singapore, capturing the energy and connections that make our ecosystem special.</p>
-                <p>My photos are licensed under Attribution-NonCommercial-NoDerivs and available on <a href="https://www.flickr.com/photos/laurenceputra/albums" target="_blank">Flickr</a>. Below is a curated selection—view the <a href="https://www.flickr.com/photos/laurenceputra/albums/72157659307063115" target="_blank">complete collection here</a>.</p>
+    <!-- Recognition Section -->
+    <section id="recognition">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recognition & Awards</h2>
+                <p>Honored for contributions to technology and society</p>
             </div>
-            <div class="flickr-container">
-                <div id="flickr-slideshow">
+            <div class="recognition-grid">
+                <div class="recognition-card">
+                    <div class="icon">🏆</div>
+                    <h3>NVPC PVPA People of Good Award</h3>
+                    <p>Singapore's highest honor for volunteerism, presented by President Halimah Yacob (2020)</p>
+                </div>
+
+                <div class="recognition-card">
+                    <div class="icon">🎓</div>
+                    <h3>NUS Outstanding Young Alumni Award</h3>
+                    <p>Recognized for professional achievements and social contributions</p>
+                </div>
+
+                <div class="recognition-card">
+                    <div class="icon">🌟</div>
+                    <h3>Community Leader</h3>
+                    <p>Recognized across Singapore's tech and social sectors for bridging technology and social impact</p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="footer l-box is-center">
-            <a id="gheLink" href="https://github.com/laurenceputra" target="_blank">GitHub</a> | <a id="flickrLink" href="https://flickr.com/laurenceputra" target="_blank">Flickr</a> | <a id="cvLink" href="https://geeksphere.net/static/Resume.pdf" target="_blank">CV</a>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <p>Interested in collaboration, speaking engagements, or social impact initiatives</p>
+            </div>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/laurenceputra/" target="_blank" class="contact-link">
+                    <span class="icon">💼</span>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/laurenceputra" target="_blank" class="contact-link">
+                    <span class="icon">💻</span>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://twitter.com/laurenceputra" target="_blank" class="contact-link">
+                    <span class="icon">🐦</span>
+                    <span>Twitter</span>
+                </a>
+                <a href="https://www.flickr.com/photos/laurenceputra/albums" target="_blank" class="contact-link">
+                    <span class="icon">📷</span>
+                    <span>Photography</span>
+                </a>
+            </div>
         </div>
+    </section>
 
-    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Laurence Putra Franslay. Building technology and community for a better tomorrow.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards
+        document.querySelectorAll('.experience-card, .philanthropy-card, .community-card, .recognition-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
 </body>
-<script src="/static/js/jquery-1.12.4.min.js" type="text/javascript"></script>
-<script src="/static/js/galleria/galleria-1.4.2.min.js" type="text/javascript"></script>
-<script src="/static/js/galleria/plugins/flickr/galleria.flickr.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-function init() {
-    calculateGalleriaHeight();
-    Galleria.loadTheme('/static/js/galleria/themes/classic/galleria.classic.min.js');
-    Galleria.run('#flickr-slideshow', {
-        flickr: 'set:72157659307063115',
-        flickrOptions: {
-            max: 10
-        }
-    });
-
-    Galleria.run('#iat-slideshow', {
-        flickr: 'set:72157663762425013',
-        flickrOptions: {
-            max: 10
-        }
-    });
-
-    mixpanel.track_links('#gheLink', 'Clicked GHE Link');
-    mixpanel.track_links('#flickrLink', 'Clicked Flickr Link');
-    mixpanel.track_links('#cvLink', 'Clicked CV Link');
-    mixpanel.track("Page Loaded");
-}
-function calculateGalleriaHeight() {
-    document.getElementById("flickr-slideshow").style.height = (document.getElementById("flickr-slideshow").clientWidth * 0.75) + 'px';
-    document.getElementById("iat-slideshow").style.height = (document.getElementById("iat-slideshow").clientWidth * 0.75) + 'px';
-}
-window.onload = init;
-window.onresize = calculateGalleriaHeight;
-</script>
 </html>
