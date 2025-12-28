@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog - Laurence Putra Franslay's thoughts on technology, leadership, and social impact">
+    <title>Blog - Laurence Putra Franslay</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-hover: #1d4ed8;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --bg-white: #ffffff;
+            --bg-light: #f8fafc;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--bg-white);
+        }
+
+        /* Navigation */
+        nav {
+            background: white;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 1rem 0;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Header */
+        .page-header {
+            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .page-header p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        /* Blog Posts Grid */
+        .blog-posts {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .blog-post {
+            background: var(--bg-white);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .blog-post:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .post-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.875rem;
+            color: var(--text-light);
+            margin-bottom: 1rem;
+        }
+
+        .post-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .blog-post h2 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .blog-post h2 a {
+            color: var(--text-dark);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .blog-post h2 a:hover {
+            color: var(--primary-color);
+        }
+
+        .post-excerpt {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .read-more {
+            display: inline-block;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .read-more:hover {
+            color: var(--primary-hover);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .page-header h1 {
+                font-size: 2rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+
+            .container {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="logo">LP</a>
+            <ul class="nav-links">
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#experience">Experience</a></li>
+                <li><a href="/#philanthropy">Philanthropy</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Blog</h1>
+        <p>Thoughts on technology, leadership, and social impact</p>
+    </header>
+
+    <!-- Blog Posts -->
+    <div class="container">
+        <div class="blog-posts">
+            <!-- Post 1 -->
+            <article class="blog-post">
+                <div class="post-meta">
+                    <span>📅 September 17, 2022</span>
+                    <span>🏆 Awards</span>
+                </div>
+                <h2><a href="/blog/2022-09-17-nus-computing-outstanding-young-alumni-award.html">NUS Computing Outstanding Young Alumni Award</a></h2>
+                <p class="post-excerpt">
+                    Honored to receive the NUS Computing Outstanding Young Alumni Award at the opening of the new NUS Computing building. This recognition is a testament to the strong ecosystem of supporters who have walked alongside me throughout my journey.
+                </p>
+                <a href="/blog/2022-09-17-nus-computing-outstanding-young-alumni-award.html" class="read-more">Read more →</a>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="blog-post">
+                <div class="post-meta">
+                    <span>📅 May 20, 2022</span>
+                    <span>🏆 Awards</span>
+                </div>
+                <h2><a href="/blog/2022-05-20-skm-voice-of-loving-kindness.html">SKM Voice of Loving Kindness</a></h2>
+                <p class="post-excerpt">
+                    Recognized as a Voice of Loving Kindness by the Singapore Kindness Movement on Kindness Day SG. This award belongs to the community and individuals who have inspired me on this journey, reminding us that kindness creates ripple effects that inspire others.
+                </p>
+                <a href="/blog/2022-05-20-skm-voice-of-loving-kindness.html" class="read-more">Read more →</a>
+            </article>
+
+            <!-- Post 3 -->
+            <article class="blog-post">
+                <div class="post-meta">
+                    <span>📅 November 6, 2021</span>
+                    <span>🏆 Awards</span>
+                </div>
+                <h2><a href="/blog/2021-11-06-nus-outstanding-young-alumni-award.html">NUS Outstanding Young Alumni Award</a></h2>
+                <p class="post-excerpt">
+                    Receiving the NUS Outstanding Young Alumni Award is an honor that reflects the community around me that allowed me to grow. Grateful to family, mentors, and teams at GeekcampSG, IAT, and Project Stable Staples who supported my journey.
+                </p>
+                <a href="/blog/2021-11-06-nus-outstanding-young-alumni-award.html" class="read-more">Read more →</a>
+            </article>
+
+            <!-- Post 4 -->
+            <article class="blog-post">
+                <div class="post-meta">
+                    <span>📅 August 7, 2021</span>
+                    <span>📺 Media</span>
+                </div>
+                <h2><a href="/blog/2021-08-07-channel-8-frontline-interview.html">Channel 8 Frontline Interview on Project Stable Staples</a></h2>
+                <p class="post-excerpt">
+                    Featured on Channel 8's Frontline current affairs programme discussing Project Stable Staples, our work supporting communities during COVID-19, and our ongoing commitment to helping families in transition.
+                </p>
+                <a href="/blog/2021-08-07-channel-8-frontline-interview.html" class="read-more">Read more →</a>
+            </article>
+
+            <!-- Post 5 -->
+            <article class="blog-post">
+                <div class="post-meta">
+                    <span>📅 October 16, 2020</span>
+                    <span>🏆 Awards</span>
+                </div>
+                <h2><a href="/blog/2020-10-16-people-of-good-award.html">People of Good Award</a></h2>
+                <p class="post-excerpt">
+                    Honored to receive the NVPC PVPA People of Good award from President Halimah Yacob for Project Stable Staples. Our initiative raised over SGD 160,000 to support 600 families in rental communities during the COVID-19 crisis, providing rapid support and continuing through the Lai Yu Hua Bursary.
+                </p>
+                <a href="/blog/2020-10-16-people-of-good-award.html" class="read-more">Read more →</a>
+            </article>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Laurence Putra Franslay. Building technology and community for a better tomorrow.</p>
+    </footer>
+</body>
+</html>

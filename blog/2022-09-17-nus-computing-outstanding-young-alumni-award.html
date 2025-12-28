@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NUS Computing Outstanding Young Alumni Award - Laurence Putra Franslay">
+    <title>NUS Computing Outstanding Young Alumni Award - Laurence Putra Franslay</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-hover: #1d4ed8;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --bg-white: #ffffff;
+            --bg-light: #f8fafc;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: var(--text-dark);
+            background: var(--bg-white);
+        }
+
+        /* Navigation */
+        nav {
+            background: white;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 1rem 0;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Article */
+        article {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .post-header {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .post-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.875rem;
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+        }
+
+        .post-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .post-content {
+            font-size: 1.125rem;
+            line-height: 1.8;
+        }
+
+        .post-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .post-content strong {
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 3rem;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: var(--primary-hover);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+
+            article {
+                padding: 2rem 1rem;
+            }
+
+            .post-content {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="logo">LP</a>
+            <ul class="nav-links">
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#experience">Experience</a></li>
+                <li><a href="/#philanthropy">Philanthropy</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Article -->
+    <article>
+        <header class="post-header">
+            <div class="post-meta">
+                <span>📅 September 17, 2022</span>
+                <span>🏆 Awards</span>
+            </div>
+            <h1>NUS Computing Outstanding Young Alumni Award</h1>
+        </header>
+
+        <div class="post-content">
+            <p>
+                I am honored by the invitation to attend the opening of the new NUS Computing building and to receive the NUS Computing Outstanding Young Alumni Award. As someone who just entered his 30's, I'm relieved that I am still regarded in some quarters as young.
+            </p>
+
+            <p>
+                Jokes aside, this award is a testament to the strong ecosystem of supporters I've had throughout my journey. This recognition is not solely mine, but shared with everyone who has walked alongside and supported me over the last decade.
+            </p>
+
+            <p>
+                I give credit to those who have been there—mentors, colleagues, friends, and family—whose guidance and encouragement made this possible. Looking forward to continuing this work and collaborating with the community in the years ahead.
+            </p>
+
+            <p>
+                <strong>About NUS Computing:</strong> The School of Computing at the National University of Singapore is one of Asia's leading computing schools, recognized globally for excellence in education and research.
+            </p>
+
+            <a href="/blog/" class="back-link">← Back to Blog</a>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Laurence Putra Franslay. Building technology and community for a better tomorrow.</p>
+    </footer>
+</body>
+</html>
