@@ -60,6 +60,6 @@ All of us have skills that can contribute in one way or another to help make eac
 
 **The team is committed to looking out for people we don’t know. Will you join us in our mission?**
 
-<iframe src="https://www.youtube-nocookie.com/embed/THAqma3x-MI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+{{< youtube THAqma3x-MI >}}
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flaurenceputra%2Fposts%2F10159027849102059&width=500&show_text=true&appId=251101888252390&height=684" style="border:none;overflow:hidden" scrolling="no" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" width="500" height="684" frameborder="0"></iframe>

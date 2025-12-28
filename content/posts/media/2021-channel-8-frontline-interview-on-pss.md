@@ -11,6 +11,6 @@ tags:
   - "project stable staples"
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/qOkFDYkJYnw?start=272" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+{{< youtube qOkFDYkJYnw >}}
 
 This was a Channel 8 Interview for the Frontline current affairs programme on Project Stable Staples, on what we've done previously, and what we were focusing on moving forward.

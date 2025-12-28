@@ -12,4 +12,4 @@ tags:
   - "project stable staples"
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/eapBEsycPwg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+{{< youtube eapBEsycPwg >}}

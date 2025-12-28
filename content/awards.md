@@ -33,7 +33,7 @@ I've been recognized for my contributions to technology and social impact throug
 
 ---
 
-*This page showcases the awards and recognition I've received for my work in technology leadership, philanthropy, and community building. As a tech leader and social fixer, these recognitions represent the impact I've made across multiple domains.*
+*This page showcases the awards and recognition I've received for my work in technology leadership, philanthropy, and community building. As a tech leader and social problem solver, these recognitions represent the impact I've made across multiple domains.*
 
 ---
 
