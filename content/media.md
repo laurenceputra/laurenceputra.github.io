@@ -5,13 +5,13 @@ date: 2025-12-28
 
 ## Media Mentions
 
-Laurence Putra Franslay has been featured in various media outlets for his work as a tech leader, philanthropist, and social fixer.
+I've been featured in various media outlets for my work as a tech leader, philanthropist, and social fixer.
 
 ### Recent Media Features
 
-- **[PayPal Newsroom Feature (2022)](/2022/01/27/paypal-newsroom-feature/)** - Feature on Project Stable Staples and mission to help families in need
+- **[PayPal Newsroom Feature (2022)](/2022/01/27/paypal-newsroom-feature/)** - Feature on Project Stable Staples and my mission to help families in need
 
-- **[Project Lionheart (2022)](/2022/10/06/project-lionheart/)** - MCCY's Project Lionheart exhibition featuring stories of community service and resilience
+- **[Project Lionheart (2022)](/2022/10/06/project-lionheart/)** - MCCY's Project Lionheart exhibition featuring stories of my community service and resilience
 
 - **[We Are Majulah Feature (2021)](/2021/11/26/we-are-majulah-feature/)** - Feature on Project Stable Staples' impact during COVID-19
 
@@ -22,14 +22,14 @@ Laurence Putra Franslay has been featured in various media outlets for his work 
 ### Featured Coverage Categories
 
 **Technology & Engineering**
-- Featured in tech industry publications for work in distributed systems and security
-- Interviews about engineering leadership and people management
+- Featured in tech industry publications for my work in distributed systems and security
+- Interviews about my engineering leadership and people management
 - Coverage of PayPal Singapore's developer community initiatives
 
 **Social Impact & Philanthropy**
 - Media coverage of IAmTalented.SG programs
 - Project Stable Staples initiatives during COVID-19
-- Articles about social empowerment work with youth
+- Articles about my social empowerment work with youth
 
 **Community Leadership**
 - GeekcampSG conference coverage (2012-2014)
@@ -43,7 +43,7 @@ Laurence Putra Franslay has been featured in various media outlets for his work 
 
 ---
 
-*As a tech leader and social fixer, media mentions span across technology innovation, social impact initiatives, and community building efforts in Singapore.*
+*As a tech leader and social fixer, my media mentions span across technology innovation, social impact initiatives, and community building efforts in Singapore.*
 
 ---
 
