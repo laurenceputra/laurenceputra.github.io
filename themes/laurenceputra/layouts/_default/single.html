@@ -1,30 +1,245 @@
 {{ define "main" }}
-    <div class="content-wrapper">
-        <div class="content category-content">
-            <article>
-                <header>
-                    <h1 class="content-head is-center">{{ .Title }}</h1>
-                </header>
-                <div class="category-writeup">
-                    {{ .Content }}
-                </div>
-            </article>
-        </div>
+<style>
+    /* Navigation */
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--border-color);
+        z-index: 1000;
+        padding: 1rem 0;
+    }
 
-        <div class="footer l-box is-center">
-            <a href="/">Home</a> | 
-            <a id="gheLink" href="https://github.com/{{ .Site.Params.github }}" target="_blank">Github</a> | 
-            <a id="flickrLink" href="https://flickr.com/{{ .Site.Params.flickr }}" target="_blank">Flickr</a> | 
-            <a id="cvLink" href="/static/Resume.pdf" target="_blank">CV</a> |
-            <a href="/awards/">Awards</a> |
-            <a href="/media/">Media Mentions</a>
+    nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .logo {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    nav .nav-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    nav .nav-links a {
+        color: var(--text-secondary);
+        font-weight: 500;
+        transition: color 0.2s ease;
+    }
+
+    nav .nav-links a:hover {
+        color: var(--primary-color);
+    }
+
+    /* Page Header */
+    .page-header {
+        margin-top: 80px;
+        padding: 4rem 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        text-align: center;
+    }
+
+    .page-header h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    /* Content */
+    .page-content {
+        padding: 4rem 0;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .page-content h2 {
+        font-size: 2rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        color: var(--text-primary);
+    }
+
+    .page-content h3 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        color: var(--primary-color);
+    }
+
+    .page-content h4 {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: var(--text-secondary);
+    }
+
+    .page-content p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--text-secondary);
+        margin-bottom: 1.5rem;
+    }
+
+    .page-content ul {
+        margin: 1rem 0 2rem 2rem;
+    }
+
+    .page-content li {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--text-secondary);
+        margin-bottom: 0.75rem;
+    }
+
+    .page-content strong {
+        color: var(--text-primary);
+        font-weight: 600;
+    }
+
+    .page-content em {
+        color: var(--text-secondary);
+        font-style: italic;
+    }
+
+    .page-content a {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 500;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.2s ease;
+    }
+
+    .page-content a:hover {
+        border-bottom-color: var(--primary-color);
+    }
+
+    .page-content hr {
+        border: none;
+        border-top: 1px solid var(--border-color);
+        margin: 3rem 0;
+    }
+
+    .page-content blockquote {
+        border-left: 4px solid var(--primary-color);
+        padding: 1rem 1.5rem;
+        margin: 2rem 0;
+        background: var(--bg-secondary);
+        border-radius: 0 8px 8px 0;
+        font-style: italic;
+        color: var(--text-secondary);
+    }
+
+    /* Footer */
+    footer {
+        background: var(--text-primary);
+        color: white;
+        padding: 3rem 0 2rem;
+    }
+
+    footer .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    footer .footer-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+
+    footer .footer-links a {
+        color: rgba(255, 255, 255, 0.8);
+        transition: color 0.2s ease;
+    }
+
+    footer .footer-links a:hover {
+        color: white;
+    }
+
+    footer .copyright {
+        text-align: center;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    @media (max-width: 768px) {
+        .page-header h1 {
+            font-size: 2rem;
+        }
+
+        nav .nav-links {
+            gap: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .page-content {
+            padding: 3rem 1.5rem;
+        }
+    }
+</style>
+
+<nav>
+    <div class="container">
+        <a href="/" class="logo">@{{ .Site.Params.twitter }}</a>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/awards/">Awards</a></li>
+            <li><a href="/media/">Media</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="page-header">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+    </div>
+</header>
+
+<article class="page-content">
+    <div class="container">
+        {{ .Content }}
+    </div>
+</article>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="logo">Laurence Putra Franslay</div>
+            <ul class="footer-links">
+                <li><a href="https://github.com/{{ .Site.Params.github }}" target="_blank" id="gheLink">GitHub</a></li>
+                <li><a href="https://flickr.com/{{ .Site.Params.flickr }}" target="_blank" id="flickrLink">Flickr</a></li>
+                <li><a href="/Resume.pdf" target="_blank" id="cvLink">CV</a></li>
+                <li><a href="/awards/">Awards</a></li>
+                <li><a href="/media/">Media</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            © 2025 Laurence Putra Franslay. All rights reserved.
         </div>
     </div>
+</footer>
 {{ end }}
 
 {{ define "scripts" }}
-<script type="text/javascript">
-    mixpanel.track_links('#gheLink', 'Clicked GHE Link');
+<script>
+    mixpanel.track_links('#gheLink', 'Clicked GitHub Link');
     mixpanel.track_links('#flickrLink', 'Clicked Flickr Link');
     mixpanel.track_links('#cvLink', 'Clicked CV Link');
     mixpanel.track("Page Loaded - {{ .Title }}");
