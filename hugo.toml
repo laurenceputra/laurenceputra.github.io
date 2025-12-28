@@ -1,0 +1,65 @@
+baseURL = 'https://laurenceputra.github.io/'
+languageCode = 'en-us'
+title = 'Laurence Putra Franslay'
+theme = 'laurenceputra'
+
+[params]
+  description = "Tech Leader, Philanthropist & Social Fixer"
+  author = "Laurence Putra Franslay"
+  twitter = "laurenceputra"
+  github = "laurenceputra"
+  flickr = "laurenceputra"
+
+[author]
+  name = "Laurence Putra Franslay"
+  email = "laurenceputra@outlook.com"
+
+# Output formats for RSS and sitemap
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+# Taxonomy configuration - enable categories and tags
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Pagination
+[pagination]
+  pagerSize = 9
+
+# Match WordPress URL structure to preserve existing links
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+
+# Navigation menu
+[[menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menus.main]]
+  name = "Awards"
+  url = "/awards/"
+  weight = 3
+
+[[menus.main]]
+  name = "Media"
+  url = "/media/"
+  weight = 4
+
+[[menus.main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 5
+
+[build]
+  writeStats = false

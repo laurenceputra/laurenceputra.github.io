@@ -1,1 +1,8 @@
 .DS_Store
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Old index.html (kept as backup reference)
+index.html.bak

@@ -1,0 +1,437 @@
+{{ define "main" }}
+<style>
+    /* Navigation */
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--border-color);
+        z-index: 1000;
+        padding: 1rem 0;
+    }
+
+    nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .logo {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    nav .nav-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    nav .nav-links a {
+        color: var(--text-secondary);
+        font-weight: 500;
+        transition: color 0.2s ease;
+    }
+
+    nav .nav-links a:hover {
+        color: var(--primary-color);
+    }
+
+    /* Hero Section */
+    .hero {
+        margin-top: 80px;
+        padding: 6rem 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        opacity: 0.5;
+    }
+
+    .hero .container {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        animation: fadeInUp 0.8s ease;
+    }
+
+    .hero .tagline {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        opacity: 0.95;
+        animation: fadeInUp 0.8s ease 0.2s backwards;
+    }
+
+    .hero .roles {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        animation: fadeInUp 0.8s ease 0.4s backwards;
+    }
+
+    .hero .role-badge {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        padding: 0.75rem 1.5rem;
+        border-radius: 50px;
+        font-weight: 500;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .hero .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 2.5rem;
+        animation: fadeInUp 0.8s ease 0.6s backwards;
+    }
+
+    .hero .social-links a {
+        color: white;
+        font-size: 1.5rem;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+        transition: all 0.3s ease;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .hero .social-links a:hover {
+        background: rgba(255, 255, 255, 0.25);
+        transform: translateY(-3px);
+    }
+
+    /* Section Styles */
+    section {
+        padding: 5rem 0;
+    }
+
+    section:nth-child(even) {
+        background: var(--bg-secondary);
+    }
+
+    section h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        color: var(--text-primary);
+    }
+
+    section .section-subtitle {
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        max-width: 700px;
+        margin: 0 auto 3rem;
+    }
+
+    /* Cards Grid */
+    .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .card {
+        background: var(--bg-primary);
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: var(--shadow-md);
+        transition: all 0.3s ease;
+        border: 1px solid var(--border-color);
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-xl);
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--primary-color);
+    }
+
+    .card p {
+        color: var(--text-secondary);
+        line-height: 1.8;
+    }
+
+    /* Content Section */
+    .content-section {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .content-section p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--text-secondary);
+        margin-bottom: 1.5rem;
+    }
+
+    .content-section a {
+        font-weight: 500;
+        text-decoration: underline;
+        text-decoration-color: transparent;
+        transition: all 0.2s ease;
+    }
+
+    .content-section a:hover {
+        text-decoration-color: currentColor;
+    }
+
+    /* Footer */
+    footer {
+        background: var(--text-primary);
+        color: white;
+        padding: 3rem 0 2rem;
+    }
+
+    footer .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    footer .footer-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+
+    footer .footer-links a {
+        color: rgba(255, 255, 255, 0.8);
+        transition: color 0.2s ease;
+    }
+
+    footer .footer-links a:hover {
+        color: white;
+    }
+
+    footer .copyright {
+        text-align: center;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero .tagline {
+            font-size: 1.2rem;
+        }
+
+        .hero .roles {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav .nav-links {
+            gap: 1rem;
+        }
+
+        section h2 {
+            font-size: 2rem;
+        }
+    }
+</style>
+
+<nav>
+    <div class="container">
+        <div class="logo">@{{ .Site.Params.twitter }}</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="/awards/">Awards</a></li>
+            <li><a href="/media/">Media</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <h1>Laurence Putra Franslay</h1>
+        <div class="tagline">Tech Leader · Philanthropist · Social Fixer</div>
+        <div class="roles">
+            <span class="role-badge">Core Team @ IAmTalented.SG</span>
+            <span class="role-badge">Core Team @ Collaborate.SG</span>
+            <span class="role-badge">Engineering Manager @ PayPal SDC</span>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/{{ .Site.Params.github }}" target="_blank" id="gheLink" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+            <a href="https://flickr.com/{{ .Site.Params.flickr }}" target="_blank" id="flickrLink" aria-label="Flickr">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M6.5 7c-2.75 0-5 2.25-5 5s2.25 5 5 5 5-2.25 5-5-2.25-5-5-5zm11 0c-2.75 0-5 2.25-5 5s2.25 5 5 5 5-2.25 5-5-2.25-5-5-5z"/>
+                </svg>
+            </a>
+            <a href="/Resume.pdf" target="_blank" id="cvLink" aria-label="Resume">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="content-section">
+            <p>
+                I have a passion for security and distributed systems. I have previously worked in companies including SP Group, Nugit, PayPal and 99.co.
+            </p>
+            <p>
+                I also headed GeekcampSG from 2012 to 2014, and am currently focusing my free time on social empowerment initiatives including IAmTalentedSG, CollaborateSG and Project Stable Staples. When not doing work, or any of these stuff, I can be found cafe hopping/taking photos/trekking.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="work">
+    <div class="container">
+        <h2>What I Do</h2>
+        <p class="section-subtitle">
+            Bridging technology, community, and social impact
+        </p>
+        <div class="cards-grid">
+            <div class="card">
+                <h3>Software Engineering</h3>
+                <p>
+                    A relatively versatile software engineer, I can pick up and code in a variety of languages, while still understanding how things work at the basic level. With an academic background in Computer Science mixed with Liberal Arts, my passions lies in distributed systems and security.
+                </p>
+                <p>
+                    At this point in my career, I've worked on a huge variety of stacks both professionally or for fun. I've worked on PayPal's mobile applications, ran Nugit's servers, and wrote backend code for Billpin and run SP Group's digital infrastructure.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Photography</h3>
+                <p>
+                    I take photos as a hobby, and have taken photos for several tech conferences and events in Singapore, both from a professional capacity, as well as from a hobbyist perspective.
+                </p>
+                <p>
+                    Most of the photos I take are under the Attribution-NonCommercial-NoDerivs license and exists on my <a href="https://www.flickr.com/photos/{{ .Site.Params.flickr }}/albums" target="_blank">Flickr</a> account.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Social Impact</h3>
+                <p>
+                    I am a core team member of <a href="https://iamtalented.sg" target="_blank">IAmTalentedSG</a> in my personal capacity. IAT aims to reach out to youths at Secondary 2 and 3 levels, and provide opportunities to explore non-academic pathways through skills-based workshops.
+                </p>
+                <p>
+                    I'm also working with friends on <a href="https://projectstablestaples.sg" target="_blank">Project Stable Staples</a> to help lower income families in Singapore.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="community">
+    <div class="container">
+        <h2>Community Leadership</h2>
+        <div class="content-section">
+            <p>
+                I started being involved in <a href="https://geekcamp.sg" target="_blank">GeekcampSG</a> from 2011, and became the lead organiser in 2012. After 2014, I stepped down to focus fully on <a href="https://iamtalented.sg" target="_blank">IAmTalented.SG</a>. During this period of time, I grew the community from 200 signups in 2011, to over 1.3k in 2013, with a third of the community being students.
+            </p>
+            <p>
+                After 2014, I turned my focus to supporting the local tech community on behalf of PayPal Singapore. I started with a team of 2, and we slowly grew the team size. We engaged developers (and designers) by hosting meetups on a regular basis, and within 3 months, we grew the team to over 20 PayPal engineers, hosting up to 12 meetups a month in our office.
+            </p>
+            <p>
+                I have also given a few talks in the community, including <a href="https://www.facebook.com/events/790972321002794/" target="_blank">a panel by General Assembly</a> alongside top professionals in the industry, including the Engineering Lead for Google Singapore, and the Principal Software Engineer for Pivotal Labs Singapore, as well as a talk at a DevOps conference on Continuous Delivery.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="logo">Laurence Putra Franslay</div>
+            <ul class="footer-links">
+                <li><a href="https://github.com/{{ .Site.Params.github }}" target="_blank">GitHub</a></li>
+                <li><a href="https://flickr.com/{{ .Site.Params.flickr }}" target="_blank">Flickr</a></li>
+                <li><a href="/Resume.pdf" target="_blank">CV</a></li>
+                <li><a href="/awards/">Awards</a></li>
+                <li><a href="/media/">Media</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            © 2025 Laurence Putra Franslay. All rights reserved.
+        </div>
+    </div>
+</footer>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    // Track analytics
+    mixpanel.track_links('#gheLink', 'Clicked GitHub Link');
+    mixpanel.track_links('#flickrLink', 'Clicked Flickr Link');
+    mixpanel.track_links('#cvLink', 'Clicked CV Link');
+    mixpanel.track("Page Loaded");
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    });
+</script>
+{{ end }}

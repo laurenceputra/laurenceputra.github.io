@@ -1,0 +1,7 @@
+name = "Laurence Putra Theme"
+license = "MIT"
+description = "Custom theme for Laurence Putra's personal website"
+min_version = "0.121.0"
+
+[author]
+  name = "Laurence Putra Franslay"
