@@ -22,8 +22,8 @@ Thanks again [Project Lionheart](https://projectlionheart.sg/stories/) for featu
   
 We will look out for someone we don't know. Will you?
 
-![Project Lionheart exhibition banner featuring Laurence Putra and David Hoe's story with Project Stable Staples](/img/2022/11/IMG_3909-scaled.jpg)
+![Project Lionheart exhibition banner featuring Laurence Putra and David Hoe's story with Project Stable Staples](/img/media/project-lionheart-1.jpg)
 
-![Close-up of Project Lionheart storytelling panel about Project Stable Staples and IAmTalented](/img/2022/11/2.adjusted-scaled.jpg)
+![Close-up of Project Lionheart storytelling panel about Project Stable Staples and IAmTalented](/img/media/project-lionheart-2.jpg)
 
-![Portrait of Laurence Putra on the Project Lionheart exhibition display panel](/img/2022/11/1.adjusted_solo-scaled.jpg)
+![Portrait of Laurence Putra on the Project Lionheart exhibition display panel](/img/media/project-lionheart-3.jpg)

@@ -7,7 +7,17 @@ date: 2025-12-28
 
 Laurence Putra Franslay has been recognized for his contributions to technology and social impact through various awards and honors.
 
-### Key Recognitions
+### Featured Awards
+
+- **[People of Good Award (2020)](/2020/10/16/people-of-good-award/)** - President's Volunteerism and Philanthropy Awards for exceptional contributions during COVID-19 through Project Stable Staples
+
+- **[NUS Outstanding Young Alumni Award (2021)](/2021/11/06/nus-outstanding-young-alumni-award/)** - Recognition from National University of Singapore for contributions to technology and social impact
+
+- **[Singapore Kindness Movement Voice of Loving Kindness (2022)](/2022/05/20/skm-voice-of-loving-kindness/)** - Recognition for kindness and community service work
+
+- **[NUS Computing Outstanding Young Alumni Award (2022)](/2022/09/17/nus-computing-outstanding-young-alumni-award/)** - School of Computing recognition for technology leadership and community contributions
+
+### Key Recognition Areas
 
 **Tech Leadership**
 - Recognition for contributions to software engineering and distributed systems
@@ -28,3 +38,4 @@ Laurence Putra Franslay has been recognized for his contributions to technology 
 ---
 
 [Back to Home](/)
+

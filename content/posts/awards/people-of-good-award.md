@@ -16,7 +16,21 @@ I'd like to thank my family for supporting me working on this during circuit bre
 
 **There is no doubt in my mind that this award belongs to all of us.**
 
-![Laurence Putra receiving the People of Good Award from President Halimah Yacob at the Istana](/img/2020/10/WhatsApp-Image-2020-10-16-at-7.26.19-PM-1024x768.jpeg) ![Laurence Putra posing with the People of Good Award certificate and medallion](/img/2020/10/WhatsApp-Image-2020-10-16-at-7.26.26-PM7-e1602853932309-768x1024.jpeg) ![President Halimah Yacob presenting the award to Laurence Putra at the ceremony](/img/2020/10/WhatsApp-Image-2020-10-16-at-7.26.23-PM6-e1602853949103-1024x768.jpeg) ![Laurence Putra with fellow People of Good Award recipients at the Istana](/img/2020/10/WhatsApp-Image-2020-10-16-at-7.26.23-PM5-1024x768.jpeg) ![Close-up of Laurence Putra holding the People of Good Award certificate](/img/2020/10/WhatsApp-Image-2020-10-16-at-7.26.22-PM4-e1602853959862-768x1024.jpeg) ![Laurence Putra standing in front of the Istana building with award certificate](/img/2020/10/WhatsApp-Image-2020-10-16-at-7.26.21-PM3-e1602853970415-768x1024.jpeg) ![Group photo of People of Good Award recipients at the Istana ceremony](/img/2020/10/WhatsApp-Image-2020-10-16-at-7.26.19-PM2-1024x1024.jpeg) ![Award recipients and officials at the President's Volunteerism and Philanthropy Awards ceremony](/img/2020/10/WhatsApp-Image-2020-10-16-at-7.26.19-PM1-1024x768.jpeg)
+![Laurence Putra receiving the People of Good Award from President Halimah Yacob at the Istana](/img/awards/people-of-good-award-1.jpeg) 
+
+![Laurence Putra posing with the People of Good Award certificate and medallion](/img/awards/people-of-good-award-2.jpeg) 
+
+![President Halimah Yacob presenting the award to Laurence Putra at the ceremony](/img/awards/people-of-good-award-3.jpeg) 
+
+![Laurence Putra with fellow People of Good Award recipients at the Istana](/img/awards/people-of-good-award-4.jpeg) 
+
+![Close-up of Laurence Putra holding the People of Good Award certificate](/img/awards/people-of-good-award-5.jpeg) 
+
+![Laurence Putra standing in front of the Istana building with award certificate](/img/awards/people-of-good-award-6.jpeg) 
+
+![Group photo of People of Good Award recipients at the Istana ceremony](/img/awards/people-of-good-award-7.jpeg) 
+
+![Award recipients and officials at the President's Volunteerism and Philanthropy Awards ceremony](/img/awards/people-of-good-award-8.jpeg)
 
 **[Project Stable Staples](https://www.facebook.com/projectstablestaples/)** was started when we realized that there was a group in Singapore who could be hit really hard by CB, the folks who live in rental HDBs. Given that many of them had part time income, and that majority of the retail outlets were going to be closed during CB, we saw that the impact to this group could be rather significant. 
 

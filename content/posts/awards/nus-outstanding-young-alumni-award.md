@@ -14,19 +14,23 @@ It would have been an honour to simply be considered for the NUS Outstanding You
 
 Jokes aside, this award is a testament to the community I have had around me all these years that allowed me to grow into who I am today.
 
-[![Laurence Putra holding the NUS Outstanding Young Alumni Award trophy](/img/2021/11/WhatsApp-Image-2021-11-05-at-9.17.55-PM-768x1024.jpeg)](/img/2021/11/WhatsApp-Image-2021-11-05-at-9.17.55-PM-768x1024.jpeg)
+[![Laurence Putra holding the NUS Outstanding Young Alumni Award trophy](/img/awards/nus-outstanding-young-alumni-1.jpeg)](/img/awards/nus-outstanding-young-alumni-1.jpeg)
 
-[![Laurence Putra with fellow NUS Outstanding Young Alumni Award recipients](/img/2021/11/WhatsApp-Image-2021-11-05-at-6.58.32-PM-1024x768.jpeg)](/img/2021/11/WhatsApp-Image-2021-11-05-at-6.58.32-PM-1024x768.jpeg)
+[![Laurence Putra with fellow NUS Outstanding Young Alumni Award recipients](/img/awards/nus-outstanding-young-alumni-2.jpeg)](/img/awards/nus-outstanding-young-alumni-2.jpeg)
 
-[![Laurence Putra posing with award trophy at ceremony venue](/img/2021/11/WhatsApp-Image-2021-11-05-at-7.04.14-PM-768x1024.jpeg)](/img/2021/11/WhatsApp-Image-2021-11-05-at-7.04.14-PM-768x1024.jpeg)
+[![Laurence Putra posing with award trophy at ceremony venue](/img/awards/nus-outstanding-young-alumni-3.jpeg)](/img/awards/nus-outstanding-young-alumni-3.jpeg)
 
-[![Close-up of the NUS Outstanding Young Alumni Award trophy and certificate](/img/2021/11/WhatsApp-Image-2021-11-05-at-9.18.15-PM.1-768x1024.jpeg)](/img/2021/11/WhatsApp-Image-2021-11-05-at-9.18.15-PM.1-768x1024.jpeg)
+[![Close-up of the NUS Outstanding Young Alumni Award trophy and certificate](/img/awards/nus-outstanding-young-alumni-4.jpeg)](/img/awards/nus-outstanding-young-alumni-4.jpeg)
 
-[![Group photo of NUS Outstanding Young Alumni Award recipients at the ceremony](/img/2021/11/WhatsApp-Image-2021-11-05-at-9.12.02-PM-1024x768.jpeg)](/img/2021/11/WhatsApp-Image-2021-11-05-at-9.12.02-PM-1024x768.jpeg)[![Award recipients and NUS officials at the ceremony venue](/img/2021/11/WhatsApp-Image-2021-11-05-at-9.18.15-PM-1024x768.jpeg)](/img/2021/11/WhatsApp-Image-2021-11-05-at-9.18.15-PM-1024x768.jpeg)[![Laurence Putra delivering acceptance speech at NUS Outstanding Young Alumni Award ceremony](/img/2021/11/WhatsApp-Image-2021-11-05-at-9.16.02-PM-1024x768.jpeg)](/img/2021/11/WhatsApp-Image-2021-11-05-at-9.16.02-PM-1024x768.jpeg)
+[![Group photo of NUS Outstanding Young Alumni Award recipients at the ceremony](/img/awards/nus-outstanding-young-alumni-5.jpeg)](/img/awards/nus-outstanding-young-alumni-5.jpeg)
 
-[![Award recipients and guests mingling at the ceremony reception](/img/2021/11/photo6066561857751199553-1024x768.jpg)](/img/2021/11/photo6066561857751199553-1024x768.jpg)
+[![Award recipients and NUS officials at the ceremony venue](/img/awards/nus-outstanding-young-alumni-6.jpeg)](/img/awards/nus-outstanding-young-alumni-6.jpeg)
 
-[![Screenshot of NUS Office of Alumni Relations NUS Alumni Awards webpage featuring the recipients](/img/2021/11/Screenshot-2021-11-05-at-21-44-09-NUS-Office-of-Alumni-Relations-NUS-Alumni-Awards.png)](/img/2021/11/Screenshot-2021-11-05-at-21-44-09-NUS-Office-of-Alumni-Relations-NUS-Alumni-Awards.png)
+[![Laurence Putra delivering acceptance speech at NUS Outstanding Young Alumni Award ceremony](/img/awards/nus-outstanding-young-alumni-7.jpeg)](/img/awards/nus-outstanding-young-alumni-7.jpeg)
+
+[![Award recipients and guests mingling at the ceremony reception](/img/awards/nus-outstanding-young-alumni-8.jpg)](/img/awards/nus-outstanding-young-alumni-8.jpg)
+
+[![Screenshot of NUS Office of Alumni Relations NUS Alumni Awards webpage featuring the recipients](/img/awards/nus-outstanding-young-alumni-9.png)](/img/awards/nus-outstanding-young-alumni-9.png)
 
 I am grateful to have a supportive family who has supported my efforts on things outside of my core responsibilities, Geekcamp.SG when I was still studying and early on in my career, I Am Talented (IAT) during the early years of my career, and more recently, Project Stable Staples, when people were taking advantage of Circuit Breaker to bond more with their families. Without their understanding and support, I would not be able to do what I've done so far.
 

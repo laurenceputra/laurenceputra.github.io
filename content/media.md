@@ -7,7 +7,19 @@ date: 2025-12-28
 
 Laurence Putra Franslay has been featured in various media outlets for his work as a tech leader, philanthropist, and social fixer.
 
-### Featured Coverage
+### Recent Media Features
+
+- **[PayPal Newsroom Feature (2022)](/2022/01/27/paypal-newsroom-feature/)** - Feature on Project Stable Staples and mission to help families in need
+
+- **[Project Lionheart (2022)](/2022/10/06/project-lionheart/)** - MCCY's Project Lionheart exhibition featuring stories of community service and resilience
+
+- **[We Are Majulah Feature (2021)](/2021/11/26/we-are-majulah-feature/)** - Feature on Project Stable Staples' impact during COVID-19
+
+- **[Channel 8 Frontline Interview on PSS (2021)](/2021/01/14/2021-channel-8-frontline-interview-on-pss/)** - Media interview about Project Stable Staples initiatives
+
+- **[CNA Interview on Project Stable Staples (2020)](/2020/12/28/2020-cna-interview-on-pss/)** - Channel NewsAsia coverage of Project Stable Staples during Circuit Breaker
+
+### Featured Coverage Categories
 
 **Technology & Engineering**
 - Featured in tech industry publications for work in distributed systems and security
@@ -36,3 +48,4 @@ Laurence Putra Franslay has been featured in various media outlets for his work 
 ---
 
 [Back to Home](/)
+
