@@ -1,54 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="@laurenceputra's homepage">
-    <script>
-        // Redirect root path to laurenceputra.com, but keep sub-paths as-is
-        (function() {
-            var host = window.location.hostname;
-            var path = window.location.pathname;
-            // Only redirect on GitHub Pages domain
-            if (host === 'laurenceputra.github.io' && (path === '/' || path === '/index.html')) {
-                window.location.replace('https://laurenceputra.com');
-            }
-        })();
-    </script>
-
-    <title>GeekSphere.net</title>
-    <meta property="og:title" content="laurenceputra.com" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="@laurenceputra's homepage" />
-    <meta property="og:url" content="https://laurenceputra.com" />
-    <meta property="og:image" content="https://laurenceputra.com/static/img/splash_image.jpg" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" href="/static/css/pure-min.css">
-    <link rel="stylesheet" href="/static/css/grids-responsive-min.css">
-    <link rel="stylesheet" href="/static/css/custom.css">
-    <!-- Mixpanel code -->
-    <script>(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
-        0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-        for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-        MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
-        mixpanel.init("e46e976944a6310b8451c76b9a33eaf7")</script>
-</head>
-<body>
+{{ define "main" }}
     <div class="splash-container">
         <div class="splash">
             <div class="splash-content">
-                <h1>@laurenceputra</h1>
-                <a href="https://twitter.com/laurenceputra" class="twitter-follow-button" data-show-count="true" style="display:none">Follow @laurenceputra</a>
+                <h1>@{{ .Site.Params.twitter }}</h1>
+                <a href="https://twitter.com/{{ .Site.Params.twitter }}" class="twitter-follow-button" data-show-count="true" style="display:none">Follow @{{ .Site.Params.twitter }}</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                <p>
-                    Core team @ IAmTalented.SG
-                </p>
-                <p>
-                    Core team @ Collaborate.SG
-                </p>
-                <p>
-                    Engineering Manager @ PayPal SDC
-                </p>
+                {{ .Content }}
             </div>
         </div>
     </div>
@@ -109,8 +66,8 @@
             <a name="photography"></a>
             <h2 class="content-head is-center">Photography</h2>
             <div class="category-writeup">
-                <p>I take photos as a hobby, and have taken photos for several tech conferences and events in Singapore, both from a professional capacity, as well as from a hobbyist perspective. Most of the photos I take are under the Attribution-NonCommercial-NoDerivs license and exists on my <a href="https://www.flickr.com/photos/laurenceputra/albums" target="_blank">Flickr</a> account.</p>
-                <p>This is a collection of some of the better photos I've taken. To view the complete set, please visit the album <a href="https://www.flickr.com/photos/laurenceputra/albums/72157659307063115" target="_blank">here</a></p>
+                <p>I take photos as a hobby, and have taken photos for several tech conferences and events in Singapore, both from a professional capacity, as well as from a hobbyist perspective. Most of the photos I take are under the Attribution-NonCommercial-NoDerivs license and exists on my <a href="https://www.flickr.com/photos/{{ .Site.Params.flickr }}/albums" target="_blank">Flickr</a> account.</p>
+                <p>This is a collection of some of the better photos I've taken. To view the complete set, please visit the album <a href="https://www.flickr.com/photos/{{ .Site.Params.flickr }}/albums/72157659307063115" target="_blank">here</a></p>
             </div>
             <div class="flickr-container">
                 <div id="flickr-slideshow">
@@ -166,14 +123,17 @@
         </div>
 
         <div class="footer l-box is-center">
-            <a id="gheLink" href="https://github.com/laurenceputra" target="_blank">Github</a> | <a id="flickrLink" href="https://flickr.com/laurenceputra" target="_blank">Flickr</a> | <a id="cvLink" href="https://geeksphere.net/static/Resume.pdf" target="_blank">CV</a>
+            <a id="gheLink" href="https://github.com/{{ .Site.Params.github }}" target="_blank">Github</a> | 
+            <a id="flickrLink" href="https://flickr.com/{{ .Site.Params.flickr }}" target="_blank">Flickr</a> | 
+            <a id="cvLink" href="/static/Resume.pdf" target="_blank">CV</a> |
+            <a href="/awards/">Awards</a> |
+            <a href="/media/">Media Mentions</a>
         </div>
 
     </div>
-</body>
-<script src="/static/js/jquery-1.12.4.min.js" type="text/javascript"></script>
-<script src="/static/js/galleria/galleria-1.4.2.min.js" type="text/javascript"></script>
-<script src="/static/js/galleria/plugins/flickr/galleria.flickr.min.js" type="text/javascript"></script>
+{{ end }}
+
+{{ define "scripts" }}
 <script type="text/javascript">
 function init() {
     calculateGalleriaHeight();
@@ -204,4 +164,4 @@ function calculateGalleriaHeight() {
 window.onload = init;
 window.onresize = calculateGalleriaHeight;
 </script>
-</html>
+{{ end }}

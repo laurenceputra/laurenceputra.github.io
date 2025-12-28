@@ -1,0 +1,32 @@
+{{ define "main" }}
+    <div class="content-wrapper">
+        <div class="content category-content">
+            <article>
+                <header>
+                    <h1 class="content-head is-center">{{ .Title }}</h1>
+                </header>
+                <div class="category-writeup">
+                    {{ .Content }}
+                </div>
+            </article>
+        </div>
+
+        <div class="footer l-box is-center">
+            <a href="/">Home</a> | 
+            <a id="gheLink" href="https://github.com/{{ .Site.Params.github }}" target="_blank">Github</a> | 
+            <a id="flickrLink" href="https://flickr.com/{{ .Site.Params.flickr }}" target="_blank">Flickr</a> | 
+            <a id="cvLink" href="/static/Resume.pdf" target="_blank">CV</a> |
+            <a href="/awards/">Awards</a> |
+            <a href="/media/">Media Mentions</a>
+        </div>
+    </div>
+{{ end }}
+
+{{ define "scripts" }}
+<script type="text/javascript">
+    mixpanel.track_links('#gheLink', 'Clicked GHE Link');
+    mixpanel.track_links('#flickrLink', 'Clicked Flickr Link');
+    mixpanel.track_links('#cvLink', 'Clicked CV Link');
+    mixpanel.track("Page Loaded - {{ .Title }}");
+</script>
+{{ end }}
