@@ -5,7 +5,7 @@ date: 2025-12-28
 
 ## Media Mentions
 
-I've been featured in various media outlets for my work as a tech leader, philanthropist, and social fixer.
+I've been featured in various media outlets for my work as a tech leader, philanthropist, and social problem solver.
 
 ### Recent Media Features
 
@@ -43,7 +43,7 @@ I've been featured in various media outlets for my work as a tech leader, philan
 
 ---
 
-*As a tech leader and social fixer, my media mentions span across technology innovation, social impact initiatives, and community building efforts in Singapore.*
+*As a tech leader and social problem solver, my media mentions span across technology innovation, social impact initiatives, and community building efforts in Singapore.*
 
 ---
 

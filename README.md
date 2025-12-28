@@ -4,13 +4,13 @@ This is the personal website of Laurence Putra Franslay, built with [Hugo](https
 
 ## About
 
-This site serves as personal branding for a tech leader, philanthropist, and social fixer. It showcases work in software engineering, community building, photography, and social impact initiatives.
+This site serves as personal branding for a tech leader, philanthropist, and social problem solver. It showcases work in software engineering, community building, photography, and social impact initiatives.
 
 ## Site Structure
 
 - **Home Page**: Main landing page with sections on Software Engineering, Photography, Community, and Social initiatives
 - **Awards Page**: Recognition and awards received for tech leadership and social impact
-- **Media Mentions**: Coverage in various media outlets for work as a tech leader and social fixer
+- **Media Mentions**: Coverage in various media outlets for work as a tech leader and social problem solver
 
 ## Building the Site
 
