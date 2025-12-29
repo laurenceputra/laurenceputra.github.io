@@ -304,7 +304,7 @@
     }
 
     .timeline-title .role {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         font-weight: 600;
         color: var(--text-primary);
         margin-bottom: 0.25rem;
@@ -347,15 +347,15 @@
     }
 
     .timeline-badge.tech {
-        background: #667eea20;
-        color: #667eea;
-        border: 1px solid #667eea40;
+        background: #667eea40;
+        color: #4c5fd5;
+        border: 1px solid #667eea60;
     }
 
     .timeline-badge.social {
-        background: #48bb7820;
-        color: #48bb78;
-        border: 1px solid #48bb7840;
+        background: #48bb7840;
+        color: #38a169;
+        border: 1px solid #48bb7860;
     }
 
     .timeline-summary {
@@ -391,13 +391,13 @@
     }
 
     .timeline-note {
-        background: #f8f9fa;
+        background: var(--bg-secondary);
         border-left: 3px solid var(--primary-color);
         padding: 1rem 1.25rem;
         border-radius: 6px;
         font-size: 0.95rem;
         line-height: 1.7;
-        color: #555;
+        color: var(--text-secondary);
         margin-top: 1.25rem;
     }
 
@@ -415,6 +415,12 @@
 
         .timeline-entry {
             padding: 1.5rem;
+        }
+    }
+
+    @media (max-width: 375px) {
+        .timeline-entry {
+            padding: 1.25rem;
         }
     }
 
@@ -821,7 +827,7 @@
             
             <div class="journey-timeline">
                 {{ range .Params.journey.timeline }}
-                <div class="timeline-entry type-{{ .type }}">
+                <article class="timeline-entry type-{{ .type }}" role="article" aria-label="{{ .role }} at {{ .organization }}">
                     <div class="timeline-header">
                         <div class="timeline-title">
                             <div class="role">{{ .role }}</div>
@@ -855,7 +861,7 @@
                     {{ with .note }}
                     <div class="timeline-note">{{ . }}</div>
                     {{ end }}
-                </div>
+                </article>
                 {{ end }}
             </div>
         </div>
