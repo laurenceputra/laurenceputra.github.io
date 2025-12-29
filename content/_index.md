@@ -99,7 +99,11 @@ journey:
         summary: "SRE, observability, compliance and team leadership across consumer and compliance domains."
         note: "Progressed through multiple roles in this period (Member of Technical Staff Jan–Sep 2019; Manager, Compliance Oct 2019–Jul 2020; Manager, Consumer SRE Aug 2020–Sep 2021; Manager, Digital Wallet Sep 2021–Mar 2022)."
 
-
+      - period: "2020 (part-time)"
+        role: "Backend Architecture Consultant (Part-Time)"
+        organization: "99.co"
+        summary: "Short-term consulting engagement advising on backend architecture and platform improvements."
+        note: "Part-time consulting engagement concurrent with PayPal role; brief engagement focused on specific technical challenges."
 
       - period: "Mar 2022 – Present"
         role: "Tech Lead / eSRE / Site Leader"
