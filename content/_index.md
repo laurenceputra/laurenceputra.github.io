@@ -15,8 +15,8 @@ hero:
     - title: "Engineering Leader, Operational Support and Efficiency (OSE)"
       organization: "TikTok Singapore"
       context: "Operational Support and Efficiency function"
-    - title: "Community Builder"
-      organization: "LYHKYLF"
+    - title: "Philanthropist"
+      organization: "Lai Yu Hua Kindness Youth Lit Fund"
       context: "Supporting social initiatives that traditional funding won't reach"
 
 # Current Work & Mission Section
@@ -30,9 +30,9 @@ current_work:
     - name: "Lai Yu Hua Kindness Youth Lit Fund (LYHKYLF)"
       role: "Trustee"
       description: |
-        LYHKYLF provides funding for social initiatives that traditional philanthropy won't support—the experimental ideas, the first-time organizers, the projects that need someone to believe in them before they have proven results. We call it patient capital for the social sector.
+        LYHKYLF provides funding for social initiatives that traditional philanthropy won't support—experimental ideas, first-time organisers, and projects that need early belief before they have proven results.
         
-        Named after my late grandfather Lai Yu Hua, this fund honors his kindness and generosity by supporting young people trying to make a difference. It's about giving others the same chance someone once gave us.
+        Named after my late father, Lai Yu Hua, the fund honors his belief that education is a key driver of social mobility; it supports initiatives that help uplift future generations and expand opportunity.
       image: "/img/social.jpg"
       image_alt: "Community members collaborating on social impact projects"
       learn_more: "https://lyhkylf.sg"
@@ -60,42 +60,53 @@ journey:
     - period: "2011-2014"
       tech_work:
         - role: "Software Engineer"
-          companies: ["SP Group", "Nugit"]
-          focus: "Digital infrastructure, server architecture"
+          companies: ["BillPin"]
+          focus: "Backend engineering, database migrations, queue systems and performance optimizations"
       community_work:
         - role: "Lead Organizer"
           organization: "GeekcampSG"
-          achievement: "Grew community from 200 to 1,300+ attendees with organizing team"
-          team_credit: "Success belonged to the entire organizing committee and speakers who made the conference possible"
+          achievement: "Grew community from 200 to 1,300+ attendees"
+          team_credit: "Organizing committee and speakers who made the conference possible"
       image: "/img/community.jpg"
       image_alt: "GeekcampSG conference attendees networking and learning together"
-    
-    - period: "2012-Present"
+
+    - period: "2014-2016"
       tech_work:
-        - role: "Senior Software Engineer"
+        - role: "Regional Solutions Engineer / Developer Outreach / Consumer Engineering"
           companies: ["PayPal"]
-          focus: "Mobile apps, backend systems"
+          focus: "Mobile (iOS/Android), NFC payments, developer outreach, and running community meetups"
       community_work:
-        - role: "Core Team Member"
-          organization: "IAmTalented.SG"
-          achievement: "10+ years of skills workshops for Secondary 2-3 students"
-          team_credit: "IAT's impact comes from dozens of volunteers running workshops every year, giving their time to young people exploring non-academic pathways"
-      image: "/img/iat.jpg"
-      image_alt: "IAmTalented.SG workshop with students learning hands-on skills"
-    
-    - period: "2014-2020"
+        - role: "Developer Outreach Team Lead"
+          organization: "PayPal"
+          achievement: "Led outreach and a speaker pool that delivered 50+ meetups in a year"
+          team_credit: "Volunteers and community speakers"
+      image: "/img/community.jpg"
+      image_alt: "Community meetups and developer events"
+
+    - period: "2016-2018"
       tech_work:
-        - role: "Engineering & Community Lead"
-          companies: ["PayPal Singapore"]
-          focus: "Hosted 12 meetups/month, grew team from 2 to 20+ PayPal engineers"
+        - role: "Digital Infrastructure Lead / Senior Engineer"
+          companies: ["Nugit", "SP Group"]
+          focus: "Infrastructure leadership, DevOps adoption, security and platform reliability"
       community_work:
-        - role: "Volunteer"
-          organization: "CollaborateSG"
-          achievement: "Helping JC students navigate university course selection"
-          team_credit: "Small team effort to demystify higher education pathways"
-      philosophy: |
-        "Jiak ba bo tai ji zuo" (eat full nothing to do). Honestly, I was privileged to keep my job and have the capacity to serve. With privilege comes responsibility.
-    
+        - role: "Volunteer & Organizer"
+          organization: "local tech community"
+          achievement: "Built infrastructure and community programs to improve developer experience"
+      image: "/img/community.jpg"
+      image_alt: "Team working on infrastructure projects"
+
+    - period: "2019-2021"
+      tech_work:
+        - role: "Member of Technical Staff / Manager"
+          companies: ["PayPal"]
+          focus: "SRE, observability, compliance and education outreach initiatives"
+      community_work:
+        - role: "Head for Education Outreach"
+          organization: "PayPal"
+          achievement: "Established education outreach programs and partnerships with schools"
+      image: "/img/community.jpg"
+      image_alt: "Education outreach and workshops"
+
     - period: "2020"
       tech_work:
         - role: "Staff Engineer"
@@ -104,21 +115,21 @@ journey:
       community_work:
         - role: "Co-founder"
           organization: "Project Stable Staples"
-          achievement: "During COVID-19 Circuit Breaker: >SGD 160k raised, >2,600 individuals helped"
-          team_credit: "8 ordinary Singaporeans came together, supported by 73 volunteers who made this work. Every single volunteer played their part. The public trusted us with their money during uncertain times—that trust belongs to the entire team."
+          achievement: "During COVID-19 Circuit Breaker: >SGD 160k raised and >2,600 individuals helped"
+          team_credit: "73 volunteers coordinated logistics, packing and deliveries"
       image: "/img/awards/people-of-good-award-1.jpeg"
       image_alt: "Project Stable Staples team receiving People of Good Award recognition"
-    
+
     - period: "2021-Present"
       tech_work:
-        - role: "Site Leader & Engineering Leader"
-          companies: ["TikTok Singapore"]
-          focus: "Server Architecture, OSE function leadership"
+        - role: "eSRE / Site Leader / Operational Support & Efficiency Leader"
+          companies: ["TikTok"]
+          focus: "Reliability, capacity platforms, SLI governance, and people leadership"
       community_work:
         - role: "Co-founder & Trustee"
           organization: "LYHKYLF"
           achievement: "Patient capital for social sector initiatives"
-          team_credit: "Built with co-founders who share the vision of supporting young changemakers"
+          team_credit: "Co-founders, trustees, and volunteers"
       image: "/img/social.jpg"
       image_alt: "Community gathering discussing social impact initiatives"
 
