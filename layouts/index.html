@@ -266,114 +266,156 @@
         color: var(--text-secondary);
     }
 
-    /* Journey Timeline */
+    /* Journey Timeline - Unified Single Column */
     .journey-timeline {
-        max-width: 1100px;
+        max-width: 900px;
         margin: 3rem auto;
     }
 
-    /* Two-column timeline layout with constrained column width for wide screens */
-    .timeline-columns {
+    .timeline-entry {
+        position: relative;
+        padding: 2rem;
+        margin-bottom: 2.5rem;
+        background: var(--bg-primary);
+        border-radius: 12px;
+        box-shadow: var(--shadow-sm);
+        border: 1px solid var(--border-color);
+        border-left: 4px solid var(--primary-color);
+    }
+
+    .timeline-entry.type-tech {
+        border-left-color: #667eea;
+    }
+
+    .timeline-entry.type-social {
+        border-left-color: #48bb78;
+    }
+
+    .timeline-header {
         display: flex;
-        gap: 2rem;
-        justify-content: center;
+        justify-content: space-between;
         align-items: flex-start;
-        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        gap: 1rem;
     }
 
-    .timeline-columns .timeline-column {
-        flex: 1 1 0;
-        max-width: 560px; /* keep columns readable on very wide screens */
+    .timeline-title {
+        flex: 1;
     }
 
-    .timeline-item {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 3rem;
-        margin-bottom: 4rem;
-        padding-bottom: 4rem;
-        border-bottom: 1px solid var(--border-color);
+    .timeline-title .role {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: var(--text-primary);
+        margin-bottom: 0.25rem;
+        line-height: 1.4;
     }
 
-    .timeline-item:last-child {
-        border-bottom: none;
+    .timeline-title .organization {
+        font-size: 1.1rem;
+        color: var(--text-secondary);
+        margin-bottom: 0.25rem;
+    }
+
+    .timeline-title .location {
+        font-size: 0.95rem;
+        color: var(--text-light);
+    }
+
+    .timeline-meta {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 0.5rem;
     }
 
     .timeline-period {
-        grid-column: 1 / -1;
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: var(--primary-color);
-        margin-bottom: 1rem;
-    }
-
-    .timeline-column h4 {
-        font-size: 1.2rem;
-        margin-bottom: 0.75rem;
-        color: var(--text-primary);
-    }
-
-    .timeline-column p, .timeline-column ul {
+        font-size: 0.9rem;
+        font-weight: 500;
         color: var(--text-secondary);
+        white-space: nowrap;
+    }
+
+    .timeline-badge {
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .timeline-badge.tech {
+        background: #667eea20;
+        color: #667eea;
+        border: 1px solid #667eea40;
+    }
+
+    .timeline-badge.social {
+        background: #48bb7820;
+        color: #48bb78;
+        border: 1px solid #48bb7840;
+    }
+
+    .timeline-summary {
+        font-size: 1.05rem;
         line-height: 1.7;
-        margin-bottom: 0.75rem;
+        color: var(--text-secondary);
+        margin-bottom: 1.25rem;
     }
 
-    /* Enhanced note styling for better readability */
-    .timeline-column .note,
-    .timeline-item .note,
-    p.note {
-        font-size: 0.95rem;
-        line-height: 1.75;
-        padding: 1rem 1.25rem;
+    .timeline-achievements {
+        margin-bottom: 1.25rem;
+    }
+
+    .timeline-achievements ul {
+        list-style: none;
+        padding: 0;
+        margin: 0.75rem 0 0 0;
+    }
+
+    .timeline-achievements li {
+        padding: 0.5rem 0 0.5rem 1.75rem;
+        position: relative;
+        line-height: 1.6;
+        color: var(--text-secondary);
+    }
+
+    .timeline-achievements li:before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+
+    .timeline-note {
         background: #f8f9fa;
-        border-radius: 8px;
-        margin-top: 1rem;
-        color: #555;
         border-left: 3px solid var(--primary-color);
-        max-width: 75ch;
-    }
-
-    .timeline-column .team-credit {
-        background: var(--bg-secondary);
-        padding: 1rem;
-        border-radius: 8px;
-        margin-top: 1rem;
+        padding: 1rem 1.25rem;
+        border-radius: 6px;
         font-size: 0.95rem;
-        font-style: italic;
+        line-height: 1.7;
+        color: #555;
+        margin-top: 1.25rem;
     }
 
-    .timeline-image {
-        grid-column: 1 / -1;
-        margin-top: 1rem;
-    }
-
-    .timeline-image img {
-        width: 100%;
-        max-height: 400px;
-        object-fit: cover;
-        border-radius: 8px;
-    }
-
-    @media (max-width: 1024px) {
-        /* Stack the two timeline columns vertically on narrow screens and tablets */
-        .timeline-columns {
+    @media (max-width: 768px) {
+        .timeline-header {
             flex-direction: column;
         }
 
-        .timeline-columns .timeline-column {
-            max-width: none;
+        .timeline-meta {
+            align-items: flex-start;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            width: 100%;
         }
-    }
 
-    .philosophy-note {
-        grid-column: 1 / -1;
-        background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
-        padding: 1.5rem;
-        border-radius: 8px;
-        font-style: italic;
-        color: var(--text-primary);
-        margin-top: 1rem;
+        .timeline-entry {
+            padding: 1.5rem;
+        }
     }
 
     /* Project Cards */
@@ -682,11 +724,6 @@
             font-size: 2rem;
         }
 
-        .timeline-item {
-            grid-template-columns: 1fr;
-            gap: 1.5rem;
-        }
-
         .connect-grid {
             grid-template-columns: 1fr;
         }
@@ -783,69 +820,41 @@
             </div>
             
             <div class="journey-timeline">
-                {{ if .Params.journey.parallel_paths }}
-                {{ range $idx, $item := .Params.journey.parallel_paths }}
-                <div class="timeline-item">
-                    <div class="timeline-period">{{ $item.period }}</div>
-                    
-                    <div class="timeline-column">
-                        <h4>Tech Work</h4>
-                        {{ range $item.tech_work }}
-                        <p><strong>{{ .role }}</strong></p>
-                        <p>{{ delimit .companies ", " }}</p>
-                        <p>{{ .focus }}</p>
-                        {{ end }}
+                {{ range .Params.journey.timeline }}
+                <div class="timeline-entry type-{{ .type }}">
+                    <div class="timeline-header">
+                        <div class="timeline-title">
+                            <div class="role">{{ .role }}</div>
+                            <div class="organization">{{ .organization }}</div>
+                            {{ with .location }}<div class="location">{{ . }}</div>{{ end }}
+                        </div>
+                        <div class="timeline-meta">
+                            <span class="timeline-period">
+                                {{ if eq .end_date "Present" }}
+                                    {{ replace .start_date "-" "/" }} – Present
+                                {{ else }}
+                                    {{ replace .start_date "-" "/" }} – {{ replace .end_date "-" "/" }}
+                                {{ end }}
+                            </span>
+                            <span class="timeline-badge {{ .type }}">{{ .type }}</span>
+                        </div>
                     </div>
                     
-                    <div class="timeline-column">
-                        <h4>Community Work</h4>
-                        {{ range $item.community_work }}
-                        <p><strong>{{ .role }}</strong></p>
-                        <p>{{ .organization }}</p>
-                        <p>{{ .achievement }}</p>
-                        {{ with .team_credit }}
-                        <div class="team-credit">{{ . }}</div>
-                        {{ end }}
-                        {{ end }}
-                    </div>
+                    <div class="timeline-summary">{{ .summary }}</div>
                     
-                    {{ with $item.philosophy }}
-                    <div class="philosophy-note">{{ . | markdownify }}</div>
+                    {{ with .achievements }}
+                    <div class="timeline-achievements">
+                        <ul>
+                        {{ range . }}
+                            <li>{{ . }}</li>
+                        {{ end }}
+                        </ul>
+                    </div>
                     {{ end }}
                     
-                    {{ if $item.image }}
-                    <div class="timeline-image">
-                        <img src="{{ $item.image }}" alt="{{ $item.image_alt }}" loading="lazy">
-                    </div>
+                    {{ with .note }}
+                    <div class="timeline-note">{{ . }}</div>
                     {{ end }}
-                </div>
-                {{ end }}
-                {{ else if .Params.journey.timeline }}
-                <div class="timeline-columns">
-                    <div class="timeline-column">
-                        <h4>Tech Work</h4>
-                        {{ range .Params.journey.timeline.tech }}
-                        <div class="timeline-item">
-                            <div class="timeline-period">{{ .period }}</div>
-                            <p><strong>{{ .role }}</strong></p>
-                            <p>{{ .organization }}</p>
-                            <p>{{ .summary }}</p>
-                            {{ with .note }}<p class="note">{{ . }}</p>{{ end }}
-                        </div>
-                        {{ end }}
-                    </div>
-                    <div class="timeline-column">
-                        <h4>Social Work</h4>
-                        {{ range .Params.journey.timeline.social }}
-                        <div class="timeline-item">
-                            <div class="timeline-period">{{ .period }}</div>
-                            <p><strong>{{ .role }}</strong></p>
-                            <p>{{ .organization }}</p>
-                            <p>{{ .summary }}</p>
-                            {{ with .note }}<p class="note">{{ . }}</p>{{ end }}
-                        </div>
-                        {{ end }}
-                    </div>
                 </div>
                 {{ end }}
             </div>
