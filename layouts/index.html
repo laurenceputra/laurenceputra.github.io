@@ -1,0 +1,949 @@
+{{ define "main" }}
+<style>
+    /* Navigation */
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--border-color);
+        z-index: 1000;
+        padding: 1rem 0;
+    }
+
+    nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .logo {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    nav .nav-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    nav .nav-links a {
+        color: var(--text-secondary);
+        font-weight: 500;
+        transition: color 0.2s ease;
+    }
+
+    nav .nav-links a:hover {
+        color: var(--primary-color);
+    }
+
+    /* Skip link for accessibility */
+    .skip-to-main {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: var(--primary-color);
+        color: white;
+        padding: 8px 16px;
+        z-index: 2000;
+        text-decoration: none;
+    }
+
+    .skip-to-main:focus {
+        top: 0;
+    }
+
+    /* Hero Section */
+    .hero {
+        margin-top: 80px;
+        padding: 6rem 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        opacity: 0.5;
+    }
+
+    .hero .container {
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero-profile {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 255, 255, 0.3);
+        margin: 0 auto 2rem;
+        object-fit: cover;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        animation: fadeInUp 0.8s ease;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .hero .tagline {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        opacity: 0.95;
+        animation: fadeInUp 0.8s ease 0.2s backwards;
+    }
+
+    .hero .roles {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        animation: fadeInUp 0.8s ease 0.4s backwards;
+    }
+
+    .hero .role-badge {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        padding: 1rem 1.5rem;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        text-align: left;
+        max-width: 300px;
+    }
+
+    .hero .role-badge .role-title {
+        font-weight: 600;
+        font-size: 1.1rem;
+        display: block;
+        margin-bottom: 0.25rem;
+    }
+
+    .hero .role-badge .role-org {
+        font-size: 0.9rem;
+        opacity: 0.9;
+        display: block;
+    }
+
+    .hero .role-badge .role-context {
+        font-size: 0.85rem;
+        opacity: 0.8;
+        display: block;
+        margin-top: 0.25rem;
+    }
+
+    .hero .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 2.5rem;
+        animation: fadeInUp 0.8s ease 0.6s backwards;
+    }
+
+    .hero .social-links a {
+        color: white;
+        font-size: 1.5rem;
+        width: 50px;
+        height: 50px;
+        min-width: 44px;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+        transition: all 0.3s ease;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .hero .social-links a:hover {
+        background: rgba(255, 255, 255, 0.25);
+        transform: translateY(-3px);
+    }
+
+    /* Section Styles */
+    section {
+        padding: 5rem 0;
+    }
+
+    section:nth-child(even) {
+        background: var(--bg-secondary);
+    }
+
+    section h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        color: var(--text-primary);
+    }
+
+    section .section-subtitle {
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        max-width: 700px;
+        margin: 0 auto 3rem;
+    }
+
+    /* Content Section */
+    .content-section {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .content-section p, .content-section .lead-text {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--text-secondary);
+        margin-bottom: 1.5rem;
+    }
+
+    .content-section .lead-text {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+
+    /* Initiative Cards */
+    .initiative-card {
+        background: var(--bg-primary);
+        border-radius: 12px;
+        padding: 2.5rem;
+        margin-bottom: 3rem;
+        box-shadow: var(--shadow-md);
+        border: 1px solid var(--border-color);
+    }
+
+    .initiative-card h3 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+        color: var(--primary-color);
+    }
+
+    .initiative-card .role {
+        font-size: 0.95rem;
+        color: var(--text-light);
+        margin-bottom: 1rem;
+        font-style: italic;
+    }
+
+    .initiative-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 1.5rem 0;
+    }
+
+    .initiative-card p {
+        color: var(--text-secondary);
+        line-height: 1.8;
+        margin-bottom: 1rem;
+    }
+
+    .initiative-card .team-note {
+        background: var(--bg-secondary);
+        border-left: 4px solid var(--primary-color);
+        padding: 1rem 1.5rem;
+        margin-top: 1.5rem;
+        font-style: italic;
+        color: var(--text-secondary);
+    }
+
+    /* Journey Timeline */
+    .journey-timeline {
+        max-width: 1000px;
+        margin: 3rem auto;
+    }
+
+    .timeline-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        margin-bottom: 4rem;
+        padding-bottom: 4rem;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .timeline-item:last-child {
+        border-bottom: none;
+    }
+
+    .timeline-period {
+        grid-column: 1 / -1;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+    }
+
+    .timeline-column h4 {
+        font-size: 1.2rem;
+        margin-bottom: 0.75rem;
+        color: var(--text-primary);
+    }
+
+    .timeline-column p, .timeline-column ul {
+        color: var(--text-secondary);
+        line-height: 1.7;
+        margin-bottom: 0.75rem;
+    }
+
+    .timeline-column .team-credit {
+        background: var(--bg-secondary);
+        padding: 1rem;
+        border-radius: 8px;
+        margin-top: 1rem;
+        font-size: 0.95rem;
+        font-style: italic;
+    }
+
+    .timeline-image {
+        grid-column: 1 / -1;
+        margin-top: 1rem;
+    }
+
+    .timeline-image img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .philosophy-note {
+        grid-column: 1 / -1;
+        background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+        padding: 1.5rem;
+        border-radius: 8px;
+        font-style: italic;
+        color: var(--text-primary);
+        margin-top: 1rem;
+    }
+
+    /* Project Cards */
+    .project-card {
+        background: var(--bg-primary);
+        border-radius: 12px;
+        padding: 2.5rem;
+        margin-bottom: 3rem;
+        box-shadow: var(--shadow-md);
+        border: 1px solid var(--border-color);
+    }
+
+    .project-card h3 {
+        font-size: 1.8rem;
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+    }
+
+    .project-card .period {
+        color: var(--text-light);
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .project-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 1.5rem 0;
+    }
+
+    .project-card .impact-list {
+        background: var(--bg-secondary);
+        padding: 1.5rem;
+        border-radius: 8px;
+        margin: 1.5rem 0;
+    }
+
+    .project-card .impact-list ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .project-card .impact-list li {
+        padding: 0.5rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+    }
+
+    .project-card .impact-list li:before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+
+    .project-card .team-credits {
+        background: linear-gradient(135deg, #667eea10 0%, #764ba210 100%);
+        border-left: 4px solid var(--primary-color);
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        font-style: italic;
+    }
+
+    .project-card .recognition {
+        background: var(--bg-tertiary);
+        padding: 1.5rem;
+        border-radius: 8px;
+        margin: 1.5rem 0;
+    }
+
+    .project-card .recognition .award-name {
+        font-weight: 600;
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+    }
+
+    .project-card blockquote {
+        border-left: 4px solid var(--secondary-color);
+        padding-left: 1.5rem;
+        margin: 1.5rem 0;
+        font-style: italic;
+        color: var(--text-secondary);
+    }
+
+    /* Awards Grid */
+    .awards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .award-card {
+        background: var(--bg-primary);
+        border-radius: 12px;
+        padding: 1.5rem;
+        box-shadow: var(--shadow-sm);
+        border: 1px solid var(--border-color);
+        transition: all 0.3s ease;
+    }
+
+    .award-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-lg);
+    }
+
+    .award-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+
+    .award-card h4 {
+        font-size: 1.1rem;
+        color: var(--text-primary);
+        margin-bottom: 0.5rem;
+    }
+
+    .award-card .org {
+        font-size: 0.9rem;
+        color: var(--text-light);
+        margin-bottom: 0.75rem;
+    }
+
+    .award-card .context {
+        font-size: 0.95rem;
+        color: var(--text-secondary);
+        line-height: 1.6;
+    }
+
+    /* Connect Section */
+    .connect-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .connect-card {
+        background: var(--bg-primary);
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: var(--shadow-md);
+        border: 1px solid var(--border-color);
+        transition: all 0.3s ease;
+    }
+
+    .connect-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-xl);
+    }
+
+    .connect-card h4 {
+        font-size: 1.3rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+    }
+
+    .connect-card p {
+        color: var(--text-secondary);
+        line-height: 1.7;
+        margin-bottom: 1rem;
+    }
+
+    .connect-card .cta-button {
+        display: inline-block;
+        background: var(--primary-color);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        margin-top: 0.5rem;
+    }
+
+    .connect-card .cta-button:hover {
+        background: var(--secondary-color);
+        transform: translateX(3px);
+    }
+
+    .social-links-grid {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .social-link-card {
+        text-align: center;
+    }
+
+    .social-link-card a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--text-primary);
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
+
+    .social-link-card a:hover {
+        color: var(--primary-color);
+        transform: translateY(-3px);
+    }
+
+    .social-link-card .icon {
+        width: 60px;
+        height: 60px;
+        min-width: 44px;
+        min-height: 44px;
+        background: var(--bg-secondary);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid var(--border-color);
+        transition: all 0.2s ease;
+    }
+
+    .social-link-card a:hover .icon {
+        background: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    .social-link-card a:hover .icon svg {
+        fill: white;
+    }
+
+    /* Footer */
+    footer {
+        background: var(--text-primary);
+        color: white;
+        padding: 3rem 0 2rem;
+    }
+
+    footer .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    footer .footer-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+
+    footer .footer-links a {
+        color: rgba(255, 255, 255, 0.8);
+        transition: color 0.2s ease;
+    }
+
+    footer .footer-links a:hover {
+        color: white;
+    }
+
+    footer .copyright {
+        text-align: center;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero .tagline {
+            font-size: 1.2rem;
+        }
+
+        .hero .roles {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav .nav-links {
+            gap: 1rem;
+            font-size: 0.9rem;
+        }
+
+        section h2 {
+            font-size: 2rem;
+        }
+
+        .timeline-item {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
+        .connect-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<a href="#main-content" class="skip-to-main">Skip to main content</a>
+
+<nav aria-label="Primary navigation">
+    <div class="container">
+        <div class="logo">@{{ .Site.Params.twitter }}</div>
+        <ul class="nav-links">
+            <li><a href="#current-work">Current Work</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#impact">Impact</a></li>
+            <li><a href="#connect">Connect</a></li>
+            <li><a href="/awards/">Awards</a></li>
+            <li><a href="/media/">Media</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-heading">
+        <div class="container">
+            {{ with .Params.hero.profile_image }}
+            <img src="{{ . }}" alt="{{ $.Params.hero.profile_image_alt }}" class="hero-profile" loading="eager">
+            {{ end }}
+            <h1 id="hero-heading">{{ .Params.hero.name }}</h1>
+            <div class="tagline">{{ .Params.hero.tagline }}</div>
+            <div class="roles">
+                {{ range .Params.hero.roles }}
+                <div class="role-badge">
+                    <span class="role-title">{{ .title }}</span>
+                    <span class="role-org">{{ .organization }}</span>
+                    <span class="role-context">{{ .context }}</span>
+                </div>
+                {{ end }}
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/{{ .Site.Params.github }}" target="_blank" aria-label="GitHub" rel="noopener">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/{{ .Site.Params.twitter }}" target="_blank" aria-label="LinkedIn" rel="noopener">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+                <a href="https://flickr.com/{{ .Site.Params.flickr }}" target="_blank" aria-label="Flickr" rel="noopener">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M6.5 7c-2.75 0-5 2.25-5 5s2.25 5 5 5 5-2.25 5-5-2.25-5-5-5zm11 0c-2.75 0-5 2.25-5 5s2.25 5 5 5 5-2.25 5-5-2.25-5-5-5z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Work & Mission Section -->
+    <section id="current-work" aria-labelledby="current-work-heading">
+        <div class="container">
+            <h2 id="current-work-heading">{{ .Params.current_work.heading }}</h2>
+            <p class="section-subtitle">{{ .Params.current_work.subheading }}</p>
+            <div class="content-section">
+                <p class="lead-text">{{ .Params.current_work.mission_statement | markdownify }}</p>
+                
+                {{ range .Params.current_work.initiatives }}
+                <div class="initiative-card">
+                    <h3>{{ .name }}</h3>
+                    <p class="role">{{ .role }}</p>
+                    {{ with .image }}
+                    <img src="{{ . }}" alt="{{ $.image_alt }}" loading="lazy">
+                    {{ end }}
+                    {{ .description | markdownify }}
+                    {{ with .team_note }}
+                    <div class="team-note">{{ . }}</div>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" aria-labelledby="journey-heading">
+        <div class="container">
+            <h2 id="journey-heading">{{ .Params.journey.heading }}</h2>
+            <p class="section-subtitle">{{ .Params.journey.subheading }}</p>
+            <div class="content-section">
+                <p class="lead-text">{{ .Params.journey.introduction | markdownify }}</p>
+                <p><em>{{ .Params.journey.timeline_note }}</em></p>
+            </div>
+            
+            <div class="journey-timeline">
+                {{ range .Params.journey.parallel_paths }}
+                <div class="timeline-item">
+                    <div class="timeline-period">{{ .period }}</div>
+                    
+                    <div class="timeline-column">
+                        <h4>Tech Work</h4>
+                        {{ range .tech_work }}
+                        <p><strong>{{ .role }}</strong></p>
+                        <p>{{ delimit .companies ", " }}</p>
+                        <p>{{ .focus }}</p>
+                        {{ end }}
+                    </div>
+                    
+                    <div class="timeline-column">
+                        <h4>Community Work</h4>
+                        {{ range .community_work }}
+                        <p><strong>{{ .role }}</strong></p>
+                        <p>{{ .organization }}</p>
+                        <p>{{ .achievement }}</p>
+                        {{ with .team_credit }}
+                        <div class="team-credit">{{ . }}</div>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                    
+                    {{ with .philosophy }}
+                    <div class="philosophy-note">{{ . | markdownify }}</div>
+                    {{ end }}
+                    
+                    {{ with .image }}
+                    <div class="timeline-image">
+                        <img src="{{ . }}" alt="{{ $.image_alt }}" loading="lazy">
+                    </div>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact & Recognition Section -->
+    <section id="impact" aria-labelledby="impact-heading">
+        <div class="container">
+            <h2 id="impact-heading">{{ .Params.impact.heading }}</h2>
+            <p class="section-subtitle">{{ .Params.impact.subheading }}</p>
+            <div class="content-section">
+                <p class="lead-text">{{ .Params.impact.introduction | markdownify }}</p>
+            </div>
+            
+            {{ range .Params.impact.projects }}
+            <div class="project-card">
+                <h3>{{ .name }}</h3>
+                <p class="period">{{ .period }}</p>
+                {{ .description | markdownify }}
+                
+                {{ with .impact }}
+                <div class="impact-list">
+                    <ul>
+                    {{ range . }}
+                        <li>{{ . }}</li>
+                    {{ end }}
+                    </ul>
+                </div>
+                {{ end }}
+                
+                {{ with .team_credits }}
+                <div class="team-credits">{{ . | markdownify }}</div>
+                {{ end }}
+                
+                {{ with .recognition }}
+                <div class="recognition">
+                    <div class="award-name">{{ .award }} ({{ .context }})</div>
+                    <p>{{ .frame }}</p>
+                </div>
+                {{ end }}
+                
+                {{ with .quote }}
+                <blockquote>{{ . | markdownify }}</blockquote>
+                {{ end }}
+                
+                {{ with .philosophy }}
+                <p><em>{{ . | markdownify }}</em></p>
+                {{ end }}
+                
+                {{ with .image }}
+                <img src="{{ . }}" alt="{{ $.image_alt }}" loading="lazy">
+                {{ end }}
+            </div>
+            {{ end }}
+            
+            <div class="content-section">
+                <h3>{{ .Params.impact.awards_context.introduction | markdownify }}</h3>
+            </div>
+            
+            <div class="awards-grid">
+                {{ range .Params.impact.awards_context.awards }}
+                <div class="award-card">
+                    {{ with .image }}
+                    <img src="{{ . }}" alt="{{ $.name }} award photo" loading="lazy">
+                    {{ end }}
+                    <h4>{{ .name }}</h4>
+                    <p class="org">{{ .organization }}</p>
+                    <p class="context">{{ .context }}</p>
+                    {{ with .reflection }}
+                    <p><em>{{ . }}</em></p>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            
+            <div class="content-section">
+                <p style="margin-top: 3rem;">{{ .Params.impact.awards_context.closing_note | markdownify }}</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" aria-labelledby="connect-heading">
+        <div class="container">
+            <h2 id="connect-heading">{{ .Params.connect.heading }}</h2>
+            <p class="section-subtitle">{{ .Params.connect.subheading }}</p>
+            <div class="content-section">
+                <p class="lead-text">{{ .Params.connect.introduction | markdownify }}</p>
+            </div>
+            
+            <div class="connect-grid">
+                {{ range .Params.connect.audience_ctas }}
+                <div class="connect-card">
+                    <h4>{{ .audience }}</h4>
+                    <p>{{ .cta_text }}</p>
+                    <p><strong>{{ .action }}</strong></p>
+                    <p><small>{{ .contact_method }}</small></p>
+                </div>
+                {{ end }}
+            </div>
+            
+            <div class="social-links-grid">
+                {{ range .Params.connect.social_links }}
+                <div class="social-link-card">
+                    <a href="{{ .url }}" target="_blank" rel="noopener">
+                        <div class="icon">
+                            {{ if eq .icon "github" }}
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            {{ else if eq .icon "linkedin" }}
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                            {{ else if eq .icon "flickr" }}
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M6.5 7c-2.75 0-5 2.25-5 5s2.25 5 5 5 5-2.25 5-5-2.25-5-5-5zm11 0c-2.75 0-5 2.25-5 5s2.25 5 5 5 5-2.25 5-5-2.25-5-5-5z"/>
+                            </svg>
+                            {{ end }}
+                        </div>
+                        <span>{{ .platform }}</span>
+                        {{ with .description }}
+                        <small style="font-size: 0.85rem; opacity: 0.8;">{{ . }}</small>
+                        {{ end }}
+                    </a>
+                </div>
+                {{ end }}
+            </div>
+            
+            <div class="content-section" style="margin-top: 3rem;">
+                <p class="lead-text">{{ .Params.connect.closing_note | markdownify }}</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="logo">Laurence Putra Franslay</div>
+            <ul class="footer-links">
+                <li><a href="https://github.com/{{ .Site.Params.github }}" target="_blank" rel="noopener">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/{{ .Site.Params.twitter }}" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li><a href="https://flickr.com/{{ .Site.Params.flickr }}" target="_blank" rel="noopener">Flickr</a></li>
+                <li><a href="/awards/">Awards</a></li>
+                <li><a href="/media/">Media</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            © 2025 Laurence Putra Franslay. All rights reserved.
+        </div>
+    </div>
+</footer>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    });
+</script>
+{{ end }}
