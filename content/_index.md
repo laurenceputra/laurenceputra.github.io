@@ -11,8 +11,8 @@ hero:
   roles:
     - title: "Site Leader, Server Architecture"
       organization: "TikTok Singapore"
-      context: "Leading infrastructure teams in distributed systems"
-    - title: "Engineering Leader, OSE"
+      context: "Leading teams building infrastructure for distributed systems"
+    - title: "Engineering Leader, Operational Support and Efficiency (OSE)"
       organization: "TikTok Singapore"
       context: "Operational Support and Efficiency function"
     - title: "Community Builder"
@@ -28,11 +28,11 @@ current_work:
   
   initiatives:
     - name: "Lai Yu Hua Kindness Youth Lit Fund (LYHKYLF)"
-      role: "Co-founder & Trustee"
+      role: "Trustee"
       description: |
         LYHKYLF provides funding for social initiatives that traditional philanthropy won't support—the experimental ideas, the first-time organizers, the projects that need someone to believe in them before they have proven results. We call it patient capital for the social sector.
         
-        Named after my late grandmother Lai Yu Hua, this fund honors her kindness by supporting young people trying to make a difference. It's about giving others the same chance someone once gave us.
+        Named after my late grandfather Lai Yu Hua, this fund honors his kindness and generosity by supporting young people trying to make a difference. It's about giving others the same chance someone once gave us.
       image: "/img/social.jpg"
       image_alt: "Community members collaborating on social impact projects"
       learn_more: "https://lyhkylf.sg"
