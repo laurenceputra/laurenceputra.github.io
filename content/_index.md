@@ -12,9 +12,9 @@ hero:
     - title: "Site Leader, Server Architecture"
       organization: "TikTok Singapore"
       context: "Take care of the Singapore site for the Server Architecture organisation, cultivating a high-performing, highly-engaged culture."
-    - title: "Engineering Leader, Operational Support and Efficiency (OSE)"
+    - title: "Engineering Leader, Operations & Partner Support"
       organization: "TikTok Singapore"
-      context: "Lead the OSE business to better support partner teams and build tooling for disciplined, efficient operations."
+      context: "Build tooling and practices that enable disciplined, efficient operations across engineering teams."
     - title: "Philanthropist"
       organization: "Lai Yu Hua Kindness Youth Lit Fund"
       context: "Supporting social initiatives that traditional funding won't reach"
@@ -24,7 +24,7 @@ current_work:
   heading: "What I'm working on"
   subheading: "When we care together, we can achieve more together"
   mission_statement: |
-    The work I'm privileged to be part of centers on a simple belief: ordinary Singaporeans can do extraordinary things when we look out for someone we don't know. This isn't about individual achievement—it's about what communities can build together.
+    The work I'm privileged to be part of centers on a simple belief: ordinary Singaporeans can do extraordinary things when we look out for someone we don't know. This isn't about individual achievement—it's about what communities can build together when we decide to care beyond our own circles.
   
   initiatives:
     - name: "Lai Yu Hua Kindness Youth Lit Fund (LYHKYLF)"
@@ -59,7 +59,7 @@ journey:
   introduction: |
     People sometimes ask when I "switched" from tech to social work. The truth is, I never switched. For over a decade, I've been building communities while building systems. The tech skills are tools; the constant has been showing up for people.
   
-  timeline_note: "These paths were never separate—community building and technical work have always informed each other"
+  timeline_note: "These paths were never separate—community building and technical work have always informed each other. Some entries overlap where concurrent commitments or rapid role progressions occurred; detailed notes are provided for clarity."
   
   timeline:
     tech:
@@ -103,7 +103,7 @@ journey:
         role: "Staff Engineer"
         organization: "99.co"
         summary: "Backend architecture and platform work."
-        note: "Verified from Profile.pdf (2020)."
+        note: "Part-time consulting engagement concurrent with PayPal role."
 
       - period: "Mar 2022 – Present"
         role: "Tech Lead / eSRE / Site Leader"
