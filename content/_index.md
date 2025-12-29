@@ -11,40 +11,34 @@ hero:
   roles:
     - title: "Site Leader, Server Architecture"
       organization: "TikTok Singapore"
-      context: "Leading teams building infrastructure for distributed systems"
+      context: "Take care of the Singapore site for the Server Architecture organisation, cultivating a high-performing, highly-engaged culture."
     - title: "Engineering Leader, Operational Support and Efficiency (OSE)"
       organization: "TikTok Singapore"
-      context: "Operational Support and Efficiency function"
+      context: "Lead the OSE business to better support partner teams and build tooling for disciplined, efficient operations."
     - title: "Philanthropist"
       organization: "Lai Yu Hua Kindness Youth Lit Fund"
       context: "Supporting social initiatives that traditional funding won't reach"
 
 # Current Work & Mission Section
 current_work:
-  heading: "What We're Working On"
+  heading: "What I'm working on"
   subheading: "When we care together, we can achieve more together"
   mission_statement: |
     The work I'm privileged to be part of centers on a simple belief: ordinary Singaporeans can do extraordinary things when we look out for someone we don't know. This isn't about individual achievement—it's about what communities can build together.
   
   initiatives:
     - name: "Lai Yu Hua Kindness Youth Lit Fund (LYHKYLF)"
-      role: "Trustee"
+      role: "Donor"
       description: |
         LYHKYLF provides funding for social initiatives that traditional philanthropy won't support—experimental ideas, first-time organisers, and projects that need early belief before they have proven results.
         
         Named after my late father, Lai Yu Hua, the fund honors his belief that education is a key driver of social mobility; it supports initiatives that help uplift future generations and expand opportunity.
-      image: "/img/social.jpg"
-      image_alt: "Community members collaborating on social impact projects"
       learn_more: "https://lyhkylf.sg"
     
-    - name: "TikTok Infrastructure Leadership"
-      role: "Site Leader & Engineering Leader"
+    - name: "TikTok"
+      role: "Site Leader, Server Architecture & OSE Leader"
       description: |
-        At TikTok, I work with talented teams building distributed systems that serve millions. As Site Leader for Server Architecture and Engineering Leader for Operational Support and Efficiency (OSE), I'm privileged to work alongside engineers solving complex problems in infrastructure reliability and operational excellence.
-        
-        The technical challenges are fascinating—distributed systems, security, scalability—but what matters most is creating environments where teams can do their best work and learn together.
-      image: "/img/community.jpg"
-      image_alt: "Tech community event with attendees collaborating"
+        At TikTok I lead site-level Server Architecture for Singapore (Site Leader) and drive Operational Support & Efficiency (OSE) work to improve partner support and operational tooling. My work focuses on reliability, capacity platforms, SLI governance, and building systems and practices that enable disciplined, scalable operations—while cultivating people leadership and site growth.
       team_note: "Every achievement in infrastructure comes from the collective expertise and dedication of the entire engineering team"
 
 # The Journey Section
@@ -56,82 +50,78 @@ journey:
   
   timeline_note: "These paths were never separate—community building and technical work have always informed each other"
   
-  parallel_paths:
-    - period: "2011-2014"
-      tech_work:
-        - role: "Software Engineer"
-          companies: ["BillPin"]
-          focus: "Backend engineering, database migrations, queue systems and performance optimizations"
-      community_work:
-        - role: "Lead Organizer"
-          organization: "GeekcampSG"
-          achievement: "Grew community from 200 to 1,300+ attendees"
-          team_credit: "Organizing committee and speakers who made the conference possible"
-      image: "/img/community.jpg"
-      image_alt: "GeekcampSG conference attendees networking and learning together"
+  timeline:
+    tech:
+      - period: "May 2011 – Mar 2012"
+        role: "Intern"
+        organization: "Chlkboard"
+        summary: "Early engineering experience supporting product development and testing."
 
-    - period: "2014-2016"
-      tech_work:
-        - role: "Regional Solutions Engineer / Developer Outreach / Consumer Engineering"
-          companies: ["PayPal"]
-          focus: "Mobile (iOS/Android), NFC payments, developer outreach, and running community meetups"
-      community_work:
-        - role: "Developer Outreach Team Lead"
-          organization: "PayPal"
-          achievement: "Led outreach and a speaker pool that delivered 50+ meetups in a year"
-          team_credit: "Volunteers and community speakers"
-      image: "/img/community.jpg"
-      image_alt: "Community meetups and developer events"
+      - period: "May 2013 – Feb 2014"
+        role: "Software Engineer"
+        organization: "BillPin"
+        summary: "Backend engineering, large data migrations, queue systems, and performance improvements."
 
-    - period: "2016-2018"
-      tech_work:
-        - role: "Digital Infrastructure Lead / Senior Engineer"
-          companies: ["Nugit", "SP Group"]
-          focus: "Infrastructure leadership, DevOps adoption, security and platform reliability"
-      community_work:
-        - role: "Volunteer & Organizer"
-          organization: "local tech community"
-          achievement: "Built infrastructure and community programs to improve developer experience"
-      image: "/img/community.jpg"
-      image_alt: "Team working on infrastructure projects"
+      - period: "Mar 2014 – Feb 2015"
+        role: "Regional Solutions Engineer"
+        organization: "PayPal"
+        summary: "Delivered regional features, integrations and operational dashboards for LatAm markets."
 
-    - period: "2019-2021"
-      tech_work:
-        - role: "Member of Technical Staff / Manager"
-          companies: ["PayPal"]
-          focus: "SRE, observability, compliance and education outreach initiatives"
-      community_work:
-        - role: "Head for Education Outreach"
-          organization: "PayPal"
-          achievement: "Established education outreach programs and partnerships with schools"
-      image: "/img/community.jpg"
-      image_alt: "Education outreach and workshops"
+      - period: "Jan 2015 – Mar 2016"
+        role: "Consumer Engineering Software Engineer"
+        organization: "PayPal"
+        summary: "Worked on iOS/Android features, NFC payments, and internal automation frameworks."
 
-    - period: "2020"
-      tech_work:
-        - role: "Staff Engineer"
-          companies: ["99.co"]
-          focus: "Backend architecture"
-      community_work:
-        - role: "Co-founder"
-          organization: "Project Stable Staples"
-          achievement: "During COVID-19 Circuit Breaker: >SGD 160k raised and >2,600 individuals helped"
-          team_credit: "73 volunteers coordinated logistics, packing and deliveries"
-      image: "/img/awards/people-of-good-award-1.jpeg"
-      image_alt: "Project Stable Staples team receiving People of Good Award recognition"
+      - period: "Apr 2016 – Oct 2016"
+        role: "Senior Engineer"
+        organization: "Nugit"
+        summary: "Led infrastructure work, monitoring, and performance optimizations."
 
-    - period: "2021-Present"
-      tech_work:
-        - role: "eSRE / Site Leader / Operational Support & Efficiency Leader"
-          companies: ["TikTok"]
-          focus: "Reliability, capacity platforms, SLI governance, and people leadership"
-      community_work:
-        - role: "Co-founder & Trustee"
-          organization: "LYHKYLF"
-          achievement: "Patient capital for social sector initiatives"
-          team_credit: "Co-founders, trustees, and volunteers"
-      image: "/img/social.jpg"
-      image_alt: "Community gathering discussing social impact initiatives"
+      - period: "Dec 2016 – Dec 2018"
+        role: "Digital Infrastructure Lead"
+        organization: "SP Group"
+        summary: "Led infrastructure team for DC migration, DevOps adoption, security coordination and platform reliability."
+
+      - period: "Jan 2019 – Mar 2022"
+        role: "Manager / Engineering Lead"
+        organization: "PayPal"
+        summary: "SRE, observability, compliance and team leadership across consumer and compliance domains."
+
+      - period: "2020"
+        role: "Staff Engineer"
+        organization: "99.co"
+        summary: "Backend architecture and platform work."
+
+      - period: "Mar 2022 – Present"
+        role: "Tech Lead / eSRE / Site Leader"
+        organization: "TikTok"
+        summary: "Site leadership for Server Architecture in Singapore; led eSRE functions, capacity platforms, SLI governance and people leadership."
+
+    social:
+      - period: "2012 – 2014"
+        role: "Lead Organizer"
+        organization: "GeekcampSG"
+        summary: "Grew the conference from 200 to 1,300+ attendees with a volunteer organizing committee."
+
+      - period: "2012 – Present"
+        role: "Core Team Member & Volunteer"
+        organization: "IAmTalented.SG"
+        summary: "Sustained skills workshops for young people (coding, design, entrepreneurship) across years."
+
+      - period: "Jan 2015 – Jan 2016"
+        role: "Developer Outreach Team Lead"
+        organization: "PayPal"
+        summary: "Led volunteer outreach and a speaker pool that delivered 50+ meetups in a year."
+
+      - period: "Mar 2019 – Jan 2020"
+        role: "Head for Education Outreach"
+        organization: "PayPal"
+        summary: "Built school partnerships and education outreach programs."
+
+      - period: "2020"
+        role: "Co-founder"
+        organization: "Project Stable Staples"
+        summary: ">SGD 160k raised; >2,600 individuals helped; 73 volunteers coordinated logistics."
 
 # Impact & Recognition Section
 impact:
