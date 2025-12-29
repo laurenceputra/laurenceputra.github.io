@@ -268,8 +268,22 @@
 
     /* Journey Timeline */
     .journey-timeline {
-        max-width: 1000px;
+        max-width: 1100px;
         margin: 3rem auto;
+    }
+
+    /* Two-column timeline layout with constrained column width for wide screens */
+    .timeline-columns {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 2rem;
+    }
+
+    .timeline-columns .timeline-column {
+        flex: 1 1 0;
+        max-width: 560px; /* keep columns readable on very wide screens */
     }
 
     .timeline-item {
@@ -743,6 +757,7 @@
             </div>
             
             <div class="journey-timeline">
+                {{ if .Params.journey.parallel_paths }}
                 {{ range $idx, $item := .Params.journey.parallel_paths }}
                 <div class="timeline-item">
                     <div class="timeline-period">{{ $item.period }}</div>
@@ -777,6 +792,34 @@
                         <img src="{{ $item.image }}" alt="{{ $item.image_alt }}" loading="lazy">
                     </div>
                     {{ end }}
+                </div>
+                {{ end }}
+                {{ else if .Params.journey.timeline }}
+                <div class="timeline-columns">
+                    <div class="timeline-column">
+                        <h4>Tech Work</h4>
+                        {{ range .Params.journey.timeline.tech }}
+                        <div class="timeline-item">
+                            <div class="timeline-period">{{ .period }}</div>
+                            <p><strong>{{ .role }}</strong></p>
+                            <p>{{ .organization }}</p>
+                            <p>{{ .summary }}</p>
+                            {{ with .note }}<p class="note">{{ . }}</p>{{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div class="timeline-column">
+                        <h4>Social Work</h4>
+                        {{ range .Params.journey.timeline.social }}
+                        <div class="timeline-item">
+                            <div class="timeline-period">{{ .period }}</div>
+                            <p><strong>{{ .role }}</strong></p>
+                            <p>{{ .organization }}</p>
+                            <p>{{ .summary }}</p>
+                            {{ with .note }}<p class="note">{{ . }}</p>{{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
                 </div>
                 {{ end }}
             </div>

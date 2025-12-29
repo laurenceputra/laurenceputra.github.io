@@ -100,9 +100,9 @@ journey:
         note: "Progressed through multiple roles in this period (Member of Technical Staff Jan–Sep 2019; Manager, Compliance Oct 2019–Jul 2020; Manager, Consumer SRE Aug 2020–Sep 2021; Manager, Digital Wallet Sep 2021–Mar 2022)."
 
       - period: "2020"
-        role: "Staff Engineer"
+        role: "Consultant"
         organization: "99.co"
-        summary: "Backend architecture and platform work."
+        summary: "Short-term consulting engagement on backend architecture and platform improvements (part-time)."
         note: "Part-time consulting engagement concurrent with PayPal role."
 
       - period: "Mar 2022 – Present"
