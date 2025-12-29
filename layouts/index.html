@@ -340,6 +340,17 @@
         border-radius: 8px;
     }
 
+    @media (max-width: 768px) {
+        /* Stack the two timeline columns vertically on narrow screens */
+        .timeline-columns {
+            flex-direction: column;
+        }
+
+        .timeline-columns .timeline-column {
+            max-width: none;
+        }
+    }
+
     .philosophy-note {
         grid-column: 1 / -1;
         background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
