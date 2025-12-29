@@ -33,14 +33,25 @@ current_work:
         LYHKYLF provides funding for social initiatives that traditional philanthropy won't support—experimental ideas, first-time organisers, and projects that need early belief before they have proven results.
         
         Named after my late father, Lai Yu Hua, the fund honors his belief that education is a key driver of social mobility; it supports initiatives that help uplift future generations and expand opportunity.
+      focus_areas:
+        - "Education & social mobility"
+        - "Seed funding for early-stage social innovations"
+      impact_bullets:
+        - "Supports initiatives that expand opportunity for young people"
       learn_more: "https://lyhkylf.sg"
-    
+
     - name: "TikTok"
       role: "Site Leader, Server Architecture & OSE Leader"
       description: |
         At TikTok I lead site-level Server Architecture for Singapore (Site Leader) and drive Operational Support & Efficiency (OSE) work to improve partner support and operational tooling. My work focuses on reliability, capacity platforms, SLI governance, and building systems and practices that enable disciplined, scalable operations—while cultivating people leadership and site growth.
+      focus_areas:
+        - "Reliability & capacity platforms"
+        - "SLI governance & observability"
+        - "Operational tooling to support partner teams"
+      how_i_help:
+        - "Build and scale capacity and governance platforms"
+        - "Coach leaders and grow site capability"
       team_note: "Every achievement in infrastructure comes from the collective expertise and dedication of the entire engineering team"
-
 # The Journey Section
 journey:
   heading: "The Journey"
@@ -67,7 +78,7 @@ journey:
         organization: "PayPal"
         summary: "Delivered regional features, integrations and operational dashboards for LatAm markets."
 
-      - period: "Jan 2015 – Mar 2016"
+      - period: "Mar 2015 – Mar 2016"
         role: "Consumer Engineering Software Engineer"
         organization: "PayPal"
         summary: "Worked on iOS/Android features, NFC payments, and internal automation frameworks."
@@ -86,16 +97,19 @@ journey:
         role: "Manager / Engineering Lead"
         organization: "PayPal"
         summary: "SRE, observability, compliance and team leadership across consumer and compliance domains."
+        note: "Progressed through multiple roles in this period (Member of Technical Staff Jan–Sep 2019; Manager, Compliance Oct 2019–Jul 2020; Manager, Consumer SRE Aug 2020–Sep 2021; Manager, Digital Wallet Sep 2021–Mar 2022)."
 
       - period: "2020"
         role: "Staff Engineer"
         organization: "99.co"
         summary: "Backend architecture and platform work."
+        note: "Verified from Profile.pdf (2020)."
 
       - period: "Mar 2022 – Present"
         role: "Tech Lead / eSRE / Site Leader"
         organization: "TikTok"
         summary: "Site leadership for Server Architecture in Singapore; led eSRE functions, capacity platforms, SLI governance and people leadership."
+        note: "Joined Mar 2022 as eSRE/Tech Lead; responsibilities expanded to Site Leader in Jan 2024 and to lead the OSE business (Operational Support & Efficiency) in Nov 2025."
 
     social:
       - period: "2012 – 2014"
