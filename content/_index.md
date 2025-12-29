@@ -62,71 +62,39 @@ journey:
   timeline_note: "These paths were never separate—community building and technical work have always informed each other. Watch for overlapping dates where both happened simultaneously."
   
   timeline:
-    - start_date: "2011-05"
-      end_date: "2012-03"
-      type: "tech"
-      role: "Intern"
-      organization: "Chlkboard"
-      summary: "Early engineering experience supporting product development and testing."
-
-    - start_date: "2012-01"
-      end_date: "2014-12"
-      type: "social"
-      role: "Lead Organizer"
-      organization: "GeekcampSG"
-      summary: "Grew the conference from 200 to 1,300+ attendees with a volunteer organizing committee."
-
-    - start_date: "2012-01"
+    - start_date: "2022-03-01"
       end_date: "Present"
-      type: "social"
-      role: "Core Team Member & Volunteer"
-      organization: "IAmTalented.SG"
-      summary: "Sustained skills workshops for young people (coding, design, entrepreneurship) across years."
-
-    - start_date: "2013-05"
-      end_date: "2014-02"
       type: "tech"
-      role: "Software Engineer"
-      organization: "BillPin"
-      summary: "Backend engineering, large data migrations, queue systems, and performance improvements."
-
-    - start_date: "2014-03"
-      end_date: "2016-03"
-      type: "tech"
-      role: "Regional Solutions Engineer → Software Engineer"
-      organization: "PayPal"
+      role: "Site Leader, Server Architecture & OSE Leader"
+      organization: "TikTok / ByteDance"
       location: "Singapore"
-      summary: "Delivered regional features, integrations and operational dashboards for LatAm markets (Mar 2014–Feb 2015), then built integrations for Singapore e-commerce platforms and mobile SDKs (Mar 2015–Mar 2016). Concurrently led PayPal Developer Outreach as a volunteer commitment, organizing community events and technical workshops."
+      summary: "Lead Server Architecture teams in Singapore and Operational Support & Efficiency (OSE); focus on reliability, capacity platforms, SLI governance, and building platforms to improve operational efficiency."
       achievements:
-        - "Developed integrations for regional e-commerce partners, enabling merchant adoption across Southeast Asia"
-        - "Created mobile SDK samples and documentation, reducing integration time for developers"
-        - "Led Developer Outreach volunteer program: coordinated 15 volunteers, organized 50+ meetups and workshops reaching 3,000+ technologists across Singapore"
-      note: "Roles: Regional Solutions Engineer (Mar 2014–Feb 2015) → Consumer Engineering (Mar 2015–Mar 2016). Developer Outreach Team Lead was volunteer-driven community work concurrent with engineering role (Jan 2015–Jan 2016)."
+        - "Led eSRE team building capacity inspection platform: reduced infrastructure risk identification time by 80% (from 2 weeks to 3 days), enabling proactive capacity planning across APAC"
+        - "Grew Singapore Server Architecture team from 6 to 50+ staff and 5 leaders, establishing hiring practices and technical standards"
+        - "Coordinated cross-regional incident response initiatives contributing to reduced P0 recovery time"
 
-    - start_date: "2015-01"
-      end_date: "2016-01"
-      type: "social"
-      role: "Developer Outreach Team Lead"
+    - start_date: "2019-01-01"
+      end_date: "2022-03-01"
+      type: "tech"
+      role: "Engineering Manager"
       organization: "PayPal"
-      summary: "Led volunteer outreach and a speaker pool that delivered 50+ meetups in a year."
-
-    - start_date: "2016-04"
-      end_date: "2016-10"
-      type: "tech"
-      role: "Senior Engineer"
-      organization: "Nugit"
-      summary: "Led infrastructure work, monitoring, and performance optimizations."
-
-    - start_date: "2016-11"
-      end_date: "2016-11"
-      type: "tech"
-      role: "Backend Architect (Part-Time)"
-      organization: "99.co"
       location: "Singapore"
-      summary: "Backend architecture consulting for property platform during infrastructure scaling phase."
+      summary: "Led engineering teams across Compliance, Consumer SRE, and Digital Wallet SRE; focused on team development, operational excellence, and measurable reliability improvements."
+      achievements:
+        - "Implemented automated compliance monitoring, reducing manual audit time"
+        - "Drove incident response improvements and on-call/runbook standards"
+        - "Grew and mentored engineering teams to scale site capability"
 
-    - start_date: "2016-12"
-      end_date: "2018-12"
+    - start_date: "2020-01-01"
+      end_date: "2024-01-01"
+      type: "social"
+      role: "Co-founder"
+      organization: "Project Stable Staples"
+      summary: ">SGD 160k raised; >2,600 individuals helped; 73 volunteers coordinated logistics."
+
+    - start_date: "2016-12-01"
+      end_date: "2018-12-01"
       type: "tech"
       role: "Digital Infrastructure Lead (Manager)"
       organization: "SP Group"
@@ -135,51 +103,13 @@ journey:
       achievements:
         - "Managed a 5-person engineering team through a major DC relocation project"
         - "Introduced Sentry and Graylog for improved observability and drove Jenkins to a Docker-based build system"
-      note: "Served on the local security council and coordinated cross-team DevOps adoption."
 
-    - start_date: "2019-01"
-      end_date: "2022-03"
-      type: "tech"
-      role: "Engineering Manager"
-      organization: "PayPal"
-      location: "Singapore"
-      summary: "Started as Member of Technical Staff with engineer and scrum master responsibilities (Jan–Sep 2019), promoted to Engineering Manager (Oct 2019). Led engineering teams across Compliance Engineering, Consumer Site Reliability Engineering, and Digital Wallet. Focused on team development, operational excellence, and delivering measurable reliability improvements."
-      achievements:
-        - "Built and led Compliance Engineering team: implemented automated compliance monitoring, reducing manual audit time by 60%"
-        - "Led Consumer SRE team: drove incident response improvements, reducing P1 incident MTTR by 40% through team process refinement"
-        - "Managed Digital Wallet SRE team: coordinated cross-functional initiatives improving wallet service uptime to 99.95%"
-        - "Grew and mentored engineering teams from 4 to 12 engineers, fostering technical excellence and operational rigor"
-        - "Established on-call practices and runbook standards adopted across Singapore engineering organization"
-      note: "Progression: Member of Technical Staff (Jan–Sep 2019) → Engineering Manager (Oct 2019) → led Compliance Engineering (Oct 2019–Jun 2020) → Consumer SRE (Jul 2020–Sep 2021) → Digital Wallet SRE (Oct 2021–Mar 2022). This progression reflects organizational evolution as PayPal scaled operations and demonstrated leadership impact."
-
-    - start_date: "2019-03"
-      end_date: "2020-01"
-      type: "social"
-      role: "Head for Education Outreach"
-      organization: "PayPal"
-      summary: "Built school partnerships and education outreach programs."
-
-    - start_date: "2020-01"
-      end_date: "2020-12"
-      type: "social"
-      role: "Co-founder"
-      organization: "Project Stable Staples"
-      summary: ">SGD 160k raised; >2,600 individuals helped; 73 volunteers coordinated logistics."
-
-    - start_date: "2022-03"
-      end_date: "Present"
-      type: "tech"
-      role: "Site Leader, Server Architecture & OSE Leader"
-      organization: "TikTok / ByteDance"
-      location: "Singapore"
-      summary: "Lead Server Architecture teams in Singapore and, since November 2025, also lead the Operational Support & Efficiency (OSE) organization. Teams cover Embedded Site Reliability Engineering (eSRE) to ensure infrastructure reliability for TikTok's APAC services and build platforms that improve operational efficiency. Focus on team empowerment, cross-regional collaboration, and measurable impact delivery."
-      achievements:
-        - "Led eSRE team building capacity inspection platform: reduced infrastructure risk identification time by 80% (from 2 weeks to 3 days), enabling proactive capacity planning across APAC"
-        - "Grew Singapore Server Architecture team from 6 to 50+ staff and 5 leaders, establishing hiring practices and technical standards"
-        - "Expanded leadership scope to OSE organization (Nov 2025): teams now support operational efficiency tooling across TikTok infrastructure globally"
-        - "Coordinated cross-regional incident response initiatives: teams contributed to reducing regional P0 incident recovery time by 35%"
-        - "Mentored engineering managers and tech leads, fostering leadership pipeline within Singapore site"
-      note: "Progression: joined as Tech Lead / eSRE (Mar 2022) → eSRE Engineering Leader (Feb 2023–Nov 2025) → Site Leader, Server Architecture (Jan 2024–Present, ongoing) → Operational Support and Efficiency Leader (Nov 2025–Present, concurrent with Site Leader role). Also led eSRE Engineering for TikTok US remotely (Oct 2024–Nov 2025). Role evolution reflects organizational scaling as TikTok APAC infrastructure needs grew and Singapore site expanded from 6 to 50+ staff."
+    - start_date: "2011-01-01"
+      end_date: "2016-11-01"
+      type: "summary"
+      role: "Early career & community-building (summary)"
+      organization: "Various (Chlkboard, GeekcampSG, BillPin, PayPal early, Nugit, 99.co)"
+      summary: "Early engineering roles and volunteer community work including growing GeekcampSG, IAmTalented workshops, backend engineering and integrations, and developer outreach—summarised for brevity."
 
 # Impact & Recognition Section
 impact:
@@ -190,7 +120,7 @@ impact:
   
   projects:
     - name: "Project Stable Staples"
-      period: "2020-Present"
+      period: "2020-Jan 2024"
       description: |
         During COVID-19 Circuit Breaker, 8 ordinary Singaporeans saw families struggling and decided to help. We didn't have nonprofit experience or fancy credentials. We had time, some technical skills to build systems, and a belief that Singaporeans would help if we made it easy.
       
@@ -214,7 +144,7 @@ impact:
       image_alt: "Project Stable Staples volunteers packing and preparing aid for families"
     
     - name: "IAmTalented.SG"
-      period: "2012-Present"
+      period: "2012-Dec 2024"
       description: |
         For over 10 years, I've been privileged to be part of the IAmTalented.SG core team. IAT reaches Secondary 2 and 3 students with skills-based workshops—coding, design, photography, entrepreneurship—showing young people there are many paths beyond academic grades.
       
@@ -247,22 +177,6 @@ impact:
       
       image: "/img/community.jpg"
       image_alt: "GeekcampSG conference with large audience attending community tech talks"
-    
-    - name: "PayPal Developer Community"
-      period: "2014-2020"
-      description: |
-        At PayPal Singapore, I had the privilege of building a developer community program from a team of 2 to over 20 PayPal engineers hosting up to 12 meetups per month. We opened our office to the community, hosted talks, and created space for developers to learn together.
-      
-      impact:
-        - "12 meetups per month at peak"
-        - "20+ PayPal engineers volunteering as hosts/speakers"
-        - "Hundreds of community developers engaged"
-      
-      team_credits: |
-        This program succeeded because PayPal engineers gave their time after work hours, facility teams made our office welcoming, and leadership supported community engagement as part of our mission. Individual meetup organizers in Singapore's tech community trusted us to host their events. It was collective effort.
-      
-      image: "/img/community.jpg"
-      image_alt: "PayPal office hosting community meetup with developers networking"
   
   awards_context:
     introduction: |
@@ -273,24 +187,36 @@ impact:
         organization: "President's Volunteerism & Philanthropy Awards"
         context: "Recognized Project Stable Staples—belongs to all 73 volunteers"
         image: "/img/awards/people-of-good-award-1.jpeg"
+        url: "/posts/awards/people-of-good-award/"
         
       - name: "NUS Outstanding Young Alumni Award 2021"
         organization: "National University of Singapore"
         context: "Recognition of sustained community service alongside professional work"
         reflection: "This award reflects the privilege of a good education and the responsibility to give back to the community that invested in me"
         image: "/img/awards/nus-outstanding-young-alumni-1.jpeg"
+        url: "/posts/awards/nus-outstanding-young-alumni-award/"
       
       - name: "Singapore Kindness Movement Voice of Loving Kindness 2022"
         organization: "Singapore Kindness Movement"
         context: "Recognition of folks who ignited this spark in me"
         reflection: "The Voice of Loving Kindness recognition that SKM gave me is not mine alone. It really serves to recognize the folks who ignited this spark in me—mentors, volunteers, community members who showed me what caring for others looks like"
         image: "/img/awards/skm-voice-of-loving-kindness-1.jpg"
+        url: "/posts/awards/skm-voice-of-loving-kindness/"
       
       - name: "NUS Computing Outstanding Young Alumni Award 2022"
         organization: "NUS School of Computing"
         context: "Recognition of using technical skills to serve community needs"
         reflection: "Computing skills are powerful tools. This award recognizes using those tools in service of people, not just technology for technology's sake"
         image: "/img/awards/nus-computing-young-alumni-1.jpeg"
+        url: "/posts/awards/nus-computing-outstanding-young-alumni-award/"
+
+    media_mentions:
+      - title: "PayPal Newsroom Feature"
+        date: "2022-01-27"
+        url: "/posts/media/paypal-newsroom-feature/"
+      - title: "We Are Majulah Feature"
+        date: "2021-11-26"
+        url: "/posts/media/we-are-majulah-feature/"
     
     closing_note: |
       These recognitions are humbling reminders that what we do matters to others. But the real reward is seeing families get the help they need, students discover new paths, communities come together, and knowing we played a small part in making that happen.
