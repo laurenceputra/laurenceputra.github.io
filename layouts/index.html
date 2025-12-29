@@ -719,8 +719,8 @@
                 <div class="initiative-card">
                     <h3>{{ .name }}</h3>
                     <p class="role">{{ .role }}</p>
-                    {{ with .image }}
-                    <img src="{{ . }}" alt="{{ $.image_alt }}" loading="lazy">
+                    {{ if .image }}
+                    <img src="{{ .image }}" alt="{{ .image_alt }}" loading="lazy">
                     {{ end }}
                     {{ .description | markdownify }}
                     {{ with .team_note }}
@@ -743,13 +743,13 @@
             </div>
             
             <div class="journey-timeline">
-                {{ range .Params.journey.parallel_paths }}
+                {{ range $idx, $item := .Params.journey.parallel_paths }}
                 <div class="timeline-item">
-                    <div class="timeline-period">{{ .period }}</div>
+                    <div class="timeline-period">{{ $item.period }}</div>
                     
                     <div class="timeline-column">
                         <h4>Tech Work</h4>
-                        {{ range .tech_work }}
+                        {{ range $item.tech_work }}
                         <p><strong>{{ .role }}</strong></p>
                         <p>{{ delimit .companies ", " }}</p>
                         <p>{{ .focus }}</p>
@@ -758,7 +758,7 @@
                     
                     <div class="timeline-column">
                         <h4>Community Work</h4>
-                        {{ range .community_work }}
+                        {{ range $item.community_work }}
                         <p><strong>{{ .role }}</strong></p>
                         <p>{{ .organization }}</p>
                         <p>{{ .achievement }}</p>
@@ -768,13 +768,13 @@
                         {{ end }}
                     </div>
                     
-                    {{ with .philosophy }}
+                    {{ with $item.philosophy }}
                     <div class="philosophy-note">{{ . | markdownify }}</div>
                     {{ end }}
                     
-                    {{ with .image }}
+                    {{ if $item.image }}
                     <div class="timeline-image">
-                        <img src="{{ . }}" alt="{{ $.image_alt }}" loading="lazy">
+                        <img src="{{ $item.image }}" alt="{{ $item.image_alt }}" loading="lazy">
                     </div>
                     {{ end }}
                 </div>
@@ -792,13 +792,13 @@
                 <p class="lead-text">{{ .Params.impact.introduction | markdownify }}</p>
             </div>
             
-            {{ range .Params.impact.projects }}
+            {{ range $pidx, $proj := .Params.impact.projects }}
             <div class="project-card">
-                <h3>{{ .name }}</h3>
-                <p class="period">{{ .period }}</p>
-                {{ .description | markdownify }}
+                <h3>{{ $proj.name }}</h3>
+                <p class="period">{{ $proj.period }}</p>
+                {{ $proj.description | markdownify }}
                 
-                {{ with .impact }}
+                {{ with $proj.impact }}
                 <div class="impact-list">
                     <ul>
                     {{ range . }}
@@ -808,27 +808,27 @@
                 </div>
                 {{ end }}
                 
-                {{ with .team_credits }}
+                {{ with $proj.team_credits }}
                 <div class="team-credits">{{ . | markdownify }}</div>
                 {{ end }}
                 
-                {{ with .recognition }}
+                {{ with $proj.recognition }}
                 <div class="recognition">
                     <div class="award-name">{{ .award }} ({{ .context }})</div>
                     <p>{{ .frame }}</p>
                 </div>
                 {{ end }}
                 
-                {{ with .quote }}
+                {{ with $proj.quote }}
                 <blockquote>{{ . | markdownify }}</blockquote>
                 {{ end }}
                 
-                {{ with .philosophy }}
+                {{ with $proj.philosophy }}
                 <p><em>{{ . | markdownify }}</em></p>
                 {{ end }}
                 
-                {{ with .image }}
-                <img src="{{ . }}" alt="{{ $.image_alt }}" loading="lazy">
+                {{ if $proj.image }}
+                <img src="{{ $proj.image }}" alt="{{ $proj.image_alt }}" loading="lazy">
                 {{ end }}
             </div>
             {{ end }}
@@ -838,15 +838,15 @@
             </div>
             
             <div class="awards-grid">
-                {{ range .Params.impact.awards_context.awards }}
+                {{ range $aidx, $award := .Params.impact.awards_context.awards }}
                 <div class="award-card">
-                    {{ with .image }}
-                    <img src="{{ . }}" alt="{{ $.name }} award photo" loading="lazy">
+                    {{ if $award.image }}
+                    <img src="{{ $award.image }}" alt="{{ $award.name }} award photo" loading="lazy">
                     {{ end }}
-                    <h4>{{ .name }}</h4>
-                    <p class="org">{{ .organization }}</p>
-                    <p class="context">{{ .context }}</p>
-                    {{ with .reflection }}
+                    <h4>{{ $award.name }}</h4>
+                    <p class="org">{{ $award.organization }}</p>
+                    <p class="context">{{ $award.context }}</p>
+                    {{ with $award.reflection }}
                     <p><em>{{ . }}</em></p>
                     {{ end }}
                 </div>
