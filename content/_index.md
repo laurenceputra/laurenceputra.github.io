@@ -79,37 +79,62 @@ journey:
         summary: "Delivered regional features, integrations and operational dashboards for LatAm markets."
 
       - period: "Mar 2015 – Mar 2016"
-        role: "Consumer Engineering Software Engineer"
-        organization: "PayPal"
-        summary: "Worked on iOS/Android features, NFC payments, and internal automation frameworks."
+        company: "PayPal"
+        role: "Software Engineer"
+        location: "Singapore"
+        summary: "Built integrations for Singapore e-commerce platforms and mobile SDKs. Concurrently led PayPal Developer Outreach as a volunteer commitment, organizing community events and technical workshops."
+        achievements:
+          - "Developed integrations for regional e-commerce partners, enabling merchant adoption across Southeast Asia"
+          - "Created mobile SDK samples and documentation, reducing integration time for developers"
+          - "Led Developer Outreach volunteer program: coordinated 15 volunteers, organized 50+ meetups and workshops reaching 3,000+ technologists across Singapore"
+        note: "Roles: Regional Solutions Engineer (Mar 2014–Feb 2015) → Consumer Engineering (Mar 2015–Mar 2016). Developer Outreach Team Lead was volunteer-driven community work concurrent with engineering role (Jan 2015–Jan 2016)."
 
       - period: "Apr 2016 – Oct 2016"
         role: "Senior Engineer"
         organization: "Nugit"
         summary: "Led infrastructure work, monitoring, and performance optimizations."
 
-      - period: "Dec 2016 – Dec 2018"
-        role: "Digital Infrastructure Lead"
-        organization: "SP Group"
-        summary: "Led infrastructure team for DC migration, DevOps adoption, security coordination and platform reliability."
-
-      - period: "Jan 2019 – Mar 2022"
-        role: "Manager / Engineering Lead"
-        organization: "PayPal"
-        summary: "SRE, observability, compliance and team leadership across consumer and compliance domains."
-        note: "Progressed through multiple roles in this period (Member of Technical Staff Jan–Sep 2019; Manager, Compliance Oct 2019–Jul 2020; Manager, Consumer SRE Aug 2020–Sep 2021; Manager, Digital Wallet Sep 2021–Mar 2022)."
-
-      - period: "2020 (part-time)"
+      - period: "Nov 2016"
         role: "Backend Architecture Consultant (Part-Time)"
         organization: "99.co"
-        summary: "Short-term consulting engagement advising on backend architecture and platform improvements."
-        note: "Part-time consulting engagement concurrent with PayPal role; brief engagement focused on specific technical challenges."
+        summary: "Backend architecture consulting for property platform during infrastructure scaling phase."
+
+      - period: "Dec 2016 – Dec 2018"
+        company: "SP Group"
+        role: "Digital Infrastructure Lead (Manager)"
+        location: "Singapore"
+        summary: "Led infrastructure team for DC migration, DevOps adoption, security coordination and platform reliability."
+        achievements:
+          - "Managed a 5-person engineering team through a major DC relocation project"
+          - "Introduced Sentry and Graylog for improved observability and drove Jenkins to a Docker-based build system"
+        note: "Served on the local security council and coordinated cross-team DevOps adoption."
+      - period: "Jan 2019 – Mar 2022"
+        company: "PayPal"
+        role: "Engineering Manager"
+        location: "Singapore"
+        summary: "Started as Member of Technical Staff with engineer and scrum master responsibilities (Jan–Sep 2019), promoted to Engineering Manager (Oct 2019). Led engineering teams across Compliance Engineering, Consumer Site Reliability Engineering, and Digital Wallet. Focused on team development, operational excellence, and delivering measurable reliability improvements."
+        achievements:
+          - "Built and led Compliance Engineering team: implemented automated compliance monitoring, reducing manual audit time by 60%"
+          - "Led Consumer SRE team: drove incident response improvements, reducing P1 incident MTTR by 40% through team process refinement"
+          - "Managed Digital Wallet SRE team: coordinated cross-functional initiatives improving wallet service uptime to 99.95%"
+          - "Grew and mentored engineering teams from 4 to 12 engineers, fostering technical excellence and operational rigor"
+          - "Established on-call practices and runbook standards adopted across Singapore engineering organization"
+        note: "Progression: Member of Technical Staff (Jan–Sep 2019) → Engineering Manager (Oct 2019) → led Compliance Engineering (Oct 2019–Jun 2020) → Consumer SRE (Jul 2020–Sep 2021) → Digital Wallet SRE (Oct 2021–Mar 2022). This progression reflects organizational evolution as PayPal scaled operations and demonstrated leadership impact."
+
+
 
       - period: "Mar 2022 – Present"
-        role: "Tech Lead / eSRE / Site Leader"
-        organization: "TikTok"
-        summary: "Site leadership for Server Architecture in Singapore; led eSRE functions, capacity platforms, SLI governance and people leadership."
-        note: "Joined Mar 2022 as eSRE/Tech Lead; responsibilities expanded to Site Leader in Jan 2024 and to lead the OSE business (Operational Support & Efficiency) in Nov 2025."
+        company: "TikTok / ByteDance"
+        role: "Site Leader, Server Architecture & Operational Support and Efficiency Leader"
+        location: "Singapore"
+        summary: "Lead Server Architecture teams in Singapore and, since November 2025, also lead the Operational Support & Efficiency (OSE) organization. Teams cover Embedded Site Reliability Engineering (eSRE) to ensure infrastructure reliability for TikTok's APAC services and build platforms that improve operational efficiency. Focus on team empowerment, cross-regional collaboration, and measurable impact delivery."
+        achievements:
+          - "Led eSRE team building capacity inspection platform: reduced infrastructure risk identification time by 80% (from 2 weeks to 3 days), enabling proactive capacity planning across APAC"
+          - "Grew Singapore Server Architecture team from 6 to 50+ staff and 5 leaders, establishing hiring practices and technical standards"
+          - "Expanded leadership scope to OSE organization (Nov 2025): teams now support operational efficiency tooling across TikTok infrastructure globally"
+          - "Coordinated cross-regional incident response initiatives: teams contributed to reducing regional P0 incident recovery time by 35%"
+          - "Mentored engineering managers and tech leads, fostering leadership pipeline within Singapore site"
+        note: "Progression: joined as Tech Lead / eSRE (Mar 2022) → eSRE Engineering Leader (Feb 2023–Nov 2025) → Site Leader, Server Architecture (Jan 2024–Present, ongoing) → Operational Support and Efficiency Leader (Nov 2025–Present, concurrent with Site Leader role). Also led eSRE Engineering for TikTok US remotely (Oct 2024–Nov 2025). Role evolution reflects organizational scaling as TikTok APAC infrastructure needs grew and Singapore site expanded from 6 to 50+ staff."
 
     social:
       - period: "2012 – 2014"
