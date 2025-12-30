@@ -956,7 +956,17 @@
             <div class="awards-grid">
                 {{ range $aidx, $award := .Params.impact.awards_context.awards }}
                 <div class="award-card">
-                  <a class="award-link" href="{{ $award.url | relURL }}">
+                  {{ $p := site.GetPage "page" (printf "posts/awards/%s.md" $award.page) }}
+                  {{ if $p }}
+                    <a class="award-link" href="{{ $p.RelPermalink }}">
+                  {{ else }}
+                    {{ $p2 := where site.RegularPages "Title" $award.name | first 1 }}
+                    {{ if $p2 }}
+                      <a class="award-link" href="{{ $p2.RelPermalink }}">
+                    {{ else }}
+                      <a class="award-link" href="{{ $award.url | relURL }}">
+                    {{ end }}
+                  {{ end }}
                     {{ if $award.image }}
                     <img src="{{ $award.image }}" alt="{{ $award.name }} award photo" loading="lazy">
                     {{ end }}

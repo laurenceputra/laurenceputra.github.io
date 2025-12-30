@@ -30,6 +30,10 @@ CI Validation
   - Each file in `content/posts/awards/*.md` has a `categories` front matter and includes "Awards".
   - Each `external_url` (if present) uses `https://`.
   - The workflow will **warn** if `external_url` is missing or empty (the warning does not fail the build but surfaces on PRs for review).
+  - It also checks that the `page` field in `content/_index.md` references an existing `content/posts/awards/<page>.md` file. Use this field to point the homepage item to the internal award post. Consider using `award_slug` instead of `page` for clarity in future edits.
+
+Notes:
+- For institutional awards (e.g., Presidential/NUS/Ministerial recognitions) prefer adding an authoritative `external_url` (government or university press release) — the CI will warn if missing.
 
 Implementation notes
 - Homepage shows compact award cards and links to internal post pages. External `external_url` fields are shown on the award detail page in the "Verification" section.

@@ -2,6 +2,10 @@
 title: "People of Good Award"
 date: 2020-10-16T18:58:00Z
 author: "laurence"
+external_url: "https://www.facebook.com/projectstablestaples/"
+external_url_label: "Project Stable Staples Facebook"
+external_url_verified_date: "2025-12-30"
+external_url_status: "active"
 categories:
   - "Awards"
 tags:

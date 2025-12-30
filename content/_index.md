@@ -187,6 +187,7 @@ impact:
         organization: "President's Volunteerism & Philanthropy Awards"
         context: "Recognized Project Stable Staples—belongs to all 73 volunteers"
         image: "/img/awards/people-of-good-award-1.jpeg"
+        page: "people-of-good-award"
         url: "/posts/awards/people-of-good-award/"
         
       - name: "NUS Outstanding Young Alumni Award 2021"
@@ -194,6 +195,7 @@ impact:
         context: "Recognition of sustained community service alongside professional work"
         reflection: "This award reflects the privilege of a good education and the responsibility to give back to the community that invested in me"
         image: "/img/awards/nus-outstanding-young-alumni-1.jpeg"
+        page: "nus-outstanding-young-alumni-award"
         url: "/posts/awards/nus-outstanding-young-alumni-award/"
       
       - name: "Singapore Kindness Movement Voice of Loving Kindness 2022"
@@ -201,6 +203,7 @@ impact:
         context: "Recognition of folks who ignited this spark in me"
         reflection: "The Voice of Loving Kindness recognition that SKM gave me is not mine alone. It really serves to recognize the folks who ignited this spark in me—mentors, volunteers, community members who showed me what caring for others looks like"
         image: "/img/awards/skm-voice-of-loving-kindness-1.jpg"
+        page: "skm-voice-of-loving-kindness"
         url: "/posts/awards/skm-voice-of-loving-kindness/"
       
       - name: "NUS Computing Outstanding Young Alumni Award 2022"
@@ -208,6 +211,7 @@ impact:
         context: "Recognition of using technical skills to serve community needs"
         reflection: "Computing skills are powerful tools. This award recognizes using those tools in service of people, not just technology for technology's sake"
         image: "/img/awards/nus-computing-young-alumni-1.jpeg"
+        page: "nus-computing-outstanding-young-alumni-award"
         url: "/posts/awards/nus-computing-outstanding-young-alumni-award/"
 
     media_mentions:

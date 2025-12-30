@@ -32,6 +32,19 @@ for f in content/posts/awards/*.md; do
   fi
 done
 
+# Validate referenced pages in content/_index.md
+if grep -q "page:" content/_index.md; then
+  while IFS= read -r line; do
+    page=$(echo "$line" | sed -E 's/^[[:space:]]*page:[[:space:]]*"?([^"]*)"?$/\1/')
+    if [[ -n "$page" ]]; then
+      if [[ ! -f "content/posts/awards/$page.md" ]]; then
+        echo "ERROR: content/_index.md references page '$page' but content/posts/awards/$page.md not found"
+        errs=$((errs+1))
+      fi
+    fi
+  done < <(grep "^[[:space:]]*page:" content/_index.md)
+fi
+
 if [ "$errs" -ne 0 ]; then
   echo "$errs errors found"
   exit 1
