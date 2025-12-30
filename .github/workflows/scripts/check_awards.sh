@@ -45,6 +45,15 @@ if grep -q "page:" content/_index.md; then
   done < <(grep "^[[:space:]]*page:" content/_index.md)
 fi
 
+# Ensure every award post is referenced in content/_index.md
+for af in content/posts/awards/*.md; do
+  base=$(basename "$af" .md)
+  if ! grep -qE "page:[[:space:]]*\"?$base\"?" content/_index.md; then
+    echo "ERROR: Award post $af is not referenced in content/_index.md (missing page: \"$base\")"
+    errs=$((errs+1))
+  fi
+done
+
 if [ "$errs" -ne 0 ]; then
   echo "$errs errors found"
   exit 1

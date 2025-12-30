@@ -25,6 +25,19 @@
     .award-verification .external-icon { margin-left: 0.25rem; font-size: 0.9rem; }
     .award-verification small { display: inline-block; margin-left: 0.5rem; color: var(--text-secondary); font-size: 0.9rem; }
 
+    /* Ensure footer links render horizontally on post pages */
+    footer .footer-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    footer .footer-links a { color: rgba(255,255,255,0.8); transition: color 0.2s ease; }
+    footer .footer-links a:hover { color: #fff; }
+
+    /* Constrain post images to container */
+    .page-content img { max-width: 100%; height: auto; display: block; margin: 1.5rem auto; }
+
     @media (max-width: 768px) { .page-header h1 { font-size: 2rem; } .page-content { padding: 3rem 1.5rem; } }
 </style>
 
