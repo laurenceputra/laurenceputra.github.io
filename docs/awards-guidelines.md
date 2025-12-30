@@ -29,6 +29,7 @@ CI Validation
 - A GitHub Actions workflow runs on PRs and push to validate award posts. It checks:
   - Each file in `content/posts/awards/*.md` has a `categories` front matter and includes "Awards".
   - Each `external_url` (if present) uses `https://`.
+  - The workflow will **warn** if `external_url` is missing or empty (the warning does not fail the build but surfaces on PRs for review).
 
 Implementation notes
 - Homepage shows compact award cards and links to internal post pages. External `external_url` fields are shown on the award detail page in the "Verification" section.

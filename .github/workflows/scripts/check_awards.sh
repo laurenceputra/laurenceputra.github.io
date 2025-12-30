@@ -16,15 +16,19 @@ for f in content/posts/awards/*.md; do
     echo "ERROR: $f categories does not include 'Awards'"
     errs=$((errs+1))
   fi
-  # Check external_url if present
+  # Check external_url presence and value
   if echo "$fm" | grep -q "external_url:"; then
     url=$(echo "$fm" | sed -n 's/^[[:space:]]*external_url:[[:space:]]*"\?\(.*\)"\?$/\1/p' | head -n1)
-    if [[ -n "$url" ]]; then
+    if [[ -z "$url" ]]; then
+      echo "WARNING: $f has empty external_url"
+    else
       if [[ ! "$url" =~ ^https:// ]]; then
         echo "ERROR: $f external_url is not https: $url"
         errs=$((errs+1))
       fi
     fi
+  else
+    echo "WARNING: $f missing 'external_url' front matter (optional; add if public announcement exists)"
   fi
 done
 

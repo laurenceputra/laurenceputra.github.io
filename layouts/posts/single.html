@@ -51,24 +51,29 @@
 
         {{/* Award verification block: shown for posts where categories include "Awards" */}}
         {{ if and (isset .Params "categories") (in .Params.categories "Awards") }}
-          {{ with .Params.external_url }}
+          {{ if .Params.external_url }}
             <section class="award-verification" aria-label="award verification">
               <h3>Verification</h3>
               <p>
-                <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="{{ $.Title }} - {{ $.Params.external_url_label | default "Official announcement" }} (opens in new tab)">
-                  {{ $.Params.external_url_label | default "Official announcement" }}
+                <a href="{{ .Params.external_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Title }} - {{ .Params.external_url_label | default "Official announcement" }} (opens in new tab)">
+                  {{ .Params.external_url_label | default "Official announcement" }}
                   <span aria-hidden="true" class="external-icon">↗</span>
                 </a>
-                {{ with $.Params.external_url_archive }}
+                {{ with .Params.external_url_archive }}
                   <span aria-hidden="true"> • </span>
                   <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Archived copy of {{ $.Title }} official announcement (opens in new tab)">
                     Archived copy <span aria-hidden="true" class="external-icon">↗</span>
                   </a>
                 {{ end }}
-                {{ with $.Params.external_url_verified_date }}
+                {{ with .Params.external_url_verified_date }}
                   <small aria-hidden="true">Last verified: {{ . }}</small>
                 {{ end }}
               </p>
+            </section>
+          {{ else }}
+            <section class="award-verification" aria-label="award verification">
+              <h3>Verification</h3>
+              <p><em>Verification pending — official announcement URL will be added when available.</em></p>
             </section>
           {{ end }}
         {{ end }}
