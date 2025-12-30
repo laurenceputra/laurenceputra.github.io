@@ -2,7 +2,7 @@
 name: wordpress-migrator
 description: Optional specialist for converting WordPress sites to Hugo through XML parsing, data transformation, and SEO metadata preservation
 model: Claude Sonnet 4.5 (copilot)
-version: 1.0.0
+version: 1.1.0
 handoffs:
   - label: "Quality review of migration results"
     agent: "quality-reviewer"

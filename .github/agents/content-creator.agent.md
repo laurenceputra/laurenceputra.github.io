@@ -2,7 +2,7 @@
 name: content-creator
 description: Hugo content generation specialist creating markdown posts with technically precise YAML/TOML front matter
 model: Claude Sonnet 4.5 (copilot)
-version: 1.0.0
+version: 1.1.0
 handoffs:
   - label: "Quality review of generated content"
     agent: "quality-reviewer"

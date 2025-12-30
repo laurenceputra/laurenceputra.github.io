@@ -2,16 +2,16 @@
 name: quality-reviewer
 description: Systematic validator of Hugo implementations, content quality, and accessibility standards
 model: Claude Sonnet 4.5 (copilot)
-version: 1.0.0
+version: 1.1.0
 handoffs:
   - label: "Return work to Hugo Specialist for revisions"
     agent: "hugo-specialist"
     prompt: "I found quality issues in the Hugo implementation (architecture, theme, or debugging). Here's my structured feedback - please address these issues and resubmit."
-    send: false
+    send: true
   - label: "Return work to Content Creator for revisions"
     agent: "content-creator"
     prompt: "I found quality issues in the generated content (front matter, formatting, or style). Here's my structured feedback - please address these issues and resubmit."
-    send: false
+    send: true
   - label: "Send approved work to Devil's Advocate for critical review"
     agent: "devils-advocate"
     prompt: "This work has been approved for systematic quality. Here's the quality review report and the approved work. Please perform critical review of the implementation and quality assessment."

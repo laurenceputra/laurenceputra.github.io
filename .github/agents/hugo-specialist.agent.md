@@ -2,7 +2,7 @@
 name: hugo-specialist
 description: Hugo expert combining site architecture, theme customization, and technical troubleshooting for personal Hugo websites
 model: Claude Sonnet 4.5 (copilot)
-version: 1.0.0
+version: 1.1.0
 handoffs:
   - label: "Coordinate content generation needs"
     agent: "content-creator"

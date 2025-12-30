@@ -229,12 +229,15 @@ After Quality Reviewer approval:
 - Content Creator → Quality Reviewer
 - WordPress Migrator → Quality Reviewer
 - Quality Reviewer → Devil's Advocate
-- All revision loops
+- Quality Reviewer → Specialists (for revision feedback)
+- Devil's Advocate → Specialists (for critical concern revisions)
+- Devil's Advocate → Quality Reviewer (for re-assessment)
+- All revision loops and iteration cycles
 
 **Final User Review**: `send: false` (user review required)
-- Devil's Advocate → User
+- Devil's Advocate → User (approved work or impasse)
 
-**Rationale**: Agents collaborate internally with automatic handoffs (agents validate work before moving forward). Only final deliverable requires user review before deployment. This eliminates checkpoint fatigue while maintaining quality gates.
+**Rationale**: Agents collaborate internally with automatic handoffs to enable rapid iteration through both quality gates. The dual quality gate workflow requires specialists, Quality Reviewer, and Devil's Advocate to iterate freely until both approve or an impasse is detected. Only final deliverable (approved work) or impasse (requires human decision) returns to user. This eliminates checkpoint fatigue while ensuring thorough validation through both systematic review and critical thinking.
 
 ## Agent Coordination
 
@@ -315,24 +318,36 @@ The dual quality gate approach (Quality Reviewer + Devil's Advocate) adds one ha
 ## Workflow Iteration Scenarios
 
 ### Scenario 1: Quality Reviewer Finds Issues
-1. Quality Reviewer returns work to Hugo Specialist with structured feedback
-2. Hugo Specialist revises on same branch
-3. Quality Reviewer re-reviews
-4. If approved, goes to Devil's Advocate
-5. If critical concerns, returns to Hugo Specialist
+1. Quality Reviewer returns work to Hugo Specialist with structured feedback (send: true, automatic)
+2. Hugo Specialist revises work
+3. Hugo Specialist resubmits to Quality Reviewer (send: true, automatic)
+4. Quality Reviewer re-reviews
+5. If approved, goes to Devil's Advocate (send: true, automatic)
+6. If still has issues, returns to Hugo Specialist (iteration continues)
 
 ### Scenario 2: Devil's Advocate Surfaces Critical Concerns
-1. Devil's Advocate returns work to Hugo Specialist for reconsideration
+1. Devil's Advocate returns work to Hugo Specialist for reconsideration (send: true, automatic)
 2. Hugo Specialist revises approach
-3. Quality Reviewer re-reviews revised work
-4. Devil's Advocate re-reviews after quality re-approval
-5. Cycle continues until approved
+3. Hugo Specialist resubmits to Quality Reviewer (send: true, automatic)
+4. Quality Reviewer re-validates revised work
+5. Quality Reviewer sends to Devil's Advocate (send: true, automatic)
+6. Devil's Advocate re-reviews after quality re-approval
+7. Cycle continues until both gates satisfied or impasse detected
 
-### Scenario 3: Multiple Iterations Needed
-- Quality issues → back to specialist
-- Critical issues → back to specialist (Quality re-reviews)
-- Both types → iterates until both gates satisfied
-- Goal: Converge on quality solution, not checkpoint fatigue
+### Scenario 3: Impasse Detected (Requires Human Decision)
+After 3+ iterations, if fundamental disagreement persists:
+1. Devil's Advocate documents all perspectives with full reasoning
+2. Explains core disagreement (e.g., maintainability vs. flexibility)
+3. Presents trade-offs explicitly
+4. Returns to user with "Requires Human Decision (Impasse)" status (send: false)
+5. User reviews both perspectives and decides based on priorities
+6. No blame assigned - both perspectives valid, requires user context to resolve
+
+**Iteration Goals**:
+- Automatic handoffs (send: true) enable rapid feedback loops
+- Both gates must approve OR impasse must be declared
+- Goal: Converge on quality solution through collaboration
+- Impasse detection prevents endless loops when user decision needed
 
 ## When to Use Each Agent
 
@@ -374,12 +389,18 @@ Quality Reviewer (systematic validation)
       ↓
 Devil's Advocate (critical thinking)
       ↓
-User Review (final decision)
+      ├─ Approved → User Review (final decision)
+      ├─ Critical Concerns → Back to Specialist (Quality re-reviews)
+      └─ Impasse (3+ iterations) → User Decision Required
 ```
 
 Each gate has distinct responsibility:
 - **Quality Reviewer**: "Does this meet standards?"
 - **Devil's Advocate**: "Have we considered everything? Are assumptions correct?"
-- **User**: "Does this work for my needs?"
+- **User**: "Does this work for my needs?" OR "Which approach should we take? (impasse)"
 
-This structure ensures both systematic validation and critical thinking are applied, improving final quality and user confidence in the output.
+**Iteration Loop**: Work cycles through Specialist → Quality Reviewer → Devil's Advocate automatically (send: true) until:
+1. Both gates approve → Returns to user with approved work
+2. Impasse detected (3+ iterations, fundamental disagreement) → Returns to user for decision
+
+This structure ensures both systematic validation and critical thinking are applied through automatic iteration loops, improving final quality while preventing endless cycles when user priorities are needed to resolve disagreements.

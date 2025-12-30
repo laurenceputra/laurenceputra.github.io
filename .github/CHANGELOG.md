@@ -4,6 +4,35 @@ All notable changes to the Hugo Website Management agent group are documented in
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-12-30
+
+### Changed
+- **Dual Quality Gate Iteration Workflow**: Refactored handoff chains to enforce automatic iteration until both quality gates are satisfied or impasse is detected
+  - **Quality Reviewer**: Changed handoffs to specialists from `send: false` → `send: true` for automatic revision loops
+  - **Devil's Advocate**: Changed handoffs to specialists from `send: false` → `send: true` for automatic revision loops
+  - **Devil's Advocate**: Changed handoff to Quality Reviewer from `send: false` → `send: true` for automatic re-assessment
+  - **Iteration Loop**: Work now cycles automatically through Specialist → Quality Reviewer → Devil's Advocate until both approve or impasse detected
+  
+### Added
+- **Impasse Detection**: Added comprehensive impasse handling to Devil's Advocate agent
+  - Detects fundamental disagreements after 3+ iterations
+  - Documents all perspectives with full reasoning
+  - Returns to user with "Requires Human Decision (Impasse)" status when user priorities needed
+  - Prevents endless iteration loops when technical approaches are both valid but serve different goals
+- **Output Status**: Added "Requires Human Decision (Impasse)" approval status to Devil's Advocate
+- **Workflow Documentation**: Enhanced copilot-instructions.md with detailed iteration scenarios including impasse handling
+- **Send Default Policy**: Updated to document all iteration handoffs as automatic (`send: true`)
+
+### Migration Guide
+- No breaking changes for users - workflow improvements are internal to agent coordination
+- Agents now iterate automatically through both quality gates without manual intervention
+- Users are consulted only for final approval or when impasse requires priority decision
+
+## [1.0.1] - 2025-12-29
+
+### Added
+- **COMMON-PATTERNS.md**: Added Writing Style Guidelines for natural, human-like output across all agents in the group (aligned with other agent groups in the repository)
+
 ## [1.0.0] - 2025-01-28
 
 ### Added
