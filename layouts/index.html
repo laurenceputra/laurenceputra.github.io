@@ -538,6 +538,38 @@
         margin-bottom: 1rem;
     }
 
+    .award-card a.award-link {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+    }
+
+    .award-card a.award-link:focus {
+        outline: 3px solid var(--primary-color);
+        outline-offset: 3px;
+        border-radius: 8px;
+    }
+
+    .award-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-md);
+    }
+
+    /* Prevent layout shift by reserving aspect ratio */
+    .award-card img {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        min-height: 150px;
+    }
+
+    .award-card h4 {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+
     .award-card h4 {
         font-size: 1.1rem;
         color: var(--text-primary);
@@ -924,6 +956,7 @@
             <div class="awards-grid">
                 {{ range $aidx, $award := .Params.impact.awards_context.awards }}
                 <div class="award-card">
+                  <a class="award-link" href="{{ $award.url | relURL }}">
                     {{ if $award.image }}
                     <img src="{{ $award.image }}" alt="{{ $award.name }} award photo" loading="lazy">
                     {{ end }}
@@ -933,6 +966,7 @@
                     {{ with $award.reflection }}
                     <p><em>{{ . }}</em></p>
                     {{ end }}
+                  </a>
                 </div>
                 {{ end }}
             </div>

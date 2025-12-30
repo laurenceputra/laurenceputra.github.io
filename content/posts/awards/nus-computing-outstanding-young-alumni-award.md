@@ -2,6 +2,10 @@
 title: "NUS Computing Outstanding Young Alumni Award"
 date: 2022-09-17T18:39:00Z
 author: "laurence"
+external_url: "https://www.comp.nus.edu.sg/news/awards/"
+external_url_label: "NUS Computing announcement"
+external_url_verified_date: "2025-12-30"
+external_url_status: "active"
 categories:
   - "Awards"
 tags:

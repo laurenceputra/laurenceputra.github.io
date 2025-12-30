@@ -1,0 +1,16 @@
+name: Awards validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - copilot/redo-main-page-structure
+
+jobs:
+  check-awards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run awards validation script
+        run: ./.github/workflows/scripts/check_awards.sh

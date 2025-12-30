@@ -2,6 +2,10 @@
 title: "NUS Outstanding Young Alumni Award"
 date: 2021-11-06T07:31:49Z
 author: "laurence"
+external_url: "https://www.nus.edu.sg/alumnet/events/alumniawards"
+external_url_label: "NUS Alumni Awards"
+external_url_verified_date: "2025-12-30"
+external_url_status: "active"
 categories:
   - "Awards"
 tags:

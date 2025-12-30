@@ -1,0 +1,105 @@
+{{ define "main" }}
+<style>
+    /* Post page specific styles including award verification */
+    .page-header {
+        margin-top: 80px;
+        padding: 4rem 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        text-align: center;
+    }
+
+    .page-header h1 { font-size: 3rem; margin: 0; }
+
+    .page-content { padding: 4rem 0; max-width: 900px; margin: 0 auto; }
+
+    .award-verification {
+        margin-top: 2rem;
+        padding: 1rem 1.25rem;
+        background: var(--bg-secondary);
+        border-left: 4px solid var(--primary-color);
+        border-radius: 8px;
+    }
+
+    .award-verification a { color: var(--primary-color); text-decoration: none; font-weight: 600; }
+    .award-verification .external-icon { margin-left: 0.25rem; font-size: 0.9rem; }
+    .award-verification small { display: inline-block; margin-left: 0.5rem; color: var(--text-secondary); font-size: 0.9rem; }
+
+    @media (max-width: 768px) { .page-header h1 { font-size: 2rem; } .page-content { padding: 3rem 1.5rem; } }
+</style>
+
+<nav>
+    <div class="container">
+        <a href="/" class="logo">@{{ .Site.Params.twitter }}</a>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/awards/">Awards</a></li>
+            <li><a href="/media/">Media</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="page-header">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+    </div>
+</header>
+
+<article class="page-content">
+    <div class="container">
+        {{ .Content }}
+
+        {{/* Award verification block: shown for posts where categories include "Awards" */}}
+        {{ if and (isset .Params "categories") (in .Params.categories "Awards") }}
+          {{ with .Params.external_url }}
+            <section class="award-verification" aria-label="award verification">
+              <h3>Verification</h3>
+              <p>
+                <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="{{ $.Title }} - {{ $.Params.external_url_label | default "Official announcement" }} (opens in new tab)">
+                  {{ $.Params.external_url_label | default "Official announcement" }}
+                  <span aria-hidden="true" class="external-icon">↗</span>
+                </a>
+                {{ with $.Params.external_url_archive }}
+                  <span aria-hidden="true"> • </span>
+                  <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Archived copy of {{ $.Title }} official announcement (opens in new tab)">
+                    Archived copy <span aria-hidden="true" class="external-icon">↗</span>
+                  </a>
+                {{ end }}
+                {{ with $.Params.external_url_verified_date }}
+                  <small aria-hidden="true">Last verified: {{ . }}</small>
+                {{ end }}
+              </p>
+            </section>
+          {{ end }}
+        {{ end }}
+
+    </div>
+</article>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="logo">Laurence Putra Franslay</div>
+            <ul class="footer-links">
+                <li><a href="https://github.com/{{ .Site.Params.github }}" target="_blank" id="gheLink">GitHub</a></li>
+                <li><a href="https://flickr.com/{{ .Site.Params.flickr }}" target="_blank" id="flickrLink">Flickr</a></li>
+                <li><a href="/Resume.pdf" target="_blank" id="cvLink">CV</a></li>
+                <li><a href="/awards/">Awards</a></li>
+                <li><a href="/media/">Media</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            © 2025 Laurence Putra Franslay. All rights reserved.
+        </div>
+    </div>
+</footer>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    mixpanel.track_links('#gheLink', 'Clicked GitHub Link');
+    mixpanel.track_links('#flickrLink', 'Clicked Flickr Link');
+    mixpanel.track_links('#cvLink', 'Clicked CV Link');
+    mixpanel.track("Page Loaded - {{ .Title }}");
+</script>
+{{ end }}
