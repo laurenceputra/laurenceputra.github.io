@@ -73,11 +73,4 @@
 </footer>
 {{ end }}
 
-{{ define "scripts" }}
-<script>
-    mixpanel.track_links('#gheLink', 'Clicked GitHub Link');
-    mixpanel.track_links('#flickrLink', 'Clicked Flickr Link');
-    mixpanel.track_links('#cvLink', 'Clicked CV Link');
-    mixpanel.track("Page Loaded - {{ .Title }}");
-</script>
-{{ end }}
+{{ define "scripts" }}{{ end }}

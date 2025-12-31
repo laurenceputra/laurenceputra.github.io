@@ -417,12 +417,6 @@
 
 {{ define "scripts" }}
 <script>
-    // Track analytics
-    mixpanel.track_links('#gheLink', 'Clicked GitHub Link');
-    mixpanel.track_links('#flickrLink', 'Clicked Flickr Link');
-    mixpanel.track_links('#cvLink', 'Clicked CV Link');
-    mixpanel.track("Page Loaded");
-
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
