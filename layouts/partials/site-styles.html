@@ -127,17 +127,46 @@ section .section-subtitle {
     border-radius: 8px;
 }
 
-/* Footer link styling */
+/* Footer */
+footer {
+    background: var(--text-primary);
+    color: white;
+    padding: 3rem 0 2rem;
+    margin-top: 4rem;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+footer .logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+footer .copyright {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+}
+
 footer .footer-links {
     display: flex;
     gap: 2rem;
     list-style: none;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 footer .footer-links a {
     color: rgba(255,255,255,0.8);
     transition: color 0.2s ease;
+    text-decoration: none;
 }
 
 footer .footer-links a:hover { color: #fff; }
