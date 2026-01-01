@@ -1,5 +1,21 @@
 {{ define "main" }}
 <style>
+    /* Skip Link for Accessibility */
+    .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #000;
+        color: white;
+        padding: 8px;
+        text-decoration: none;
+        z-index: 10001;
+    }
+    
+    .skip-link:focus {
+        top: 0;
+    }
+
     /* Navigation */
     nav {
         position: fixed;
@@ -40,10 +56,15 @@
         font-weight: 500;
         transition: color 0.2s ease;
         text-decoration: none;
+        padding: 8px 4px;
+        display: inline-block;
     }
 
-    nav .nav-links a:hover {
+    nav .nav-links a:hover,
+    nav .nav-links a:focus {
         color: var(--primary-color);
+        outline: 2px solid var(--primary-color);
+        outline-offset: 2px;
     }
 
     /* Page Header */
@@ -312,12 +333,18 @@
             gap: 1rem;
             font-size: 0.9rem;
         }
+        
+        nav .nav-links a {
+            padding: 12px 8px; /* Ensures minimum 44px touch target height */
+        }
 
         .award-card-content {
             padding: 1.5rem;
         }
     }
 </style>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
 
 <nav>
     <div class="container">
@@ -337,7 +364,7 @@
     </div>
 </header>
 
-<section class="awards-section">
+<section class="awards-section" id="main-content" role="main">
     <div class="container">
         {{ if .Pages }}
         <div class="awards-grid">
