@@ -6,3 +6,17 @@ resources/_gen/
 
 # Old index.html (kept as backup reference)
 index.html.bak
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# WordPress migration temporary files
+migrated-content/
+migrated-content.backup/
+wordpress-images.txt
+wordpress-export.xml
+*.WordPress.*.xml
+migration-report.md
+wordpress-posts.json
