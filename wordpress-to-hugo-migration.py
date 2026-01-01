@@ -114,8 +114,10 @@ class WordPressToHugoMigrator:
                     video_id = yt_match.group(1)
             return f'{{{{< youtube {video_id} >}}}}'
         
+        # Extract video ID directly from YouTube shortcode
         content = re.sub(r'\[youtube\s+(?:https?://)?(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([a-zA-Z0-9_-]+)\]', replace_youtube, content)
-        content = re.sub(r'\[embed\](https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([a-zA-Z0-9_-]+))\[/embed\]', replace_youtube, content)
+        # Extract video ID from embed shortcode (group 2 is the video ID)
+        content = re.sub(r'\[embed\](https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([a-zA-Z0-9_-]+))\[/embed\]', lambda m: f'{{{{< youtube {m.group(2)} >}}}}', content)
         
         # Gallery shortcode - mark for manual review
         if '[gallery' in content:

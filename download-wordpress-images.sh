@@ -160,7 +160,7 @@ echo ""
 UPDATED_FILES=0
 
 # Update paths in all markdown files
-find "$CONTENT_DIR" -name "*.md" -type f | while read -r file; do
+while read -r file; do
     # Replace WordPress URL patterns with Hugo static paths
     # Pattern: https://laurenceputra.com/wp-content/uploads/YYYY/MM/filename.jpg
     # Replace with: /img/section/filename.jpg
@@ -183,7 +183,7 @@ find "$CONTENT_DIR" -name "*.md" -type f | while read -r file; do
         echo "✓ Updated: $file"
         ((UPDATED_FILES++))
     fi
-done
+done < <(find "$CONTENT_DIR" -name "*.md" -type f)
 
 echo ""
 echo "✓ Updated image paths in $UPDATED_FILES files"

@@ -408,10 +408,7 @@
                 <div class="media-card-content">
                     {{ $mediaType := "Media" }}
                     {{ $badgeClass := "" }}
-                    {{ if in .Params.tags "video" }}
-                        {{ $mediaType = "Video" }}
-                        {{ $badgeClass = "video" }}
-                    {{ else if in .Params.tags "youtube" }}
+                    {{ if or (in .Params.tags "video") (in .Params.tags "youtube") }}
                         {{ $mediaType = "Video" }}
                         {{ $badgeClass = "video" }}
                     {{ else }}
