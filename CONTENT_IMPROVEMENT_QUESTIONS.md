@@ -6,37 +6,52 @@ This document contains comprehensive questions to help improve content quality a
 
 ## 1. Home Page Hero Section
 
-### Current Roles & Responsibilities
+### Current Roles & Responsibilities (answered)
 
-1. **Site Leader, Server Architecture @ TikTok**: Can you provide more specific details about your role?
-   - How large is the Server Architecture organization you lead?
-   - What specific aspects of infrastructure and technical strategy do you oversee?
-   - What are your key achievements in this role (e.g., infrastructure improvements, cost savings, reliability metrics)?
-   - When did you start in this role?
+1. Site Leader, Server Architecture — TikTok (Singapore)
+   - Title shown: Site Leader, Server Architecture (Singapore).
+   - Start: Jan 2024 (at TikTok since Mar 2022).
+   - Team / scope: Server Architecture (SG) ~50 staff; responsible for local site build and localisation of management.
+   - Core responsibilities:
+     - Lead localisation of site operations and build out the Singapore org capability.
+     - Support people‑management gaps for leaders based overseas.
+     - Build culture and operational practices from the ground up.
+   - Positioning note: responsible for translating global platform practices into a local, operationally independent site.
 
-2. **Engineering Leader, OSE @ TikTok**: What does OSE stand for and what does it encompass?
-   - The homepage says "Operational Support and Efficiency" - can you elaborate on what this function includes?
-   - How does OSE relate to Server Architecture - are they separate roles or aspects of the same leadership position?
-   - What does "ensuring reliable operations at scale" look like quantitatively (uptime %, number of services, etc.)?
-   - What continuous improvement initiatives have you led?
+2. Engineering Leader, Operational Support & Efficiency (OSE) — TikTok
+   - Title shown: Engineering Leader, Operational Support & Efficiency (OSE).
+   - Start: Nov 2025 (OSE is a subteam within Server Architecture).
+   - Team / scope: OSE ~10 people; defines how operational work is done and builds tooling to improve efficiency.
+   - Core responsibilities:
+     - Define operational standards and playbooks for TikTok local operations.
+     - Own the tooling roadmap for operational efficiency and self‑service.
+     - Drive continuous improvement across incident handling, alerting, and runbooks.
+   - Positioning note: focuses on turning centralised operational capabilities into repeatable, self‑service tools.
 
-3. **Philanthropist @ LYHKYLF**: Can you provide more context on this role?
-   - What does LYHKYLF stand for? (The full name "Lai Yu Hua Kindness Youth Lit Fund" appears later but not in the hero section)
-   - What does "providing risk capital to the social sector" mean in practice?
-   - How much capital has been deployed? To how many initiatives?
-   - What types of community-driven initiatives do you support?
-   - When did you start this fund and what inspired it?
+3. Philanthropist — Lai Yu Hua Kindness Youth Lit Fund (LYHKYLF)
+   - Full name: Lai Yu Hua Kindness Youth Lit Fund.
+   - Founded: 2023.
+   - Capital deployed: SGD 80,000 (to date) into social‑sector experiments.
+   - Mission: provide risk capital to support experimentation in the social sector — seed projects that test new community solutions.
+   - Example partners / initiatives: Ray of Hope, 3Pumpkins, Empowered Families Initiative.
 
-### Professional Background Questions
+### Monitoring / operational achievement (OSE)
+- Took over monitoring‑as‑code onboarding in Q3 2025.
+- Outcome: cross‑team commits to the monitoring solution increased from <10% to 90%.
+- Business impact: teams gained historical visibility into alarms and alarm management became more disciplined; alert noise is actively triaged and reduced through new workflows.
+- Key operational artifacts: alert triage workflow and alarm management workflow; collaborates with TikTok leadership and engineering teams.
 
-4. **Career Timeline**: Can you clarify your career progression?
-   - What years did you work at each company mentioned (SP Group, Nugit, PayPal, 99.co)?
-   - What were your specific roles at each company?
-   - What key achievements or projects did you lead at each?
+### Professional Background — current vs. past roles (concise)
+4. Career timeline (high level)
+   - TikTok — joined Mar 2022; Site Leader, Server Architecture (Jan 2024); OSE lead (Nov 2025).
+   - (Other companies such as SP Group, Nugit, PayPal, 99.co, Billpin — detailed timeline and role specifics to be added in the About/Timeline section.)
 
-5. **Current vs. Past Roles**: The homepage mentions being "currently a Site Leader" but uses present tense throughout. 
-   - Are you still at TikTok? If so, since when?
-   - Have there been any role changes since the content was written?
+5. Current status confirmation
+   - Yes — currently at TikTok (since Mar 2022).
+   - Role changes while at TikTok:
+     - Started at TikTok: Mar 2022
+     - Promoted / transitioned to Site Leader, Server Architecture (Singapore): Jan 2024
+     - Assumed Engineering Leader, OSE responsibilities: Nov 2025
 
 ---
 
