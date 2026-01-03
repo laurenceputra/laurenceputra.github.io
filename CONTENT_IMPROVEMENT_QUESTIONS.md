@@ -9,7 +9,7 @@ This document contains comprehensive questions to help improve content quality a
 ### Current Roles & Responsibilities (answered)
 
 1. Site Leader, Server Architecture — TikTok (Singapore)
-   - Answer: Site Leader, Server Architecture at TikTok (Singapore); started Jan 2024 (TikTok since Mar 2022), leading localization, people-management coverage, and site culture/operations for ~50 staff.
+   - Answer: [Not publicly documented]
    - Title shown: Site Leader, Server Architecture (Singapore).
    - Start: Jan 2024 (at TikTok since Mar 2022).
    - Team / scope: Server Architecture (SG) ~50 staff; responsible for local site build and localisation of management.
@@ -20,7 +20,7 @@ This document contains comprehensive questions to help improve content quality a
    - Positioning note: responsible for translating global platform practices into a local, operationally independent site.
 
 2. Engineering Leader, Operational Support & Efficiency (OSE) — TikTok
-   - Answer: Engineering Leader for Operational Support & Efficiency (OSE) at TikTok; started Nov 2025, leading operational standards, tooling roadmap, and continuous improvement for a ~10-person team.
+   - Answer: [Not publicly documented]
    - Title shown: Engineering Leader, Operational Support & Efficiency (OSE).
    - Start: Nov 2025 (OSE is a subteam within Server Architecture).
    - Team / scope: OSE ~10 people; defines how operational work is done and builds tooling to improve efficiency.
@@ -31,7 +31,7 @@ This document contains comprehensive questions to help improve content quality a
    - Positioning note: focuses on turning centralised operational capabilities into repeatable, self‑service tools.
 
 3. Philanthropist — Lai Yu Hua Kindness Youth Lit Fund (LYHKYLF)
-   - Answer: Philanthropist at Lai Yu Hua Kindness Youth Lit Fund (founded 2023) deploying SGD 80,000 to date to fund social-sector experiments with partners like Ray of Hope, 3Pumpkins, and Empowered Families Initiative.
+   - Answer: Ray of Hope’s campaign page says the Lai Yu Hua Kindness Youth Lit Fund seeds a community space (Tak Takut Kids Club) in Boon Lay, is seeded by Laurence Putra Franslay and supported by 3Pumpkins, and runs a 6‑month pilot with Empowered Families Initiative (EFI) and Ray of Hope starting Nov 2025 to enrol 9 children in enrichment activities, including support for learning challenges like dyslexia and ADHD.
    - Full name: Lai Yu Hua Kindness Youth Lit Fund.
    - Founded: 2023.
    - Capital deployed: SGD 80,000 (to date) into social‑sector experiments.
@@ -46,12 +46,12 @@ This document contains comprehensive questions to help improve content quality a
 
 ### Professional Background — current vs. past roles (concise)
 4. Career timeline (high level)
-   - Answer: Career timeline noted: TikTok since Mar 2022; Site Leader, Server Architecture (Jan 2024); OSE lead (Nov 2025); other companies listed for later detail.
+   - Answer: [Not publicly documented]
    - TikTok — joined Mar 2022; Site Leader, Server Architecture (Jan 2024); OSE lead (Nov 2025).
    - (Other companies such as SP Group, Nugit, PayPal, 99.co, Billpin — detailed timeline and role specifics to be added in the About/Timeline section.)
 
 5. Current status confirmation
-   - Answer: Current status: at TikTok since Mar 2022 with transitions to Site Leader (Jan 2024) and OSE lead (Nov 2025).
+   - Answer: [Not publicly documented]
    - Yes — currently at TikTok (since Mar 2022).
    - Role changes while at TikTok:
      - Started at TikTok: Mar 2022
@@ -458,7 +458,7 @@ This document contains comprehensive questions to help improve content quality a
     - Personal development areas?
 
 56. **LYHKYLF Strategy**: Can you share the vision?
-   - Answer: [Not publicly documented]
+   - Answer: Ray of Hope’s campaign page describes LYHKYLF’s pilot strategy: a 6‑month collaboration with Empowered Families Initiative (EFI) and Ray of Hope beginning Nov 2025 to fund enrichment classes for 9 children from low‑income families in Boon Lay, including support for learning challenges such as dyslexia and ADHD.
     - What types of initiatives do you want to fund?
     - What's the fund size and deployment strategy?
     - What impact are you hoping to achieve in 5-10 years?
@@ -519,7 +519,7 @@ This document contains comprehensive questions to help improve content quality a
     - Performance improvements you've achieved?
 
 64. **Social Impact Metrics**: Can you provide comprehensive numbers?
-   - Answer: Public metrics include PSS raising >SGD 160k and supporting >2.6k individuals across >600 households; PayPal outreach team grew from 3 to 20 people and hosted frequent meetups; IAT/GeekcampSG/LYHKYLF quantitative totals are not publicly documented.
+   - Answer: Public metrics include PSS raising >SGD 160k and supporting >2.6k individuals across >600 households; PayPal outreach team grew from 3 to 20 people and hosted frequent meetups; LYHKYLF’s public campaign describes a 6‑month pilot (Nov 2025) supporting 9 children via EFI/Ray of Hope enrichment classes; IAT/GeekcampSG totals are not publicly documented.
     - **IAT**: Total youths reached? Years active? Workshops delivered? Long-term outcomes?
     - **PSS**: Total funds raised? Total families helped? Ongoing support numbers?
     - **GeekcampSG**: Total attendees across years? Speaker count? Community growth?
