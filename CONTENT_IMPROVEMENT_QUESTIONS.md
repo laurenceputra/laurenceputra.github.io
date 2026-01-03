@@ -9,6 +9,7 @@ This document contains comprehensive questions to help improve content quality a
 ### Current Roles & Responsibilities (answered)
 
 1. Site Leader, Server Architecture — TikTok (Singapore)
+   - Answer: Site Leader, Server Architecture at TikTok (Singapore); started Jan 2024 (TikTok since Mar 2022), leading localization, people-management coverage, and site culture/operations for ~50 staff.
    - Title shown: Site Leader, Server Architecture (Singapore).
    - Start: Jan 2024 (at TikTok since Mar 2022).
    - Team / scope: Server Architecture (SG) ~50 staff; responsible for local site build and localisation of management.
@@ -19,6 +20,7 @@ This document contains comprehensive questions to help improve content quality a
    - Positioning note: responsible for translating global platform practices into a local, operationally independent site.
 
 2. Engineering Leader, Operational Support & Efficiency (OSE) — TikTok
+   - Answer: Engineering Leader for Operational Support & Efficiency (OSE) at TikTok; started Nov 2025, leading operational standards, tooling roadmap, and continuous improvement for a ~10-person team.
    - Title shown: Engineering Leader, Operational Support & Efficiency (OSE).
    - Start: Nov 2025 (OSE is a subteam within Server Architecture).
    - Team / scope: OSE ~10 people; defines how operational work is done and builds tooling to improve efficiency.
@@ -29,6 +31,7 @@ This document contains comprehensive questions to help improve content quality a
    - Positioning note: focuses on turning centralised operational capabilities into repeatable, self‑service tools.
 
 3. Philanthropist — Lai Yu Hua Kindness Youth Lit Fund (LYHKYLF)
+   - Answer: Philanthropist at Lai Yu Hua Kindness Youth Lit Fund (founded 2023) deploying SGD 80,000 to date to fund social-sector experiments with partners like Ray of Hope, 3Pumpkins, and Empowered Families Initiative.
    - Full name: Lai Yu Hua Kindness Youth Lit Fund.
    - Founded: 2023.
    - Capital deployed: SGD 80,000 (to date) into social‑sector experiments.
@@ -43,10 +46,12 @@ This document contains comprehensive questions to help improve content quality a
 
 ### Professional Background — current vs. past roles (concise)
 4. Career timeline (high level)
+   - Answer: Career timeline noted: TikTok since Mar 2022; Site Leader, Server Architecture (Jan 2024); OSE lead (Nov 2025); other companies listed for later detail.
    - TikTok — joined Mar 2022; Site Leader, Server Architecture (Jan 2024); OSE lead (Nov 2025).
    - (Other companies such as SP Group, Nugit, PayPal, 99.co, Billpin — detailed timeline and role specifics to be added in the About/Timeline section.)
 
 5. Current status confirmation
+   - Answer: Current status: at TikTok since Mar 2022 with transitions to Site Leader (Jan 2024) and OSE lead (Nov 2025).
    - Yes — currently at TikTok (since Mar 2022).
    - Role changes while at TikTok:
      - Started at TikTok: Mar 2022
@@ -60,12 +65,14 @@ This document contains comprehensive questions to help improve content quality a
 ### Career & Technical Background
 
 6. **Passion for Security and Distributed Systems**: Can you provide specific examples?
+   - Answer: [Not publicly documented]
    - What security projects have you worked on that you're most proud of?
    - What distributed systems challenges have you solved?
    - Any notable contributions to open source in these areas?
    - Have you published papers, given talks, or written technical blog posts on these topics?
 
 7. **Previous Companies - Specific Contributions**:
+   - Answer: From the 2018 Yahoo News Singapore profile: SP Group — head of the developer operations team overseeing energy utilities in Singapore and across Asia Pacific; Nugit — senior engineer who led the infrastructure team; PayPal — work ranged from writing test automation frameworks to developing mobile apps; Billpin — joined after graduating from NUS in 2013 and stayed about 10 months; 99.co role not publicly documented in available sources.
    - **SP Group**: What digital infrastructure did you run? What was your role title? What impact did you have?
    - **Nugit**: What does "ran Nugit's servers" mean? Were you DevOps, SRE, CTO? What scale?
    - **PayPal**: Beyond mobile applications, what else did you work on? What platforms (iOS, Android, both)?
@@ -73,6 +80,7 @@ This document contains comprehensive questions to help improve content quality a
    - **Billpin**: What is Billpin? What backend code did you write? What was your role?
 
 8. **Academic Background**: Can you elaborate on this?
+   - Answer: The 2018 Yahoo News Singapore profile notes graduation from the National University of Singapore in 2013 and choosing Computer Science; the Liberal Arts mix and specific coursework/research are not publicly documented.
    - You mention "Computer Science mixed with Liberal Arts" - what degree(s) do you hold?
    - What university/universities? (NUS is mentioned in awards but not in About Me)
    - Did the Liberal Arts component influence your approach to technology and social impact?
@@ -81,6 +89,7 @@ This document contains comprehensive questions to help improve content quality a
 ### Community Leadership
 
 9. **GeekcampSG Leadership** (2012-2014): Can you provide more details?
+   - Answer: The 2018 Yahoo News Singapore profile says he ran GeekcampSG from 2011–2014; details on 2011 role, growth mechanics, and current status are not publicly documented.
    - You mention "heading" it from 2012-2014 but "involved" from 2011 - what was your role in 2011?
    - What specific contributions led to growth from 200 to 1.3k signups?
    - What were the biggest challenges in scaling the event?
@@ -88,6 +97,7 @@ This document contains comprehensive questions to help improve content quality a
    - What is GeekcampSG's current status? Are you still involved in any capacity?
 
 10. **PayPal Developer Outreach**: Can you quantify the impact?
+   - Answer: The 2018 Yahoo News Singapore profile says he ran the outreach program at PayPal, grew the outreach team from 3 to 20 people, and organized frequent meetups (almost every night leading up to BattleHack); exact time period, official title, and meetup topics/attendance are not publicly documented.
     - You grew from "a team of 2" to "over 20 PayPal engineers" - over what time period?
     - What were "up to 12 meetups a month"? What topics? What attendance?
     - What was your official role/title during this period?
@@ -95,6 +105,7 @@ This document contains comprehensive questions to help improve content quality a
     - You mention "first stint at PayPal" - was there a second stint? What's the story there?
 
 11. **Speaking Engagements**: Can you provide more specifics?
+   - Answer: A 2018 Yahoo News Singapore profile mentions he spoke at a JSConf Asia Singapore event; specific panel/talk details and other engagements are not publicly documented.
     - **General Assembly panel**: What was the panel topic? What year? What specific insights did you share?
     - **DevOps conference**: Which conference? What year? What was your talk title/topic?
     - What other talks have you given that aren't mentioned?
@@ -102,6 +113,7 @@ This document contains comprehensive questions to help improve content quality a
 ### Personal Interests
 
 12. **Hobbies**: Can you add more depth to your interests?
+   - Answer: [Not publicly documented]
     - **Cafe hopping**: Any favorite cafes in Singapore you'd recommend? What do you look for in a good cafe?
     - **Photos/Photography**: Beyond tech conferences, what subjects do you photograph? Any favorite locations?
     - **Trekking**: What are your favorite trekking locations? Local trails or international destinations?
@@ -114,12 +126,14 @@ This document contains comprehensive questions to help improve content quality a
 ### Software Engineering
 
 13. **Versatility & Technical Skills**: Can you be more specific?
+   - Answer: [Not publicly documented]
     - What languages are you proficient in?
     - What is meant by "understanding how things work at the basic level"?
     - Can you provide examples of the "huge variety of stacks" you've worked with?
     - What does "both professionally or for fun" mean - any interesting side projects?
 
 14. **Current Technical Focus**: What are you working on now?
+   - Answer: [Not publicly documented]
     - What specific technical challenges are you tackling at TikTok?
     - How do distributed systems and security passions manifest in your current role?
     - Any innovations or technical approaches you're particularly proud of?
@@ -127,6 +141,7 @@ This document contains comprehensive questions to help improve content quality a
 ### Photography
 
 15. **Photography Portfolio**: Can you provide more details?
+   - Answer: [Not publicly documented]
     - Which tech conferences have you photographed? (Name specific events)
     - What's the difference between "professional capacity" and "hobbyist perspective"?
     - Are you paid for some conference photography? Which ones?
@@ -135,12 +150,14 @@ This document contains comprehensive questions to help improve content quality a
     - What equipment do you use?
 
 16. **Attribution-NonCommercial-NoDerivs License**: Why this specific license?
+   - Answer: [Not publicly documented]
     - What's the reasoning behind this license choice?
     - Has anyone requested to use your photos commercially?
 
 ### Social Impact
 
 17. **IAmTalentedSG (IAT)**: Can you elaborate on this initiative?
+   - Answer: The 2018 Yahoo News Singapore profile describes IAmTalented.SG as a social empowerment initiative for at-risk kids in Singapore that teaches skills like robotics or photography to explore non-academic interests and motivate learning; years active, workshops, and metrics are not publicly documented.
     - What years were you a "core team member"?
     - What specific workshops or programs did you create/run?
     - How many youths has IAT reached since you joined?
@@ -150,6 +167,7 @@ This document contains comprehensive questions to help improve content quality a
     - The awards section mentions you still work with IAT - what's your current involvement?
 
 18. **Project Stable Staples (PSS)**: Can you update and clarify?
+   - Answer: From the Pride article and the People of Good Award write-up: Project Stable Staples started during the 2020 Circuit Breaker to support families (especially rental HDB households) with essentials via vouchers; it set a fundraising goal of SGD 60k to support ~200 families/~1,000 individuals for three months and reached the goal in under three weeks; it operates with a zero-expense ratio and later pivoted to a smaller, more sustainable team (now a small team of three).
     - The homepage says you're "working with friends" but awards section has extensive details - can the homepage reflect more of this?
     - What is PSS's current status? (Awards mention it "pivoted to operate at smaller but more sustainable scale")
     - How many families are you currently supporting?
@@ -157,6 +175,7 @@ This document contains comprehensive questions to help improve content quality a
     - What's your ongoing role in PSS?
 
 19. **CollaborateSG**: This is mentioned in passing but never elaborated.
+   - Answer: The People of Good Award write-up says Collaborate (CollaborateSG) aims to bridge knowledge gaps for JC students selecting a university course; further details and current status are not publicly documented.
     - What is CollaborateSG? What does it do?
     - What was your role in it?
     - Is it still active? If not, what years was it active?
@@ -169,12 +188,14 @@ This document contains comprehensive questions to help improve content quality a
 ### GeekcampSG Details
 
 20. **Early Involvement & Growth**: Can you clarify the timeline and impact?
+   - Answer: The 2018 Yahoo News Singapore profile indicates involvement from 2011 and running GeekcampSG through 2014; detailed growth numbers and student outreach tactics are not publicly documented.
     - "Involved in GeekcampSG from 2011" vs "lead organiser in 2012" - what changed?
     - Growth from 200 (2011) to 1.3k (2013) - what about 2012 and 2014 numbers?
     - "With a third of the community being students" - was this intentional? How did you attract students?
     - What made GeekcampSG unique compared to other tech conferences?
 
 21. **Leadership Transition**: Why step down in 2014?
+   - Answer: [Not publicly documented]
     - You mention focusing on IAmTalented.SG - was it purely time constraints?
     - Who took over leadership?
     - Do you have any regrets about stepping down?
@@ -182,6 +203,7 @@ This document contains comprehensive questions to help improve content quality a
 ### PayPal Community Engagement
 
 22. **Team Building & Impact**: Can you provide more details?
+   - Answer: The 2018 Yahoo News Singapore profile says he grew PayPal’s outreach team from 3 to 20 people, hosted meetups at PayPal (funded for venue/food), and ran meetups almost nightly in the month leading to BattleHack; precise recruitment strategy, attendance, and topic list are not publicly documented.
     - "Started with a team of 2" - who was the other person?
     - How did you grow to 20+ PayPal engineers in 3 months?
     - What was your recruitment/engagement strategy?
@@ -191,6 +213,7 @@ This document contains comprehensive questions to help improve content quality a
     - What impact did this have on PayPal's brand in Singapore's tech community?
 
 23. **Current Community Support**: You mention continuing to support tech community initiatives in your current role.
+   - Answer: [Not publicly documented]
     - What specific initiatives are you supporting at TikTok?
     - How does TikTok's approach compare to PayPal's?
     - Any public-facing community programs you can discuss?
@@ -198,6 +221,7 @@ This document contains comprehensive questions to help improve content quality a
 ### Speaking & Thought Leadership
 
 24. **General Assembly Panel**: Can you add more context?
+   - Answer: A 2018 Yahoo News Singapore profile mentions he spoke at JSConf Asia Singapore; panel theme, panelists, and recordings are not publicly documented.
     - What year was this panel?
     - Who were the other panelists besides the Google Engineering Lead and Pivotal Principal Engineer?
     - What was the topic/theme of the panel?
@@ -205,6 +229,7 @@ This document contains comprehensive questions to help improve content quality a
     - Is there a recording or article about this?
 
 25. **DevOps Conference Talk**: Can you provide specifics?
+   - Answer: Not publicly documented in available sources.
     - Which DevOps conference was this?
     - What year?
     - What was your talk title?
@@ -213,6 +238,7 @@ This document contains comprehensive questions to help improve content quality a
     - Are slides or recording available?
 
 26. **Other Speaking Engagements**: Are there other talks not mentioned?
+   - Answer: A 2018 Yahoo News Singapore profile references a JSConf Asia Singapore speaking engagement; other talks are not publicly documented.
     - Guest lectures at universities?
     - Corporate talks or workshops?
     - Conference presentations?
@@ -225,18 +251,21 @@ This document contains comprehensive questions to help improve content quality a
 ### NUS Computing Outstanding Young Alumni Award (2022)
 
 27. **Award Context**: Can you provide more information?
+   - Answer: The NUS Computing Outstanding Young Alumni Award post notes he was invited back to celebrate the opening of the new Computing building and received the award; criteria and recipient count are not publicly documented.
     - What criteria were used for this award?
     - How many recipients were there?
     - What specific accomplishments were recognized?
     - The LinkedIn post mentions celebrating "opening of the new Computing building" - any connection to your contributions?
 
 28. **Recognition Details**: What does this award represent?
+   - Answer: The Computing award is specific to NUS Computing (School of Computing); details on how it differs from the university-wide award are not publicly documented.
     - Is this different from the NUS Outstanding Young Alumni Award (2021)?
     - What makes this specific to Computing vs. university-wide?
 
 ### NUS Outstanding Young Alumni Award (2021)
 
 29. **Comprehensive Gratitude Section**: Your acceptance message is beautifully detailed but raises questions:
+   - Answer: The NUS Outstanding Young Alumni Award write-up credits Michael Cheng for early guidance in organizing tech events and running a major tech conference pre–Smart Nation; Bernard was his first boss from his first internship and a long-term mentor; Chang Sau Sheong and Colin Leong supported his tech community work during his first PayPal stint; Michelle Lye and her AIS Cube team supported GeekcampSG and IAT workshops. Specifics like company names for Bernard and details of AIS Cube are not publicly documented.
     - **Michael Cheng**: Can you clarify his role and how he guided you? What was the "largest tech conference in Singapore" you mentioned?
     - **Bernard**: You mention him as "first boss at first internship" and "one constant" - what company? What role? How has he continued to mentor you?
     - **Chang Sau Sheong & Colin Leong**: How were they supportive at PayPal? Specific examples?
@@ -244,11 +273,13 @@ This document contains comprehensive questions to help improve content quality a
     - **AIS Cube team**: What is AIS Cube? What role does it play?
 
 30. **"Smart Nation" Reference**: You mention running the tech conference "in a time before Smart Nation"
+   - Answer: The NUS Outstanding Young Alumni Award write-up notes he ran a major tech conference in Singapore before the Smart Nation era; exact year and further context are not publicly documented.
     - What year was this?
     - How did the pre-Smart Nation era differ?
     - How has Smart Nation initiative impacted the tech community?
 
 31. **Award Reflection**: You say "my achievements are not mine alone"
+   - Answer: Based on the NUS Outstanding Young Alumni Award write-up, recognized contributions include GeekcampSG, IAmTalented (IAT), and Project Stable Staples; specific top-three achievements and leadership decisions are not explicitly listed.
     - While humble, can you articulate your specific contributions?
     - What were your leadership decisions that enabled these outcomes?
     - What would you say are your top 3 personal achievements being recognized?
@@ -256,30 +287,36 @@ This document contains comprehensive questions to help improve content quality a
 ### People of Good Award (2020)
 
 32. **Circuit Breaker Period**: Can you clarify the timeline?
+   - Answer: Project Stable Staples began during Singapore’s 2020 Circuit Breaker and continued afterward at a smaller scale; exact Circuit Breaker dates and PSS operation duration are not explicitly documented in available sources.
     - When exactly did Circuit Breaker occur? (For international readers who may not know)
     - How long did PSS operate during this period?
     - What was the transition to post-Circuit Breaker operations?
 
 33. **Impact Metrics**: The details are impressive but could be expanded:
+   - Answer: The People of Good Award write-up states more than SGD 160k was raised and support reached >2.6k individuals across >600 households; current metrics after the pivot are not publicly documented.
     - "More than SGD 160k raised" - what's the exact amount?
     - ">2.6k individuals across >600 households" - exact numbers?
     - What happened after the project? You mention it continues at smaller scale - current metrics?
 
 34. **"Jiak ba bo tai ji zuo"**: This phrase is charming but:
+   - Answer: The People of Good Award write-up translates “jiak ba bo tai ji zuo” as “eat full nothing to do”; whether it is a family saying vs. common expression is not documented.
     - Should there be a more prominent translation for non-Hokkien readers?
     - Is this a family saying or common Singaporean expression?
 
 35. **Tech Infrastructure Details**: You mention building donation portal in under 2 days:
+   - Answer: The People of Good Award write-up states the donation portal was built in under 2 days in collaboration with Bringing Love to Every Single Soul; the tech stack, exact challenges, and open-source status are not documented.
     - What tech stack did you use?
     - What challenges did you face?
     - Did you build it solo or with others?
     - Is the code open source?
 
 36. **Dan Schulman Quote**: You quote PayPal's CEO:
+   - Answer: The People of Good Award write-up cites inspiration from PayPal CEO Dan Schulman and includes his quote; direct personal interactions are not documented.
     - Have you had direct interactions with him?
     - How has his leadership style influenced your approach?
 
 37. **Other Initiatives Mentioned**:
+   - Answer: The People of Good Award write-up notes IAT work to bridge the digital literacy gap, describes Bringing Love to Every Single Soul as a registered NPO that helped collect funds, and says PayPal It Forward award funds were used for diapers and milk powder; specific award amount is not documented.
     - **"Digital literacy gap" work with IAT**: Can you elaborate on what this program looks like?
     - **Bringing Love to Every Single Soul**: What is this organization? How did you partner with them?
     - **PayPal #PayPalItForward award**: How much was this award? What did you do with it beyond the diapers/milk powder fund?
@@ -287,21 +324,25 @@ This document contains comprehensive questions to help improve content quality a
 ### SKM Voice of Loving Kindness (2022)
 
 38. **Transformation Story**: You mention not being a good student and avoiding CIP:
+   - Answer: The NUS Outstanding Young Alumni Award write-up says he was once reluctant to attend CIP events but serving with the IAT team (including David Hoe and others) changed his perspective; specific turning point details are not documented.
     - What changed when you met David Hoe?
     - What specific moment or experience made you see giving back differently?
     - How would you describe your journey from "reluctant CIP kid" to award-winning philanthropist?
 
 39. **The Pride Article**: You mention an article on The Pride:
+   - Answer: The Pride article highlights PSS starting during the 2020 Circuit Breaker, its rapid fundraising to support families via grocery vouchers, a zero-expense ratio, and a later pivot to a smaller team; additional interview insights not on the site are not documented.
     - Can you summarize key points from that article for readers?
     - Were there any insights from that interview not captured on your site?
 
 40. **"Decade long run"**: Can you map out this decade?
+   - Answer: Public sources mention joining IAT in 2013 and starting PSS in 2020, plus involvement in Collaborate (bridging knowledge gaps for JC students). A full year-by-year map of the decade is not documented.
     - 2013: Joined IAT
     - 2020: Started PSS
     - What happened in the years between?
     - What other "gaps" did your team fill?
 
 41. **"Chicken shortage" Reference**: 
+   - Answer: Not publicly documented in available sources.
     - What's the story here?
     - How does this connect to kindness and community resilience?
 
@@ -312,22 +353,26 @@ This document contains comprehensive questions to help improve content quality a
 ### Project Lionheart (2022)
 
 42. **Exhibition Details**: Can you provide more context?
+   - Answer: The Project Lionheart page says his and David Hoe’s story about Project Stable Staples and IAT went on a tour around the country; specific locations, duration, and public response are not documented.
     - What is Project Lionheart? What organization runs it?
     - Where did this exhibition tour? Which neighborhoods/locations?
     - How long was the exhibition on display?
     - What was the public response?
 
 43. **"Cockroach and never stay die spirit"**: 
+   - Answer: The Project Lionheart page references the “cockroach and never stay die spirit” as a description of resilience; a formal explanation for international readers is not provided.
     - Can you explain this reference for international readers?
     - What does this mean and why is it important?
 
 44. **Story Content**: What aspects of your story were featured?
+   - Answer: The Project Lionheart page says the story featured Project Stable Staples and IAT alongside David Hoe; specific quotes or anecdotes are not documented.
     - Was it primarily PSS? IAT? Both?
     - Were there quotes or anecdotes included?
 
 ### We Are Majulah Feature (2021)
 
 45. **Feature Context**: Can you elaborate?
+   - Answer: The We Are Majulah feature page links to a Facebook video and notes it featured the Project Stable Staples story; selection process, filming details, and impact are not documented.
     - What is We Are Majulah? What's their mission?
     - How were you selected for this feature?
     - What was covered in the video?
@@ -337,6 +382,7 @@ This document contains comprehensive questions to help improve content quality a
 ### PayPal Newsroom Feature (2022)
 
 46. **Corporate Feature**: Can you provide context?
+   - Answer: The PayPal Newsroom feature is linked with the title “Project Stable Staples: One PayPal engineer on his mission to help families in need”; how it came about and additional corporate context are not documented in the repo.
     - How did this feature come about?
     - What's the relationship between your PSS work and PayPal's brand?
     - Did PayPal support PSS financially beyond your personal award money?
@@ -345,6 +391,7 @@ This document contains comprehensive questions to help improve content quality a
 ### CNA Interview (2020) & Channel 8 Frontline Interview (2021)
 
 47. **Media Engagement**: Can you provide more details?
+   - Answer: The CNA and Channel 8 Frontline media pages embed the interviews but do not list specific questions or outcomes; detailed media engagement context is not documented.
     - How did these media opportunities arise?
     - What questions were you asked?
     - What message did you want to convey?
@@ -352,6 +399,7 @@ This document contains comprehensive questions to help improve content quality a
     - How did these features impact PSS's reach and support?
 
 48. **Channel 8 Frontline**: You mention "what we were focusing on moving forward"
+   - Answer: The Channel 8 Frontline page says the interview covered what PSS had done and what they were focusing on moving forward; specific plans and outcomes are not documented.
     - What were those forward-looking plans?
     - Have those plans been realized?
     - What's changed since this interview?
@@ -363,17 +411,20 @@ This document contains comprehensive questions to help improve content quality a
 ### Narrative & Storytelling
 
 49. **Origin Story**: Your website doesn't tell the full story of how you became who you are:
+   - Answer: [Not publicly documented]
     - What was your childhood like?
     - What sparked your interest in technology?
     - When did you know you wanted to work in tech?
     - What challenges did you overcome?
 
 50. **Pivotal Moments**: What were the key decision points in your career and social impact journey?
+   - Answer: [Not publicly documented]
     - Why PayPal over other opportunities?
     - Why TikTok over other opportunities?
     - What made you say "yes" to leading OSE/Server Architecture?
 
 51. **Failure & Learning**: The content focuses heavily on success:
+   - Answer: [Not publicly documented]
     - What initiatives didn't work out as planned?
     - What did you learn from failures?
     - What would you do differently if starting over?
@@ -381,16 +432,19 @@ This document contains comprehensive questions to help improve content quality a
 ### Values & Philosophy
 
 52. **Core Values**: What principles guide your decisions?
+   - Answer: The People of Good Award write-up states a core value: “with privilege comes the responsibility to serve”; additional values and balance philosophy are not documented.
     - You mention being "brought up with privilege comes responsibility to serve"
     - What other values drive you?
     - How do you balance corporate leadership with philanthropic work?
 
 53. **Leadership Philosophy**: Can you articulate your approach to leadership?
+   - Answer: [Not publicly documented]
     - How do you build and motivate teams?
     - What's your management style?
     - What do you look for when hiring?
 
 54. **Social Impact Philosophy**: You've done extensive social work:
+   - Answer: The People of Good Award write-up describes using skills, knowledge, and network to support underserved communities and references “risk capital” via PSS fundraising; detailed theory of change is not documented.
     - What's your theory of change?
     - How do you decide which causes to support?
     - What does "risk capital to social sector" mean in practice?
@@ -398,16 +452,19 @@ This document contains comprehensive questions to help improve content quality a
 ### Future & Vision
 
 55. **Future Goals**: What's next for you?
+   - Answer: [Not publicly documented]
     - Career aspirations?
     - Social impact goals?
     - Personal development areas?
 
 56. **LYHKYLF Strategy**: Can you share the vision?
+   - Answer: [Not publicly documented]
     - What types of initiatives do you want to fund?
     - What's the fund size and deployment strategy?
     - What impact are you hoping to achieve in 5-10 years?
 
 57. **Technology Trends**: As a tech leader, what excites you?
+   - Answer: [Not publicly documented]
     - What technologies are you most interested in?
     - What problems do you want to solve?
     - How do you see tech and social impact intersecting?
@@ -415,6 +472,7 @@ This document contains comprehensive questions to help improve content quality a
 ### Audience & Accessibility
 
 58. **Acronyms & Local Context**: Several terms may not be clear to all readers:
+   - Answer: Not publicly documented in available sources for CIP/JC/Rental HDB/Smart Nation explanations on the site; consider adding definitions on first use.
     - **CIP**: What does this stand for? (Appears in awards section)
     - **CB**: Circuit Breaker (mentioned in awards)
     - **JC students**: Junior College students (mentioned briefly)
@@ -423,6 +481,7 @@ This document contains comprehensive questions to help improve content quality a
     - Should these be explained on first use?
 
 59. **International Audience**: How much Singapore context should be explained?
+   - Answer: [Not publicly documented]
     - For international visitors, would more context about Singapore help?
     - Should you explain the significance of awards like "People of Good"?
     - Would context about Singapore's social service landscape be helpful?
@@ -430,6 +489,7 @@ This document contains comprehensive questions to help improve content quality a
 ### Content Gaps
 
 60. **Missing Sections**: Are there areas not covered?
+   - Answer: [Not publicly documented]
     - Blog posts or thought leadership articles?
     - Technical deep dives?
     - Case studies of projects you've led?
@@ -437,11 +497,13 @@ This document contains comprehensive questions to help improve content quality a
     - Recommendations for others wanting to make social impact?
 
 61. **Testimonials**: Have you considered including?
+   - Answer: [Not publicly documented]
     - Quotes from people you've worked with?
     - Impact stories from IAT participants or PSS beneficiaries?
     - Recommendations from colleagues or managers?
 
 62. **Visual Content**: Beyond photos, what's missing?
+   - Answer: [Not publicly documented]
     - Infographics showing impact metrics?
     - Timeline visualization of your career journey?
     - Org charts showing what you lead?
@@ -450,12 +512,14 @@ This document contains comprehensive questions to help improve content quality a
 ### Quantitative Impact
 
 63. **Career Impact Metrics**: Can you quantify your technical contributions?
+   - Answer: Specific technical impact metrics (systems scale, uptime, cost savings) are not publicly documented in available sources.
     - Systems you've built - scale, users, uptime?
     - Teams you've led - sizes, growth, retention?
     - Cost savings or efficiency gains you've driven?
     - Performance improvements you've achieved?
 
 64. **Social Impact Metrics**: Can you provide comprehensive numbers?
+   - Answer: Public metrics include PSS raising >SGD 160k and supporting >2.6k individuals across >600 households; PayPal outreach team grew from 3 to 20 people and hosted frequent meetups; IAT/GeekcampSG/LYHKYLF quantitative totals are not publicly documented.
     - **IAT**: Total youths reached? Years active? Workshops delivered? Long-term outcomes?
     - **PSS**: Total funds raised? Total families helped? Ongoing support numbers?
     - **GeekcampSG**: Total attendees across years? Speaker count? Community growth?
@@ -463,6 +527,7 @@ This document contains comprehensive questions to help improve content quality a
     - **LYHKYLF**: Capital deployed? Initiatives funded? Expected vs. actual impact?
 
 65. **Awards Impact**: How have awards changed your work?
+   - Answer: [Not publicly documented]
     - Increased visibility leading to more volunteers or donors?
     - New partnerships or opportunities?
     - Any downsides or challenges from recognition?
@@ -474,21 +539,25 @@ This document contains comprehensive questions to help improve content quality a
 ### Front Matter & Metadata
 
 66. **Content Organization**: 
+   - Answer: [Not publicly documented]
     - Should awards and media content be dated by when the event occurred or when content was published?
     - Are there other content sections you want to add (blog posts, talks, projects)?
 
 67. **SEO & Discoverability**:
+   - Answer: [Not publicly documented]
     - Are there keywords or phrases people might search for that should be included?
     - Should technical expertise be more prominently featured for recruiters?
 
 ### Content Freshness
 
 68. **Update Frequency**: How often should content be reviewed and updated?
+   - Answer: [Not publicly documented]
     - Career milestones?
     - Social impact initiative status?
     - Awards and recognition?
 
 69. **Outdated Information**: Are there statements that need updating?
+   - Answer: [Not publicly documented]
     - "Currently a Site Leader" - is this still accurate as of 2026?
     - Social initiative statuses (IAT, PSS, CollaborateSG)?
     - Community involvement (GeekcampSG status)?
@@ -498,14 +567,17 @@ This document contains comprehensive questions to help improve content quality a
 ## 9. Style & Tone Questions
 
 70. **Humility vs. Accomplishment**: You're consistently humble, but:
+   - Answer: [Not publicly documented]
     - Should accomplishments be stated more directly for professional credibility?
     - How do you balance "it takes a village" with "here's what I specifically did"?
 
 71. **Personal vs. Professional**: The tone shifts between sections:
+   - Answer: [Not publicly documented]
     - Should the About Me section be more formal or stay conversational?
     - Should the awards section include more personal reflection or stay factual?
 
 72. **Cultural Context**: Some phrases are very Singaporean:
+   - Answer: [Not publicly documented]
     - Is this intentional to maintain authentic voice?
     - Should translations or context be added for international readers?
 
