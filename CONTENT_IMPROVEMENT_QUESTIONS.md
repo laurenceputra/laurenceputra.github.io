@@ -48,7 +48,7 @@ This document contains comprehensive questions to help improve content quality a
 4. Career timeline (high level)
    - Answer: [Not publicly documented]
    - TikTok — joined Mar 2022; Site Leader, Server Architecture (Jan 2024); OSE lead (Nov 2025).
-   - (Other companies such as SP Group, Nugit, PayPal, 99.co, Billpin — detailed timeline and role specifics to be added in the About/Timeline section.)
+   - (Other companies such as SP Group, Nugit, PayPal, Billpin — detailed timeline and role specifics to be added in the About/Timeline section.)
 
 5. Current status confirmation
    - Answer: [Not publicly documented]
@@ -65,14 +65,14 @@ This document contains comprehensive questions to help improve content quality a
 ### Career & Technical Background
 
 6. **Passion for Security and Distributed Systems**: Can you provide specific examples?
-   - Answer: [Not publicly documented]
+   - Answer: No specific examples to add yet.
    - What security projects have you worked on that you're most proud of?
    - What distributed systems challenges have you solved?
    - Any notable contributions to open source in these areas?
    - Have you published papers, given talks, or written technical blog posts on these topics?
 
 7. **Previous Companies - Specific Contributions**:
-   - Answer: From the 2018 Yahoo News Singapore profile: SP Group — head of the developer operations team overseeing energy utilities in Singapore and across Asia Pacific; Nugit — senior engineer who led the infrastructure team; PayPal — work ranged from writing test automation frameworks to developing mobile apps; Billpin — joined after graduating from NUS in 2013 and stayed about 10 months; 99.co role not publicly documented in available sources.
+   - Answer: SP Group — head of the developer operations team overseeing energy utilities in Singapore and across Asia Pacific; Nugit — senior engineer who led the infrastructure team; PayPal — first stint included work from test automation frameworks to mobile apps, second stint led a compliance engineering team (improving compliance processing) and later led DevOps and latency improvement teams in Consumer Financial Services, reducing network latency by nearly 60% for one flow; Billpin — joined after graduating from NUS in 2013 and stayed about 10 months.
    - **SP Group**: What digital infrastructure did you run? What was your role title? What impact did you have?
    - **Nugit**: What does "ran Nugit's servers" mean? Were you DevOps, SRE, CTO? What scale?
    - **PayPal**: Beyond mobile applications, what else did you work on? What platforms (iOS, Android, both)?
@@ -80,7 +80,7 @@ This document contains comprehensive questions to help improve content quality a
    - **Billpin**: What is Billpin? What backend code did you write? What was your role?
 
 8. **Academic Background**: Can you elaborate on this?
-   - Answer: The 2018 Yahoo News Singapore profile notes graduation from the National University of Singapore in 2013 and choosing Computer Science; the Liberal Arts mix and specific coursework/research are not publicly documented.
+   - Answer: Degree in Computer Science. Tembusu College was a core part of undergrad life and provided the Liberal Arts aspect, which trained critical thinking and broadened worldview beyond tech.
    - You mention "Computer Science mixed with Liberal Arts" - what degree(s) do you hold?
    - What university/universities? (NUS is mentioned in awards but not in About Me)
    - Did the Liberal Arts component influence your approach to technology and social impact?
@@ -89,7 +89,7 @@ This document contains comprehensive questions to help improve content quality a
 ### Community Leadership
 
 9. **GeekcampSG Leadership** (2012-2014): Can you provide more details?
-   - Answer: The 2018 Yahoo News Singapore profile says he ran GeekcampSG from 2011–2014; details on 2011 role, growth mechanics, and current status are not publicly documented.
+   - Answer: In 2011, involved as a team member handling sponsorships; from 2012 onward, ran GeekcampSG. Growth came from marketing, curating standout keynotes (even if they might not win votes), and enabling community voting via like buttons with social sharing. Stepped down in 2014 to focus on IAmTalentedSG and social sector issues after achieving the goal of putting tech into the mainstream alongside Smart Nation’s launch; no longer involved, but GeekcampSG is still running.
    - You mention "heading" it from 2012-2014 but "involved" from 2011 - what was your role in 2011?
    - What specific contributions led to growth from 200 to 1.3k signups?
    - What were the biggest challenges in scaling the event?
@@ -97,7 +97,7 @@ This document contains comprehensive questions to help improve content quality a
    - What is GeekcampSG's current status? Are you still involved in any capacity?
 
 10. **PayPal Developer Outreach**: Can you quantify the impact?
-   - Answer: The 2018 Yahoo News Singapore profile says he ran the outreach program at PayPal, grew the outreach team from 3 to 20 people, and organized frequent meetups (almost every night leading up to BattleHack); exact time period, official title, and meetup topics/attendance are not publicly documented.
+   - Answer: Grew the outreach team from 3 to 20 people over one year while still serving as a software engineer. Meetups covered topics from programming languages to databases and frameworks, with around 40 attendees each; ran meetups frequently, including almost nightly in the month leading up to BattleHack.
     - You grew from "a team of 2" to "over 20 PayPal engineers" - over what time period?
     - What were "up to 12 meetups a month"? What topics? What attendance?
     - What was your official role/title during this period?
@@ -512,7 +512,7 @@ This document contains comprehensive questions to help improve content quality a
 ### Quantitative Impact
 
 63. **Career Impact Metrics**: Can you quantify your technical contributions?
-   - Answer: Specific technical impact metrics (systems scale, uptime, cost savings) are not publicly documented in available sources.
+   - Answer: PayPal consumer financial services work included leading DevOps and latency improvement teams that reduced network latency by nearly 60% for one flow; other metrics (scale, uptime, cost savings) are not documented here.
     - Systems you've built - scale, users, uptime?
     - Teams you've led - sizes, growth, retention?
     - Cost savings or efficiency gains you've driven?
