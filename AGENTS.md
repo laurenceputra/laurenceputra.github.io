@@ -13,25 +13,36 @@ This repository contains Laurence Putra's personal website, built with Hugo.
 
 ## Workflow
 
-### Making Changes
+### Making Changes (All changes via subbranch + PR)
 
-1. Edit Hugo source files in the working tree:
+1. Create a new feature branch from `main`:
+   ```bash
+   git checkout main
+   git pull origin main
+   git checkout -b feature/<description>
+   ```
+
+2. Edit Hugo source files:
    - Content: `content/`
    - Layouts and shortcodes: `layouts/`
    - Styles: `static/css/`
    - Config: `hugo.toml`
 
-2. Build the site locally:
+3. Build the site locally:
    ```bash
    hugo --minify
    ```
 
-3. Commit the source changes and push the local `source` branch to `origin/hugo-source`:
+4. Commit and push your feature branch:
    ```bash
    git add .
-   git commit -m "Update site"
-   git push origin HEAD:hugo-source
+   git commit -m "Describe your change"
+   git push origin feature/<description>
    ```
+
+5. Open a Pull Request against `main` on GitHub
+
+6. After PR review and merge, the GitHub Actions workflow will automatically deploy the site
 
 ## GitHub Pages
 
@@ -90,6 +101,8 @@ This repository contains Laurence Putra's personal website, built with Hugo.
 
 ## Notes
 
-- GitHub Pages now deploys from Actions, not from a dedicated built-output branch.
-- `public/` is generated output for local verification.
-- Keep deployment guidance aligned with `hugo.yml` and remove stale references to older branch-based deploy flows.
+- GitHub Pages deploys via Actions when `main` is updated
+- `public/` is generated output for local verification (not committed)
+- All changes must go through a feature branch + PR workflow
+- Direct commits to `main` should only be for emergency fixes after review
+- Keep deployment guidance aligned with `hugo.yml`
