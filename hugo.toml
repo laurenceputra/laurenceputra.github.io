@@ -6,8 +6,8 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Engineering leader, community builder, and changemaker"
-  tagline = "Engineering leader, community builder, and changemaker"
+  description = "Engineering leader, community builder, and constraint remover"
+  tagline = "Engineering leader, community builder, and constraint remover"
   intro = "I build resilient engineering teams and community initiatives that close real gaps."
   currentRole = "I currently serve as Site Leader for the Server Architecture org and as an OSE Engineering Leader in TikTok Singapore, with a focus on platform ownership, operational efficiency, and AI-focused engineering work."
   profileImage = "/images/profile_2021_full_body_chair.jpg"
