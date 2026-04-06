@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Engineering leader focused on building systems that hold - reducing friction, removing unnecessary complexity, and designing for durable leverage.
+description: Laurence Putra Franslay - Engineering leader, AI systems architect, and community builder based in Singapore. Site Leader for Server Architecture at TikTok.
 ---
 
 I build systems that are meant to hold. The kind that reduce friction, survive contact with reality, and keep working without drawing attention to themselves.
