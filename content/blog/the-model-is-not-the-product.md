@@ -1,7 +1,7 @@
 ---
 title: "The Model Is Not the Product. The Harness Is."
 description: "The real power in AI is not the model. It is the harness around it."
-date: 2026-04-06
+date: 2026-04-05
 tags: ["AI", "engineering", "OpenClaw", "harness", "systems"]
 ---
 

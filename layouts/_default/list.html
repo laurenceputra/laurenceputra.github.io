@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <section class="page-shell">
+    <div class="container page-header">
+      <p class="eyebrow">Section</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="lead dark">{{ . }}</p>{{ end }}
+    </div>
+    <div class="container page-content">
+      {{ .Content }}
+      {{ if .Pages }}
+        <div class="section-links">
+          {{ range .Pages }}
+            <article class="card">
+              <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+              {{ with .Date }}
+                <p class="post-date">{{ .Format "January 2, 2006" }}</p>
+              {{ end }}
+              {{ with .Description }}<p>{{ . }}</p>{{ end }}
+            </article>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

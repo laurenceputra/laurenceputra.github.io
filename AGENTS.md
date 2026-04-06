@@ -68,6 +68,19 @@ This repository contains Laurence Putra's personal website, built with Hugo.
 - ❌ "helped launch", "was part of", "is known for"
 - ✅ "launched", "led", "built"
 
+## Content Rules
+
+### Blog Posts
+**Every blog post MUST have a `date:` field in frontmatter.**
+- Format: `date: YYYY-MM-DD`
+- Example: `date: 2026-04-05`
+- Posts without dates will not display on the blog index and look broken
+- Always add the date when creating a new blog post
+
+### Other Content
+- Media pages, awards, about, and index pages do NOT need dates
+- Leave `date:` off for non-blog content
+
 ## Content Structure Principles
 
 ### Hybrid Approach
