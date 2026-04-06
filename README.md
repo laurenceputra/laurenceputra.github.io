@@ -21,3 +21,4 @@ hugo --minify
 
 The published site uses the custom domain `laurenceputra.com` via the generated `CNAME` file.
 # Hugo Site
+
