@@ -13,7 +13,7 @@ From my student years through my career, I have had people who gave guidance, cr
 ## Links
 
 - Official page: <https://www.nus.edu.sg/alumnet/community/alumniawards>
-- Original post from the previous site: <https://laurenceputra.com/2021/11/06/nus-outstanding-young-alumni-award/>
+
 
 ## Selected photos
 
