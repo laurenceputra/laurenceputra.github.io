@@ -15,9 +15,9 @@ The work itself changes, but the principle does not: understand the real constra
 
 ## What this site covers
 
-- [About](/about/): my background, values, and current areas of work
-- [Media](/media/): interviews, articles, and public features
-- [Awards](/awards/): selected recognitions and supporting context
+- [About](/about/): my background, values, and current areas of work at TikTok Singapore
+- [Media](/media/): interviews, articles, and public features including Channel 8 and CNA
+- [Awards](/awards/): President's Volunteerism Award, NUS Outstanding Young Alumni, and more
 
 ## Key recognitions
 
