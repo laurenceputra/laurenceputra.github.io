@@ -5,8 +5,6 @@ date: 2026-04-06
 tags: ["AI", "engineering", "OpenClaw", "systems"]
 ---
 
-The Claude code leak didn't expose a secret model. It exposed a secret system.
-
 The instinct was to focus on the weights — what did Anthropic hide? But the real revelation was the plumbing. Query routing, context enrichment through search, artifact management, output validation, orchestration loops. That's what made Claude feel like more than a model. The harness was the product.
 
 And that harness is not magic. It's engineering. Which means anyone can build one.
