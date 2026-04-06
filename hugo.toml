@@ -29,10 +29,7 @@ disableKinds = ["taxonomy", "term"]
   pageRef = "/awards"
   weight = 30
 
-[[menu.main]]
-  name = "CV"
-  pageRef = "/cv"
-  weight = 40
+
 
 [markup]
   [markup.goldmark]
