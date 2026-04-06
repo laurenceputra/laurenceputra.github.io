@@ -1,19 +1,19 @@
 ---
 title: Home
-description: A concise profile of Laurence Putra Franslay's work across engineering, community building, and social impact.
+description: A concise profile of my work across engineering, community building, and social impact.
 ---
 
-Laurence Putra Franslay is a software engineer, community builder, and changemaker based in Singapore. He leads engineering teams, gets into the weeds when needed, and builds practical systems that help people.
+I'm a software engineer, community builder, and changemaker based in Singapore. I lead engineering teams, get into the weeds when needed, and build practical systems that help people.
 
-Across his career, Laurence has worked across software engineering, infrastructure, DevOps, mobile, web, and operations. Outside work, he has supported communities through IAmTalentedSG, Project Stable Staples, and philanthropic efforts such as the Lai Yu Hua Bursary.
+Across my career, I've worked across software engineering, infrastructure, DevOps, mobile, web, and operations. Outside work, I've supported communities through IAmTalentedSG, Project Stable Staples, and philanthropic efforts such as the Lai Yu Hua Bursary.
 
-During the COVID-19 crisis, Project Stable Staples raised more than SGD 160,000 to support more than 600 households and more than 2,600 individuals. The initiative earned the President’s Volunteerism and Philanthropy Awards People of Good award.
+During the COVID-19 crisis, Project Stable Staples raised more than SGD 160,000 to support more than 600 households and more than 2,600 individuals. The initiative later received the President’s Volunteerism and Philanthropy Awards People of Good recognition.
 
 ## What this site covers
 
-- [About](/about/): background, values, and current areas of work
+- [About](/about/): my background, values, and current areas of work
 - [Media](/media/): interviews, articles, and public features
-- [Awards](/awards/): selected recognitions and ceremony photos
+- [Awards](/awards/): selected recognitions and supporting context
 - [CV](/cv/): a concise career snapshot
 
 ## Selected highlights
@@ -25,4 +25,4 @@ During the COVID-19 crisis, Project Stable Staples raised more than SGD 160,000 
 
 ## Current focus
 
-Laurence works at the intersection of technical leadership and social impact. He believes strong fundamentals let teams learn quickly, adapt well, and stay effective across changing technologies. He applies the same bias for practical action to community work, where small teams, clear systems, and trust can unlock outsized results.
+I work at the intersection of technical leadership and social impact. At TikTok, my current focus spans site leadership, OSE engineering leadership, platform ownership, operational efficiency, and AI-focused work with engineering teams. I apply the same bias for practical action to community work, where small teams, clear systems, and trust can unlock outsized results.

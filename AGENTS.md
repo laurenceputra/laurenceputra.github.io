@@ -6,68 +6,44 @@ This repository contains Laurence Putra's personal website, built with Hugo.
 
 ### Branches
 
-| Branch | Purpose | What it Contains |
-|--------|---------|------------------|
-| `hugo-source` | Hugo source files | Raw content, layouts, themes, config - edit here |
-| `hugo-rebuild` | Built static site | Generated HTML/CSS/JS - GitHub Pages serves this |
+| Branch | Purpose | Notes |
+|--------|---------|-------|
+| `source` | Local working branch | Tracks `origin/hugo-source` |
+| `hugo-source` | Remote source branch | Pushes here trigger GitHub Pages deployment |
 
 ## Workflow
 
 ### Making Changes
 
-1. **Edit source files** in `hugo-source` branch:
-   - Content: `content/` (Markdown files)
-   - Layouts: `layouts/`
+1. Edit Hugo source files in the working tree:
+   - Content: `content/`
+   - Layouts and shortcodes: `layouts/`
    - Styles: `static/css/`
    - Config: `hugo.toml`
 
-2. **Build the site**:
+2. Build the site locally:
    ```bash
    hugo --minify
    ```
 
-3. **Push to hugo-rebuild**:
+3. Commit the source changes and push the local `source` branch to `origin/hugo-source`:
    ```bash
-   # From hugo-source branch
-   git checkout hugo-rebuild
-   rm -rf *
-   cp -r public/* ./
    git add .
    git commit -m "Update site"
-   git push origin hugo-rebuild
+   git push origin HEAD:hugo-source
    ```
-
-### Automated Option
-
-The subagent setup uses git worktrees to automate this:
-- Source lives in `/home/node/.openclaw/workspace/laurence-profile/hugo-site`
-- Built output goes to `/tmp/laurenceputra-site-main`
-- Push both branches after rebuilding
 
 ## GitHub Pages
 
-**Site URL:** https://laurenceputra.github.io
+**Site URL:** https://laurenceputra.com
 
 **Configuration:**
-- Pages source: `hugo-rebuild` branch
-- Custom domain: `laurenceputra.com` (via CNAME file)
-
-## Commands
-
-```bash
-# Rebuild and push
-cd /home/node/.openclaw/workspace/laurence-profile/hugo-site
-hugo --minify
-# ... then push as shown above
-
-# Or use the worktree approach
-cd /tmp/laurenceputra-site-main
-git push origin hugo-rebuild
-```
+- Deployment workflow: `.github/workflows/hugo.yml`
+- Trigger branch: `hugo-source`
+- Custom domain: `laurenceputra.com` via `static/CNAME`
 
 ## Notes
 
-- Source branch (`hugo-source`) is for development
-- Rebuild branch (`hugo-rebuild`) is for deployment
-- Never edit files directly in `hugo-rebuild`
-- Always rebuild from source before pushing
+- GitHub Pages now deploys from Actions, not from a dedicated built-output branch.
+- `public/` is generated output for local verification.
+- Keep deployment guidance aligned with `hugo.yml` and remove stale references to older branch-based deploy flows.

@@ -1,22 +1,25 @@
 ---
 title: CV
-description: Concise career snapshot for Laurence Putra Franslay.
+description: A concise snapshot of my engineering, leadership, and community work.
 ---
 
-This is a concise career snapshot.
+This is my concise career snapshot.
 
 ## Current role
 
 ### TikTok
 
 - Site Leader for the Server Architecture org
-- Runs the eSRE function in TikTok Singapore
+- OSE Engineering Leader in TikTok Singapore
+- Platform ownership across reliability and core operating foundations
+- Operational efficiency improvements across systems and teams
+- AI-focused work that improves engineering workflows and team leverage
 
 ## Selected experience
 
 ### PayPal Pte Ltd
 
-Worked across both engineering and management roles in compliance, consumer in-store, digital commerce, developer outreach, and latency optimization.
+I worked across both engineering and management roles in compliance, consumer in-store, digital commerce, developer outreach, and latency optimization.
 
 - Led latency optimization and DevOps teams
 - Planned strategic roadmaps for platform and DevOps work
@@ -26,7 +29,7 @@ Worked across both engineering and management roles in compliance, consumer in-s
 
 ### Singapore Power Ltd
 
-DevOps Lead.
+I served as DevOps Lead.
 
 - Led the DevOps team
 - Pushed for infrastructure and process automation
@@ -36,7 +39,7 @@ DevOps Lead.
 
 ### Nugit Pte Ltd
 
-Senior Engineer.
+I served as Senior Engineer.
 
 - Led the infrastructure team
 - Planned and executed upgrades to aging database systems
@@ -46,7 +49,7 @@ Senior Engineer.
 
 ### Billpin Pte Ltd
 
-Software Engineer.
+I worked as a Software Engineer.
 
 - Led database integration work after an acquisition
 - Reworked backend architecture to reduce client load and support more features
@@ -67,7 +70,7 @@ Bachelor of Computing in Computer Science.
 
 ### Project Stable Staples
 
-Founding team member.
+I was part of the founding team.
 
 - Launched the donation site rapidly during the crisis response period
 - Automated logistical overhead with technology
@@ -77,7 +80,7 @@ Founding team member.
 
 ### IAmTalentedSG
 
-Core team member.
+I was a core team member.
 
 - Ran programs with Community Development Councils in Singapore for youths at risk
 - Improved operations with technology
@@ -85,7 +88,7 @@ Core team member.
 
 ### GeekcampSG
 
-Lead organizer.
+I was the lead organizer.
 
 - Grew the community from roughly 200 participants in 2011 to around 1,500 attendees in 2013
 - Organized one of Singapore's notable tech community events of its time

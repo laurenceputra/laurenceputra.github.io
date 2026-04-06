@@ -6,10 +6,10 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Software engineer, community builder, and changemaker"
-  tagline = "Software engineer, community builder, and changemaker"
-  intro = "Laurence Putra Franslay builds resilient engineering teams and community initiatives that close real gaps."
-  currentRole = "Currently serving as Site Leader for the Server Architecture org in TikTok and running the eSRE function in TikTok Singapore."
+  description = "Engineering leader, community builder, and changemaker"
+  tagline = "Engineering leader, community builder, and changemaker"
+  intro = "I build resilient engineering teams and community initiatives that close real gaps."
+  currentRole = "I currently serve as Site Leader for the Server Architecture org and as an OSE Engineering Leader in TikTok Singapore, with a focus on platform ownership, operational efficiency, and AI-focused engineering work."
   profileImage = "/images/profile_2021_full_body_chair.jpg"
   heroImage = "/images/cover.jpg"
   linkedin = "https://www.linkedin.com/in/laurenceputra/"
