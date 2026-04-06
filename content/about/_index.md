@@ -26,8 +26,6 @@ My broader background spans engineering, operations, infrastructure, and managem
 
 Good engineers pick up new technologies quickly. Strong fundamentals matter more than fashionable tools.
 
-I believe Singapore's challenge is not a talent shortage, but a shortage of genuinely good engineering jobs that stretch thinkers. Technical work should go beyond shallow pixel-moving or repetitive implementation.
-
 Complex problems should be broken into smaller parts, then solved by learning what's missing. Engineering leadership should empower others rather than centrally control everything.
 
 ## Community and philanthropy
