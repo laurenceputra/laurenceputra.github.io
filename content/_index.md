@@ -3,11 +3,11 @@ title: Home
 description: A concise profile of Laurence Putra Franslay's work across engineering, community building, and social impact.
 ---
 
-Laurence Putra Franslay is a software engineer, community builder, and changemaker based in Singapore. He leads engineering teams, gets into the weeds when needed, and spends his time building practical systems that help people.
+Laurence Putra Franslay is a software engineer, community builder, and changemaker based in Singapore. He leads engineering teams, gets into the weeds when needed, and builds practical systems that help people.
 
 Across his career, Laurence has worked across software engineering, infrastructure, DevOps, mobile, web, and operations. Outside work, he has supported communities through IAmTalentedSG, Project Stable Staples, and philanthropic efforts such as the Lai Yu Hua Bursary.
 
-During the COVID-19 crisis, Project Stable Staples raised more than SGD 160,000 to support more than 600 households and more than 2,600 individuals. The initiative was later recognized with the President’s Volunteerism and Philanthropy Awards People of Good award.
+During the COVID-19 crisis, Project Stable Staples raised more than SGD 160,000 to support more than 600 households and more than 2,600 individuals. The initiative earned the President’s Volunteerism and Philanthropy Awards People of Good award.
 
 ## What this site covers
 
