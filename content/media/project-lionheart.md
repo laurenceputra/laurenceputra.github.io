@@ -13,7 +13,7 @@ The feature was also a good moment to restate something I believe strongly: when
 ## Links
 
 - Explore Project Lionheart stories: <https://projectlionheart.sg/stories/>
-- Original post from the previous site: <https://laurenceputra.com/2022/10/06/project-lionheart/>
+
 
 ## Selected photos
 

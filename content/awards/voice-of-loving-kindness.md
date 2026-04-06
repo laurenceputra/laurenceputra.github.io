@@ -13,5 +13,5 @@ That is why this recognition never felt like it was mine alone. It reflected the
 ## Links
 
 - Coverage: <https://pride.kindness.sg/we-realised-that-we-cant-just-stop-he-helps-struggling-families-through-the-circuit-breaker-and-beyond/>
-- Original post from the previous site: <https://laurenceputra.com/2022/05/20/skm-voice-of-loving-kindness/>
+
 - LinkedIn post: <https://www.linkedin.com/feed/update/urn:li:activity:6935574566295457792/>

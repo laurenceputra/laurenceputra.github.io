@@ -11,4 +11,4 @@ We Are Majulah featured Project Stable Staples and the broader story behind the 
 ## Links
 
 - Watch on Facebook: <https://www.facebook.com/wearemajulah/videos/1533588410346640>
-- Original post from the previous site: <https://laurenceputra.com/2021/11/26/we-are-majulah-feature/>
+
