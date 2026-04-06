@@ -1,6 +1,6 @@
 ---
 title: Media
-description: Interviews, articles, and public features related to my engineering and community work.
+description: Media coverage of Laurence Putra - Channel 8 interview, CNA feature, PayPal Newsroom, and Singapore Kindness Movement recognition.
 ---
 
 This section collects selected interviews, articles, and public features about my engineering and community work.
