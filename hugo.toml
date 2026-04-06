@@ -29,6 +29,11 @@ disableKinds = ["taxonomy", "term"]
   pageRef = "/awards"
   weight = 30
 
+[[menu.main]]
+  name = "Blog"
+  pageRef = "/blog"
+  weight = 25
+
 
 
 [markup]
