@@ -13,7 +13,7 @@ I have been lucky to learn from, build with, and be supported by many people ove
 ## Links
 
 - Official page: <https://www.comp.nus.edu.sg/alum/alumaward/2020-ocaa/>
-- Original post from the previous site: <https://laurenceputra.com/2022/09/17/nus-computing-outstanding-young-alumni-award/>
+
 - LinkedIn post: <https://www.linkedin.com/posts/laurenceputra_nus-computing-activity-6979250104125804544-Uvzn>
 
 ## Selected photos

@@ -13,4 +13,4 @@ Mediacorp Channel 8 Frontline featured Project Stable Staples, covering what we 
 ## Links
 
 - Watch on YouTube: <https://www.youtube.com/watch?v=qOkFDYkJYnw>
-- Original post from the previous site: <https://laurenceputra.com/2021/08/07/2021-channel-8-frontline-interview-on-pss/>
+

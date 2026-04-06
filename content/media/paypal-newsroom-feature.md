@@ -14,4 +14,4 @@ PayPal profiled my work on Project Stable Staples in both a video feature and a 
 
 - Watch on YouTube: <https://www.youtube.com/watch?v=ygvN5bSmwy4>
 - Read the newsroom article: <https://newsroom.paypal-corp.com/2022-01-27-Project-Stable-Staples-One-PayPal-engineer-on-his-mission-to-help-families-in-need>
-- Original post from the previous site: <https://laurenceputra.com/2022/01/27/paypal-newsroom-feature/>
+

@@ -13,4 +13,4 @@ Channel NewsAsia covered Project Stable Staples and the initiative's impact duri
 ## Links
 
 - Watch on YouTube: <https://www.youtube.com/watch?v=eapBEsycPwg>
-- Original post from the previous site: <https://laurenceputra.com/2020/12/28/2020-cna-interview-on-pss/>
+

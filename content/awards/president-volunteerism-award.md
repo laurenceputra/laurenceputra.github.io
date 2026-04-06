@@ -23,7 +23,7 @@ What mattered most to me was not the ceremony itself. It was the trust the publi
 ## Links
 
 - Official announcement: <https://www.facebook.com/CityofGoodSG/posts/1840452472777095>
-- Original post from the previous site: <https://laurenceputra.com/2020/10/16/people-of-good-award/>
+
 
 ## Selected photos
 
