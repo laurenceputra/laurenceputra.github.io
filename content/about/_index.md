@@ -1,6 +1,6 @@
 ---
 title: About
-description: About Laurence Putra - Engineering leader at TikTok Singapore. AI systems, platform ownership, and operational efficiency. NUS Computing Outstanding Young Alumni.
+description: Engineering leader focused on building systems that hold - understanding constraints, removing complexity, and designing for durable leverage.
 ---
 
 I build systems that are meant to hold. The kind that reduce friction, survive contact with reality, and keep working without drawing attention to themselves.

@@ -1,6 +1,6 @@
 ---
 title: "The Model Is Not the Product. The Harness Is."
-description: "Why AI harness architecture matters more than model weights. Engineering insights on OpenClaw, Claude Code, and AI system design for platform leaders."
+description: "The real power in AI is not the model. It is the harness around it."
 date: 2026-04-06
 tags: ["AI", "engineering", "OpenClaw", "harness", "systems"]
 ---

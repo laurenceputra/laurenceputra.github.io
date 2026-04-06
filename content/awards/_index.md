@@ -1,6 +1,6 @@
 ---
 title: Awards
-description: NUS Outstanding Young Alumni, President's Volunteerism Award, and community recognition for engineering leadership in Singapore.
+description: Selected recognitions for my engineering, community, and social impact work.
 ---
 
 These recognitions reflect years of work with communities, collaborators, and supporters. I see them as markers of shared effort, not isolated personal milestones.
