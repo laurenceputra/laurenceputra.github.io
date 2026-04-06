@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <section class="hero" style="background-image: linear-gradient(135deg, rgba(15, 23, 42, 0.86), rgba(15, 23, 42, 0.55)), url('{{ site.Params.heroImage | relURL }}');">
+    <div class="container hero-inner">
+      <div>
+        <p class="eyebrow">{{ site.Title }}</p>
+        <h1>{{ site.Params.tagline }}</h1>
+        <p class="lead">{{ site.Params.intro }}</p>
+        <p>{{ site.Params.currentRole }}</p>
+        <div class="cta-row">
+          <a class="button" href="{{ "/about/" | relURL }}">About</a>
+          <a class="button secondary" href="{{ "/media/" | relURL }}">Media</a>
+          <a class="button secondary" href="{{ "/awards/" | relURL }}">Awards</a>
+          <a class="button secondary" href="{{ "/cv/" | relURL }}">CV</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="{{ site.Params.profileImage | relURL }}" alt="Portrait of {{ site.Title }}">
+      </div>
+    </div>
+  </section>
+
+  <section class="page-shell">
+    <div class="container page-content">
+      {{ .Content }}
+    </div>
+  </section>
+{{ end }}

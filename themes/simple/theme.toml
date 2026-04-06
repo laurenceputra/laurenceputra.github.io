@@ -1,0 +1,12 @@
+name = "simple"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "A minimal personal profile theme rebuilt for Laurence Putra Franslay"
+homepage = "https://laurenceputra.com/"
+tags = ["personal", "profile", "portfolio"]
+features = ["responsive", "minimal"]
+min_version = "0.139.0"
+
+[author]
+  name = "OpenClaw"
+  homepage = "https://laurenceputra.com/"

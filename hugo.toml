@@ -1,0 +1,40 @@
+baseURL = "https://laurenceputra.com/"
+languageCode = "en-us"
+title = "Laurence Putra Franslay"
+theme = "simple"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "Software engineer, community builder, and changemaker"
+  tagline = "Software engineer, community builder, and changemaker"
+  intro = "Laurence Putra Franslay builds resilient engineering teams and community initiatives that close real gaps."
+  currentRole = "Currently serving as Site Leader for the Server Architecture org in TikTok and running the eSRE function in TikTok Singapore."
+  profileImage = "/images/profile_2021_full_body_chair.jpg"
+  heroImage = "/images/cover.jpg"
+  linkedin = "https://www.linkedin.com/in/laurenceputra/"
+
+[[menu.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 10
+
+[[menu.main]]
+  name = "Media"
+  pageRef = "/media"
+  weight = 20
+
+[[menu.main]]
+  name = "Awards"
+  pageRef = "/awards"
+  weight = 30
+
+[[menu.main]]
+  name = "CV"
+  pageRef = "/cv"
+  weight = 40
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
