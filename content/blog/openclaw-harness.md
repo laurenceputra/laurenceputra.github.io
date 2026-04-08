@@ -17,8 +17,6 @@ That difference is the whole point.
 
 ## Index
 
-I reach for these in roughly this order.
-
 - [Delegate](#delegate)
 - [Escalate](#escalate)
 - [Signal-first analysis](#signal-first-analysis)
