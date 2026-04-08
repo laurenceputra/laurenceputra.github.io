@@ -34,10 +34,21 @@ That difference is the whole point.
 
 I use a small set of skills as explicit control surfaces. To make that concrete, I am including the safe framework files below as verbatim markdown, with sensitive files omitted.
 
+## Why this works
+
+OpenClaw is useful to me because it makes the invisible work visible.
+
+I can see when I am delegating, when I am escalating, when I am researching, and when I am trying to force a conclusion before the evidence is ready. That gives me leverage. It also gives me a way to improve the system without rewriting everything from scratch.
+
+The model is still important. But the harness decides whether the model is operating inside a clean workflow or a mess.
+
+That is why I care about the structure more than the leaderboard.
+
+And that is why I would rather have a system I can inspect, modify, and leave than a model I can only admire.
+
 ### Delegate
 
 Source: `skills/delegate/SKILL.md`
-
 
 ````markdown
 ---
@@ -96,11 +107,9 @@ timeoutSeconds: 3600
 - Prefer direct execution in the current session when delegation adds no real benefit.
 ````
 
-
 ### Escalate
 
 Source: `skills/escalate/SKILL.md`
-
 
 ````markdown
 ---
@@ -160,11 +169,9 @@ When escalating for analysis or design work:
 This ensures that escalations for analysis remain safe and that changes are deliberate.
 ````
 
-
 ### Signal-first analysis
 
 Source: `skills/signal-first-analysis/SKILL.md`
-
 
 ````markdown
 ---
@@ -228,11 +235,9 @@ Use this skill as the execution layer for general analysis tasks. Load `methodol
 - Prefer a simple working table over prose when it makes the distinctions clearer.
 ````
 
-
 ### Analysis core
 
 Source: `methodologies/analysis-core.md`
-
 
 ````markdown
 # Analysis Core
@@ -384,11 +389,9 @@ When no other format is required, use:
 - 2026-04-05: Created to separate reusable analysis structure from execution-oriented analysis skills.
 ````
 
-
 ### Multi-model comparison
 
 Source: `methodologies/multi-model-comparison.md`
-
 
 ````markdown
 # Multi-Model Comparison
@@ -476,11 +479,9 @@ When no other format is required, use:
 - 2026-04-05: Created to encode the multi-subagent comparison workflow and the baseline-first rule.
 ````
 
-
 ### Deep research
 
 Source: `skills/deep-research/SKILL.md`
-
 
 ````markdown
 ---
@@ -532,7 +533,6 @@ For consistency, reference the escalate skill's configuration as the single sour
 - Keep execution details local to the relevant domain skill or workspace instructions.
 - For heavier research tasks in this workspace, follow the escalation path in `skills/escalate/SKILL.md` when delegation is appropriate.
 ````
-
 
 ### Research core
 
@@ -763,7 +763,6 @@ Examples:
 
 Source: `methodologies/travel-research.md`
 
-
 ````markdown
 # Travel Research
 
@@ -958,11 +957,9 @@ Document any item that still needs confirmation:
 - 2026-04-04: Normalized from the earlier travel research methodology. Removed Foshan-specific cuisine rules, evening strategy, and platform implementation detail from the reusable framework.
 ````
 
-
 ### Portfolio research
 
 Source: `methodologies/portfolio-research.md`
-
 
 ````markdown
 # Portfolio Research Methodology
@@ -1130,7 +1127,6 @@ To specialize for a specific thesis (e.g., AI, Healthcare, Renewables):
 ### Portfolio construction
 
 Source: `methodologies/portfolio-construction.md`
-
 
 ````markdown
 # Portfolio Construction Methodology
@@ -1449,11 +1445,9 @@ Analyze monthly:
 - [ ] Time-based review triggers exit
 ````
 
-
 ### Blog writing
 
 Source: `skills/blog-writing/SKILL.md`
-
 
 ````markdown
 ---
@@ -1505,11 +1499,9 @@ Before delivering the final draft, run through `references/revision-checklist.md
 - Philosophy is optional. Only include it if the intake reveals a conceptual frame that genuinely clarifies the mechanism.
 ````
 
-
 ### Analytical writing core
 
 Source: `methodologies/analytical-writing-core.md`
-
 
 ````markdown
 # Analytical Writing Core
@@ -1601,15 +1593,3 @@ This is not mushy hedging. It's honest confidence signaling. The reader should k
   - widen the implications
   - end with a distilled warning or choice
 ````
-
-## Why this works
-
-OpenClaw is useful to me because it makes the invisible work visible.
-
-I can see when I am delegating, when I am escalating, when I am researching, and when I am trying to force a conclusion before the evidence is ready. That gives me leverage. It also gives me a way to improve the system without rewriting everything from scratch.
-
-The model is still important. But the harness decides whether the model is operating inside a clean workflow or a mess.
-
-That is why I care about the structure more than the leaderboard.
-
-And that is why I would rather have a system I can inspect, modify, and leave than a model I can only admire.
