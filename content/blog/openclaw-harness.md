@@ -15,6 +15,58 @@ The model answers. The harness decides what the model sees, how work gets split,
 
 That difference is the whole point.
 
+## Workflow architecture
+
+The architecture is deliberately layered. I do not think of OpenClaw as one monolithic agent. I think of it as a control plane with reusable execution paths.
+
+### 1. Control surfaces
+
+The first layer is a small set of skills that act like control surfaces. They do not do the work for me. They decide how the work should be routed.
+
+- **Delegate** for clear, bounded, execution-heavy tasks
+- **Escalate** for ambiguous, risky, or reasoning-heavy work
+- **Signal-first analysis** for triage, comparison, and source-aware judgment
+- **Deep research** for broad, current, source-heavy work
+
+### 2. Execution methodologies
+
+The second layer is reusable methodology files. These are not topic notes. They are the deeper playbooks that tell the system how to think inside a task family.
+
+Examples:
+- **Analysis core** for triage, summarization, classification, source analysis, and decision support
+- **Research core** for turning a question into a defensible research answer
+- **Analytical writing core** for writing that carries an argument, evidence, and structure
+- **Travel research** for planning and decision support around trips
+- **Portfolio research** and **portfolio construction** for structured financial judgment
+
+### 3. Domain workflows
+
+The third layer is a set of domain-specific workflows built from the layers above. These are the repeatable paths I actually use.
+
+- **Analysis workflows**: rank, compare, classify, or summarize with explicit signal and uncertainty
+- **Research workflows**: go from question to evidence to answer without collapsing early into narrative
+- **Writing workflows**: take a claim, define the hidden variable, and shape the argument for the audience
+- **Planning workflows**: use the same control logic, but constrain scope and output more tightly
+
+### 4. Why this structure works
+
+The point of the architecture is not to maximize abstraction. It is to keep the system inspectable.
+
+- Skills tell the system **what kind of work this is**
+- Methodologies tell the system **how to do that kind of work**
+- Workflows tell the system **how to sequence the pieces**
+
+That separation matters because it lets me change one layer without rewriting the others. I can improve a workflow without breaking a skill. I can tighten a methodology without changing the whole control plane.
+
+### 5. The practical rule
+
+If a request is clear and bounded, use the smallest tool that can do the job.
+If a request is ambiguous or high-stakes, widen the frame first.
+If the work benefits from repeatability, turn it into a workflow.
+If the workflow starts repeating the same mistakes, move the lesson into a methodology.
+
+That is how the system compounds.
+
 ## Index
 
 1. [Delegate](#delegate)
