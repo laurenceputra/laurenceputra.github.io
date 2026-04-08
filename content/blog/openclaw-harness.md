@@ -34,7 +34,7 @@ That difference is the whole point.
 
 I use a small set of skills as explicit control surfaces. To make that concrete, I am including the safe framework files below as verbatim markdown, with sensitive files omitted.
 
-## Why this works
+### Why this works
 
 OpenClaw is useful to me because it makes the invisible work visible.
 
