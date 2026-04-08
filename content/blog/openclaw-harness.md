@@ -17,20 +17,20 @@ That difference is the whole point.
 
 ## Workflow architecture
 
-The architecture is deliberately layered. I do not think of OpenClaw as one monolithic agent. I think of it as a control plane with reusable execution paths.
+OpenClaw is layered on purpose. I do not think of it as one monolithic agent. I think of it as a control plane with reusable execution paths, where each layer does a different kind of work.
 
-### 1. Control surfaces
+### Control surfaces
 
-The first layer is a small set of skills that act like control surfaces. They do not do the work for me. They decide how the work should be routed.
+The first layer is a small set of skills that decide how work gets routed. They do not do the work for me. They tell the system what kind of work this is.
 
 - **Delegate** for clear, bounded, execution-heavy tasks
 - **Escalate** for ambiguous, risky, or reasoning-heavy work
 - **Signal-first analysis** for triage, comparison, and source-aware judgment
 - **Deep research** for broad, current, source-heavy work
 
-### 2. Execution methodologies
+### Execution methodologies
 
-The second layer is reusable methodology files. These are not topic notes. They are the deeper playbooks that tell the system how to think inside a task family.
+The second layer is a set of methodology files. These are not topic notes. They are the deeper playbooks that tell the system how to think inside a task family.
 
 Examples:
 - **Analysis core** for triage, summarization, classification, source analysis, and decision support
@@ -39,18 +39,18 @@ Examples:
 - **Travel research** for planning and decision support around trips
 - **Portfolio research** and **portfolio construction** for structured financial judgment
 
-### 3. Domain workflows
+### Domain workflows
 
-The third layer is a set of domain-specific workflows built from the layers above. These are the repeatable paths I actually use.
+The third layer is where the system becomes practical. These are the repeatable paths I actually use in day-to-day work.
 
-- **Analysis workflows**: rank, compare, classify, or summarize with explicit signal and uncertainty
-- **Research workflows**: go from question to evidence to answer without collapsing early into narrative
-- **Writing workflows**: take a claim, define the hidden variable, and shape the argument for the audience
-- **Planning workflows**: use the same control logic, but constrain scope and output more tightly
+- **Analysis workflows** rank, compare, classify, or summarize while keeping signal and uncertainty visible
+- **Research workflows** move from question to evidence to answer without collapsing too early into narrative
+- **Writing workflows** take a claim, identify the hidden variable, and shape the argument for the audience
+- **Planning workflows** use the same control logic, but constrain scope and output more tightly
 
-### 4. Why this structure works
+### Why this structure works
 
-The point of the architecture is not to maximize abstraction. It is to keep the system inspectable.
+The goal is not abstraction for its own sake. It is inspectability.
 
 - Skills tell the system **what kind of work this is**
 - Methodologies tell the system **how to do that kind of work**
@@ -58,7 +58,7 @@ The point of the architecture is not to maximize abstraction. It is to keep the 
 
 That separation matters because it lets me change one layer without rewriting the others. I can improve a workflow without breaking a skill. I can tighten a methodology without changing the whole control plane.
 
-### 5. The practical rule
+### The practical rule
 
 If a request is clear and bounded, use the smallest tool that can do the job.
 If a request is ambiguous or high-stakes, widen the frame first.
