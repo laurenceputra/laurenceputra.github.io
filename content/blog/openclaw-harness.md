@@ -640,26 +640,6 @@ This is not mushy hedging. It's honest confidence signaling. The reader should k
   - end with a distilled warning or choice
 ````
 
-### `methodologies/general-research-methodology.md`
-
-````markdown
-# General Research Methodology
-
-Deprecated compatibility file.
-
-Canonical document: `methodologies/research-core.md`
-
-Use that file for the reusable cross-domain research framework.
-
-Reason for change:
-- normalized naming with other methodology files
-- reduced overlap with implementation-heavy skill content
-- made domain extensions explicit instead of embedded
-
-Revision log
-- 2026-04-04: Replaced prior full methodology with pointer to `methodologies/research-core.md`.
-````
-
 ### `methodologies/travel-research.md`
 
 ````markdown
