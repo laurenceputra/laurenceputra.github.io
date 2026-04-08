@@ -29,7 +29,6 @@ That difference is the whole point.
 10. [Portfolio construction](#portfolio-construction)
 11. [Blog writing](#blog-writing)
 12. [Analytical writing core](#analytical-writing-core)
-13. [Why this works](#why-this-works)
 
 ## The control layer
 
@@ -1614,4 +1613,3 @@ The model is still important. But the harness decides whether the model is opera
 That is why I care about the structure more than the leaderboard.
 
 And that is why I would rather have a system I can inspect, modify, and leave than a model I can only admire.
-
