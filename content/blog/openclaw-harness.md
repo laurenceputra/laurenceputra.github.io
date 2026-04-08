@@ -15,11 +15,31 @@ The model answers. The harness decides what the model sees, how work gets split,
 
 That difference is the whole point.
 
+## Index
+
+I reach for these in roughly this order.
+
+- [Delegate](#delegate)
+- [Escalate](#escalate)
+- [Signal-first analysis](#signal-first-analysis)
+- [Analysis core](#analysis-core)
+- [Multi-model comparison](#multi-model-comparison)
+- [Deep research](#deep-research)
+- [Research core](#research-core)
+- [Travel research](#travel-research)
+- [Portfolio research](#portfolio-research)
+- [Portfolio construction](#portfolio-construction)
+- [Blog writing](#blog-writing)
+- [Analytical writing core](#analytical-writing-core)
+
 ## The control layer
 
 I use a small set of skills as explicit control surfaces. To make that concrete, I am including the safe framework files below as verbatim markdown, with sensitive files omitted.
 
-### `skills/delegate/SKILL.md`
+### Delegate
+
+Source: `skills/delegate/SKILL.md`
+
 
 ````markdown
 ---
@@ -78,7 +98,11 @@ timeoutSeconds: 3600
 - Prefer direct execution in the current session when delegation adds no real benefit.
 ````
 
-### `skills/escalate/SKILL.md`
+
+### Escalate
+
+Source: `skills/escalate/SKILL.md`
+
 
 ````markdown
 ---
@@ -138,7 +162,11 @@ When escalating for analysis or design work:
 This ensures that escalations for analysis remain safe and that changes are deliberate.
 ````
 
-### `skills/signal-first-analysis/SKILL.md`
+
+### Signal-first analysis
+
+Source: `skills/signal-first-analysis/SKILL.md`
+
 
 ````markdown
 ---
@@ -202,112 +230,11 @@ Use this skill as the execution layer for general analysis tasks. Load `methodol
 - Prefer a simple working table over prose when it makes the distinctions clearer.
 ````
 
-### `skills/deep-research/SKILL.md`
 
-````markdown
----
-name: deep-research
-description: Plan and execute structured, source-grounded deep research on complex topics. Use when the user asks for a deep dive, comprehensive research, multi-facet analysis, or a decision memo that needs current evidence, clear segmentation, and explicit tradeoffs.
----
+### Analysis core
 
-# Deep Research
+Source: `methodologies/analysis-core.md`
 
-Use this skill as a thin entrypoint into the shared research methodology.
-
-## Workflow
-
-1. Capture the minimum decision context:
-   - subject
-   - scope
-   - goal
-   - constraints
-   - priority signals
-   - audience
-   - output shape
-   
-   *For classification and required elements, see `research-core.md` step 1. Classification drives depth; required elements prevent omissions.*
-2. Load `methodologies/research-core.md` for the reusable research framework.
-3. If the domain has a more specific methodology, load that too.
-4. Break the work into coherent segments before going deep.
-5. Gather current evidence with grounded sources.
-6. If search is rate-limited or times out due to rate limiting, retry with exponential backoff (max N attempts). If retries still fail, stop, document the gap, and use the configured search fallback path.
-7. Compare serious options, expose tradeoffs, and name uncertainties.
-8. Run the contradiction and completion checks from the methodology before finalizing.
-
-## Domain extensions
-
-Load a domain-specific methodology only when it clearly fits the job.
-
-- Travel work: `methodologies/travel-research.md`
-- Portfolio research: `methodologies/portfolio-research.md`
-- AI portfolio research: `methodologies/portfolio-research-ai.md` (extends portfolio-research)
-- Portfolio construction: `methodologies/portfolio-construction.md` (extends portfolio-research)
-- AI portfolio construction: `methodologies/portfolio-construction-ai.md` (extends portfolio-construction)
-
-## Model Configuration
-
-For consistency, reference the escalate skill's configuration as the single source of truth. When spawning a subagent for deep research, use the model and parameters defined in `skills/escalate/SKILL.md` (currently `github-copilot/gpt-5.4` with thinking high).
-
-## Notes
-
-- Do not duplicate the full framework in this skill. The methodology files own the structure.
-- Keep execution details local to the relevant domain skill or workspace instructions.
-- For heavier research tasks in this workspace, follow the escalation path in `skills/escalate/SKILL.md` when delegation is appropriate.
-````
-
-### `skills/blog-writing/SKILL.md`
-
-````markdown
----
-name: blog-writing
-description: Write, outline, or revise long-form blog posts and articles. Use when the user asks to write a blog post, article, essay for publication, Substack post, or long-form piece. Triggers on phrases like "blog post," "write an article," "help me write," "draft a post."
----
-
-# Blog Writing Skill
-
-## Workflow
-
-### Step 1: Intake
-
-Ask the intake questions from `references/intake-questions.md`. Ask the first 6 by default. Use 7-9 only if needed. Use fallback probes if answers are thin.
-
-Do not proceed to drafting until you have at minimum:
-- A one-sentence core claim
-- The hidden variable or real mechanism
-- At least one personal encounter or real example
-- The stakes (why the reader cares)
-
-### Step 2: Load the methodology
-
-Load `methodologies/analytical-writing-core.md` for the analytical framework (hidden variable framing, evidence template, layering staircase, philosophy rules, guardrails).
-
-### Step 3: Load the blog layer
-
-Load `references/blog-post-rules.md` for blog-specific delivery rules (opening reversal, cadence, hammer sentences, compressed ending, final inversion).
-
-### Step 4: Draft the outline first
-
-If the user is still at "rough hunch" or "partial outline" stage, draft an outline before writing full prose. Use the skeleton from `assets/outline-template.md`.
-
-Confirm the outline with the user before proceeding to full draft.
-
-### Step 5: Draft
-
-Write the full post following both the core methodology and the blog layer rules.
-
-### Step 6: Revision
-
-Before delivering the final draft, run through `references/revision-checklist.md`. Fix any issues found.
-
-## Notes
-
-- The core methodology (`analytical-writing-core.md`) works for any analytical format. It is always loaded for blog posts because almost all useful blog posts are analytical.
-- The blog layer adds delivery format rules on top. Do not skip it.
-- If the user asks for a non-analytical blog post (e.g., a listicle, a how-to guide, a personal narrative), you may skip the core methodology and use only the blog layer. But default to loading both.
-- Philosophy is optional. Only include it if the intake reveals a conceptual frame that genuinely clarifies the mechanism.
-````
-
-### `methodologies/analysis-core.md`
 
 ````markdown
 # Analysis Core
@@ -459,7 +386,11 @@ When no other format is required, use:
 - 2026-04-05: Created to separate reusable analysis structure from execution-oriented analysis skills.
 ````
 
-### `methodologies/multi-model-comparison.md`
+
+### Multi-model comparison
+
+Source: `methodologies/multi-model-comparison.md`
+
 
 ````markdown
 # Multi-Model Comparison
@@ -547,100 +478,293 @@ When no other format is required, use:
 - 2026-04-05: Created to encode the multi-subagent comparison workflow and the baseline-first rule.
 ````
 
-### `methodologies/analytical-writing-core.md`
+
+### Deep research
+
+Source: `skills/deep-research/SKILL.md`
+
 
 ````markdown
-# Analytical Writing Core
+---
+name: deep-research
+description: Plan and execute structured, source-grounded deep research on complex topics. Use when the user asks for a deep dive, comprehensive research, multi-facet analysis, or a decision memo that needs current evidence, clear segmentation, and explicit tradeoffs.
+---
 
-Reusable framework for long-form analytical writing: essays, memos, reports, explainers, speeches, and analytical blog posts.
+# Deep Research
 
-This file is loaded by specific writing skills (e.g., blog-writing). Do not duplicate its rules in skill files.
+Use this skill as a thin entrypoint into the shared research methodology.
+
+## Workflow
+
+1. Capture the minimum decision context:
+   - subject
+   - scope
+   - goal
+   - constraints
+   - priority signals
+   - audience
+   - output shape
+   
+   *For classification and required elements, see `research-core.md` step 1. Classification drives depth; required elements prevent omissions.*
+2. Load `methodologies/research-core.md` for the reusable research framework.
+3. If the domain has a more specific methodology, load that too.
+4. Break the work into coherent segments before going deep.
+5. Gather current evidence with grounded sources.
+6. If search is rate-limited or times out due to rate limiting, retry with exponential backoff (max N attempts). If retries still fail, stop, document the gap, and use the configured search fallback path.
+7. Compare serious options, expose tradeoffs, and name uncertainties.
+8. Run the contradiction and completion checks from the methodology before finalizing.
+
+## Domain extensions
+
+Load a domain-specific methodology only when it clearly fits the job.
+
+- Travel work: `methodologies/travel-research.md`
+- Portfolio research: `methodologies/portfolio-research.md`
+- AI portfolio research: `methodologies/portfolio-research-ai.md` (extends portfolio-research)
+- Portfolio construction: `methodologies/portfolio-construction.md` (extends portfolio-research)
+- AI portfolio construction: `methodologies/portfolio-construction-ai.md` (extends portfolio-construction)
+
+## Model Configuration
+
+For consistency, reference the escalate skill's configuration as the single source of truth. When spawning a subagent for deep research, use the model and parameters defined in `skills/escalate/SKILL.md` (currently `github-copilot/gpt-5.4` with thinking high).
+
+## Notes
+
+- Do not duplicate the full framework in this skill. The methodology files own the structure.
+- Keep execution details local to the relevant domain skill or workspace instructions.
+- For heavier research tasks in this workspace, follow the escalation path in `skills/escalate/SKILL.md` when delegation is appropriate.
+````
+
+
+### Research core
+
+Source: `methodologies/research-core.md`
+
+````markdown
+# Research Core
+
+Reusable framework for structured, source-grounded research across domains.
+
+This file defines the thinking framework. Keep domain-specific execution details, tool commands, provider-switching steps, and platform URL patterns in the relevant skills.
 
 ---
 
-## 1. Core Argument Shape
+## 1. Define the research job
 
-Build the piece around **one central claim**.
+Capture the minimum decision context before collecting data.
 
-State or imply the **common interpretation**, then replace it with a more precise explanation.
+```text
+Subject:
+Scope:
+Goal:
+Constraints:
+Priority signals:
+  - Always include:
+  - Always avoid:
+Audience:
+Output shape:
+```
 
-Name the **hidden variable** early — the real mechanism, distinction, or factor that actually explains the issue. Reuse the same label throughout the piece. Make it the organizing spine. Do not introduce competing framings unless they serve the same spine.
+### Classification
+Classify the work so depth matches the job:
+- Exploratory
+- Comparative
+- Decision-driven
+- Comprehensive mapping
 
-## 2. Evidence Through Personal Encounter
-
-After naming the mechanism, include one concrete personal encounter, experiment, or observation that validates it.
-
-Structure that section in this order:
-
-1. **Starting assumption** — what I believed before
-2. **Setup** — what I tried or observed
-3. **Surprising result** — what happened that didn't match expectation
-4. **Revised belief** — what I had to change my mind about
-5. **Broader lesson** — what this reveals beyond the specific case
-
-Use first person only where it adds leverage:
-- Proof (this actually happened)
-- Stakes (this matters to me)
-- Changed belief (this shifted my thinking)
-
-Do not use personal detail as filler or scene-setting unless it changes the argument.
-
-If you lack a personal experiment, ask for a real example or switch to a case-study mode. Do not invent one.
-
-## 3. Layered Expansion
-
-Expand the argument in a staircase, one layer at a time:
-
-1. **Technical** — what is happening mechanically
-2. **User/behavioral** — what that changes for the people affected
-3. **Strategic/economic/social** — what that changes at scale
-
-Move outward one layer at a time. Before each transition, make the previous layer legible.
-
-Use hinge phrases that clearly mark expansion:
-- "At the technical level..."
-- "For users, this means..."
-- "Strategically, the consequence is..."
-- "There is also an economic dimension..."
-- "And this is where the lesson stops being theoretical."
-
-Each layer must answer: **So what changed?**
-
-## 4. Philosophy and Conceptual Framing
-
-Use a philosophical or conceptual reference only if it makes the mechanism clearer. Not as decoration.
+### Required elements
+List anything that must appear even if it does not emerge naturally.
 
 Rules:
-- Introduce it **only after** the core mechanism is already understandable
-- Translate it immediately into plain operational language
-- Limit to **one or two references max**
-- Apply the **deletion test**: if removing the reference does not weaken the argument, cut it
+- Treat required elements as constraints, not afterthoughts.
+- Spread them across the structure when distribution improves variety or coverage.
+- If a required element cannot be satisfied, say so explicitly and explain why.
 
-## 5. Claim Calibration
+---
 
-Make strong claims, but calibrate them honestly. Use calibration phrases when the evidence warrants hedging:
-- "my current guess"
-- "I think the real shift is"
-- "this seems to suggest"
-- "the signal I'm tracking is"
+## 2. Segment the space
 
-This is not mushy hedging. It's honest confidence signaling. The reader should know what you're certain about and what you're still testing.
+Break the topic into coherent segments that reduce overlap and make comparison easier.
 
-## 6. Guardrails
+Possible segmentation axes:
+- Geography
+- Theme
+- Category
+- Time period
+- Workflow stage
+- User type
+- Architecture layer
 
-- Do not manufacture a contrarian angle if the real argument is additive rather than oppositional
-- Do not invent a personal experiment. If you lack one, use a real case study
-- Do not use philosophy as decoration
-- Do not widen to higher-order consequences until the underlying mechanism is clear
-- Cut any paragraph that does not advance one of these jobs:
-  - reverse or refine the obvious takeaway
-  - define the real variable
-  - validate it
-  - widen the implications
-  - end with a distilled warning or choice
+### Segmenting rules
+- Pick the axis that best matches the user's actual decision.
+- Prefer segments with clear boundaries and low overlap.
+- Use enough segments to create choice, but do not force artificial ones.
+- If the natural structure is thinner than the target, document target vs actual and explain the limitation.
+
+### Per-segment definition
+```text
+Segment:
+  - Scope:
+  - Boundaries:
+  - Why it matters:
+  - Representative anchors:
+```
+
+---
+
+## 3. Collect evidence inside each segment
+
+For each segment, gather:
+
+### A. Segment context
+- What the segment covers
+- Adjacent or competing segments
+- Why it matters to the goal
+
+### B. Anchor items
+Research 2 to 4 anchor items when the domain supports it.
+
+For each anchor item, capture:
+- Name
+- Why it matters
+- Key attributes relevant to the decision
+- Constraints, caveats, or risks
+- Source URLs
+
+### C. Supporting items
+Add enough supporting items to create fallback options and comparison depth.
+
+For each supporting item, capture:
+- Name
+- Key attributes
+- Why it is included
+- Source URLs
+
+### D. Domain-specific fields
+Add only the fields needed for the decision. Examples:
+- Travel: distance, access, hours, stroller fit, price
+- Product: specs, compatibility, pricing, support
+- Academic: thesis, methodology, citation context, limitations
+- Technical: architecture, benchmarks, maintenance cost, ecosystem
+
+Do not bloat the framework with domain fields that belong in a specialization.
+
+---
+
+## 4. Compare and narrow
+
+At each decision point:
+- Present 2 to 3 serious options when possible
+- Show why each option could win
+- Show the main tradeoff
+- Mark likely keep / maybe / skip paths
+
+### Decision filters
+Apply these in order:
+1. Priority signals
+2. Hard constraints
+3. Source quality and freshness
+4. Unique value versus overlap
+5. Operational practicality
+
+### Iteration loop
+1. Present findings
+2. Capture feedback
+3. Refine without reopening settled questions
+4. Keep an audit trail of rejected options and why they lost
+
+---
+
+## 5. Ground every claim
+
+Use a simple source hierarchy:
+- Tier 1: official or primary
+- Tier 2: authoritative secondary
+- Tier 3: community or user signal
+- Tier 4: search or aggregator fallback
+
+### Grounding rules
+- Prefer direct item URLs over generic search-result URLs.
+- Mark weaker grounding clearly.
+- If rate-limited, stop, document the gap, and use temporary fallback grounding only where necessary.
+- Do not hide uncertainty behind confident prose.
+
+Implementation details for source gathering belong in the skill, not here.
+
+---
+
+## 6. Produce a layered output
+
+### Layer 1: Executive summary
+- Subject and scope
+- Key findings
+- Primary recommendation or takeaway
+- Biggest caveat
+
+### Layer 2: Structured detail
+- Segment-by-segment findings
+- Anchor and supporting items
+- Rationale and tradeoffs
+- Sources
+
+### Layer 3: Quick reference
+- Compact list of key items with links
+- Portable enough to use without rereading the full report
+
+---
+
+## 7. Run quality control
+
+### Contradiction check
+Before finalizing, test for:
+- Conflicting constraints and recommendations
+- Number conflicts between targets and requirements
+- Scope creep from local rules being stated as universal rules
+- Internal inconsistencies in dates, prices, ratings, or terminology
+
+### Assumptions and gaps
+Document:
+```text
+Assumption:
+Basis:
+Risk if wrong:
+How to verify:
+```
+
+```text
+Gap:
+Reason:
+Impact:
+Mitigation:
+```
+
+### Completion check
+- The research answers the stated goal
+- Priority signals are reflected in the output
+- Source quality is visible
+- Open uncertainties are named
+- The structure matches the user's decision
+
+---
+
+## 8. Specialize cleanly
+
+Use this file as the base layer. Add domain extensions only where they add real decision value.
+
+Examples:
+- `methodologies/travel-research.md` extends this with trip definition, geographic clustering, itinerary shaping, and accessibility checks.
+- Skills own execution-heavy details such as search tooling, provider switching, exact platform URL formats, and app-specific verification steps.
+
+---
+
+## Revision log
+- 2026-04-04: Normalized from the earlier general research methodology into a cleaner reusable core framework.
 ````
 
-### `methodologies/travel-research.md`
+### Travel research
+
+Source: `methodologies/travel-research.md`
+
 
 ````markdown
 # Travel Research
@@ -836,7 +960,191 @@ Document any item that still needs confirmation:
 - 2026-04-04: Normalized from the earlier travel research methodology. Removed Foshan-specific cuisine rules, evening strategy, and platform implementation detail from the reusable framework.
 ````
 
-### `methodologies/portfolio-construction.md`
+
+### Portfolio research
+
+Source: `methodologies/portfolio-research.md`
+
+
+````markdown
+# Portfolio Research Methodology
+
+**Extends:** `methodologies/research-core.md`
+
+---
+
+## Research Job Template
+
+Before starting a portfolio research job, define:
+
+```text
+Subject: [Sector/Thesis] portfolio research
+Thesis: [Growth/Value/Turnaround/Sector theme]
+Thesis Label: [THESIS] (e.g., "AI", "Healthcare", "Renewables")
+Scope: [N candidates, time horizon]
+Constraints: [Minimum position size, sector limits, etc.]
+```
+
+**Example for AI:**
+- Thesis Label: `AI`
+- This makes `[THESIS]` fields become `AI Revenue`, `AI Exposure %`, etc.
+
+---
+
+## Domain-Specific Fields for Each Anchor Item
+
+### Thesis Exposure Analysis
+| Field | Description |
+|-------|-------------|
+| **Total Revenue** | TTM or FY company revenue |
+| **[THESIS] Revenue** | Reported or estimated revenue from thesis theme |
+| **[THESIS] Exposure %** | Thesis Revenue ÷ Total Revenue |
+| **[THESIS] Revenue Growth YoY** | Year-over-year thesis growth rate |
+| **Implied Total Co Growth** | Thesis Revenue × Growth ÷ Total Revenue |
+
+*Example (AI Thesis):*
+- Total Revenue: $100B
+- AI Revenue: $30B
+- AI Exposure %: 30%
+- Implied Total Co Growth: 30% × growth rate
+
+### Valuation Context
+| Field | Description |
+|-------|-------------|
+| **Current Price** | Latest trading price |
+| **P/E (TTM)** | Trailing twelve months |
+| **P/E (Forward)** | Forward earnings multiple |
+| **EV/EBITDA** | Enterprise value / EBITDA |
+| **Margin Profile** | Gross/operating margin trends |
+| **12-mo Price Target** | Analyst consensus target |
+| **Upside/Downside** | % change from current price |
+| **Intrinsic Value** | Fair value estimate if available |
+
+### Key Metrics
+| Field | Description |
+|-------|-------------|
+| **Backlog/Orders** | Record-breaking orders, book-to-bill |
+| **[THESIS] Market Share** | Position in thesis segment |
+| **Competitive Moat** | Sustained competitive advantage |
+| **Supply Chain Position** | Where company sits in chain |
+
+### Risk Factors
+| Field | Description |
+|-------|-------------|
+| **Concentration Risk** | Revenue dependency on thesis |
+| **Regulatory Risk** | Policy, compliance, permitting |
+| **Customer Concentration** | Over-reliance on few customers |
+| **Cyclicality Exposure** | Commodity or cyclical business drag |
+| **Competitive Threats** | New entrants, disruption risk |
+| **Execution Risk** | Delivery, scale-up challenges |
+
+---
+
+## Segmentation Axes (Pick 2-3 Per Job)
+
+### 1. Thesis Exposure Level
+- **High (70%+)** — Thesis is dominant business driver
+- **Medium (30-70%)** — Thesis is significant but not sole focus
+- **Low (under 30%)** — Thesis is one growth area among many
+
+### 2. Supply Chain Position (4-Layer Model)
+| Layer | Description | Examples by Sector |
+|-------|-------------|-------------------|
+| **Bottleneck** | Critical IP, scarce resource, high moat | AI: Compute/Memory; Pharma: Patents; Energy: Drilling rights |
+| **Infrastructure Enabler** | Physical layers, manufacturing capacity | AI: Cooling/Power; Pharma: Manufacturing; Energy: Pipelines |
+| **Platform/Integration** | Systems, distribution networks | AI: Networking; Pharma: Distribution; Energy: Refining |
+| **Application/End User** | End-market players, direct exposure | AI: Software/Services; Pharma: Hospitals; Energy: Retail |
+
+### 3. Growth Phase
+- **Early** — Nascent market, high uncertainty, large TAM
+- **Adoption** — Growing demand, scaling capacity, improving margins
+- **Mature** — Stable demand, competitive pressure, margin focus
+
+### 4. Valuation Profile
+- **Premium** — High multiple, growth justified
+- **Fair** — In-line with sector/peers
+- **Contrarian** — Low multiple, thesis reversal potential
+
+---
+
+## Pre-Screening Checks (All Must Pass)
+
+1. **Thesis Exposure Check** — Is thesis revenue exposure meaningful (>20%)?
+2. **Scalability Check** — Can thesis growth translate to total company growth?
+3. **Cyclicality Check** — Is the non-thesis business stable or a drag?
+4. **Valuation Sanity Check** — Does valuation make sense relative to growth?
+5. **Backlog/Orders Check** — Do we have forward visibility (>1 year)?
+
+---
+
+## Scoring Adjustments
+
+| Adjustment | Threshold | Effect |
+|------------|-----------|--------|
+| High Thesis Exposure | Exposure >70% | +10% to score |
+| Low Thesis Exposure | Exposure <30% | -5% to score (unless clear expansion path) |
+| Strong Backlog | >2 years visibility | +5% to score |
+| High Cyclicality | Non-thesis business is cyclical | -5% to score |
+| Margin Expansion | Improving margins | +5% to score |
+| Regulatory Headwinds | Known regulatory risks | -5% to score |
+
+---
+
+## Portfolio-Level Summary
+
+Include when presenting research:
+
+1. **Thesis Exposure Distribution**
+   - Breakdown by exposure level (High/Medium/Low)
+   - % of portfolio in each bucket
+
+2. **Supply Chain Coverage**
+   - Which layers are represented in the portfolio
+   - Gaps or over-concentration
+
+3. **Concentration Checks**
+   - Single-stock caps respected?
+   - Thesis-level concentration within limits?
+
+4. **Phase Mix**
+   - Early vs. Adoption vs. Mature breakdown
+   - Alignment with thesis stage
+
+---
+
+## Extension Pattern
+
+To specialize for a specific thesis (e.g., AI, Healthcare, Renewables):
+
+1. Copy `portfolio-research.md` to `portfolio-research-[thesis].md`
+2. Replace `[THESIS]` placeholder with the actual label
+3. Populate supply chain table with real examples
+4. Set thesis-specific thresholds in scoring adjustments
+5. Add thesis-specific risk factors if needed
+
+**Example: `portfolio-research-ai.md`**
+- Replace `[THESIS]` with `AI`
+- Supply chain examples: NVDA, AVGO, VRT, DELL
+- High exposure threshold: 70% (vs. 50% for other sectors)
+- Add AI-specific risks: supply chain constraints, export controls
+````
+
+## Why this works
+
+OpenClaw is useful to me because it makes the invisible work visible.
+
+I can see when I am delegating, when I am escalating, when I am researching, and when I am trying to force a conclusion before the evidence is ready. That gives me leverage. It also gives me a way to improve the system without rewriting everything from scratch.
+
+The model is still important. But the harness decides whether the model is operating inside a clean workflow or a mess.
+
+That is why I care about the structure more than the leaderboard.
+
+And that is why I would rather have a system I can inspect, modify, and leave than a model I can only admire.
+
+### Portfolio construction
+
+Source: `methodologies/portfolio-construction.md`
+
 
 ````markdown
 # Portfolio Construction Methodology
@@ -1155,179 +1463,155 @@ Analyze monthly:
 - [ ] Time-based review triggers exit
 ````
 
-### `methodologies/portfolio-research.md`
+
+### Blog writing
+
+Source: `skills/blog-writing/SKILL.md`
+
 
 ````markdown
-# Portfolio Research Methodology
-
-**Extends:** `methodologies/research-core.md`
-
+---
+name: blog-writing
+description: Write, outline, or revise long-form blog posts and articles. Use when the user asks to write a blog post, article, essay for publication, Substack post, or long-form piece. Triggers on phrases like "blog post," "write an article," "help me write," "draft a post."
 ---
 
-## Research Job Template
+# Blog Writing Skill
 
-Before starting a portfolio research job, define:
+## Workflow
 
-```text
-Subject: [Sector/Thesis] portfolio research
-Thesis: [Growth/Value/Turnaround/Sector theme]
-Thesis Label: [THESIS] (e.g., "AI", "Healthcare", "Renewables")
-Scope: [N candidates, time horizon]
-Constraints: [Minimum position size, sector limits, etc.]
-```
+### Step 1: Intake
 
-**Example for AI:**
-- Thesis Label: `AI`
-- This makes `[THESIS]` fields become `AI Revenue`, `AI Exposure %`, etc.
+Ask the intake questions from `references/intake-questions.md`. Ask the first 6 by default. Use 7-9 only if needed. Use fallback probes if answers are thin.
 
----
+Do not proceed to drafting until you have at minimum:
+- A one-sentence core claim
+- The hidden variable or real mechanism
+- At least one personal encounter or real example
+- The stakes (why the reader cares)
 
-## Domain-Specific Fields for Each Anchor Item
+### Step 2: Load the methodology
 
-### Thesis Exposure Analysis
-| Field | Description |
-|-------|-------------|
-| **Total Revenue** | TTM or FY company revenue |
-| **[THESIS] Revenue** | Reported or estimated revenue from thesis theme |
-| **[THESIS] Exposure %** | Thesis Revenue ÷ Total Revenue |
-| **[THESIS] Revenue Growth YoY** | Year-over-year thesis growth rate |
-| **Implied Total Co Growth** | Thesis Revenue × Growth ÷ Total Revenue |
+Load `methodologies/analytical-writing-core.md` for the analytical framework (hidden variable framing, evidence template, layering staircase, philosophy rules, guardrails).
 
-*Example (AI Thesis):*
-- Total Revenue: $100B
-- AI Revenue: $30B
-- AI Exposure %: 30%
-- Implied Total Co Growth: 30% × growth rate
+### Step 3: Load the blog layer
 
-### Valuation Context
-| Field | Description |
-|-------|-------------|
-| **Current Price** | Latest trading price |
-| **P/E (TTM)** | Trailing twelve months |
-| **P/E (Forward)** | Forward earnings multiple |
-| **EV/EBITDA** | Enterprise value / EBITDA |
-| **Margin Profile** | Gross/operating margin trends |
-| **12-mo Price Target** | Analyst consensus target |
-| **Upside/Downside** | % change from current price |
-| **Intrinsic Value** | Fair value estimate if available |
+Load `references/blog-post-rules.md` for blog-specific delivery rules (opening reversal, cadence, hammer sentences, compressed ending, final inversion).
 
-### Key Metrics
-| Field | Description |
-|-------|-------------|
-| **Backlog/Orders** | Record-breaking orders, book-to-bill |
-| **[THESIS] Market Share** | Position in thesis segment |
-| **Competitive Moat** | Sustained competitive advantage |
-| **Supply Chain Position** | Where company sits in chain |
+### Step 4: Draft the outline first
 
-### Risk Factors
-| Field | Description |
-|-------|-------------|
-| **Concentration Risk** | Revenue dependency on thesis |
-| **Regulatory Risk** | Policy, compliance, permitting |
-| **Customer Concentration** | Over-reliance on few customers |
-| **Cyclicality Exposure** | Commodity or cyclical business drag |
-| **Competitive Threats** | New entrants, disruption risk |
-| **Execution Risk** | Delivery, scale-up challenges |
+If the user is still at "rough hunch" or "partial outline" stage, draft an outline before writing full prose. Use the skeleton from `assets/outline-template.md`.
 
----
+Confirm the outline with the user before proceeding to full draft.
 
-## Segmentation Axes (Pick 2-3 Per Job)
+### Step 5: Draft
 
-### 1. Thesis Exposure Level
-- **High (70%+)** — Thesis is dominant business driver
-- **Medium (30-70%)** — Thesis is significant but not sole focus
-- **Low (under 30%)** — Thesis is one growth area among many
+Write the full post following both the core methodology and the blog layer rules.
 
-### 2. Supply Chain Position (4-Layer Model)
-| Layer | Description | Examples by Sector |
-|-------|-------------|-------------------|
-| **Bottleneck** | Critical IP, scarce resource, high moat | AI: Compute/Memory; Pharma: Patents; Energy: Drilling rights |
-| **Infrastructure Enabler** | Physical layers, manufacturing capacity | AI: Cooling/Power; Pharma: Manufacturing; Energy: Pipelines |
-| **Platform/Integration** | Systems, distribution networks | AI: Networking; Pharma: Distribution; Energy: Refining |
-| **Application/End User** | End-market players, direct exposure | AI: Software/Services; Pharma: Hospitals; Energy: Retail |
+### Step 6: Revision
 
-### 3. Growth Phase
-- **Early** — Nascent market, high uncertainty, large TAM
-- **Adoption** — Growing demand, scaling capacity, improving margins
-- **Mature** — Stable demand, competitive pressure, margin focus
+Before delivering the final draft, run through `references/revision-checklist.md`. Fix any issues found.
 
-### 4. Valuation Profile
-- **Premium** — High multiple, growth justified
-- **Fair** — In-line with sector/peers
-- **Contrarian** — Low multiple, thesis reversal potential
+## Notes
 
----
-
-## Pre-Screening Checks (All Must Pass)
-
-1. **Thesis Exposure Check** — Is thesis revenue exposure meaningful (>20%)?
-2. **Scalability Check** — Can thesis growth translate to total company growth?
-3. **Cyclicality Check** — Is the non-thesis business stable or a drag?
-4. **Valuation Sanity Check** — Does valuation make sense relative to growth?
-5. **Backlog/Orders Check** — Do we have forward visibility (>1 year)?
-
----
-
-## Scoring Adjustments
-
-| Adjustment | Threshold | Effect |
-|------------|-----------|--------|
-| High Thesis Exposure | Exposure >70% | +10% to score |
-| Low Thesis Exposure | Exposure <30% | -5% to score (unless clear expansion path) |
-| Strong Backlog | >2 years visibility | +5% to score |
-| High Cyclicality | Non-thesis business is cyclical | -5% to score |
-| Margin Expansion | Improving margins | +5% to score |
-| Regulatory Headwinds | Known regulatory risks | -5% to score |
-
----
-
-## Portfolio-Level Summary
-
-Include when presenting research:
-
-1. **Thesis Exposure Distribution**
-   - Breakdown by exposure level (High/Medium/Low)
-   - % of portfolio in each bucket
-
-2. **Supply Chain Coverage**
-   - Which layers are represented in the portfolio
-   - Gaps or over-concentration
-
-3. **Concentration Checks**
-   - Single-stock caps respected?
-   - Thesis-level concentration within limits?
-
-4. **Phase Mix**
-   - Early vs. Adoption vs. Mature breakdown
-   - Alignment with thesis stage
-
----
-
-## Extension Pattern
-
-To specialize for a specific thesis (e.g., AI, Healthcare, Renewables):
-
-1. Copy `portfolio-research.md` to `portfolio-research-[thesis].md`
-2. Replace `[THESIS]` placeholder with the actual label
-3. Populate supply chain table with real examples
-4. Set thesis-specific thresholds in scoring adjustments
-5. Add thesis-specific risk factors if needed
-
-**Example: `portfolio-research-ai.md`**
-- Replace `[THESIS]` with `AI`
-- Supply chain examples: NVDA, AVGO, VRT, DELL
-- High exposure threshold: 70% (vs. 50% for other sectors)
-- Add AI-specific risks: supply chain constraints, export controls
+- The core methodology (`analytical-writing-core.md`) works for any analytical format. It is always loaded for blog posts because almost all useful blog posts are analytical.
+- The blog layer adds delivery format rules on top. Do not skip it.
+- If the user asks for a non-analytical blog post (e.g., a listicle, a how-to guide, a personal narrative), you may skip the core methodology and use only the blog layer. But default to loading both.
+- Philosophy is optional. Only include it if the intake reveals a conceptual frame that genuinely clarifies the mechanism.
 ````
 
-## Why this works
 
-OpenClaw is useful to me because it makes the invisible work visible.
+### Analytical writing core
 
-I can see when I am delegating, when I am escalating, when I am researching, and when I am trying to force a conclusion before the evidence is ready. That gives me leverage. It also gives me a way to improve the system without rewriting everything from scratch.
+Source: `methodologies/analytical-writing-core.md`
 
-The model is still important. But the harness decides whether the model is operating inside a clean workflow or a mess.
 
-That is why I care about the structure more than the leaderboard.
+````markdown
+# Analytical Writing Core
 
-And that is why I would rather have a system I can inspect, modify, and leave than a model I can only admire.
+Reusable framework for long-form analytical writing: essays, memos, reports, explainers, speeches, and analytical blog posts.
+
+This file is loaded by specific writing skills (e.g., blog-writing). Do not duplicate its rules in skill files.
+
+---
+
+## 1. Core Argument Shape
+
+Build the piece around **one central claim**.
+
+State or imply the **common interpretation**, then replace it with a more precise explanation.
+
+Name the **hidden variable** early — the real mechanism, distinction, or factor that actually explains the issue. Reuse the same label throughout the piece. Make it the organizing spine. Do not introduce competing framings unless they serve the same spine.
+
+## 2. Evidence Through Personal Encounter
+
+After naming the mechanism, include one concrete personal encounter, experiment, or observation that validates it.
+
+Structure that section in this order:
+
+1. **Starting assumption** — what I believed before
+2. **Setup** — what I tried or observed
+3. **Surprising result** — what happened that didn't match expectation
+4. **Revised belief** — what I had to change my mind about
+5. **Broader lesson** — what this reveals beyond the specific case
+
+Use first person only where it adds leverage:
+- Proof (this actually happened)
+- Stakes (this matters to me)
+- Changed belief (this shifted my thinking)
+
+Do not use personal detail as filler or scene-setting unless it changes the argument.
+
+If you lack a personal experiment, ask for a real example or switch to a case-study mode. Do not invent one.
+
+## 3. Layered Expansion
+
+Expand the argument in a staircase, one layer at a time:
+
+1. **Technical** — what is happening mechanically
+2. **User/behavioral** — what that changes for the people affected
+3. **Strategic/economic/social** — what that changes at scale
+
+Move outward one layer at a time. Before each transition, make the previous layer legible.
+
+Use hinge phrases that clearly mark expansion:
+- "At the technical level..."
+- "For users, this means..."
+- "Strategically, the consequence is..."
+- "There is also an economic dimension..."
+- "And this is where the lesson stops being theoretical."
+
+Each layer must answer: **So what changed?**
+
+## 4. Philosophy and Conceptual Framing
+
+Use a philosophical or conceptual reference only if it makes the mechanism clearer. Not as decoration.
+
+Rules:
+- Introduce it **only after** the core mechanism is already understandable
+- Translate it immediately into plain operational language
+- Limit to **one or two references max**
+- Apply the **deletion test**: if removing the reference does not weaken the argument, cut it
+
+## 5. Claim Calibration
+
+Make strong claims, but calibrate them honestly. Use calibration phrases when the evidence warrants hedging:
+- "my current guess"
+- "I think the real shift is"
+- "this seems to suggest"
+- "the signal I'm tracking is"
+
+This is not mushy hedging. It's honest confidence signaling. The reader should know what you're certain about and what you're still testing.
+
+## 6. Guardrails
+
+- Do not manufacture a contrarian angle if the real argument is additive rather than oppositional
+- Do not invent a personal experiment. If you lack one, use a real case study
+- Do not use philosophy as decoration
+- Do not widen to higher-order consequences until the underlying mechanism is clear
+- Cut any paragraph that does not advance one of these jobs:
+  - reverse or refine the obvious takeaway
+  - define the real variable
+  - validate it
+  - widen the implications
+  - end with a distilled warning or choice
+````
