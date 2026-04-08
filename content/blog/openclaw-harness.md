@@ -29,6 +29,7 @@ That difference is the whole point.
 10. [Portfolio construction](#portfolio-construction)
 11. [Blog writing](#blog-writing)
 12. [Analytical writing core](#analytical-writing-core)
+13. [Why this works](#why-this-works)
 
 ## The control layer
 
@@ -1127,18 +1128,6 @@ To specialize for a specific thesis (e.g., AI, Healthcare, Renewables):
 - Add AI-specific risks: supply chain constraints, export controls
 ````
 
-## Why this works
-
-OpenClaw is useful to me because it makes the invisible work visible.
-
-I can see when I am delegating, when I am escalating, when I am researching, and when I am trying to force a conclusion before the evidence is ready. That gives me leverage. It also gives me a way to improve the system without rewriting everything from scratch.
-
-The model is still important. But the harness decides whether the model is operating inside a clean workflow or a mess.
-
-That is why I care about the structure more than the leaderboard.
-
-And that is why I would rather have a system I can inspect, modify, and leave than a model I can only admire.
-
 ### Portfolio construction
 
 Source: `methodologies/portfolio-construction.md`
@@ -1613,3 +1602,16 @@ This is not mushy hedging. It's honest confidence signaling. The reader should k
   - widen the implications
   - end with a distilled warning or choice
 ````
+
+## Why this works
+
+OpenClaw is useful to me because it makes the invisible work visible.
+
+I can see when I am delegating, when I am escalating, when I am researching, and when I am trying to force a conclusion before the evidence is ready. That gives me leverage. It also gives me a way to improve the system without rewriting everything from scratch.
+
+The model is still important. But the harness decides whether the model is operating inside a clean workflow or a mess.
+
+That is why I care about the structure more than the leaderboard.
+
+And that is why I would rather have a system I can inspect, modify, and leave than a model I can only admire.
+
