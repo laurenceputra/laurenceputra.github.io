@@ -29,7 +29,6 @@ That difference is the whole point.
 10. [Portfolio construction](#portfolio-construction)
 11. [Blog writing](#blog-writing)
 12. [Analytical writing core](#analytical-writing-core)
-13. [Why this works](#why-this-works)
 
 ## The control layer
 
