@@ -17,18 +17,18 @@ That difference is the whole point.
 
 ## Index
 
-- [Delegate](#delegate)
-- [Escalate](#escalate)
-- [Signal-first analysis](#signal-first-analysis)
-- [Analysis core](#analysis-core)
-- [Multi-model comparison](#multi-model-comparison)
-- [Deep research](#deep-research)
-- [Research core](#research-core)
-- [Travel research](#travel-research)
-- [Portfolio research](#portfolio-research)
-- [Portfolio construction](#portfolio-construction)
-- [Blog writing](#blog-writing)
-- [Analytical writing core](#analytical-writing-core)
+1. [Delegate](#delegate)
+2. [Escalate](#escalate)
+3. [Signal-first analysis](#signal-first-analysis)
+4. [Analysis core](#analysis-core)
+5. [Multi-model comparison](#multi-model-comparison)
+6. [Deep research](#deep-research)
+7. [Research core](#research-core)
+8. [Travel research](#travel-research)
+9. [Portfolio research](#portfolio-research)
+10. [Portfolio construction](#portfolio-construction)
+11. [Blog writing](#blog-writing)
+12. [Analytical writing core](#analytical-writing-core)
 
 ## The control layer
 
