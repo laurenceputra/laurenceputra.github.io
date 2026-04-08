@@ -7,9 +7,10 @@
     </div>
     <div class="container page-content">
       {{ .Content }}
-      {{ if .Pages }}
+      {{ $pages := where .Pages "Params.noindex" "ne" true }}
+      {{ if $pages }}
         <div class="section-links">
-          {{ range .Pages }}
+          {{ range $pages }}
             <article class="card">
               <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
               {{ with .Date }}

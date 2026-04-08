@@ -3,6 +3,7 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
+{{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}
 <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
 {{- if eq .IsHome true -}}
 {{- partial "schema-person.html" . -}}
