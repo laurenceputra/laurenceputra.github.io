@@ -236,6 +236,40 @@ img {
   box-shadow: var(--shadow);
 }
 
+.page-content code {
+  padding: 0.15rem 0.4rem;
+  border-radius: 8px;
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.95em;
+}
+
+.page-content pre {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: #0f172a;
+  color: #e2e8f0;
+  box-shadow: var(--shadow);
+}
+
+.page-content pre code {
+  display: block;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  white-space: inherit;
+  overflow-wrap: inherit;
+  word-break: inherit;
+}
+
 .video-embed {
   position: relative;
   width: 100%;
