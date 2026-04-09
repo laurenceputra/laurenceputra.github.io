@@ -18,7 +18,6 @@ From my student years through my career, I have had people who gave guidance, cr
 ## Selected photos
 
 ![NUS award ceremony](/images/nus_oya_award_ceremony.jpeg)
-![NUS award trophy](/images/nus_oya_trophy.jpeg)
 ![NUS award trophy detail](/images/nus_oya_trophy2.jpeg)
 ![NUS award with award](/images/nus_oya_with_award.jpeg)
 ![NUS award crowd](/images/nus_oya_crowd.jpeg)

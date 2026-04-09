@@ -20,4 +20,4 @@ I have been lucky to learn from, build with, and be supported by many people ove
 
 ![NUS award receiving photo](/images/nus_oya_receiving.jpg)
 ![NUS award with dean](/images/nus_oya_dean.jpeg)
-![NUS alumni page screenshot](/images/nus_oya_alumni_page.png)
+![NUS Computing Outstanding Young Alumni trophy](/images/nus_oya_trophy.jpeg)
