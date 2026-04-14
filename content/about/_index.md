@@ -1,28 +1,28 @@
 ---
 title: About
-description: Engineering leader and operator focused on judgment, operating leverage, and systems that are easier to govern.
+description: Engineering leader focused on practical simplification, clear decisions, and systems that hold up under real use.
 ---
 
-I work on systems where activity is high but outcomes are unclear.
+I work on operating problems that look busy from the outside and stuck from the inside.
 
-My job is to find the constraint, simplify what is unnecessary, and make the system easier to govern.
+My job is to see what is creating drag, remove what is unnecessary, and make the system easier to run.
 
-**为无为，则无不治.** What is present gives form. What is absent gives function. The useful system leaves room for judgment.
+**为无为，则无不治.** I come back to this often. Good systems do not crowd out judgment. They make it easier to use well.
 
 ---
 
 ## Advisory lens
 
-- Most systems fail at the constraint, not at the work.
-- Adding tools without removing constraints increases noise.
-- Execution improves after the system is clear.
-- Judgment matters more than activity.
+- Most teams do not have an effort problem. They have a clarity problem.
+- New tools help only when they remove real load.
+- Execution gets faster after the system gets simpler.
+- I care about durable operating choices, not heroic bursts.
 
 ---
 
 ## Background
 
-I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations can become in practice.
+I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations look like in practice.
 
 My broader background spans engineering, operations, infrastructure, and management across:
 - **TikTok:** Site Leader for Server Architecture, OSE Engineering Leader
@@ -45,7 +45,7 @@ Co-founded during COVID to provide rapid-response support for families in rental
 Active engagement with recipients of this NUS Computing bursary for financially challenged students.
 
 **GeekcampSG** (2011–2014)
-Lead Organizer, grew the community substantially - foundation for later developer outreach work.
+Lead Organizer. Grew the community substantially and helped lay the groundwork for later developer outreach work.
 
 ## Awards and recognition
 
@@ -56,8 +56,8 @@ Lead Organizer, grew the community substantially - foundation for later develope
 
 ## How I work
 
-I look for the constraint first. Then I reduce the number of moving parts and prefer decisions that can be governed rather than just executed.
+I start by understanding where the friction really is. Then I reduce moving parts and design around the few decisions that matter.
 
-In community work, that can mean logistics, communications, fundraising, or building tools quickly. In engineering, it means combining leadership with enough technical depth to stay credible and effective.
+In community work, that might mean logistics, communications, fundraising, or building tools quickly. In engineering, it means leading with enough technical depth to stay close to the work.
 
-The through-line is leadership through useful action: understand the system, identify the gap, move quickly, and build something practical that helps.
+The through-line is practical leadership: see the problem clearly, move with intent, and build something that holds up in real use.

@@ -6,10 +6,10 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Engineering leader and operator working on systems where activity is high but outcomes are unclear."
-  tagline = "I work on systems where activity is high but outcomes are unclear"
-  intro = "I focus on the constraint that prevents systems from improving."
-  currentRole = "I currently lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations can become in practice."
+  description = "Engineering leader working on messy systems where effort and outcomes have drifted apart."
+  tagline = "I help teams find what is actually blocking progress."
+  intro = "Then I simplify the system around it, so better decisions and better outcomes become easier."
+  currentRole = "I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations look like in practice."
   profileImage = "/images/profile_2021_full_body_chair.jpg"
   heroImage = "/images/cover.jpg"
   linkedin = "https://www.linkedin.com/in/laurenceputra/"
