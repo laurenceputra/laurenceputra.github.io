@@ -1,38 +1,41 @@
 ---
 title: Home
-description: Engineering leader focused on building systems that hold - reducing friction, removing unnecessary complexity, and designing for durable leverage.
+description: Engineering leader and operator helping mission-driven organizations identify constraints, simplify operations, and build systems that scale.
 ---
 
-I build systems that are meant to hold. The kind that reduce friction, survive contact with reality, and keep working without drawing attention to themselves.
+I am most useful when:
 
-That has been the through-line across my career - from engineering and operations to community work. Today, I lead Operational Support and Efficiency at TikTok, where my team uses AI to improve how tech operations run and explores what AI-native operations can become in practice.
+- systems are scaling but outcomes are not improving
+- teams are busy but decisions are unclear
+- tools exist but the real constraint is still unresolved
 
-The work itself changes, but the principle does not: understand the real constraint, remove unnecessary complexity, and design for durable leverage.
+I work where execution, complexity, and judgment meet. I help teams and leaders make decisions against the real constraint, not the surface signal. That matters most in mission-driven organizations, especially education and social service, where the work is important and the operating system has to hold.
 
-**为无为，则无不治.** The goal is not constant intervention. It is to build systems that can carry themselves.
+**为无为，则无不治.** What is present gives form. What is absent gives function. The systems that hold leave enough room for judgment to do its job.
 
 ---
 
 ## What this site covers
 
-- [About](/about/): my background, values, and current areas of work
-- [Media](/media/): interviews, articles, and public features
-- [Awards](/awards/): selected recognitions and supporting context
+- [Advisory](/advisory/): how I think about constraints, systems, and useful judgment
+- [Ideas](/ideas/): essays on systems, execution, and the constraints that shape outcomes
+- [About](/about/): background, judgment, and operating style
+- [Media](/media/): selected interviews and public features
+- [Awards](/awards/): recognitions and supporting context
 
-## Key recognitions
+## How I help
 
-- President's Volunteerism and Philanthropy Awards People of Good 2020
-- NUS Computing Outstanding Young Alumni 2022
-- NUS Outstanding Young Alumni 2021
-- Voice of Loving Kindness from Singapore Kindness Movement
+- identify and remove the constraint complexity is hiding
+- make operating decisions against the real constraint, not surface signals
+- use AI where it improves leverage, not just tool count
 
-## Systems I've helped build
+## Selected proof points
+
+**TikTok**
+I lead Operational Support and Efficiency at TikTok, where my team uses AI to improve how tech operations run and explores what AI-native operations can become in practice.
 
 **Project Stable Staples** (2020)
-Co-founded during COVID. Raised SGD 160,000. Supported 2,600+ individuals across 600+ households. Built donation portal in under 2 days. Zero expense ratio. Later received presidential recognition.
+Co-founded during COVID. Raised SGD 160,000. Supported 2,600+ individuals across 600+ households. Built a donation portal in under 2 days. Zero expense ratio. Later received presidential recognition.
 
-**IAmTalentedSG** (2014–2024)
-A decade-long commitment to opportunity gaps for youth. Used technology to improve operational efficiency and support community events.
-
-**Engineering and operations**
-Led teams across infrastructure, DevOps, platform work, and operational efficiency at TikTok, PayPal, Singapore Power, and earlier roles. Focus on fundamentals over fashionable tools, and durable systems over quick fixes.
+**Recognitions**
+President's Volunteerism and Philanthropy Awards People of Good 2020. NUS Computing Outstanding Young Alumni 2022. NUS Outstanding Young Alumni 2021. Voice of Loving Kindness from Singapore Kindness Movement.

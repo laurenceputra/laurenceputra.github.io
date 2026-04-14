@@ -6,35 +6,38 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Engineering leader, community builder, and constraint remover"
-  tagline = "Engineering leader, community builder, and constraint remover"
-  intro = "I build resilient engineering teams and community initiatives that close real gaps."
-  currentRole = "I currently serve as Site Leader for the Server Architecture org and as an OSE Engineering Leader in TikTok Singapore, with a focus on platform ownership, operational efficiency, and AI-focused engineering work."
+  description = "Engineering leader and operator helping mission-driven organizations identify constraints and build systems that scale."
+  tagline = "Engineering leader and operator helping mission-driven organizations find the real constraint"
+  intro = "I’m most useful when systems are scaling but outcomes are not improving, teams are busy but decisions are unclear, or tools exist but the real constraint is still unresolved."
+  currentRole = "I currently lead Operational Support and Efficiency at TikTok, where my team uses AI to improve how tech operations run and explores what AI-native operations can become in practice."
   profileImage = "/images/profile_2021_full_body_chair.jpg"
   heroImage = "/images/cover.jpg"
   linkedin = "https://www.linkedin.com/in/laurenceputra/"
 
 [[menu.main]]
+  name = "Advisory"
+  pageRef = "/advisory"
+  weight = 10
+
+[[menu.main]]
+  name = "Ideas"
+  pageRef = "/ideas"
+  weight = 20
+
+[[menu.main]]
   name = "About"
   pageRef = "/about"
-  weight = 10
+  weight = 30
 
 [[menu.main]]
   name = "Media"
   pageRef = "/media"
-  weight = 20
+  weight = 40
 
 [[menu.main]]
   name = "Awards"
   pageRef = "/awards"
-  weight = 30
-
-[[menu.main]]
-  name = "Blog"
-  pageRef = "/blog"
-  weight = 25
-
-
+  weight = 50
 
 [markup]
   [markup.goldmark]
