@@ -5,11 +5,11 @@ description: Strategic advisory for mission-driven organizations where activity 
 
 I work on systems where activity is high but outcomes are unclear.
 
-The problem is usually not effort. It is the constraint.
+Usually the problem is not effort. It is the constraint.
 
 ## What usually goes wrong
 
-- Activity rises faster than outcomes.
+- Teams add activity faster than they improve outcomes.
 - AI adds tools instead of leverage.
 - Complexity hides the constraint.
 
