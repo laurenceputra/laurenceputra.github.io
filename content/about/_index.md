@@ -1,13 +1,25 @@
 ---
 title: About
-description: Engineering leader focused on building systems that hold - understanding constraints, removing complexity, and designing for durable leverage.
+description: Engineering leader and operator focused on judgment, operating leverage, and systems that are easier to govern.
 ---
 
-I build systems that are meant to hold. The kind that reduce friction, survive contact with reality, and keep working without drawing attention to themselves.
+I work where execution, complexity, and judgment meet.
 
-This is the through-line across my career: understand the real constraint, remove unnecessary complexity, and design for durable leverage.
+The work I am usually most useful for is helping leaders see the real constraint, simplify what is unnecessary, and make systems easier to run and govern.
+
+I care about durable leverage more than heroic intervention. If a team or organization needs another layer of noise, I am not useful. If it needs clearer structure, cleaner decisions, and a steadier operating model, I usually am.
 
 **为无为，则无不治.** The goal is not constant intervention. It is to build systems that can carry themselves.
+
+---
+
+## Advisory lens
+
+- I am useful when the problem is not a lack of effort, but too much complexity.
+- I help separate signal from noise in systems, teams, and operating models.
+- I can bridge strategy and execution without pretending they are the same thing.
+- I am comfortable challenging assumptions when the answer is becoming too vague or too technical.
+- I work best where scale, reliability, and judgment all matter at once.
 
 ---
 
@@ -26,7 +38,7 @@ My broader background spans engineering, operations, infrastructure, and managem
 
 Good engineers pick up new technologies quickly. Strong fundamentals matter more than fashionable tools.
 
-Complex problems should be broken into smaller parts, then solved by learning what's missing. Engineering leadership should empower others rather than centrally control everything.
+Complex problems should be broken into smaller parts, then solved by learning what is missing. Engineering leadership should empower others rather than centrally control everything.
 
 ## Community and philanthropy
 

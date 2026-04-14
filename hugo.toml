@@ -6,10 +6,10 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Engineering leader, community builder, and constraint remover"
-  tagline = "Engineering leader, community builder, and constraint remover"
-  intro = "I build resilient engineering teams and community initiatives that close real gaps."
-  currentRole = "I currently serve as Site Leader for the Server Architecture org and as an OSE Engineering Leader in TikTok Singapore, with a focus on platform ownership, operational efficiency, and AI-focused engineering work."
+  description = "Engineering leader and operator focused on judgment, operating leverage, and systems that are easier to govern."
+  tagline = "Engineering leader and operator helping organizations simplify complexity and make better decisions"
+  intro = "I work where execution, complexity, and judgment meet. I help teams and leaders make systems simpler, more resilient, and easier to govern."
+  currentRole = "I currently lead Operational Support and Efficiency at TikTok, where my team uses AI to improve how tech operations run and explores what AI-native operations can become in practice."
   profileImage = "/images/profile_2021_full_body_chair.jpg"
   heroImage = "/images/cover.jpg"
   linkedin = "https://www.linkedin.com/in/laurenceputra/"
@@ -18,6 +18,11 @@ disableKinds = ["taxonomy", "term"]
   name = "About"
   pageRef = "/about"
   weight = 10
+
+[[menu.main]]
+  name = "Advisory"
+  pageRef = "/advisory"
+  weight = 15
 
 [[menu.main]]
   name = "Media"
