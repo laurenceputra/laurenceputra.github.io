@@ -3,17 +3,17 @@ title: About
 description: Engineering leader and operator focused on judgment, operating leverage, and systems that are easier to govern.
 ---
 
-I work where execution, complexity, and judgment meet.
+I work on systems where activity is high but outcomes are unclear.
 
-The work I am usually most useful for is helping leaders see the real constraint, simplify what is unnecessary, and make systems easier to run and govern. I am most useful when a team is active but the system is still unclear.
+My job is to find the constraint, simplify what is unnecessary, and make the system easier to govern.
 
-**为无为，则无不治.** What is present gives form. What is absent gives function. The systems that hold leave enough room for judgment to do its job.
+**为无为，则无不治.** What is present gives form. What is absent gives function. The useful system leaves room for judgment.
 
 ---
 
 ## Advisory lens
 
-- Most systems fail at the interface, not the component.
+- Most systems fail at the constraint, not at the work.
 - Adding tools without removing constraints increases noise.
 - Execution improves after the system is clear.
 - Judgment matters more than activity.
@@ -22,7 +22,7 @@ The work I am usually most useful for is helping leaders see the real constraint
 
 ## Background
 
-I lead Operational Support and Efficiency at TikTok, where my team uses AI to improve how tech operations run and explores what AI-native operations can become in practice.
+I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations can become in practice.
 
 My broader background spans engineering, operations, infrastructure, and management across:
 - **TikTok:** Site Leader for Server Architecture, OSE Engineering Leader
@@ -56,7 +56,7 @@ Lead Organizer, grew the community substantially - foundation for later develope
 
 ## How I work
 
-I work from first principles. I look for the constraint, reduce the number of moving parts, and prefer decisions that can be governed rather than just executed.
+I look for the constraint first. Then I reduce the number of moving parts and prefer decisions that can be governed rather than just executed.
 
 In community work, that can mean logistics, communications, fundraising, or building tools quickly. In engineering, it means combining leadership with enough technical depth to stay credible and effective.
 

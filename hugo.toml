@@ -6,10 +6,10 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Engineering leader and operator helping mission-driven organizations identify constraints and build systems that scale."
-  tagline = "Engineering leader and operator helping mission-driven organizations find the real constraint"
-  intro = "I’m most useful when systems are scaling but outcomes are not improving, teams are busy but decisions are unclear, or tools exist but the real constraint is still unresolved."
-  currentRole = "I currently lead Operational Support and Efficiency at TikTok, where my team uses AI to improve how tech operations run and explores what AI-native operations can become in practice."
+  description = "Engineering leader and operator working on systems where activity is high but outcomes are unclear."
+  tagline = "I work on systems where activity is high but outcomes are unclear"
+  intro = "I focus on the constraint that prevents systems from improving."
+  currentRole = "I currently lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations can become in practice."
   profileImage = "/images/profile_2021_full_body_chair.jpg"
   heroImage = "/images/cover.jpg"
   linkedin = "https://www.linkedin.com/in/laurenceputra/"

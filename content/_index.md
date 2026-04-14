@@ -1,17 +1,17 @@
 ---
 title: Home
-description: Engineering leader and operator helping mission-driven organizations identify constraints, simplify operations, and build systems that scale.
+description: Engineering leader and operator working on systems where activity is high but outcomes are unclear.
 ---
 
-I am most useful when:
+I work on systems where activity is high but outcomes are unclear.
 
-- systems are scaling but outcomes are not improving
-- teams are busy but decisions are unclear
-- tools exist but the real constraint is still unresolved
+I focus on the constraint that prevents systems from improving. Most teams can produce motion. Fewer can see what is blocking progress.
 
-I work where execution, complexity, and judgment meet. I help teams and leaders make decisions against the real constraint, not the surface signal. That matters most in mission-driven organizations, especially education and social service, where the work is important and the operating system has to hold.
+I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations can become in practice.
 
-**为无为，则无不治.** What is present gives form. What is absent gives function. The systems that hold leave enough room for judgment to do its job.
+That same pattern shows up in mission-driven organizations, especially education and social service, where activity is easy to add and hard to turn into durable outcomes.
+
+**为无为，则无不治.** What is present gives form. What is absent gives function. The useful system leaves room for judgment.
 
 ---
 
@@ -25,14 +25,14 @@ I work where execution, complexity, and judgment meet. I help teams and leaders 
 
 ## How I help
 
-- identify and remove the constraint complexity is hiding
-- make operating decisions against the real constraint, not surface signals
-- use AI where it improves leverage, not just tool count
+- identify the constraint hidden inside the activity
+- make operating decisions against the real constraint, not the surface signal
+- use AI where it removes work instead of adding it
 
 ## Selected proof points
 
 **TikTok**
-I lead Operational Support and Efficiency at TikTok, where my team uses AI to improve how tech operations run and explores what AI-native operations can become in practice.
+I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations can become in practice.
 
 **Project Stable Staples** (2020)
 Co-founded during COVID. Raised SGD 160,000. Supported 2,600+ individuals across 600+ households. Built a donation portal in under 2 days. Zero expense ratio. Later received presidential recognition.

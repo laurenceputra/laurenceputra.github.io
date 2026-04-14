@@ -1,23 +1,23 @@
 ---
 title: Advisory
-description: Strategic advisory for mission-driven organizations facing complexity, decision noise, and scaling pressure.
+description: Strategic advisory for mission-driven organizations where activity is high but outcomes are unclear.
 ---
 
-I am most useful in rooms where the work is important, the stakes are real, and the team needs clearer judgment more than more activity.
+I work on systems where activity is high but outcomes are unclear.
 
-The point is not to add another layer of commentary. It is to help leaders see the real constraint, simplify what is unnecessary, and make the system easier to govern.
+The problem is usually not effort. It is the constraint.
 
 ## What usually goes wrong
 
-- Teams optimize locally, not systemically.
-- More tools are added instead of removing constraints.
-- Execution improves, but outcomes do not.
+- Activity rises faster than outcomes.
+- AI adds tools instead of leverage.
+- Complexity hides the constraint.
 
 ## How I approach it
 
 - Identify the constraint.
 - Redesign the system around it.
-- Then improve execution.
+- Improve execution after the system is clear.
 
 ## Where I am useful
 
@@ -25,7 +25,7 @@ This is the kind of work I can help with:
 
 - Education organizations under growth or change
 - Social service organizations carrying too much operational load
-- Mission-driven teams using AI where leverage matters more than tool count
+- Mission-driven teams using AI where leverage matters more than novelty
 - Leadership teams that need clearer governance and operating rhythm
 
 ## Pattern library
@@ -42,4 +42,4 @@ Fix: reduce variables and define the governing constraint.
 Symptom: growth increases fragility.
 Fix: embed governance into the operating system.
 
-If the challenge is execution at scale, hidden complexity, or a system that has become harder to steer than it should be, that is usually where I can add value.
+If the challenge is execution at scale, hidden complexity, or a system that has become harder to steer than it should be, that is where I am most useful.
