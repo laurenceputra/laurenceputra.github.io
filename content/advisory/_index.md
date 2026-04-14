@@ -1,45 +1,45 @@
 ---
 title: Advisory
-description: Strategic advisory for mission-driven organizations where activity is high but outcomes are unclear.
+description: Advisory for mission-driven organizations carrying more activity than clarity.
 ---
 
-I work on systems where activity is high but outcomes are unclear.
+I advise teams that are doing a lot and still not getting the result they need.
 
-The problem is usually not effort. It is the constraint.
+Most of the time, the issue is not effort. The work has piled up around the wrong problem.
 
 ## What usually goes wrong
 
-- Activity rises faster than outcomes.
-- AI adds tools instead of leverage.
-- Complexity hides the constraint.
+- The team is busy, but the work does not compound.
+- AI adds more tools, process, or noise than relief.
+- Complexity makes it hard to see what matters and who decides.
 
 ## How I approach it
 
-- Identify the constraint.
-- Redesign the system around it.
-- Improve execution after the system is clear.
+- Get clear on the real bottleneck.
+- Strip away work that does not move it.
+- Rebuild cadence, roles, and tools around a simpler operating model.
 
 ## Where I am useful
 
 This is the kind of work I can help with:
 
 - Education organizations under growth or change
-- Social service organizations carrying too much operational load
-- Mission-driven teams using AI where leverage matters more than novelty
-- Leadership teams that need clearer governance and operating rhythm
+- Social service organizations carrying too much operational drag
+- Mission-driven teams using AI but not yet seeing practical relief
+- Leadership teams that need clearer decisions and a steadier operating rhythm
 
-## Pattern library
+## Common situations
 
-**Activity without leverage**
-Symptom: high volume, low impact.
-Fix: clarify the constraint and remove the work that hides it.
+**Busy, but not moving**
+Symptom: plenty of activity, little improvement.
+What usually helps: define the bottleneck and stop feeding the work around it.
 
-**Decision noise**
-Symptom: many decisions, low confidence.
-Fix: reduce variables and define the governing constraint.
+**Too many decisions, too little clarity**
+Symptom: recurring debates, low confidence, slow follow-through.
+What usually helps: narrow the variables and be explicit about what matters most.
 
-**Scaling without control**
-Symptom: growth increases fragility.
-Fix: embed governance into the operating system.
+**Growth that makes the system shakier**
+Symptom: each step up in scale adds fragility.
+What usually helps: simplify the operating model before adding more layers.
 
-If the challenge is execution at scale, hidden complexity, or a system that has become harder to steer than it should be, that is where I am most useful.
+If the challenge is hidden complexity, uneven execution, or a system that has become harder to steer than it should be, I can usually help.
