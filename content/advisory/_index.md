@@ -1,35 +1,45 @@
 ---
 title: Advisory
-description: Strategic advisory focus on execution, complexity, and operational leverage.
+description: Strategic advisory for mission-driven organizations facing complexity, decision noise, and scaling pressure.
 ---
 
-I am most useful in rooms where the work is complicated, the stakes are real, and the team needs clearer judgment more than more noise.
+I am most useful in rooms where the work is important, the stakes are real, and the team needs clearer judgment more than more activity.
 
 The point is not to add another layer of commentary. It is to help leaders see the real constraint, simplify what is unnecessary, and make the system easier to govern.
 
-## Advisory focus
+## What usually goes wrong
 
-- Operating model and execution discipline
-- AI-enabled operations and decision systems
-- Platform, infrastructure, and reliability complexity
-- Scaling teams without losing control
-- Simplifying processes and removing bottlenecks
-- Mission-driven programs that need practical execution
+- Teams optimize locally, not systemically.
+- More tools are added instead of removing constraints.
+- Execution improves, but outcomes do not.
 
-## What I bring
+## How I approach it
 
-- Pattern recognition from engineering, operations, and community work
-- Comfort with ambiguity and tradeoffs
-- A bias toward making systems smaller, clearer, and easier to govern
-- Enough technical depth to challenge weak assumptions without making everything a technical problem
+- Identify the constraint.
+- Redesign the system around it.
+- Then improve execution.
 
-## Best fit
+## Where I am useful
 
 This is the kind of work I can help with:
 
-- Early-stage or scaling teams that need operating clarity
-- AI adoption that should improve the system, not just add tools
-- Leadership teams that need a second lens on complexity
-- Public, community, or mission-driven programs that need practical structure
+- Education organizations under growth or change
+- Social service organizations carrying too much operational load
+- Mission-driven teams using AI where leverage matters more than tool count
+- Leadership teams that need clearer governance and operating rhythm
+
+## Pattern library
+
+**Activity without leverage**
+Symptom: high volume, low impact.
+Fix: clarify the constraint and remove the work that hides it.
+
+**Decision noise**
+Symptom: many decisions, low confidence.
+Fix: reduce variables and define the governing constraint.
+
+**Scaling without control**
+Symptom: growth increases fragility.
+Fix: embed governance into the operating system.
 
 If the challenge is execution at scale, hidden complexity, or a system that has become harder to steer than it should be, that is usually where I can add value.

@@ -5,25 +5,22 @@ description: Engineering leader and operator focused on judgment, operating leve
 
 I work where execution, complexity, and judgment meet.
 
-The work I am usually most useful for is helping leaders see the real constraint, simplify what is unnecessary, and make systems easier to run and govern.
+The work I am usually most useful for is helping leaders see the real constraint, simplify what is unnecessary, and make systems easier to run and govern. I am most useful when a team is active but the system is still unclear.
 
-I care about durable leverage more than heroic intervention. If a team or organization needs another layer of noise, I am not useful. If it needs clearer structure, cleaner decisions, and a steadier operating model, I usually am.
-
-**为无为，则无不治.** The goal is not constant intervention. It is to build systems that can carry themselves.
+**为无为，则无不治.** What is present gives form. What is absent gives function. The systems that hold leave enough room for judgment to do its job.
 
 ---
 
 ## Advisory lens
 
-- I am useful when the problem is not a lack of effort, but too much complexity.
-- I help separate signal from noise in systems, teams, and operating models.
-- I can bridge strategy and execution without pretending they are the same thing.
-- I am comfortable challenging assumptions when the answer is becoming too vague or too technical.
-- I work best where scale, reliability, and judgment all matter at once.
+- Most systems fail at the interface, not the component.
+- Adding tools without removing constraints increases noise.
+- Execution improves after the system is clear.
+- Judgment matters more than activity.
 
 ---
 
-## Professional background
+## Background
 
 I lead Operational Support and Efficiency at TikTok, where my team uses AI to improve how tech operations run and explores what AI-native operations can become in practice.
 
@@ -33,12 +30,6 @@ My broader background spans engineering, operations, infrastructure, and managem
 - **Singapore Power:** DevOps Lead
 - **Nugit:** Senior Engineer
 - **Earlier roles:** Software engineering across mobile, web, and platforms
-
-## Engineering philosophy
-
-Good engineers pick up new technologies quickly. Strong fundamentals matter more than fashionable tools.
-
-Complex problems should be broken into smaller parts, then solved by learning what is missing. Engineering leadership should empower others rather than centrally control everything.
 
 ## Community and philanthropy
 
@@ -65,7 +56,7 @@ Lead Organizer, grew the community substantially - foundation for later develope
 
 ## How I work
 
-I work from first principles. I value resilient teams, practical execution, and using whatever skills are most useful in the moment.
+I work from first principles. I look for the constraint, reduce the number of moving parts, and prefer decisions that can be governed rather than just executed.
 
 In community work, that can mean logistics, communications, fundraising, or building tools quickly. In engineering, it means combining leadership with enough technical depth to stay credible and effective.
 
