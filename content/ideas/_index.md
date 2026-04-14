@@ -4,6 +4,6 @@ description: Essays on systems, judgment, execution, and the constraints that sh
 aliases: ["/blog/"]
 ---
 
-Ideas is where I write from operating problems.
+Ideas is where I write from real operating problems.
 
 Most pieces start with a constraint, then work outward to the system around it.
