@@ -1,9 +1,9 @@
 ---
 title: Advisory
-description: Advisory for mission-driven teams carrying more activity than clarity.
+description: Advisory for teams carrying more activity than clarity.
 ---
 
-I advise mission-driven teams that are doing a lot and still not getting the result they need.
+I work with teams that are doing a lot and still not getting the result they need.
 
 The issue is usually unclear tradeoffs. The work has piled up around the wrong problem.
 

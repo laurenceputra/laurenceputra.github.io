@@ -7,7 +7,7 @@ Most systems do not need more motion. They need a clearer read on what is actual
 
 That is the work I keep coming back to: find the bottleneck, cut what is unnecessary, and help the system produce better decisions and better outcomes.
 
-I do that work inside large operating systems under real load. I also see the same pattern in mission-driven organizations, where good intent can still turn into too much activity and not enough durable progress.
+I do that work inside large operating systems under real load. That same pattern shows up in organizations where good intent can still turn into too much activity and not enough durable progress.
 
 **为无为，则无不治.** Good systems leave room for judgment instead of crowding it out.
 
