@@ -1,11 +1,11 @@
 ---
 title: Advisory
-description: Advisory for nonprofit boards and mission-driven teams carrying more activity than clarity.
+description: Advisory for mission-driven teams carrying more activity than clarity.
 ---
 
-I advise nonprofit boards and mission-driven teams that are doing a lot and still not getting the result they need.
+I advise mission-driven teams that are doing a lot and still not getting the result they need.
 
-For boards, the issue is usually unclear tradeoffs. For teams, the work has piled up around the wrong problem.
+The issue is usually unclear tradeoffs. The work has piled up around the wrong problem.
 
 ## What usually goes wrong
 

@@ -5,7 +5,7 @@ description: Engineering leader focused on practical simplification, clear decis
 
 I work on operating problems that look busy from the outside and stuck from the inside.
 
-The same pattern shows up for nonprofit boards and hiring managers alike: too much activity, not enough clarity, and too much complexity around the real work.
+The same pattern shows up across mission-driven organizations and large teams: too much activity, not enough clarity, and too much complexity around the real work.
 
 My job is to see what is creating drag, remove what is unnecessary, and make the system easier to run.
 
