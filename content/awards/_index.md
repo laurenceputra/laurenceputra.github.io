@@ -1,9 +1,9 @@
 ---
 title: Awards
-description: Selected recognitions for my engineering, community, and social impact work.
+description: Supporting recognitions for my engineering, community, and social impact work.
 ---
 
-These recognitions reflect years of work with communities, collaborators, and supporters. I see them as markers of shared effort, not isolated personal milestones.
+These recognitions reflect years of work with communities, collaborators, and supporters. I see them as markers of shared effort and supporting evidence, not isolated personal milestones.
 
 ## Featured awards
 

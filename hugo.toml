@@ -6,8 +6,8 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Engineering leader working on messy systems where effort and outcomes have drifted apart."
-  tagline = "I help teams find what is actually blocking progress."
+  description = "Engineering leader and operator helping nonprofit boards and hiring managers make sense of messy systems."
+  tagline = "I help nonprofit boards and hiring managers find the real constraint."
   intro = "Then I simplify the system around it, so better decisions and better outcomes become easier."
   currentRole = "I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations look like in practice."
   profileImage = "/images/profile_2021_full_body_chair.jpg"
@@ -20,13 +20,13 @@ disableKinds = ["taxonomy", "term"]
   weight = 10
 
 [[menu.main]]
-  name = "Ideas"
-  pageRef = "/ideas"
+  name = "About"
+  pageRef = "/about"
   weight = 20
 
 [[menu.main]]
-  name = "About"
-  pageRef = "/about"
+  name = "Ideas"
+  pageRef = "/ideas"
   weight = 30
 
 [[menu.main]]

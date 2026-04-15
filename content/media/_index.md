@@ -1,9 +1,9 @@
 ---
 title: Media
-description: Interviews, articles, and public features related to my engineering and community work.
+description: Supporting interviews, articles, and public features related to my engineering and community work.
 ---
 
-This section collects selected interviews, articles, and public features about my engineering and community work.
+This section collects selected interviews, articles, and public features that support the broader story here: engineering judgment, operating discipline, and community work under real constraints.
 
 ## Featured video interviews
 
