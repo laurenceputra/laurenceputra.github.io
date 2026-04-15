@@ -6,7 +6,6 @@ description: Engineering leader working on messy systems where effort and outcom
 Most systems do not need more motion. They need a clearer read on what is actually getting in the way.
 
 That is the work I keep coming back to: find the bottleneck and cut what is unnecessary.
-
 I do that work inside large operating systems under real load. The same pattern shows up in organizations where good intent can still turn into too much activity.
 **为无为，则无不治.** Good systems leave room for judgment instead of crowding it out.
 
@@ -30,7 +29,7 @@ I do that work inside large operating systems under real load. The same pattern 
 I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations look like in practice.
 
 **Project Stable Staples** (2020)
-Co-founded during COVID. Raised SGD 160,000. Supported 2,600+ individuals across 600+ households. Built a donation portal in under 2 days. Zero expense ratio. Later received presidential recognition. It is the clearest example on the site of what it looks like to coordinate quickly, keep the work useful, and stay focused on the real constraint.
+Co-founded during COVID. Raised SGD 160,000. Supported 2,600+ individuals across 600+ households. Built a donation portal in under 2 days. Zero expense ratio. Later received presidential recognition.
 
 **Recognition**
 President's Volunteerism and Philanthropy Awards People of Good 2020. NUS Computing Outstanding Young Alumni 2022. NUS Outstanding Young Alumni 2021. Voice of Loving Kindness from Singapore Kindness Movement.
