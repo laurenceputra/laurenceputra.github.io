@@ -5,21 +5,17 @@ description: Engineering leader working on messy systems where effort and outcom
 
 Most systems do not need more motion. They need a clearer read on what is actually getting in the way.
 
-That is the work I keep coming back to: find the bottleneck, cut what is unnecessary, and help the system produce better decisions and better outcomes.
+That is the work I keep coming back to: find the bottleneck and cut what is unnecessary.
 
-I do that work inside large operating systems under real load, and I keep seeing the same pattern in mission-driven organizations.
+I do that work inside large operating systems under real load. The same pattern shows up in organizations where good intent can still turn into too much activity.
 
-Especially in education and social service, good intentions can still turn into too much activity, too much complexity, and not enough durable progress.
-
-**为无为，则无不治.** I come back to this often. Good systems leave room for judgment instead of crowding it out.
-
----
+**为无为，则无不治.** Good systems leave room for judgment instead of crowding it out.
 
 ## What this site covers
 
 - [Advisory](/advisory/): how I help teams get clear on the real problem and redesign around it
-- [Ideas](/ideas/): essays on systems, execution, AI, and practical operating problems
 - [About](/about/): background, experience, and how I work
+- [Ideas](/ideas/): essays on systems, execution, AI, and practical operating problems
 - [Media](/media/): selected interviews and public features
 - [Awards](/awards/): recognition and supporting context
 

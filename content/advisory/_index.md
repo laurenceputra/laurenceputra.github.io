@@ -1,11 +1,11 @@
 ---
 title: Advisory
-description: Advisory for mission-driven organizations carrying more activity than clarity.
+description: Advisory for teams carrying more activity than clarity.
 ---
 
-I advise teams that are doing a lot and still not getting the result they need.
+I help teams get clear on the real bottleneck, reduce the work around it, and rebuild a simpler operating model.
 
-Most of the time, the issue is not effort. The work has piled up around the wrong problem.
+When a team is doing a lot and still not getting the result it needs, the issue is usually unclear tradeoffs.
 
 ## What usually goes wrong
 
@@ -23,6 +23,7 @@ Most of the time, the issue is not effort. The work has piled up around the wron
 
 This is the kind of work I can help with:
 
+- Nonprofit boards steering mission, risk, and operating tradeoffs
 - Education organizations under growth or change
 - Social service organizations carrying too much operational drag
 - Mission-driven teams using AI but not yet seeing practical relief
