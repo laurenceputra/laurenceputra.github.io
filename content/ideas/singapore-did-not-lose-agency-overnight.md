@@ -1,9 +1,4 @@
----
-title: "Singapore Did Not Lose Agency Overnight"
-description: "A systems essay on how centralisation can narrow local judgment while preserving state capacity."
-date: 2026-04-11
-tags: ["Singapore", "systems", "policy", "agency"]
----
+# Singapore Did Not Lose Agency Overnight
 
 Singapore did not lose agency overnight. If anything, agency has been gradually narrowed by systems that make compliance easier than judgment, and central provision easier than local adaptation.
 
@@ -16,6 +11,8 @@ The irony is that this drift happened alongside rising state capability. The Gov
 The point is not that Singapore once enjoyed a lost golden age of rugged independence. It did not. The narrower claim is that in the Goh Chok Tong era, self-sufficiency was still more visibly treated as a civic good. The language of self-reliance, mutual responsibility, and standing on one's own feet appeared more often in public argument. Support existed, but dependence was not presented as the ideal civic condition.
 
 That baseline matters.
+
+This essay is about several related but distinct capacities: local institutional discretion, frontline professional judgment, individual adaptive agency, and civic expectation. The examples below point to different layers, even if they are connected.
 
 Public norms are shaped less by slogans than by design. Institutions teach through incentives, defaults, and repeated experience. If the system keeps teaching that the safest move is to comply, the rational move is to escalate upward, and the normal move is to wait for provision, people will learn exactly that.
 
@@ -32,6 +29,8 @@ A cup needs clay. It also needs the hollow inside. Institutions work the same wa
 That is the hinge.
 
 Singapore is unusually strong at form. We value legibility, standardisation, and predictability. We are less comfortable with unevenness, informal judgment, and local variation. So the bias in system design is often to reduce them. Central templates expand. Entitlements get calibrated. Approved pathways multiply. Operating conditions tighten.
+
+That does not mean the system is irrational. These designs usually exist for real reasons: equity, accountability, procurement integrity, coordination, reputational risk, and the desire to avoid postcode lotteries. The question is not whether those aims are legitimate. It is how much room remains for discretion where local knowledge actually matters.
 
 This can improve compliance. It can also reduce agency.
 
@@ -75,15 +74,14 @@ Then there is budget support.
 
 Support for hardship is not the problem. A decent society helps people through unemployment, illness, disability, caregiving strain, and sudden price shocks. Singapore should do that, and do it seriously.
 
-But the expectation has started to drift. Increasingly, the public mood is not just that the Government should relieve hardship. It is that it should subsidise lifestyle inflation.
+But repeated broad-based support can also train people to expect the state to cushion ordinary household costs. A Straits Times report on the Prime Minister’s constituency captured that logic plainly. One resident in private housing said, “It doesn't mean we are rich just because we live here. The Government should also help people like us - we pay the most taxes.”
+Source: https://www.straitstimes.com/politics/the-prime-ministers-constituency
 
-That is a different claim.
-
-It means ordinary tradeoffs are slowly being reclassified as public liabilities. If costs rise, there should be an offset. If habits get more expensive, there should be a rebate. If a preferred standard of convenience becomes harder to sustain, the assumption is that a package should appear. Broad-based support, universal vouchers, and recurring rebates may each be defensible on their own terms. The deeper effect is cultural. They teach people to experience Government not only as a safety net, but as the standing manager of household comfort.
+That is not a complaint about hardship. It is a claim about fairness and return. And once that logic becomes normal, support starts to feel like part of the bargain. Help is no longer seen only as a safety net. It becomes something people believe they have earned through contribution.
 
 Universality has real advantages. It is cleaner to administer. It reduces stigma. It can build political trust. But it also normalises the idea that relief should be broad, constant, and low-friction. Over time, that reshapes what citizens think they owe themselves, what they owe one another, and what they owe the state.
 
-This is not only a government problem. It is a political landscape problem. The centre of gravity has drifted toward protection, cushioning, and entitlement because those promises are easier to sell than responsibility. Parties win votes more readily by promising relief than by insisting on self-sufficiency. That pressure affects every serious political actor, including the ruling party. If telling people to be responsible does not win votes, the state will eventually tilt left to keep support. The result is not just more spending. It is a civic culture that learns to expect the state to absorb more of life’s costs.
+This is not only a government problem. It is a political landscape problem. The centre of gravity has drifted toward protection and cushioning because those promises are easier to sell than responsibility. That pressure affects every serious political actor. If telling people to be responsible does not win votes, the state will eventually tilt toward more support to keep consent. The result is not just more spending. It is a civic culture that learns to expect the state to absorb more of life’s costs.
 
 The danger is not only fiscal.
 
@@ -105,15 +103,15 @@ This can happen in a rich, educated, orderly country. Prosperity can hide it for
 
 That is the drift worth paying attention to.
 
-## The kind of strength Singapore actually needs
+## What would help
 
 The answer is not a minimal state. Singapore cannot and should not pretend otherwise. Nor is the answer to romanticise mess for its own sake. Standards matter. Coordination matters. Public capability matters.
 
+A better design question is where to preserve room for judgment and where to standardise hard. That means protecting local discretion where local knowledge clearly matters. It means using universal support sparingly and time-limiting it where possible when the goal is short-term relief rather than a permanent fixture. It means measuring whether programmes increase capability, not just uptake or satisfaction.
+
+It also means treating schools, firms, families, and communities as actors with responsibilities, not just delivery points for programme design.
+
 The harder design question is whether strong institutions leave enough room for other institutions, and for ordinary adults, to keep exercising judgment.
-
-That means protecting local discretion where local knowledge clearly matters. It means helping people through hardship without turning every squeeze into an administered response. It means treating schools, firms, families, and communities as actors with responsibilities, not just delivery points for programme design.
-
-A strong state is not weakened by that kind of room. It is tested by it.
 
 The risk is not simply that Singapore becomes too statist in the abstract. It is that a very capable system, by solving more from the centre, leaves society less practised at solving anything below that level. A country can look efficient and still be under-exercised.
 
