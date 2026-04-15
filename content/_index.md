@@ -6,7 +6,6 @@ description: Engineering leader working on messy systems where effort and outcom
 Most systems do not need more motion. They need a clearer read on what is actually getting in the way.
 
 That is the work I keep coming back to: find the bottleneck and cut what is unnecessary.
-I do that work inside large operating systems under real load. I also see the same pattern in mission-driven organizations, where good intent can still turn into too much activity and not enough durable progress.
 
 I do that work inside large operating systems under real load. The same pattern shows up in organizations where good intent can still turn into too much activity.
 **为无为，则无不治.** Good systems leave room for judgment instead of crowding it out.
