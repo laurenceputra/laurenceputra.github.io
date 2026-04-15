@@ -45,7 +45,7 @@ I've contributed to social empowerment and community building for over a decade.
 Used technology to improve operational efficiency, served as event photographer, and focused on uplifting youths in at-risk communities.
 
 **Project Stable Staples** (2020)
-Co-founded during COVID to provide rapid-response support for families in rental communities. Raised SGD 160,000, supported 2,600+ individuals across 600+ households, built a donation portal in under 2 days, and maintained zero expense ratio. Later received the President's Volunteerism and Philanthropy Awards People of Good recognition. For boards, this is a useful example of what it looks like to coordinate quickly and keep the work useful under pressure.
+Co-founded during COVID to provide rapid-response support for families in rental communities. Raised SGD 160,000, supported 2,600+ individuals across 600+ households, built a donation portal in under 2 days, and maintained zero expense ratio. Later received the President's Volunteerism and Philanthropy Awards People of Good recognition. It is one example of coordinating quickly under pressure.
 
 **Lai Yu Hua Bursary**
 Active engagement with recipients of this NUS Computing bursary for financially challenged students.
