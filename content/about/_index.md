@@ -9,15 +9,15 @@ The same pattern shows up across organizations and large teams: too much activit
 
 My job is to see what is creating drag, remove what is unnecessary, and make the system easier to run.
 
-**为无为，则无不治.** I come back to this often. Good systems do not crowd out judgment. They make it easier to use well.
+**为无为，则无不治.** I come back to this often. Good systems should not crowd out judgment. They make it easier to use well.
 
 ---
 
 ## Advisory lens
 
-- Most teams do not have an effort problem. They have a clarity problem.
-- New tools help only when they remove real load.
-- Execution gets faster after the system gets simpler.
+- Many teams are less short on effort than on clarity.
+- New tools help when they remove real load.
+- Execution usually gets faster after the system gets simpler.
 - I care about durable operating choices, not heroic bursts.
 
 ---

@@ -3,9 +3,9 @@ title: Advisory
 description: Advisory for teams carrying more activity than clarity.
 ---
 
-I work with teams that are doing a lot and still not getting the result they need.
+I help teams get clear on the real bottleneck, reduce the work around it, and rebuild a simpler operating model.
 
-The issue is usually unclear tradeoffs. The work has piled up around the wrong problem.
+When a team is doing a lot and still not getting the result it needs, the issue is usually unclear tradeoffs.
 
 ## What usually goes wrong
 
