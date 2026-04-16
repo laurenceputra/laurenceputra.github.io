@@ -9,13 +9,9 @@ Singapore did not lose agency overnight. If anything, agency has been gradually 
 
 This is a systems essay, not a claim about national character and not an argument against state capacity as such.
 
-That is the real problem.
-
 The irony is that this drift happened alongside rising state capability. The Government got better at administering, coordinating, standardising, and delivering. But when a system gets very good at solving problems from the centre, it also creates a standing incentive to move more decisions there. Over time, competence can produce a habit of dependency, even when nobody set out to create it.
 
 The point is not that Singapore once enjoyed a lost golden age of rugged independence. It did not. The narrower claim is that in the Goh Chok Tong era, self-sufficiency was still more visibly treated as a civic good. The language of self-reliance, mutual responsibility, and standing on one's own feet appeared more often in public argument. Support existed, but dependence was not presented as the ideal civic condition.
-
-That baseline matters.
 
 This essay is about several related but distinct capacities: local institutional discretion, frontline professional judgment, individual adaptive agency, and civic expectation. The examples below point to different layers, even if they are connected.
 
@@ -29,7 +25,7 @@ That is how agency can erode in a modern state. Not through a ban on initiative.
 
 The Taoist line that best explains this is 有之以为利，无之以为用. What is present gives form and advantage. What is absent gives use.
 
-A cup needs clay. It also needs the hollow inside. Institutions work the same way. Rules, agencies, subsidies, standards, and platforms give a system shape. But the useful part of a system is the room it leaves for judgment, discretion, adaptation, and initiative. If every gap is filled, the system does not become perfect. It becomes rigid.
+A cup needs clay. It also needs the hollow inside. Institutions work the same way. Rules, agencies, subsidies, standards, and platforms give a system shape. But the useful part of a system is the room it leaves for judgment and initiative. If every gap is filled, the system does not become perfect. It becomes rigid.
 
 That is the hinge.
 
@@ -88,11 +84,7 @@ Universality has real advantages. It is cleaner to administer. It reduces stigma
 
 This is not only a government problem. It is a political landscape problem. The centre of gravity has drifted toward protection and cushioning because those promises are easier to sell than responsibility. That pressure affects every serious political actor. If telling people to be responsible does not win votes, the state will eventually tilt toward more support to keep consent. The result is not just more spending. It is a civic culture that learns to expect the state to absorb more of life’s costs.
 
-The danger is not only fiscal.
-
-The danger is moral and psychological.
-
-A society that expects help in hardship can remain resilient. A society that expects the state to cushion every squeeze becomes softer in a different way. It loses the habit of absorbing some discomfort, adjusting expectations, delaying consumption, or solving problems below the level of national policy. It starts to treat self-restraint as policy failure. That is how agency thins.
+The risk is not only fiscal. Over time, repeated cushioning can shift the default place where problems are solved, and people can lose practice in absorbing ordinary shocks without state mediation. That is how agency thins.
 
 ## How agency is actually eroded
 
