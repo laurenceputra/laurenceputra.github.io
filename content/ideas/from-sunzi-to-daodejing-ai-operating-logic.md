@@ -1,137 +1,306 @@
 ---
-title: "从孙子兵法到道德经：AI 的操作逻辑"
-description: "From Sun Tzu to the Dao De Jing: why mature AI use starts with judgment, method, workflow, and only then tools."
-date: 2026-05-05
-tags: ["AI", "systems", "strategy", "Dao De Jing", "Sun Tzu", "judgment"]
+title: "AI 需要经、法、术、器，不只是更强模型"
+description: "AI changes leverage, not the logic of judgment. Chinese-first post with a separate English companion version."
+date: 2026-05-06
+tags: ["AI", "strategy", "Chinese classics", "judgment"]
 aliases: ["/blog/sunzi-daodejing-ai-operating-logic/"]
 ---
 
-AI 的问题，越来越不像“模型问题”，而更像“判断秩序问题”。
+[中文正文](#chinese) | [English companion](#english)
 
-Mature AI use is not model-first. It is judgment-first. You do not begin by asking which model is strongest. You begin by deciding what problem matters, what boundary cannot move, how judgment will be checked, and how tools should be used.
+<a id="chinese"></a>
+## 中文正文
 
-我之所以一直追着这个题，是因为我见过太多次。人先把模型抬上桌，再把判断留在桌下。结果看起来更快，实际上更乱。
+很多 AI 团队一开始就搞错了层级。
 
-真正成熟的 AI 使用，不是先问模型有多强，而是先把经、法、术、器排稳。经定方向，法定判断，术定流程，器才负责放大。
+他们先盯着模型名、榜单、供应商，觉得谁更强，谁就更对。 这很正常，因为模型最显眼，也最容易展示。 但显眼，不等于关键。
 
-A few weeks ago, at a leadership offsite, I joked that Laozi had already explained how to use AI 2,000 years ago. The joke was only half a joke.
+AI 改变的是杠杆，不是判断的逻辑。 真正的问题不是“哪个模型最强”，而是“我们的判断系统有没有被训练出来”。
 
-The point is not that the classics predicted large language models. The point is that they still describe how to operate high-leverage tools without giving away your own judgment.
+这篇文章的主线很简单：不要把判断外包给模型，要把判断练成系统。
 
-这篇文章本身也按同一套逻辑来写。先定经，也就是问题和边界。再定法，也就是判断方式。然后才是术和器，分别对应流程和工具。不是先堆材料，再找结论，而是先把结构排稳，再让内容落位。
+经不稳，法会歪；法不清，术会乱；术不明，器只会乱响。
 
-## 经：先定方向，再谈效率 / Principle: set direction before efficiency
+经一旦不稳，方法就会歪。 法一旦不清，流程就会乱。 术一旦不明，工具只会更吵。
 
-经是总纲。
+模型会继续进步，但如果判断一直外包，组织还是会退化。
 
-它先回答三件事。我们到底要做什么。哪些边界不能动。什么才算真的成功。
+## 不是模型问题，是层级问题
 
-如果这层不稳，下面就会慢慢漂。快会增加，混乱也会增加。
+大多数团队把 AI 当成采购问题。 买哪个供应商，选哪个旗舰模型，订哪个套餐，追哪个榜单。
 
-快，不等于赢。可用，不等于可托付。输出，不等于能力。能生成，不等于该采用。
+这不是完全错，只是太早了。
 
-这就是我想先翻过来的地方。AI 不是一个“把问题丢过去，等答案回来”的东西。它应当被放进清楚的目的、清楚的边界、清楚的判断标准里。
+更关键的问题应该先问：
 
-Principle decides what problem is worth solving. It sets the boundary, the risk tolerance, and the standard of success. If principle is weak, AI does not make the system wiser. It only makes confusion move faster.
+- 这件事到底在解决什么
+- 什么叫足够
+- 需要什么证据
+- 哪种错误不能接受
+- 什么时候该升级，而不是自信地结束
 
-## 法：把判断变成可检验结构 / Method: make judgment testable
+如果这些问题没答清楚，换更强的模型，只会得到更快、更流畅的混乱。
 
-如果经回答的是“我们为什么做”，法回答的就是“我们凭什么这样判断”。
+## 器在最后
 
-很多 AI 使用卡在这里。模型说得很顺，人就误以为推理也顺。未必。
+很多团队一上来就冲着器去。
 
-没有法，流畅会伪装成成熟。
+器是工具层：模型、搜索、文件、终端、记忆、集成、面板、助手、接口、算力，所有让 AI 看起来很强的东西。
 
-所以法层最重要的，不是把话说得更像专业人士，而是把判断变得可检验。把事实、推断、未知分开。保留验证路径。把冲突摆出来，不要急着抹平。让别人能沿着同一条线检查。
+这层当然重要，只是它应该排在最后。
 
-This is the layer that makes judgment inspectable. It turns a convincing answer into a traceable one. It also tells you where the system is still guessing.
+更好的顺序是：
 
-## 术：让判断落地 / Workflow: make judgment executable
+1. 经：目的、边界、胜负标准、责任归属
+2. 法：判断方法、证据结构、验证路径
+3. 术：工作流、路由、委派、返回条件
+4. 器：模型、工具、集成、算力
 
-术常常被误解成技巧。
+这不是玄学。 这是操作顺序。
 
-其实它更像执行纪律。判断如果不经过术，就很容易停在纸面上，或者在执行时变成噪音。
+先定系统是为了什么，再定怎么判断，再定怎么流转，最后才选用什么工具。
 
-先拆任务，再配模型。不要先有模型，再强迫任务去适应模型。
+很多 AI 失败根本不是工具失败，而是层级失败。
 
-这句话很短，但它压着很多东西。任务分型先于模型选择。能力预检先于委派。路由、回收条件、边界，往往比一个聪明 prompt 更重要。
+模型说了幻觉，真正的问题可能是没有定义什么算来源，这就是法。 流程产出看起来很顺，但结果不能用，真正的问题可能是没有定义完成、复核和升级条件，这就是术。 团队买了更贵的模型，却把它放进模糊任务里，真正的问题可能是从一开始就没说清楚哪些决定不能交给 AI，这就是经。
 
-我自己越做越确定一件事。好的 workflow 不是更聪明的聊天框，而是一个分层系统。它让正确动作更容易发生，也让错误更容易被看见。
+模型之所以常常被怪罪，是因为模型最显眼。 上层出了问题，最先露面的总是模型。
 
-Workflow is where judgment becomes repeatable. It is not a prettier conversation layer. It is the operating sequence that makes the right action easier to take and the wrong action easier to catch.
+## 经：先定目的，再谈效率
 
-## 器：工具只会放大上层结构 / Tools: amplify, do not decide
+经是总纲层。
 
-器是最显眼的一层。模型、搜索、文件、shell、memory、工作流工具，都属于器。
+放到组织里，就是目的、边界、胜负标准、责任归属。
 
-它们都重要，但没有一个能单独决定方向。
+我们到底想做什么。 什么不能做。 谁来拍板。 哪些风险即使输出很好看也不能接受。 人必须在哪些地方贴近。 什么叫赢。 什么叫代价太高。
 
-模型能力是变量，结构能力才是资产。
+没有这一层，速度就会变成陷阱。
 
-这才是更深的一层意思。更强的模型当然能帮忙，但如果经、法、术不稳，更强的模型往往只会产出更精致的模糊。反过来，结构站稳了，较简单的模型也能在纪律里做事。
+快，不等于对。  
+能用，不等于可信。  
+能输出，不等于有能力。  
+能生成，不等于该采用。
 
-Tools amplify structure. They do not create judgment. If the structure is weak, a stronger model just produces more polished ambiguity. If the structure is sound, even a simpler model can work inside a disciplined system.
+很多 AI 落地就是反着来的。 先问工具能做什么，再倒推目的去迁就工具。
 
-## 孙子兵法：外部秩序 / Sun Tzu: external order
+顺序错了。
 
-如果让我选一本最适合解释 AI 外部逻辑的经典，我会选《孙子兵法》。
+在我自己的系统里，这一层决定助手是干什么的，怎么做事，哪些线不能跨。 在公司里，经就是 AI 使用的操作宪章。
 
-它不是在讲战争姿态，而是在讲局势、配置、约束和时机。
+它要回答一些不能交给模型的问题：
 
-兵者，国之大事，不可不察。
+- 我们到底在改善什么决策
+- 哪些事绝不能自动化
+- 什么样的失败不可接受
+- 责任最终落在哪里
+- 我们愿意交换什么，放弃什么
 
-放到 AI 里，这意味着高杠杆工具不能随手用。你把它接进核心流程之前，先要知道它会改写什么。责任怎么变，验证怎么变，失败成本怎么变，判断链条怎么变。
+如果经不稳，下面所有层都会被便利性拖走。
 
-知彼知己，百战不殆。
+团队会开始偏爱速度，因为速度容易量化。 会开始奖励产量，因为产量容易展示。 会开始把自信当能力，因为自信输出最容易让人放松警惕。
 
-这在这里也成立。你要知道模型的边界，也要知道自己的真实优化目标。速度、成本、信任、可逆性，不是同一件事。
+上层必须站稳。
 
-求之于势，不责于人。
+否则，工具层会反过来拖着组织走。
 
-这句最适合连接古典和系统设计。好的系统，是让正确动作更容易重复，而不是每次都赌一个会写 prompt 的人刚好在线。
+## 法：把问题变成可检验结构
 
-Sun Tzu is the language of external order. It tells you to read the situation, map the constraints, and shape the conditions before you act. In AI terms, that means treating every high-leverage tool as something that can rewrite responsibility, validation, and failure cost, not just output speed.
+法是判断方法层。
 
-## 道德经：内部节制 / Dao De Jing: internal restraint
+放到组织里，就是证据结构、判断方法、验证路径、处理不确定性的规则。
 
-如果《孙子兵法》给我们的是外部秩序，《道德经》给我们的，就是内部节制。
+这一层的作用，是把模糊问题变成可检查的东西。
 
-为无为，则无不治。
+什么是事实。  
+什么是推断。  
+什么还不知道。  
+什么证据会改变答案。  
+什么冲突必须显出来。  
+什么叫足够支持。  
+在行动前要检查什么。
 
-这不是不作为，而是少做那些会把系统弄乱的多余动作。放到实践里，就是更少的任意干预，更清楚的默认设置，更少的中途翻动。
+没有法，流畅就会伪装成熟。
 
-治大国若烹小鲜。
+这也是 AI 最深的风险之一。 模型可以在思考还没完成时，就先输出一段像完成了的文字。 它会抹平空白，压扁不确定，把弱推断包装成确定语气。
 
-这就是有边界的委派。前面说清楚，运行中少搅动，最后再整体判断。不是甩手，而是不乱动。
+好的方法要抵住这个。
 
-知人者智，自知者明。
+最实用的做法，其实很简单：
 
-这一句最难外包。AI 不该替代自知，而该暴露盲点，挑战 framing，让人更难躲开自己的假设。
+- 事实
+- 推断
+- 未知
+- 反证
+- 下一步
 
-Dao De Jing is the language of internal restraint. It is about not over-controlling the system into instability. In practice, that means clearer defaults, fewer arbitrary interventions, bounded delegation, and a system that helps you see your own blind spots instead of hiding them.
+这个拆分很重要，因为它不让答案变成一块平滑表面。 它逼着人看清哪里是稳的，哪里已经进入判断，哪里还需要继续查。
 
-## 这对 AI 实操意味着什么 / What this means in practice
+方法不一定复杂。
 
-把前面收成几条，就会很实用。
+它必须可检验。
 
-- 先定目的、边界、成功标准。
-- 再把事实、推断、未知分开。
-- 先拆任务，再选模型。
-- 按风险和判断密度路由工作。
-- 用工具放大结构，不用工具替代结构。
+好的法，能让别人复核答案，复用思路，看得出结论会在哪一步失效。 它让判断不再只属于“我觉得像”，而是变成“我们可以检查”。
 
-The operating rule set is simple: principle first, method second, workflow third, tools last. That sequence keeps the system legible when the model changes. It also keeps the work from becoming dependent on one particularly good prompt or one particularly lucky session.
+这就是风格和推理的区别。
 
-这也是为什么前面那套 presentation 里的证明点还值得带进来。分层 harness、deep research、有边界的委派，不是三套散的想法。它们其实是在说明经、法、术如何进入器。
+## 术：让判断能够执行
 
-That is also why the previous harness essay still matters. It is a bridge, not the destination. That essay says the harness matters. This one says why the harness matters, and what has to be stable before the harness can do its job.
+术是工作流层。
 
-## 结尾 / Closing
+放到组织里，就是任务分类、路由、委派、排序、返回条件、完成纪律。
 
-古典不是包装，是操作逻辑。
+这一层决定好的原则能不能真的落地。
 
-If 《孙子兵法》教我们怎样在局势里取胜，《道德经》教我们怎样不把局势管坏，那么 AI 逼着我们把这两件事放在一起。既要会造势，也要会收手。既要会放大，也要会节制。
+一个团队可以有很强的目的，也有不错的方法，但如果工作在系统里流转得不好，最后还是会失败。 任务太模糊。 用错模型。 给了太多自治。 没有返回条件。 复核太晚。 没人知道什么时候该停。
 
-不要把判断外包给模型。要让模型帮助我们把判断练成系统。
+这就是术的失败。
 
-The model matters. But the judgment system matters more.
+好的工作流会在执行前先问：
+
+- 这是什么类型的任务
+- 它是简单、边界清楚、模糊，还是高判断密度
+- 需要什么能力
+- 需要什么上下文
+- 什么叫完成
+- 什么触发升级
+- 如果卡住了，应该返回什么
+- 谁来验证结果
+
+这不是官僚主义。 这是让判断穿过现实工作的方式。
+
+在我自己的系统里，这一层是技能、路由、委派、升级、复核和完成规则。 在团队里，它就是操作手册。
+
+没有术，大家很容易把“工具堆得更多”误认为“系统搭好了”。
+
+再加一个助手。 再加一个面板。 再做一个自动化流程。 再堆一个提示库。 再接一个集成。
+
+系统会更吵。
+
+但不会更清楚。
+
+好的工作流，是让正确动作更容易重复。
+
+这才是重点。
+
+## 器：有用，但只能排在后面
+
+器是工具层。
+
+模型、搜索、文件、终端、记忆、集成、接口，所有具体机器都在这里。
+
+这层当然重要。
+
+只是它应该排最后。
+
+大多数组织先冲这里，因为这是最容易买的层。
+
+也正因为如此，大家才会把“工具越多”误认成“进步越多”。
+
+当层级是健康的，四层会互相支撑。 经给方向。 法给判断纪律。 术给重复动作。 器提供杠杆。
+
+当层级是坏的，情况正相反。 经乱，目标就乱。 法乱，判断就乱。 术乱，执行就乱。 更强的器，只会把这些混乱放大。
+
+顺序很重要。
+
+## 《孙子兵法》：先定位置，再花智力
+
+《孙子兵法》真正关心的不是进攻，而是通过位置、预判和优势，减少浪费。
+
+这正适合 AI。
+
+### 知彼知己
+
+知道工具边界，也知道任务边界。
+
+知道工具，意思是你得明白模型真正擅长什么，哪里会坏，怎么处理模糊，常见错误是什么，错误成本多高。
+
+知道任务，意思是你要清楚这件事的 stakes，证据要求，延迟成本，出错成本，以及答案该被审到什么程度。
+
+很多团队两样都没做。 他们买了最强的模型，然后把完全不同的任务都丢进去，还说这叫标准化。
+
+这不是纪律。
+
+### 多算胜
+
+孙子说，胜负往往在接触之前就已经决定了。 放到 AI 里，就是输出质量常常在第一步之前就已经被决定了。
+
+什么事实已经成立。  
+你从这些事实里推断了什么。  
+什么还不知道。  
+什么来源算数。  
+什么能让答案真正可用。  
+什么不确定必须被显式写出来，而不是被抹平。  
+什么会强制升级，而不是直接结束。
+
+所以事实、推断、未知这个拆分很重要。 它能阻止流畅把推断伪装成事实。 它逼人看见，哪些是已知，哪些是猜测，哪些还需要判断。
+
+先算，再出手。
+
+### 先为不可胜，求之于势
+
+这两句要放在一起看。 先让自己不容易输，再去塑造地势。
+
+放到 AI 里，就是在系统真正执行之前，就把权限、复核、拒绝、回滚、升级阈值放好。 更强的模型，不能补一个会昂贵且不透明地失败的工作流。
+
+也不要每次输出一弱，就急着买更强智能，或者把提示写得更长。 很多时候更好的做法是：改善拆分，缩小上下文，把检索和综合分开，为不同任务路由不同模型，或者在达到足够时提前停。
+
+别硬冲坏位置。
+
+## 《道德经》：给系统留出空
+
+如果《孙子兵法》讲准备，《道德经》讲节制。
+
+因为 AI 的失败，不只来自设计不够，也来自控制过头。 团队一旦对不一致感到焦虑，就会不断加指令、加例外、加干预、加脆弱规则，最后把系统弄得非常僵。
+
+看起来很认真。 实际上常常更差。
+
+### 为无为，则无不治
+
+无为不是不做事。 在操作层面，它的意思是不要用持续干预去强行推着每一步走。
+
+好的 AI 系统，不应该依赖一个人一路救火。 它应该依赖稳定默认值、清晰边界和路由规则，让好行为更容易发生，而不是靠不停人工修正。
+
+少一点救援。 多一点结构。
+
+### 有之以为利，无之以为用
+
+这句话对 AI 的重要性，比很多人想得更大。 有，带来优势。 无，才带来用途。
+
+一个可用的系统，里面必须留空。 可以拒绝的空。 可以升级的空。 可以说证据不够的空。 可以让人判断是否仍然太模糊的空。 可以把任务路由给更便宜模型的空，因为这个任务根本不值得昂贵智能。
+
+一个大提示加一个大模型，常常看起来很强。 实际上通常很僵。
+
+### 知止，和水
+
+老子讲水，是因为水会跟着地形变。 它不会坚持一种形状适配所有表面。
+
+AI 系统也该这样。 不同地形，不同工具。 不同重要性，不同复核深度。 不同任务，不同层次。
+
+然后是知止。 知道什么时候该停。
+
+大多数组织并不需要每一步都用最高智能。 他们需要的是任务足够。 什么时候快而边界清楚的答案就够了。 什么时候值得做更深的综合。 什么时候最好的动作是先停下来，把人留在回路里。
+
+节制，本身就是能力的一部分。
+
+## 最后
+
+把经放在器前面。 先写法，再追输出。 先设计术，再加工具。 把智能花在真正值得它的地方。 足够了，就停。
+
+<a id="english"></a>
+## English companion
+
+Most AI teams begin in the wrong place. They start with model names, benchmark charts, and vendor comparisons. That is understandable, because the model is the loudest and most visible layer. But visibility is not the same as importance.
+
+AI changes leverage, not the logic of judgment. The real question is not which model is strongest. The real question is whether the organization has trained a judgment system.
+
+The Chinese stack of 经、法、术、器 gives a better operating order than model obsession does. Start with purpose and boundaries. Then define the judgment method. Then define the workflow. Only then choose the tools.
+
+That is not mysticism. It is simply a better sequence.
+
+If purpose is unstable, method bends. If method is unclear, workflow gets noisy. If workflow is unclear, tools only amplify the noise.
+
+Sunzi is useful because it teaches positioning before force. Know the tool boundary. Know the task boundary. Shape the terrain before spending intelligence. Do not rely on heroic prompting when better decomposition, routing, and review rules will do the job.
+
+Dao is useful because it teaches restraint. Good systems need room to refuse, escalate, and say that the evidence is not enough. They need empty space, not just more control.
+
+The bottom line is simple. Use models to amplify judgment, not replace it. When the upper layers are sound, even a modest tool can be sufficient. When the upper layers are weak, a stronger model only makes the failure faster and louder.
