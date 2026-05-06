@@ -6,9 +6,8 @@ tags: ["AI", "strategy", "Chinese classics", "judgment"]
 aliases: ["/blog/sunzi-daodejing-ai-operating-logic/"]
 ---
 
-[中文正文](#chinese) | [English companion](#english)
+[中文正文](#中文正文) | [English companion](#english-companion)
 
-<a id="chinese"></a>
 ## 中文正文
 
 很多 AI 团队一开始就搞错了层级。
@@ -286,7 +285,6 @@ AI 系统也该这样。 不同地形，不同工具。 不同重要性，不同
 
 把经放在器前面。 先写法，再追输出。 先设计术，再加工具。 把智能花在真正值得它的地方。 足够了，就停。
 
-<a id="english"></a>
 ## English companion
 
 Most AI teams begin in the wrong place. They start with model names, benchmark charts, and vendor comparisons. That is understandable, because the model is the loudest and most visible layer. But visibility is not the same as importance.
