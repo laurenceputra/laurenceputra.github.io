@@ -22,7 +22,7 @@ AI 改变的是杠杆，不是判断的逻辑。 真正的问题不是“哪个�
 
 经一旦不稳，方法就会歪。 法一旦不清，流程就会乱。 术一旦不明，工具只会更吵。
 
-模型会继续进步，但如果判断一直外包，组织还是会退化。
+模型会继续进步，但如果判断一直外包，组织还是会退化。[^1]
 
 ## 不是模型问题，是层级问题
 
@@ -302,3 +302,5 @@ Sunzi is useful because it teaches positioning before force. Know the tool bound
 Dao is useful because it teaches restraint. Good systems need room to refuse, escalate, and say that the evidence is not enough. They need empty space, not just more control.
 
 The bottom line is simple. Use models to amplify judgment, not replace it. When the upper layers are sound, even a modest tool can be sufficient. When the upper layers are weak, a stronger model only makes the failure faster and louder.
+
+[^1]: Drafted with AI assistance. My Chinese is still on training wheels, but the points, insights, and thoughts are mine.
