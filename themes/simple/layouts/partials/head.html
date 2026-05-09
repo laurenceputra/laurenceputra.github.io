@@ -1,6 +1,45 @@
+{{- $description := site.Params.description -}}
+{{- with .Description }}{{ $description = . }}{{ end -}}
+{{- $title := site.Title -}}
+{{- if not .IsHome }}{{ $title = printf "%s | %s" .Title site.Title }}{{ end -}}
+{{- $image := site.Params.profileImage | absURL -}}
+{{- with site.Params.ogImage }}{{ $image = . | absURL }}{{ end -}}
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
 <link rel="canonical" href="{{ .Permalink }}">
+
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="{{ if eq .Kind "page" }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $image }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="{{ $image }}">
+{{- if eq .Kind "page" -}}
+  {{- with .Date }}
+    {{- if not .IsZero }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end -}}
+  {{- end }}
+  {{- range .Params.tags }}
+<meta property="article:tag" content="{{ . }}">
+  {{- end }}
+{{- end }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ printf "%q" site.Title | safeJS }},
+  "url": {{ printf "%q" site.BaseURL | safeJS }},
+  "image": {{ printf "%q" (site.Params.profileImage | absURL) | safeJS }},
+  "sameAs": [{{ printf "%q" site.Params.linkedin | safeJS }}],
+  "jobTitle": "Engineering leader",
+  "description": {{ printf "%q" site.Params.description | safeJS }}
+}
+</script>
 <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">

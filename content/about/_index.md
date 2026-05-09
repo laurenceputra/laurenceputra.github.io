@@ -13,12 +13,15 @@ My job is to see what is creating drag, remove what is unnecessary, and make the
 
 ---
 
-## Advisory lens
+## The through-line
 
-- Many teams are less short on effort than on clarity.
-- New tools help when they remove real load.
-- Execution usually gets faster after the system gets simpler.
-- I care about durable operating choices, not heroic bursts.
+Across engineering, operations, infrastructure, and community work, the pattern is similar:
+
+- many teams are less short on effort than on clarity
+- new tools help when they remove real load
+- execution usually gets faster after the system gets simpler
+- good systems preserve judgment instead of replacing it with more process
+- durable operating choices matter more than heroic bursts
 
 ---
 
@@ -26,9 +29,10 @@ My job is to see what is creating drag, remove what is unnecessary, and make the
 
 I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations look like in practice.
 
-That same operating discipline is what I bring to nonprofit boards and hiring managers: simplify the system, clarify decisions, and reduce load.
+That same operating discipline is what I bring to nonprofit boards and mission-driven teams: simplify the system, clarify decisions, and reduce load.
 
 My broader background spans engineering, operations, infrastructure, and management across:
+
 - **TikTok:** Site Leader for Server Architecture, OSE Engineering Leader
 - **PayPal:** Engineering management in Consumer In-Store, Digital Commerce, and Compliance
 - **Singapore Power:** DevOps Lead
@@ -45,7 +49,9 @@ I've contributed to social empowerment and community building for over a decade.
 Used technology to improve operational efficiency, served as event photographer, and focused on uplifting youths in at-risk communities.
 
 **Project Stable Staples** (2020)
-Co-founded during COVID to provide rapid-response support for families in rental communities. Raised SGD 160,000, supported 2,600+ individuals across 600+ households, built a donation portal in under 2 days, and maintained zero expense ratio. Later received the President's Volunteerism and Philanthropy Awards People of Good recognition. It is one example of coordinating quickly under pressure.
+Co-founded during COVID to provide rapid-response support for families in rental communities. Raised SGD 160,000, supported 2,600+ individuals across 600+ households, built a donation portal in under 2 days, and maintained zero expense ratio. Later received the President's Volunteerism and Philanthropy Awards People of Good recognition.
+
+It is one example of the work I care about: noticing the gap, reducing the moving parts, and coordinating quickly enough to be useful.
 
 **Lai Yu Hua Bursary**
 Active engagement with recipients of this NUS Computing bursary for financially challenged students.
