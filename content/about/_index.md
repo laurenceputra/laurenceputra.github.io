@@ -1,11 +1,13 @@
 ---
 title: About
-description: Engineering leader focused on practical simplification, clear decisions, and systems that hold up under real use.
+description: Engineering leader focused on practical simplification, clear decisions, and systems that hold up in real operations.
 ---
 
 I work on operating problems that look busy from the outside and stuck from the inside.
 
-The same pattern shows up across organizations and large teams: too much activity, not enough clarity, and too much complexity around the real work.
+I am a technical operator, systems thinker, and community builder. I move between platform work, operating discipline, and community execution when the problem needs all three.
+
+The same pattern shows up across organizations and large teams: too much activity, not enough clarity, and too much complexity around the work that actually moves the result.
 
 My job is to see what is creating drag, remove what is unnecessary, and make the system easier to run.
 
@@ -27,7 +29,7 @@ Across engineering, operations, infrastructure, and community work, the pattern 
 
 ## Background
 
-I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations look like in practice.
+I lead Operational Support and Efficiency at TikTok. My team uses AI to cut manual load, shorten triage, and test whether it actually removes repetitive work from operations.
 
 That same operating discipline is what I bring to nonprofit boards and mission-driven teams: simplify the system, clarify decisions, and reduce load.
 
@@ -41,7 +43,7 @@ My broader background spans engineering, operations, infrastructure, and managem
 
 ## Community and philanthropy
 
-This part of my work matters because it shows how I operate when trust, speed, and coordination are the real constraints.
+This part of my work matters because it shows how I operate when trust, speed, and coordination matter most.
 
 I've contributed to social empowerment and community building for over a decade.
 

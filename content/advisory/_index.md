@@ -5,12 +5,12 @@ description: Advisory for teams carrying more activity than clarity.
 
 I help teams get clear on the real bottleneck, reduce the work around it, and rebuild a simpler operating model.
 
-This is useful when a team is doing a lot and still not getting the result it needs. The issue is often not effort. It is unclear tradeoffs, hidden constraints, or a system that has become too hard to steer.
+This is useful when a team is doing a lot and still not getting the result it needs. The issue is often not effort. It is unclear tradeoffs, hidden bottlenecks, or a system that has become too hard to steer.
 
 ## What usually goes wrong
 
 - The team is busy, but the work does not compound.
-- AI adds more tools, process, or noise than relief.
+- AI adds tools, demos, or process, but not less manual work.
 - Complexity makes it hard to see what matters and who decides.
 - Growth adds coordination overhead faster than the operating model can absorb it.
 
@@ -28,7 +28,7 @@ This is the kind of work I can help with:
 - Nonprofit boards steering mission, risk, and operating tradeoffs
 - Education organizations under growth or change
 - Social service organizations carrying too much operational drag
-- Mission-driven teams using AI but not yet seeing practical relief
+- Mission-driven teams using AI but not yet seeing less manual load, faster turnaround, or clearer decisions
 - Leadership teams that need clearer decisions and a steadier operating rhythm
 
 ## Common situations
@@ -43,7 +43,7 @@ What usually helps: narrow the variables and be explicit about what matters most
 
 **AI that adds noise instead of relief**
 Symptom: more tools and experiments, but not less operational load.
-What usually helps: start from the work that should disappear, the signal that should improve, or the decision that should become easier.
+What usually helps: start from the work that should disappear, the signal that should improve, or the decision that should get faster.
 
 **Growth that makes the system shakier**
 Symptom: each step up in scale adds fragility.
