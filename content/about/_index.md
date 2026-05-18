@@ -1,11 +1,17 @@
 ---
 title: About
-description: Engineering leader focused on practical simplification, clear decisions, and systems that hold up under real use.
+description: Engineering leader focused on practical simplification, clear decisions, and systems that hold up under load.
 ---
+
+I am an engineering leader working where technical systems, operating discipline, and judgment under load meet.
 
 I work on operating problems that look busy from the outside and stuck from the inside.
 
-The same pattern shows up across organizations and large teams: too much activity, not enough clarity, and too much complexity around the real work.
+I move between technical systems, operating discipline, and community execution when the problem sits between all three.
+
+That usually means queues, handoffs, approval paths, manual review, and volunteer coordination, not just strategy decks.
+
+The same pattern shows up across organizations and large teams: too much activity, not enough clarity, and too much complexity around the work that actually moves the result.
 
 My job is to see what is creating drag, remove what is unnecessary, and make the system easier to run.
 
@@ -27,7 +33,7 @@ Across engineering, operations, infrastructure, and community work, the pattern 
 
 ## Background
 
-I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations look like in practice.
+I lead Operational Support and Efficiency at TikTok. My team uses AI to cut manual load, shorten triage, and remove repetitive work from operations.
 
 That same operating discipline is what I bring to nonprofit boards and mission-driven teams: simplify the system, clarify decisions, and reduce load.
 
@@ -41,7 +47,7 @@ My broader background spans engineering, operations, infrastructure, and managem
 
 ## Community and philanthropy
 
-This part of my work matters because it shows how I operate when trust, speed, and coordination are the real constraints.
+This part of my work matters because it shows how I operate when trust, speed, and coordination matter most.
 
 I've contributed to social empowerment and community building for over a decade.
 
@@ -68,7 +74,7 @@ Lead Organizer. Grew the community substantially and helped lay the groundwork f
 
 ## How I work
 
-I start by understanding where the friction really is. Then I reduce moving parts and design around the few decisions that matter.
+I start by understanding where the friction really is. Then I reduce moving parts, clear recurring debates, and design around the few decisions that matter.
 
 In community work, that might mean logistics, communications, fundraising, or building tools quickly. In engineering, it means leading with enough technical depth to stay close to the work.
 

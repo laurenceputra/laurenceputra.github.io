@@ -6,10 +6,10 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Engineering leader working on systems that are harder to steer than they should be."
-  tagline = "I help teams make the real constraint easier to see."
-  intro = "Then I simplify the system around it, so better decisions and better outcomes become easier."
-  currentRole = "I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce operational load and test what AI-native operations look like in practice."
+  description = "Engineering leader working where technical systems, operating discipline, and judgment under load meet."
+  tagline = "I help teams cut load, clarify constraints, and make better decisions easier."
+  intro = "Engineering leader working where technical systems, operating discipline, and judgment under load meet."
+  currentRole = "I lead Operational Support and Efficiency at TikTok. My team uses AI to cut manual load, shorten triage, and remove repetitive work from operations."
   profileImage = "/images/profile_2021_full_body_chair.jpg"
   heroImage = "/images/cover.jpg"
   linkedin = "https://www.linkedin.com/in/laurenceputra/"
