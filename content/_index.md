@@ -1,13 +1,13 @@
 ---
 title: Home
-description: Technical operator working on systems with too much activity, too much friction, and too little room for judgment.
+description: Technical operator working on systems that are hard to steer.
 ---
 
-Most teams do not need more motion. They need a clearer read on where the load is piling up.
+Most teams do not need more motion. They need a clearer read on where the queue is backing up.
 
-That is the work I keep coming back to: find the bottleneck, cut what is unnecessary, and make the system easier to steer.
+That is the work I keep coming back to: find the constraint, cut what is unnecessary, and make the system easier to steer.
 
-I do that work inside large operating systems under heavy load. The same pattern shows up in organizations where good intent still turns into too much activity, too many tools, and too little room for judgment.
+I do that work inside large operating systems under heavy load. The same pattern shows up in organizations where good intent still turns into too much activity, too many tools, too many handoffs, and too little room for judgment.
 
 **为无为，则无不治.** Good systems leave room for judgment instead of crowding it out.
 
@@ -21,21 +21,21 @@ The useful work is usually to find where the system is making good people slower
 
 ## What I work on
 
-- operational drag that hides the bottleneck
+- operational drag that hides the constraint
 - decision systems that create motion without enough clarity
-- AI and tooling that should reduce manual load, not add noise
+- AI and tooling that should reduce manual review, not add noise
 - operating models that need to hold up under real use
 
 ## How I help
 
-- make the bottleneck easier to see
+- make the constraint easier to see
 - simplify the system around the few decisions that matter
 - use AI where it removes manual work and improves signal
 
 ## Where this shows up in practice
 
 **TikTok**
-I lead Operational Support and Efficiency at TikTok. My team uses AI to cut manual load, shorten triage, and test whether it actually removes repetitive work from operations.
+I lead Operational Support and Efficiency at TikTok. My team uses AI to cut manual load, shorten triage, and remove repetitive work from operations.
 
 **Engineering and operations**
 My background spans engineering management, infrastructure, DevOps, payments, compliance, and platform work across TikTok, PayPal, Singapore Power, Nugit, and earlier software engineering roles.
@@ -48,7 +48,7 @@ President's Volunteerism and Philanthropy Awards People of Good 2020. NUS Comput
 
 ## Explore
 
-- [Advisory](/advisory/): how I help teams get clear on the bottleneck and simplify the system around it
+- [Advisory](/advisory/): how I help teams get clear on the constraint and simplify the system around it
 - [About](/about/): background, experience, and how I work
 - [Ideas](/ideas/): essays on systems, execution, AI, and practical operating problems
 - [Media](/media/): selected interviews and public features

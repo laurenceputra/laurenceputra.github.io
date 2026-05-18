@@ -5,7 +5,9 @@ description: Engineering leader focused on practical simplification, clear decis
 
 I work on operating problems that look busy from the outside and stuck from the inside.
 
-I am a technical operator, systems thinker, and community builder. I move between platform work, operating discipline, and community execution when the problem needs all three.
+I move between technical systems, operating discipline, and community execution when the problem sits between all three.
+
+That usually means queues, handoffs, approval paths, manual review, and volunteer coordination, not just strategy decks.
 
 The same pattern shows up across organizations and large teams: too much activity, not enough clarity, and too much complexity around the work that actually moves the result.
 
@@ -29,7 +31,7 @@ Across engineering, operations, infrastructure, and community work, the pattern 
 
 ## Background
 
-I lead Operational Support and Efficiency at TikTok. My team uses AI to cut manual load, shorten triage, and test whether it actually removes repetitive work from operations.
+I lead Operational Support and Efficiency at TikTok. My team uses AI to cut manual load, shorten triage, and remove repetitive work from operations.
 
 That same operating discipline is what I bring to nonprofit boards and mission-driven teams: simplify the system, clarify decisions, and reduce load.
 
@@ -70,7 +72,7 @@ Lead Organizer. Grew the community substantially and helped lay the groundwork f
 
 ## How I work
 
-I start by understanding where the friction really is. Then I reduce moving parts and design around the few decisions that matter.
+I start by understanding where the friction really is. Then I reduce moving parts, clear recurring debates, and design around the few decisions that matter.
 
 In community work, that might mean logistics, communications, fundraising, or building tools quickly. In engineering, it means leading with enough technical depth to stay close to the work.
 
