@@ -3,8 +3,6 @@ title: Home
 description: Engineering leader working where technical systems, operating discipline, and judgment under load meet.
 ---
 
-I am an engineering leader working where technical systems, operating discipline, and judgment under load meet.
-
 Most teams do not need more motion. They need a clearer read on where the queue is backing up.
 
 That is the work I keep coming back to: find the constraint, cut what is unnecessary, and make the system easier to steer.
