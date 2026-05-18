@@ -6,9 +6,9 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Technical operator focused on systems that are hard to steer."
-  tagline = "I help teams untangle overload, reduce noise, and make better decisions easier."
-  intro = "My work sits where technical systems, operating discipline, and community execution meet under real pressure."
+  description = "Engineering leader working where technical systems, operating discipline, and judgment under load meet."
+  tagline = "I help teams cut load, clarify constraints, and make better decisions easier."
+  intro = "I'm an engineering leader working where technical systems, operating discipline, and community execution meet under real pressure."
   currentRole = "I lead Operational Support and Efficiency at TikTok. My team uses AI to cut manual load, shorten triage, and remove repetitive work from operations."
   profileImage = "/images/profile_2021_full_body_chair.jpg"
   heroImage = "/images/cover.jpg"

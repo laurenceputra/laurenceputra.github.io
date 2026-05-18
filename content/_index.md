@@ -1,7 +1,9 @@
 ---
 title: Home
-description: Technical operator working on systems that are hard to steer.
+description: Engineering leader working where technical systems, operating discipline, and judgment under load meet.
 ---
+
+I am an engineering leader working where technical systems, operating discipline, and judgment under load meet.
 
 Most teams do not need more motion. They need a clearer read on where the queue is backing up.
 

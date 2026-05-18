@@ -1,7 +1,9 @@
 ---
 title: About
-description: Engineering leader focused on practical simplification, clear decisions, and systems that hold up in real operations.
+description: Engineering leader focused on practical simplification, clear decisions, and systems that hold up under load.
 ---
+
+I am an engineering leader working where technical systems, operating discipline, and judgment under load meet.
 
 I work on operating problems that look busy from the outside and stuck from the inside.
 

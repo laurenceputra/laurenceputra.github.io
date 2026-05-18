@@ -1,6 +1,6 @@
 ---
 title: Advisory
-description: Advisory for teams carrying too much activity and too little clarity.
+description: Advisory for engineering and mission-driven teams carrying too much activity and too little clarity.
 ---
 
 I help teams get clear on the real constraint, reduce the work around it, and rebuild a simpler operating model.
