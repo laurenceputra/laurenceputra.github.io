@@ -5,6 +5,25 @@ description: Supporting interviews, articles, and public features related to my 
 
 This section collects selected interviews, articles, and public features that support the broader story here: engineering judgment, operating discipline, and community work under real constraints.
 
+## Engineering and technical path
+
+These references support the technical and operator side of the story: learning quickly, working across systems, and building useful technical communities.
+
+- [Yahoo SG News on my early engineering career](/media/yahoo-sg-news-article/)
+- [GitHub profile](/media/github-profile/)
+- [LinkedIn profile](/media/linkedin-profile/)
+
+## Project Stable Staples and community response
+
+These references support the volunteer/community response story: fast coordination, practical support, transparency, and operating close to the ground.
+
+- [The Pride / Singapore Kindness Movement](/media/the-pride-singapore-kindness-movement/)
+- [PayPal Newsroom feature](/media/paypal-newsroom-feature/)
+- [CNA interview on Project Stable Staples](/media/cna-interview/)
+- [Channel 8 Frontline interview on Project Stable Staples](/media/channel8-interview/)
+- [We Are Majulah feature](/media/we-are-majulah-feature/)
+- [Project Lionheart](/media/project-lionheart/)
+
 ## Featured video interviews
 
 ### Channel 8 Frontline interview on Project Stable Staples

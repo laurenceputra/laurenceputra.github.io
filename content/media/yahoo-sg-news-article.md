@@ -6,7 +6,7 @@ weight: 70
 
 ![Screenshot of Yahoo SG News article](/screenshots/yahoo-sp-group-developer-career.png)
 
-Yahoo SG News covered my career journey in software engineering. It captured an earlier part of the path, before later leadership and community work became more visible.
+Yahoo SG News covered my earlier software engineering path. It is useful because it shows the technical side of the same operating pattern: curiosity, learning velocity, breadth across technologies, and a preference for work that stretches people instead of trapping them in repetitive execution.
 
 ## Links
 

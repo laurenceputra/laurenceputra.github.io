@@ -1,11 +1,11 @@
 ---
 title: Advisory
-description: Advisory for engineering and mission-driven teams carrying too much activity and too little clarity.
+description: Advisory for mission-driven and high-complexity teams carrying too much activity and too little clarity.
 ---
 
-I help teams get clear on the real constraint, reduce the work around it, and rebuild a simpler operating model.
+I help mission-driven and high-complexity teams find the real constraint, reduce the load around it, and rebuild a simpler operating model.
 
-This is useful when a team is doing a lot and still not getting the result it needs. The issue is often not effort. It is unclear tradeoffs, hidden constraints, or a system that has become too hard to steer.
+This is useful when a team is doing a lot and still not getting the result it needs. The issue is often not effort. The blocker may be workflow, incentives, trust, coordination, decision rights, or speed.
 
 ## What this can produce
 
@@ -13,6 +13,7 @@ This is useful when a team is doing a lot and still not getting the result it ne
 - a decision map
 - a simpler operating rhythm
 - AI use-case triage
+- handoff and ownership cleanup
 - clearer board or leadership alignment
 - a 30-day test plan
 
@@ -30,15 +31,19 @@ This is useful when a team is doing a lot and still not getting the result it ne
 - Strip away tools, rituals, or approval paths that add load without improving judgment.
 - Rebuild cadence, roles, and tools around a simpler operating model.
 
-## Where I am useful
+## Best fit
 
-This is the kind of work I can help with:
+I am most useful when the work sits between people, tools, process, and judgment:
 
 - Nonprofit boards steering mission, risk, and operating tradeoffs
-- Education organizations under growth or change
-- Social service organizations carrying too much operational drag
-- Mission-driven teams using AI but not yet seeing less manual load, faster turnaround, or clearer decisions
-- Leadership teams that need clearer decisions and a steadier operating rhythm
+- Education or social-impact teams growing faster than their operating model
+- Technical teams using AI but not yet reducing manual load
+- Social service organizations carrying operational drag across handoffs and partners
+- Leadership teams stuck in recurring decisions without clearer movement
+
+## Not the right fit
+
+I am less useful if the problem is only a software build, a generic AI demo, or a strategy document that does not need operating change.
 
 ## Common situations
 

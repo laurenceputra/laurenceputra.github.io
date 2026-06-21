@@ -1,6 +1,6 @@
 ---
 title: Awards
-description: Supporting recognitions for my engineering, community, and social impact work.
+description: Supporting recognitions for my engineering, community, and education-support work.
 ---
 
 These recognitions reflect years of work with communities, collaborators, and supporters. I see them as markers of shared effort and supporting evidence, not isolated personal milestones.
@@ -15,7 +15,7 @@ University-level recognition that reminded me how much of my work has always bee
 ### President’s Volunteerism and Philanthropy Awards People of Good 2020
 ![People of Good award ceremony](/images/pog_ceremony.jpg)
 
-Recognition for my work on Project Stable Staples during the COVID-19 crisis. It reflected what Project Stable Staples achieved together with volunteers, donors, and community partners.
+Recognition for my work on Project Stable Staples during the COVID-19 crisis. It reflected the volunteer and community response that Project Stable Staples built together with volunteers, donors, and community partners.
 
 ## All awards
 

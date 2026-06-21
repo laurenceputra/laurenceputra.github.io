@@ -1,19 +1,19 @@
 ---
 title: Home
-description: Engineering leader working where technical systems, operating discipline, and judgment under load meet.
+description: Engineering operator helping mission-driven teams find the real constraint and build useful systems that hold.
 ---
 
-Most teams do not need more motion. They need a clearer read on where the queue is backing up.
+Most teams do not need more motion. They need to know what is actually slowing the work down.
 
-That is the work I keep coming back to: find the constraint, cut what is unnecessary, and make the system easier to steer.
+That is the work I keep coming back to: find the constraint, remove unnecessary load, and build systems that hold up under real use.
 
-I do that work inside large operating systems under heavy load. The same pattern shows up in organizations where good intent still turns into too much activity, too many tools, too many handoffs, and too little room for judgment.
+I do that work inside large operating systems under pressure. The same pattern shows up in mission-driven teams where good intent can still turn into too much activity, too many tools, too many handoffs, and not enough room for judgment.
 
 **为无为，则无不治.** Good systems leave room for judgment instead of crowding it out.
 
 ## Why this lens is different
 
-I have worked across engineering management, infrastructure, DevOps, payments, compliance, AI operations, and community response.
+I have worked across engineering management, infrastructure, DevOps, payments, compliance, AI operations, volunteer response, and youth capability-building.
 
 That mix matters. I am not looking only at strategy, only at tooling, or only at people. Most operating problems sit between those layers.
 
@@ -35,16 +35,19 @@ The useful work is usually to find where the system is making good people slower
 ## Where this shows up in practice
 
 **TikTok**
-I lead Operational Support and Efficiency at TikTok. My team uses AI to cut manual load, shorten triage, and remove repetitive work from operations.
+I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce manual load, shorten triage, and improve how tech operations run.
 
 **Engineering and operations**
 My background spans engineering management, infrastructure, DevOps, payments, compliance, and platform work across TikTok, PayPal, Singapore Power, Nugit, and earlier software engineering roles.
 
 **Project Stable Staples** (2020)
-Co-founded during COVID. Raised SGD 160,000. Supported 2,600+ individuals across 600+ households. Built a donation portal in under 2 days. Zero expense ratio. Later received presidential recognition.
+Co-founded during COVID as a volunteer response for families in rental communities. Raised over SGD 160,000, supported 600+ households, built a donation portal in under 2 days, and operated with zero expense ratio.
+
+**Community and education**
+Contributed to IAmTalentedSG from 2014 to 2024, supporting youth opportunity work through technology, operations, and event support. I remain connected to education support through the Lai Yu Hua Bursary.
 
 **Recognition**
-President's Volunteerism and Philanthropy Awards People of Good 2020. NUS Computing Outstanding Young Alumni 2022. NUS Outstanding Young Alumni 2021. Voice of Loving Kindness from Singapore Kindness Movement.
+President's Volunteerism and Philanthropy Awards People of Good 2020, received for Project Stable Staples. NUS Computing Outstanding Young Alumni 2022. NUS Outstanding Young Alumni 2021. Voice of Loving Kindness from Singapore Kindness Movement.
 
 ## Explore
 

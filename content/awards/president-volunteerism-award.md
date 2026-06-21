@@ -6,7 +6,7 @@ weight: 10
 
 ![People of Good award ceremony](/images/pog_ceremony.jpg)
 
-Receiving the President’s Volunteerism and Philanthropy Awards People of Good recognition was meaningful because it reflected what Project Stable Staples achieved together during the COVID-19 crisis. Our team, together with volunteers, donors, and community partners, built a fast response system for families living in rental communities.
+Receiving the President’s Volunteerism and Philanthropy Awards People of Good recognition was meaningful because it reflected what Project Stable Staples achieved together during the COVID-19 crisis. The award recognized the volunteer and community response behind Project Stable Staples: a fast support system for families living in rental communities.
 
 What mattered most to me was not the ceremony itself. It was the trust the public placed in us, the speed with which the team moved, and the fact that the work reached more than 600 households and more than 2,600 individuals.
 
