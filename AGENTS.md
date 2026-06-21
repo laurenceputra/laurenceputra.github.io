@@ -15,10 +15,10 @@ This repository contains Laurence Putra's personal website, built with Hugo.
 
 ### Making Changes (All changes via subbranch + PR)
 
-1. Create a new feature branch from `main`:
+1. Create a new feature branch before substantive edits:
    ```bash
-   git checkout main
-   git pull origin main
+   git checkout source
+   git pull origin source
    git checkout -b feature/<description>
    ```
 
@@ -43,6 +43,13 @@ This repository contains Laurence Putra's personal website, built with Hugo.
 5. Open a Pull Request against `main` on GitHub
 
 6. After PR review and merge, the GitHub Actions workflow will automatically deploy the site
+
+### Branch Safety
+
+- If Laurence asks to implement on a new branch, keep all changes, commits, and pushes on that feature branch.
+- Push only `feature/<description>` unless Laurence explicitly asks for deployment or merge in the current chat.
+- Do not push directly to `main`, `source`, or `hugo-source` during implementation.
+- Do not include generated `public/` output in the feature branch unless the request specifically asks for generated artifacts.
 
 ## GitHub Pages
 
