@@ -1,110 +1,87 @@
 ---
 title: "Delete Yesterday's AI Scaffolding"
-description: "As models improve, the next productivity gain may come from removing yesterday's prompts and orchestration without removing the controls that protect judgment."
+description: "As models improve, the next AI productivity gain may come from removing yesterday's prompts, plugins, and orchestration while keeping the controls that protect judgment."
 date: 2026-07-23
 draft: true
 tags: ["AI", "architecture", "agents", "systems", "judgment"]
 aliases: ["/blog/delete-yesterdays-ai-scaffolding/"]
 ---
 
-<!--
-Working outline, not a finished post.
-The Reddit example is based on a screenshot supplied by Laurence. Treat the figures as source-reported observations, not as an independently verified benchmark.
--->
+A better model does not automatically make an AI setup cheaper.
 
-## Core claim
+Sometimes it reveals that the setup has become too elaborate.
 
-As models improve, the next AI productivity gain may come from deleting yesterday's scaffolding rather than adding more prompts. Good AI architecture is adaptive: keep the controls that preserve safety, approval, provenance, and verification, while removing instructions, plugins, and orchestration that no longer earn their token cost.
+I started noticing this because I was using more tokens for broadly similar workflows. The work had not changed much. The model had improved. The surrounding system had become heavier.
 
-## The opening reversal
+In the GPT-5.4 and GPT-5.5 era, we built substantial instruction, routing, memory, retrieval, and orchestration scaffolding to make AI reliable enough for real work. That was a sensible response to the models we had at the time.
 
-The obvious takeaway from a new model release is that we should add more capability around it: more prompts, more routing, more memory, more agents, more automation.
+In the GPT-5.6 era, more of those capabilities appeared to be native. The old layers still existed, even where they had become partly redundant. They continued to consume context, create coordination overhead, and shape the model's attention.
 
-The reversal: a stronger model can make an old AI system worse if the system still carries scaffolding built for a weaker model. The added instructions may now be redundant, consume context, compete for attention, and increase token use without improving the result.
+The first response should be an audit, not another layer.
 
-The first question after a model upgrade should not be, "What else can we add?" It should be, "What can we safely remove?"
+## A plugin can become the bottleneck
 
-## The hidden variable: architectural half-life
+A Reddit post brought the mechanism into sharper focus.
 
-AI architecture has a half-life.
+The author reported that a routine Push/Deploy task was consuming about 4% of their weekly limit. Within six hours, they had used more than 80% of that limit. Other users pointed to the `Superpowers` plugin as the source of the burn.
 
-Every layer of prompting, routing, retrieval, memory, and orchestration was designed around an assumption about what the model could not do reliably. When a new generation makes part of that layer native, the layer changes from leverage into overhead.
+They deleted the plugin. About six hours later, they reported that they had barely consumed 3%. The workload, model, and reasoning setting had not changed.
 
-The hard part is distinguishing:
+This is a source-reported observation, not a controlled benchmark. It does not establish that the plugin will behave the same way in every setup. It does show how easily a layer intended to improve an AI workflow can become the most expensive part of it.
+
+A plugin can start as leverage and become overhead.
+
+That is the architectural problem I recognised in my own system.
+
+## Every AI architecture has a half-life
+
+Every layer of an AI system encodes an assumption about what the model cannot do reliably on its own.
+
+A prompt may exist because the model used to miss a constraint. A routing layer may exist because the model needed help choosing the right workflow. A retrieval step may exist because the model could not reliably find current information. A plugin may exist because the model needed a particular planning or verification loop.
+
+Those assumptions have a half-life.
+
+When a new model generation handles part of the work natively, the layer around it needs to be re-tested. It may still provide value. It may also be duplicating a capability that has moved into the model, the runtime, or the user's normal workflow.
+
+I think about the layers in three groups:
 
 - **Native capability:** work the model can now perform reliably without bespoke scaffolding.
-- **Explicit control:** safety, approval, provenance, permissions, current-information checks, and verification that should remain visible even when models improve.
-- **Legacy overhead:** duplicated instructions, stale routing logic, unnecessary replay, and orchestration that survives only because nobody re-tested the assumption underneath it.
+- **Explicit control:** safety, approval, permissions, provenance, current-information checks, and verification that should remain visible even as models improve.
+- **Legacy overhead:** duplicated instructions, stale routing logic, unnecessary replay, and orchestration that survives because nobody has re-tested the assumption underneath it.
 
-This is the real system-design problem. The architecture must evolve with the model without allowing the model to erase judgment.
+The boundary moves with every generation.
 
-## The personal encounter
+## What I changed in my own setup
 
-### The triggering case: when the plugin is the bottleneck
+I had been carrying forward a system designed around earlier model behaviour. It included a large instruction surface, broad conversation replay, overlapping ownership rules, and runtime configuration that no longer earned its place.
 
-A Reddit user posted a much cleaner example than a model comparison.
+So I simplified it.
 
-They reported that a routine Push/Deploy task was consuming about 4% of their weekly limit. Over the next six hours, they used more than 80% of that weekly limit. Other users pointed to the `Superpowers` plugin as the source of the burn.
+I reduced group conversation replay to 20 messages. I removed duplicated bootstrap instructions from `AGENTS.md`, `SOUL.md`, `TOOLS.md`, and `WORKSPACE-MAP.md`. I made `route-work` the canonical owner of routed-work completion mechanics. I narrowed `review-router` to review-method selection. I removed obsolete `llama.cpp` runtime and configuration surface. I added lightweight date-based retention for disposable generated artifacts.
 
-The user deleted the plugin. About six hours later, they reported having consumed barely 3% of the limit. The workload, model, and reasoning setting had not changed.
+I kept the controls that have value independent of model capability: safety and privacy rules, approval for external or consequential actions, current-information checks, context-loader discipline, source attribution, and verification before claiming completion.
 
-That is source-reported evidence, not a controlled benchmark. It does not prove that `Superpowers` will have the same effect in every setup. It does show the mechanism clearly enough to challenge the default diagnosis: sometimes the expensive part is not the model or the work. It is the layer we added to make the model more capable.
+The goal was to reduce overhead without weakening judgment.
 
-The plugin was supposed to be leverage. In that configuration, it had become overhead.
+## The early numbers are encouraging, with an important caveat
 
-### Starting assumption
+These are rough user-assessed observations, not a controlled benchmark.
 
-In the GPT-5.4 and GPT-5.5 era, we built substantial instruction, routing, memory, retrieval, and orchestration scaffolding to make the system reliable enough for real work.
+Before the simplification, a small task could consume about 3% of weekly quota. Full research and underwriting of one stock often consumed 6% to 8%. After the simplification, the same kind of stock research could be done in about 1% of weekly quota.
 
-That was rational at the time. The scaffolding solved real problems.
+That is a meaningful change. It is also impossible to attribute to GPT-5.6 alone. The model generation and the architecture changed together, and workflow variation still exists. The honest conclusion is that the new combination was more efficient.
 
-### The signal
+That distinction matters because model releases encourage simple stories. A new model arrives, performance improves, and we credit the model for everything. The surrounding system quietly contributes a large part of the result, including the cost when it is poorly designed.
 
-In the GPT-5.6 era, many capabilities appeared to be more native. The same broad workflows did not require the same amount of explicit instruction and coordination.
+## The technical consequence
 
-Yet the system was still carrying yesterday's assumptions. Token use rose even though the workflow had not changed much.
+A model upgrade changes the economics of the system around it.
 
-The symptom was not simply that the model was expensive. The architecture was asking the model to process work that the model, or the surrounding runtime, no longer needed to be told in the same way.
+Redundant instructions consume tokens. Long conversation replay increases input cost and context competition. Duplicated ownership rules create conflicts the model has to resolve. Obsolete runtime configuration expands the surface area the system must understand. Extra orchestration adds latency and failure points when a native capability has made the orchestration unnecessary.
 
-### The intervention
+This is why token use can rise even when the user's work stays broadly the same. The system is processing more of its own scaffolding.
 
-We simplified the system by:
-
-- reducing group conversation replay to 20 messages;
-- removing duplicated bootstrap instructions from `AGENTS.md`, `SOUL.md`, `TOOLS.md`, and `WORKSPACE-MAP.md`;
-- making `route-work` the canonical owner of routed-work completion mechanics;
-- narrowing `review-router` to review-method selection;
-- removing obsolete `llama.cpp` runtime and configuration surface;
-- adding lightweight date-based retention for disposable generated artifacts.
-
-We preserved the gates that still carry independent value:
-
-- safety and privacy;
-- approval for external or consequential actions;
-- current-information checks;
-- context-loader discipline;
-- provenance and source attribution;
-- verification before claiming completion.
-
-### The surprising result
-
-Rough user-assessed impact, not a controlled benchmark:
-
-- a small task had previously consumed about 3% of weekly quota;
-- full research and underwriting of one stock had previously consumed about 6% to 8%;
-- after simplification, the same kind of stock research could be done in about 1% of weekly quota.
-
-The evidence does not establish that GPT-5.6 alone caused the improvement. The change combined a newer model with a leaner instruction and runtime architecture.
-
-That qualification is part of the lesson. If the system changes several variables at once, the honest conclusion is that the new combination was more efficient, not that one model release explains everything.
-
-## Technical consequence
-
-A model upgrade changes the economics of the surrounding system.
-
-Redundant instructions consume tokens. Long conversation replay increases input cost and context competition. Duplicated ownership rules create conflicts the model has to resolve. Obsolete runtime configuration expands the surface area the system must understand. Extra orchestration adds latency and failure points when native capability has made the orchestration unnecessary.
-
-The architecture therefore needs a re-test loop after every meaningful model generation:
+The correct response is a re-test loop after every meaningful model generation:
 
 1. Identify the assumptions the current system was built around.
 2. Test which assumptions are still true.
@@ -114,71 +91,57 @@ The architecture therefore needs a re-test loop after every meaningful model gen
 
 This is closer to refactoring than to prompt engineering.
 
-## User consequence
+## The user consequence
 
-Using AI is not only operating the interface. It is understanding enough of the system to notice when the interface is hiding a changed mechanism.
+Using AI now requires more than operating the interface. It requires enough model literacy to notice when the mechanism underneath the interface has changed.
 
-A user who cannot inspect the architecture will tend to respond to model change by piling on more instructions. That can produce the opposite of the intended result: more tokens, more latency, more ambiguity, and less attention available for the actual task.
+A user who cannot inspect the system will usually respond to a problem by adding instructions. That can increase token use, latency, ambiguity, and the amount of attention spent on the workflow itself.
 
-The practical skill is model literacy. Know what the model is doing, what the runtime is doing, and what your own scaffolding is doing. Then adapt when the boundary moves.
+Serious users do not need to become systems engineers. They do need to understand what the model is doing, what the runtime is doing, and what their own scaffolding is doing. That is enough to recognise the difference between a missing control and an obsolete one.
 
-That does not mean every user needs to become a systems engineer. It means serious users need enough judgment to tell the difference between a missing control and an obsolete one.
+The habit I want is simple: after a new model arrives, revisit the assumptions that shaped the old workflow.
 
-## Strategic consequence
+## The strategic consequence
 
 The advantage will not belong only to people who adopt each new model quickly. It will belong to people who can re-underwrite their AI architecture quickly.
 
-Every generation creates a new question:
+Every generation creates a maintenance question:
 
 - Which assumptions just became false?
 - Which controls are still necessary?
 - Which costs are now self-inflicted?
 - Which parts of the workflow should remain deliberately human?
 
-This creates a new form of technical debt. AI systems can become less efficient not only because they are old, but because they preserve instructions designed for an earlier model frontier.
+This creates a new form of technical debt. AI systems become inefficient when they preserve instructions designed for an earlier model frontier.
 
-The durable capability is therefore adaptive architecture: the ability to change the system while keeping judgment, accountability, and control intact.
+The durable capability is adaptive architecture: changing the system while keeping judgment, accountability, and control intact.
 
-## What a smart skeptic will say
+## Keep judgment explicit
 
-A smart skeptic will say that removing scaffolding is risky. Some instructions look redundant until the model fails in an edge case. A leaner system can also make behavior less predictable if simplification is driven by token cost alone.
+The appeal of a stronger model is that more of the workflow can become automatic. That is useful. It also creates a temptation to let the model become the authority inside the system.
 
-That objection is correct.
+I want the model to handle more of the work. I still want the system to make clear who approved an action, where an important fact came from, whether the information is current, and what was actually verified.
 
-The answer is not to delete blindly. It is to delete experimentally, preserve rollback, and verify the behaviors that matter. Efficiency is not the only objective. A cheaper system that loses provenance or approval discipline is a regression.
+Those controls should remain explicit because they serve accountability, not merely model performance.
 
-The correct optimization target is useful work per unit of cost while preserving the controls that make the work trustworthy.
+A leaner system is valuable when it removes duplication. It becomes dangerous when it removes the ability to inspect, challenge, or stop the system.
 
-## Distilled warning
+## The operating habit
 
-Do not confuse more visible architecture with more capable architecture.
+AI architecture changes every week, even when the configuration file does not.
 
-Do not keep a control merely because it once solved a real problem.
+A new model can make an old prompt redundant. A plugin can quietly turn into a token multiplier. A routing rule can survive after the workflow it served has changed. A memory layer can preserve context that no longer helps.
 
-Do not remove a control merely because a stronger model appears to understand it.
+The answer is a regular architectural review:
 
-Re-test the boundary. Keep judgment explicit.
+- re-test the assumptions;
+- delete duplicated instructions;
+- measure the result;
+- preserve safety, approval, provenance, and verification;
+- keep human judgment at the points where responsibility matters.
 
-## Closing commands
+Use the new model. Inspect the system around it. Adapt before the old scaffolding becomes the bottleneck.
 
-- Re-underwrite the assumptions behind your AI stack.
-- Delete duplicated instructions before adding new ones.
-- Preserve safety, approval, provenance, and verification.
-- Measure the system after the change, even if the first measurement is rough.
-- Keep your judgment outside the model.
+The deeper risk is that we keep managing today's models with yesterday's scaffolding, then call the resulting waste a limitation of AI.
 
-## Final inversion
-
-The danger is not only that AI will become too powerful for us to control. It is that we will keep controlling yesterday's model so tightly that we waste the capabilities of today's one, then mistake our own scaffolding for the limits of intelligence.
-
-## Source discipline for the eventual draft
-
-- **Source-reported Reddit observation:** a user reported that a routine Push/Deploy task consumed about 4% of weekly limit, followed by more than 80% consumption in six hours. After deleting the `Superpowers` plugin, they reported barely 3% consumption over the next six hours, with no change to workload, model, or reasoning.
-- **Supplied context:** Laurence observed higher token use for broadly similar workflows, then simplified the architecture and saw lower rough quota consumption.
-- **Rough user estimates:** approximately 3% of weekly quota for a small task before; approximately 6% to 8% for full stock research before; approximately 1% after simplification. These are not controlled benchmarks.
-- **Inference:** newer model capabilities can make some older scaffolding less necessary and therefore more expensive relative to its benefit. The Reddit example also suggests this can happen without a model change at all.
-- **Unknown:** how much of Laurence's improvement came from the model generation, how much came from the architecture changes, and how much came from workflow variation.
-
-## Triggering reference
-
-Reddit thread supplied by Laurence: [r/OpenaiCodex discussion](https://www.reddit.com/r/OpenaiCodex/s/1k0wvMu2Gv)
+_Source example: [a Reddit discussion in r/OpenaiCodex](https://www.reddit.com/r/OpenaiCodex/s/1k0wvMu2Gv)._
