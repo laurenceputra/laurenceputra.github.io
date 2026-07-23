@@ -9,12 +9,12 @@ aliases: ["/blog/delete-yesterdays-ai-scaffolding/"]
 
 <!--
 Working outline, not a finished post.
-The Reddit thread that prompted this draft was inaccessible from the research environment. Claims about it should therefore remain limited to Laurence's supplied takeaway, not presented as independently verified observations.
+The Reddit example is based on a screenshot supplied by Laurence. Treat the figures as source-reported observations, not as an independently verified benchmark.
 -->
 
 ## Core claim
 
-As models improve, the next AI productivity gain may come from deleting yesterday's scaffolding rather than adding more prompts. Good AI architecture is adaptive: keep the controls that preserve safety, approval, provenance, and verification, while removing instructions and orchestration that the model can now handle natively.
+As models improve, the next AI productivity gain may come from deleting yesterday's scaffolding rather than adding more prompts. Good AI architecture is adaptive: keep the controls that preserve safety, approval, provenance, and verification, while removing instructions, plugins, and orchestration that no longer earn their token cost.
 
 ## The opening reversal
 
@@ -39,6 +39,18 @@ The hard part is distinguishing:
 This is the real system-design problem. The architecture must evolve with the model without allowing the model to erase judgment.
 
 ## The personal encounter
+
+### The triggering case: when the plugin is the bottleneck
+
+A Reddit user posted a much cleaner example than a model comparison.
+
+They reported that a routine Push/Deploy task was consuming about 4% of their weekly limit. Over the next six hours, they used more than 80% of that weekly limit. Other users pointed to the `Superpowers` plugin as the source of the burn.
+
+The user deleted the plugin. About six hours later, they reported having consumed barely 3% of the limit. The workload, model, and reasoning setting had not changed.
+
+That is source-reported evidence, not a controlled benchmark. It does not prove that `Superpowers` will have the same effect in every setup. It does show the mechanism clearly enough to challenge the default diagnosis: sometimes the expensive part is not the model or the work. It is the layer we added to make the model more capable.
+
+The plugin was supposed to be leverage. In that configuration, it had become overhead.
 
 ### Starting assumption
 
@@ -161,10 +173,11 @@ The danger is not only that AI will become too powerful for us to control. It is
 
 ## Source discipline for the eventual draft
 
+- **Source-reported Reddit observation:** a user reported that a routine Push/Deploy task consumed about 4% of weekly limit, followed by more than 80% consumption in six hours. After deleting the `Superpowers` plugin, they reported barely 3% consumption over the next six hours, with no change to workload, model, or reasoning.
 - **Supplied context:** Laurence observed higher token use for broadly similar workflows, then simplified the architecture and saw lower rough quota consumption.
 - **Rough user estimates:** approximately 3% of weekly quota for a small task before; approximately 6% to 8% for full stock research before; approximately 1% after simplification. These are not controlled benchmarks.
-- **Inference:** newer model capabilities made some older scaffolding less necessary and therefore more expensive relative to its benefit.
-- **Unknown:** how much of the improvement came from the model generation, how much came from the architecture changes, and how much came from workflow variation.
+- **Inference:** newer model capabilities can make some older scaffolding less necessary and therefore more expensive relative to its benefit. The Reddit example also suggests this can happen without a model change at all.
+- **Unknown:** how much of Laurence's improvement came from the model generation, how much came from the architecture changes, and how much came from workflow variation.
 
 ## Triggering reference
 
