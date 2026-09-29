@@ -1,22 +1,20 @@
 ---
 title: Awards
-description: Supporting recognitions for my engineering, community, and education-support work.
+description: Recognition for engineering and community work, with source links and photos.
 ---
-
-These recognitions reflect years of work with communities, collaborators, and supporters. I see them as markers of shared effort and supporting evidence, not isolated personal milestones.
 
 ## Featured awards
 
 ### NUS Outstanding Young Alumni 2021
 ![NUS Outstanding Young Alumni 2021 award](/images/nus_oya_award_ceremony.jpeg)
 
-University-level recognition that reminded me how much of my work has always been collective. This award reflects the community that helped me grow into the person I became.
+University-level alumni recognition. [Award details and source](/awards/nus-outstanding-young-alumni/).
 
 ### President’s Volunteerism and Philanthropy Awards People of Good 2020
 ![People of Good award ceremony](/images/pog_ceremony.jpg)
 
-Recognition for my work on Project Stable Staples during the COVID-19 crisis. It reflected the volunteer and community response that Project Stable Staples built together with volunteers, donors, and community partners.
+Recognition for Project Stable Staples and its volunteer response during COVID. [Award details and source](/awards/president-volunteerism-award/).
 
 ## All awards
 
-Each page below includes context, source links, and selected photos.
+The individual pages include source links and selected photos.

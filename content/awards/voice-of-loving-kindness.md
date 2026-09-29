@@ -6,9 +6,7 @@ weight: 40
 
 ![Voice of Loving Kindness recognition event](/images/skm_voice_of_loving_kindness.jpg)
 
-Receiving the Voice of Loving Kindness recognition from Singapore Kindness Movement gave me a chance to reflect on how much of my community work came from people who shaped me over the years. I did not start out with a strong instinct to give back. That changed because mentors, friends, and collaborators showed me what it looks like to step in where systems still have gaps.
-
-That is why this recognition never felt like it was mine alone. It reflected the people who ignited that spark in me and the communities that kept the work grounded.
+Singapore Kindness Movement recognized my community work with Voice of Loving Kindness.
 
 ## Links
 
