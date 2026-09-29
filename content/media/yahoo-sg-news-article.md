@@ -6,7 +6,7 @@ weight: 70
 
 ![Screenshot of Yahoo SG News article](/screenshots/yahoo-sp-group-developer-career.png)
 
-Yahoo SG News covered my early software engineering career at Singapore Power.
+Yahoo SG News covered my early software engineering career at Singapore Power. It offers context for the technical side of my work: curiosity, learning across technologies, and a preference for challenges over repetitive execution.
 
 ## Links
 

@@ -6,7 +6,7 @@ weight: 30
 
 ![We Are Majulah feature image](/images/we-are-majulah.png)
 
-We Are Majulah featured Project Stable Staples and community participation.
+We Are Majulah featured Project Stable Staples and the people behind the work. I appreciated the chance to share a point that still matters to me: we can all make a difference in our communities, and no effort is too small.
 
 ## Links
 

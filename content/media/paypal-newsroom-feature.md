@@ -6,7 +6,7 @@ weight: 40
 
 ![PayPal Newsroom feature image](/images/pp_newsroom.png)
 
-PayPal covered Project Stable Staples in a video and newsroom article.
+PayPal profiled my work on Project Stable Staples in a video and newsroom article. I appreciated that the piece focused on the practical work of building something useful quickly when families needed support, rather than only the headline story.
 
 {{< youtube-embed id="ygvN5bSmwy4" title="PayPal Newsroom feature" >}}
 

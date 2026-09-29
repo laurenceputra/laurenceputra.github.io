@@ -6,7 +6,7 @@ weight: 50
 
 ![Project Lionheart feature image](/images/project_lionheart_featured.jpg)
 
-Project Lionheart featured my story with David Hoe in its national storytelling initiative. The photos below show the public display and event.
+Project Lionheart featured my story with David Hoe in its national storytelling initiative. Seeing the story presented in public spaces was surreal; what mattered to me was the reminder that this work depends on many people choosing to show up. The photos below show the display and event.
 
 ## Links
 

@@ -3,7 +3,7 @@ title: Media
 description: Interviews, articles, and public profiles on engineering and community work.
 ---
 
-Selected interviews, articles, and profiles. Each item links to its source.
+These sources show two sides of my work. The engineering references trace an early technical path and point to public work and professional history; the community coverage follows Project Stable Staples and the people involved in responding to families' needs. The individual pages provide the original links and context for each item.
 
 ## Engineering and professional profiles
 
@@ -12,6 +12,8 @@ Selected interviews, articles, and profiles. Each item links to its source.
 - [LinkedIn](/media/linkedin-profile/): roles, experience, and contact
 
 ## Project Stable Staples and community work
+
+These interviews and features cover different parts of the response, from practical support during the circuit breaker to what came next. Project Lionheart places the story alongside other community voices.
 
 - [The Pride / Singapore Kindness Movement](/media/the-pride-singapore-kindness-movement/): supporting families during and after the circuit breaker
 - [PayPal Newsroom](/media/paypal-newsroom-feature/): a video and article on Project Stable Staples
@@ -24,18 +26,18 @@ Selected interviews, articles, and profiles. Each item links to its source.
 
 ### Channel 8 Frontline
 
-My segment on Project Stable Staples begins at 4:32.
+The segment covers what Project Stable Staples had done and where we were focusing next. My segment begins at 4:32.
 
 {{< youtube-embed id="qOkFDYkJYnw" title="Channel 8 Frontline interview on Project Stable Staples" start="272" >}}
 
 ### CNA
 
-An interview about Project Stable Staples during the pandemic.
+CNA interviewed me about Project Stable Staples during the pandemic and the practical response at the time.
 
 {{< youtube-embed id="eapBEsycPwg" title="CNA interview on Project Stable Staples" >}}
 
 ### PayPal Newsroom
 
-A video feature accompanying PayPal's article about Project Stable Staples.
+PayPal's video accompanies its article about the work behind Project Stable Staples.
 
 {{< youtube-embed id="ygvN5bSmwy4" title="PayPal Newsroom feature" >}}

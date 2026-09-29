@@ -19,7 +19,7 @@ I also helped build developer communities through GeekcampSG and PayPal develope
 
 ## Community work
 
-**IAmTalentedSG** (2014–2024): I contributed to youth-focused programming through technology, operations, events, and photography.
+**IAmTalentedSG** (2014–2024): David Hoe and I worked together on youth opportunity for much of this period. I contributed technology, operations, events, and photography.
 
 **Project Stable Staples** (2020): Before the lockdown, friends and I visited families in rental blocks and saw how quickly lost work affected them. With BLESS, we set up a quick response for families waiting for longer-term help. We raised over SGD 160,000, supported more than 600 households, launched a donation portal in under two days, and operated with zero expense ratio. Fundraising, the portal, communications, and volunteer logistics had to work together so support could reach households while longer-term help caught up.
 
@@ -27,7 +27,9 @@ I also helped build developer communities through GeekcampSG and PayPal develope
 
 **Lai Yu Hua Bursary:** I helped set this up with NUS Computing in my father's name. He worked so his family would not have to worry about paying for education. After he died, the bursary was one of our first steps toward continuing that legacy. It supports NUS Computing undergraduates who need financial help. There is no CAP requirement; we did not want to penalise students who had to help their families through financial gaps. [NUS bursary](https://www.comp.nus.edu.sg/financial-support/lai-yu-hua-bursary/).
 
-**Lai Yu Hua Kindness Youth Lit Fund:** I seeded the fund and set its funding direction. Ray of Hope supports the fund by bringing me opportunities and finding delivery partners. It found 3Pumpkins as a credible partner and connected me with EFI when I wanted to test enrichment classes. The fund has backed personalised support for children at 3Pumpkins’ Tak Takut Kids Club in Boon Lay. I initiated a six-month pilot with EFI and Ray of Hope for nine children in November 2025. [Ray of Hope fund page](https://rayofhope.sg/campaign/the-lai-yu-hua-kindness-youth-lit-fund/).
+**Lai Yu Hua Kindness Youth Lit Fund:** I seeded the fund and set its funding direction. Ray of Hope supports the fund by bringing me opportunities and finding delivery partners. It found 3Pumpkins as a credible partner and connected me with EFI when I wanted to test the concept of Curiosity Credits. The fund has backed personalised support for children at 3Pumpkins’ Tak Takut Kids Club in Boon Lay. I initiated a six-month pilot with EFI and Ray of Hope for nine children in November 2025 so they could choose activities to explore. [Ray of Hope fund page](https://rayofhope.sg/campaign/the-lai-yu-hua-kindness-youth-lit-fund/).
+
+For me, the pilot continues the youth-opportunity work David Hoe and I did through IAmTalentedSG. During the pilot, I noticed that the children generally seemed more engaged, happier and more motivated.
 
 The fund currently funds a PSLE Math ICU programme delivered with 3Pumpkins to help children taking the PSLE pass mathematics.
 

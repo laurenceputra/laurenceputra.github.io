@@ -6,7 +6,7 @@ weight: 60
 
 ![Screenshot of The Pride article](/screenshots/kindness-sg-circuit-breaker.png)
 
-The Pride covered Project Stable Staples and its support for families during the circuit breaker and beyond.
+The Pride profiled my work supporting families through the circuit breaker and beyond. I value the account of how Project Stable Staples stayed close to needs on the ground, kept overhead low, and offered practical help while longer-term support caught up.
 
 ## Links
 
