@@ -7,6 +7,8 @@ I help mission-driven and high-complexity teams find the real constraint, reduce
 
 This is useful when a team is doing a lot and still not getting the result it needs. The issue is often not effort. The blocker may be workflow, incentives, trust, coordination, decision rights, or speed.
 
+[Send me the operating knot you are trying to untangle](https://www.linkedin.com/in/laurenceputra/). In an initial conversation, we would locate where work stalls and which decisions keep recurring before deciding what to test. There is no framework to buy into before we understand the problem.
+
 ## What this can produce
 
 - a bottleneck or constraint diagnosis
@@ -70,5 +72,3 @@ A useful advisory conversation usually starts with diagnosis, not a framework.
 We would look at where the system is dragging, what decisions keep recurring, what work is not compounding, and whether AI or tooling is actually reducing load. From there, the output may be a sharper problem statement, a simpler operating rhythm, a decision map, or a short set of changes the team can test.
 
 If the challenge is hidden complexity, uneven execution, or a system that has become harder to steer than it should be, I can usually help.
-
-If your team is carrying too much activity and not enough clarity, [send me the operating knot you are trying to untangle](https://www.linkedin.com/in/laurenceputra/).

@@ -8,8 +8,8 @@ This repository contains Laurence Putra's personal website, built with Hugo.
 
 | Branch | Purpose | Notes |
 |--------|---------|-------|
-| `source` | Local working branch | Tracks `origin/hugo-source` |
-| `hugo-source` | Remote source branch | Pushes here trigger GitHub Pages deployment |
+| `main` | Source and deployment branch | Pushes trigger GitHub Pages deployment |
+| `feature/<description>` | Working branch | PR into `main` after review |
 
 ## Workflow
 
@@ -17,8 +17,8 @@ This repository contains Laurence Putra's personal website, built with Hugo.
 
 1. Create a new feature branch before substantive edits:
    ```bash
-   git checkout source
-   git pull origin source
+   git checkout main
+   git pull origin main
    git checkout -b feature/<description>
    ```
 
@@ -33,11 +33,10 @@ This repository contains Laurence Putra's personal website, built with Hugo.
    hugo --minify
    ```
 
-4. Commit and push your feature branch:
+4. Commit your feature branch; push it only when requested or when opening a PR:
    ```bash
-   git add .
+   git add <changed source files>
    git commit -m "Describe your change"
-   git push origin feature/<description>
    ```
 
 5. Open a Pull Request against `main` on GitHub
@@ -57,7 +56,7 @@ This repository contains Laurence Putra's personal website, built with Hugo.
 
 **Configuration:**
 - Deployment workflow: `.github/workflows/hugo.yml`
-- Trigger branch: `hugo-source`
+- Trigger branch: `main` (also supports manual workflow dispatch)
 - Custom domain: `laurenceputra.com` via `static/CNAME`
 
 ## Voice & Tone Principles
