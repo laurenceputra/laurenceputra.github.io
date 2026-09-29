@@ -6,7 +6,7 @@ weight: 10
 
 ![People of Good award ceremony](/images/pog_ceremony.jpg)
 
-Project Stable Staples received People of Good recognition for its volunteer response during COVID. Volunteers, supporters, and partners coordinated fundraising, communications, logistics, and technology to support families in rental communities. The project reached more than 600 households and 2,600 individuals.
+I received People of Good recognition for my work on Project Stable Staples during COVID. Volunteers, supporters, and partners coordinated fundraising, communications, logistics, and technology to support families in rental communities. The project reached more than 600 households and 2,600 individuals.
 
 ## Featured video
 

@@ -13,7 +13,7 @@ University-level alumni recognition. [Award details and source](/awards/nus-outs
 ### President’s Volunteerism and Philanthropy Awards People of Good 2020
 ![People of Good award ceremony](/images/pog_ceremony.jpg)
 
-Recognition for Project Stable Staples and its volunteer response during COVID. [Award details and source](/awards/president-volunteerism-award/).
+Recognition for my work on Project Stable Staples during COVID. [Award details and source](/awards/president-volunteerism-award/).
 
 ## All awards
 

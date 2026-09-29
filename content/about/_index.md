@@ -21,11 +21,11 @@ I also helped build developer communities through GeekcampSG and PayPal develope
 
 **IAmTalentedSG** (2014–2024): I contributed to youth-focused programming through technology, operations, events, and photography.
 
-**Project Stable Staples** (2020): I co-founded this volunteer response for families in rental communities during COVID. We raised over SGD 160,000, supported more than 600 households, launched a donation portal in under two days, and operated with zero expense ratio. The project received the President's Volunteerism and Philanthropy Awards People of Good recognition.
+**Project Stable Staples** (2020): I co-founded this volunteer response for families in rental communities during COVID. We raised over SGD 160,000, supported more than 600 households, launched a donation portal in under two days, and operated with zero expense ratio. I received the President's Volunteerism and Philanthropy Awards People of Good recognition for my work on the project.
 
 **GeekcampSG** (2011–2014): I was Lead Organizer and helped grow the developer community.
 
-**Lai Yu Hua Bursary:** Education support for financially challenged NUS Computing undergraduates, with engagement with recipients.
+**Lai Yu Hua Bursary:** I helped set this up with NUS Computing in my father's name. He worked so his family would not have to worry about paying for education. The bursary supports students who need financial help.
 
 ## How I work
 
