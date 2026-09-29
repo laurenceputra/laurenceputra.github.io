@@ -29,10 +29,15 @@ I also helped build developer communities through GeekcampSG and PayPal develope
 
 **Lai Yu Hua Kindness Youth Lit Fund:** I seeded this separate fund, supported by 3Pumpkins. It has helped provide personalised support for children at Tak Takut Kids Club in Boon Lay. With EFI and Ray of Hope, I also initiated a six-month pilot in November 2025 for nine children to try enrichment classes they chose. [Ray of Hope fund page](https://rayofhope.sg/campaign/the-lai-yu-hua-kindness-youth-lit-fund/). The fund currently funds a PSLE Math ICU programme delivered with 3Pumpkins to help children taking the PSLE pass mathematics.
 
+## Recognition
+
+- [NUS Outstanding Young Alumni (2021)](/awards/nus-outstanding-young-alumni/)
+- [NUS Computing Outstanding Young Alumni](/awards/nus-computing-outstanding-young-alumni/)
+- [President’s Volunteerism and Philanthropy Awards, People of Good (2020)](/awards/president-volunteerism-award/)
+- [Singapore Kindness Movement’s Voice of Loving Kindness (2022)](/awards/voice-of-loving-kindness/)
+
 ## How I work
 
 I look at where work stalls, who makes the recurring decisions, and which handoffs add unnecessary work. In engineering that requires staying close to the technical details; in community work it can mean coordinating logistics, communications, fundraising, and tools.
 
 **为无为，则无不治.** A useful system leaves room for judgment.
-
-For interviews and recognition, see [Media](/media/) and [Awards](/awards/).
