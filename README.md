@@ -18,9 +18,8 @@ hugo --minify
 
 GitHub Pages is deployed through `.github/workflows/hugo.yml`.
 
-- The local working branch in this repo is `source`.
-- That branch tracks `origin/hugo-source`.
-- A push to `hugo-source` triggers the GitHub Pages build and deploy workflow.
-- Deployment no longer depends on pushing built files to a separate `main` or `hugo-rebuild` branch.
+- Start changes from `main` on a feature branch and open a PR against `main`.
+- The workflow builds and deploys on pushes to `main` (or a manual workflow dispatch).
+- Do not commit generated `public/` output.
 
 The published site uses the custom domain `laurenceputra.com` via the generated `CNAME` file.

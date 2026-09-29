@@ -34,6 +34,29 @@ a:hover {
   text-decoration: underline;
 }
 
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  z-index: 20;
+  top: -5rem;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+}
+
+main:focus {
+  outline: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -325,5 +348,31 @@ img {
 
   .page-shell {
     padding-top: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header {
+    position: static;
+  }
+
+  .header-inner {
+    gap: 0.5rem;
+    padding: 0.65rem 0;
+  }
+
+  .site-nav {
+    gap: 0.25rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .button:hover {
+    transform: none;
   }
 }
