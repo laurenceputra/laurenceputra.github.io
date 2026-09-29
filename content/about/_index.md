@@ -27,7 +27,7 @@ I also helped build developer communities through GeekcampSG and PayPal develope
 
 **Lai Yu Hua Bursary:** I helped set this up with NUS Computing in my father's name. He worked so his family would not have to worry about paying for education. After he died, the bursary was one of our first steps toward continuing that legacy. It supports NUS Computing undergraduates who need financial help. There is no CAP requirement; we did not want to penalise students who had to help their families through financial gaps. [NUS bursary](https://www.comp.nus.edu.sg/financial-support/lai-yu-hua-bursary/).
 
-**Lai Yu Hua Kindness Youth Lit Fund:** I seeded this separate fund, supported by 3Pumpkins. It has helped provide personalised support for children at Tak Takut Kids Club in Boon Lay. With EFI and Ray of Hope, I also initiated a six-month pilot in November 2025 for nine children to try enrichment classes they chose. [Ray of Hope fund page](https://rayofhope.sg/campaign/the-lai-yu-hua-kindness-youth-lit-fund/).
+**Lai Yu Hua Kindness Youth Lit Fund:** I seeded this separate fund, supported by 3Pumpkins. It has helped provide personalised support for children at Tak Takut Kids Club in Boon Lay. With EFI and Ray of Hope, I also initiated a six-month pilot in November 2025 for nine children to try enrichment classes they chose. [Ray of Hope fund page](https://rayofhope.sg/campaign/the-lai-yu-hua-kindness-youth-lit-fund/). The fund currently funds a PSLE Math ICU programme delivered with 3Pumpkins to help children taking the PSLE pass mathematics.
 
 ## How I work
 
