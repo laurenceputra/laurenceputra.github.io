@@ -15,13 +15,13 @@ I started programming young with microchips, LEDs, datasheets, and small experim
 - **Nugit:** Senior Engineer
 - **Earlier roles:** software engineering across mobile, web, and platforms
 
-I also helped build developer communities through GeekcampSG and PayPal developer outreach.
+I also helped build developer communities through GeekcampSG and PayPal developer outreach. Moving from software engineering into leadership and operations meant looking beyond the tool itself: who handles the queue, what information they need, and who can make the next decision.
 
 ## Community work
 
 **IAmTalentedSG** (2014–2024): I contributed to youth-focused programming through technology, operations, events, and photography.
 
-**Project Stable Staples** (2020): Before the lockdown, friends and I visited families in rental blocks and saw how quickly lost work affected them. With BLESS, we set up a quick response for families waiting for longer-term help. We raised over SGD 160,000, supported more than 600 households, launched a donation portal in under two days, and operated with zero expense ratio.
+**Project Stable Staples** (2020): Before the lockdown, friends and I visited families in rental blocks and saw how quickly lost work affected them. With BLESS, we set up a quick response for families waiting for longer-term help. We raised over SGD 160,000, supported more than 600 households, launched a donation portal in under two days, and operated with zero expense ratio. Fundraising, the portal, communications, and volunteer logistics had to work together so support could reach households while longer-term help caught up.
 
 **GeekcampSG** (2011–2014): I was Lead Organizer and helped grow the developer community.
 
@@ -40,6 +40,6 @@ The fund currently funds a PSLE Math ICU programme delivered with 3Pumpkins to h
 
 ## How I work
 
-I look at where work stalls, who makes the recurring decisions, and which handoffs add unnecessary work. In engineering that requires staying close to the technical details; in community work it can mean coordinating logistics, communications, fundraising, and tools.
+I start by tracing one real piece of work: where it waits, who checks it, and who makes the recurring decision. Then I separate necessary review from avoidable handoffs and choose a small change to test. In engineering that requires staying close to the technical details; in community work it can mean coordinating logistics, communications, fundraising, and tools.
 
 **为无为，则无不治.** A useful system leaves room for judgment.

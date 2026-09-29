@@ -7,8 +7,10 @@ I help mission-driven teams understand where work stalls and what can be simplif
 
 This may be useful if decisions keep circling back, handoffs slow down delivery, or new AI tools add review work instead of removing it.
 
-I start with one problem. We trace where the work waits, who has to decide, and what people keep checking by hand. Then we work out which change is worth testing. Sometimes that means a better tool. Sometimes it means fewer approvals or clearer ownership.
+When work waits at a handoff, families, customers, or colleagues wait too; adding another tool or approval can make the queue longer.
 
-I work with nonprofit boards, social-impact organizations, and technical or leadership teams facing these problems. I am less useful for a standalone software build or a generic AI demo.
+I start with one problem. We trace where the work waits, who has to decide, and what people keep checking by hand. Then we work out which change is worth testing. Sometimes that means a better tool. Sometimes it means fewer approvals or clearer ownership. Depending on what we find, the useful output might be a diagnosis of the bottleneck, a map of decisions and owners, AI use-case triage, or a small test of a changed workflow—not a fixed package.
+
+This approach may be useful for nonprofit boards, social-impact organizations, and technical or leadership teams facing these problems. I am less useful for a standalone software build or a generic AI demo.
 
 If that sounds familiar, [get in touch on LinkedIn](https://www.linkedin.com/in/laurenceputra/) and tell me what is happening.
