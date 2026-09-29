@@ -7,7 +7,7 @@ I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce m
 
 ## Engineering and operations
 
-I started programming young with microchips, LEDs, datasheets, and small experiments. My professional work has included:
+I started programming young with microchips, LEDs, datasheets, and small experiments. I still prefer getting close enough to a problem to see what is actually happening before proposing a fix. My professional work has included:
 
 - **TikTok:** Site Leader for Server Architecture, OSE Engineering Leader
 - **PayPal:** Engineering management in Consumer In-Store, Digital Commerce, and Compliance
@@ -25,7 +25,7 @@ I also helped build developer communities through GeekcampSG and PayPal develope
 
 **GeekcampSG** (2011–2014): I was Lead Organizer and helped grow the developer community.
 
-**Lai Yu Hua Bursary:** I helped set this up with NUS Computing in my father's name. He worked so his family would not have to worry about paying for education. The bursary supports students who need financial help.
+**Lai Yu Hua Bursary:** I helped set this up with NUS Computing in my father's name. He worked so his family would not have to worry about paying for education. After he died, the bursary was one of our first steps toward continuing that legacy. It supports NUS Computing undergraduates who need financial help.
 
 ## How I work
 
