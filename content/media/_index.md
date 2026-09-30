@@ -3,7 +3,7 @@ title: Media
 description: Interviews, articles, and public profiles on engineering and community work.
 ---
 
-These sources show two sides of my work. The engineering references trace an early technical path and point to public work and professional history; the community coverage follows Project Stable Staples and the people involved in responding to families' needs. The individual pages provide the original links and context for each item.
+These sources show two sides of my work. The engineering references trace an early technical path and point to public work and professional history; the community coverage follows Project Stable Staples and the people involved in responding to families' needs.
 
 ## Engineering and professional profiles
 
@@ -38,6 +38,6 @@ CNA interviewed me about Project Stable Staples during the pandemic and the prac
 
 ### PayPal Newsroom
 
-PayPal's video accompanies its article about the work behind Project Stable Staples.
+The video looks at how we built practical support quickly when families needed it.
 
 {{< youtube-embed id="ygvN5bSmwy4" title="PayPal Newsroom feature" >}}

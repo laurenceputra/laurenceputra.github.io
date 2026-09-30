@@ -11,7 +11,7 @@ Project Stable Staples required that attention under different constraints. With
 
 ### Recognition
 
-- [NUS Outstanding Young Alumni 2021](/awards/nus-outstanding-young-alumni/): University-level alumni recognition, with ceremony photos and source links.
+- [NUS Outstanding Young Alumni 2021](/awards/nus-outstanding-young-alumni/): NUS recognised my fundraising and charity work, including Project Stable Staples and youth initiatives.
 - [President’s Volunteerism and Philanthropy Awards People of Good 2020](/awards/president-volunteerism-award/): Recognition connected to Project Stable Staples, a response built with volunteers, supporters, and partners.
 
 ### Coverage

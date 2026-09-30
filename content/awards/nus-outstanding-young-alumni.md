@@ -6,11 +6,12 @@ weight: 30
 
 ![NUS Outstanding Young Alumni 2021 award](/images/nus_oya_award_ceremony.jpeg)
 
-I received the NUS Outstanding Young Alumni award in 2021.
+I received the NUS Outstanding Young Alumni award in 2021. The citation recognised my contributions to fundraising and charity, citing Project Stable Staples, I Am Talented, and my mentoring and volunteering at NUS Computing.
 
 ## Links
 
-- Official page: <https://www.nus.edu.sg/alumnet/community/alumniawards>
+- [NUS award citation](https://www.nus.edu.sg/alumnet/docs/default-source/alumni-awards/outstanding-young-alumni-award-citations.pdf?sfvrsn=8776b266_0)
+- [NUS alumni awards page](https://www.nus.edu.sg/alumnet/community/alumniawards)
 
 
 ## Selected photos
