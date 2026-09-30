@@ -16,10 +16,10 @@ These sources show two sides of my work. The engineering references trace an ear
 These interviews and features cover different parts of the response, from practical support during the circuit breaker to what came next. Project Lionheart places the story alongside other community voices.
 
 - [The Pride / Singapore Kindness Movement](/media/the-pride-singapore-kindness-movement/): supporting families during and after the circuit breaker
-- [PayPal Newsroom](/media/paypal-newsroom-feature/): a video and article on Project Stable Staples
+- [PayPal Newsroom](/media/paypal-newsroom-feature/): building practical support quickly when families needed it
 - [CNA](/media/cna-interview/): interview on the pandemic response
 - [Channel 8 Frontline](/media/channel8-interview/): progress and next steps for Project Stable Staples
-- [We Are Majulah](/media/we-are-majulah-feature/): Project Stable Staples feature
+- [We Are Majulah](/media/we-are-majulah-feature/): the people behind the response and the value of small acts of help
 - [Project Lionheart](/media/project-lionheart/): community storytelling feature with David Hoe
 
 ## Video interviews
