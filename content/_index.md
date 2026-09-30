@@ -1,30 +1,28 @@
 ---
 title: Home
-description: Engineering operator helping mission-driven teams find the real constraint and build useful systems that hold.
+description: Engineering leader helping mission-driven teams find what slows the work down.
 ---
 
-Most teams do not need more motion. They need to know what is actually slowing the work down.
+In my operations work, I look at what people repeatedly review, what information they need to decide, and whether a tool actually removes work or just moves it. Those details matter more than a list of technologies.
 
-I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce manual load and shorten triage. During COVID, I co-founded Project Stable Staples: we raised over SGD 160,000, supported 600+ households, built a donation portal in under two days, and operated with zero expense ratio.
+Project Stable Staples required that attention under different constraints. With BLESS, our volunteer response raised over SGD 160,000, supported more than 600 households, launched a donation portal in under two days, and operated with zero expense ratio. Building the portal mattered, but so did fundraising, communications and volunteer logistics. Families needed practical help while longer-term support caught up.
 
-Those are different settings, but the work shares a pattern: find the constraint, remove unnecessary load, and build systems that hold up under real use.
+## Selected recognition and coverage
 
-**If your team is busy but not moving, [tell me the operating knot you are trying to untangle](/advisory/).** An initial conversation starts with where work stalls and which decisions keep recurring, before deciding what to test.
+### Recognition
 
-## Where I work
+- [NUS Outstanding Young Alumni 2021](/awards/nus-outstanding-young-alumni/): NUS recognised my fundraising and charity work, including Project Stable Staples and youth initiatives.
+- [President’s Volunteerism and Philanthropy Awards People of Good 2020](/awards/president-volunteerism-award/): Recognition connected to Project Stable Staples, a response built with volunteers, supporters, and partners.
 
-My background spans engineering management, infrastructure, DevOps, payments, compliance, and platform work across TikTok, PayPal, Singapore Power, Nugit, and earlier software engineering roles. I look across people, tools, process, and judgment rather than treating any one layer as the whole problem.
+### Coverage
 
-I contributed to IAmTalentedSG from 2014 to 2024, supporting youth opportunity through technology, operations, and events. I remain connected to education support through the Lai Yu Hua Bursary.
-
-Recognition includes the President's Volunteerism and Philanthropy Awards People of Good 2020 for Project Stable Staples, NUS Computing Outstanding Young Alumni 2022, NUS Outstanding Young Alumni 2021, and Voice of Loving Kindness from Singapore Kindness Movement.
-
-**为无为，则无不治.** Good systems leave room for judgment instead of crowding it out.
+- [Yahoo SG News on my early engineering career](/media/yahoo-sg-news-article/): A look at my software engineering work at Singapore Power, before my current operations and AI work.
+- [CNA interview on Project Stable Staples](/media/cna-interview/): I discussed the practical response we organized for families during the pandemic.
 
 ## Explore
 
-- [Advisory](/advisory/): how I help teams get clear on the constraint and simplify the system around it
-- [About](/about/): background, experience, and how I work
-- [Ideas](/ideas/): essays on systems, execution, AI, and practical operating problems
-- [Media](/media/): selected interviews and public features
-- [Awards](/awards/): recognition and supporting context
+- [Advisory](/advisory/): problems I can help with
+- [About](/about/): background and community work
+- [Ideas](/ideas/): essays on systems, execution, and AI
+- [Media](/media/): interviews and public features
+- [Awards](/awards/): recognition and source links

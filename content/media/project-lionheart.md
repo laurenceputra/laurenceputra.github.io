@@ -6,9 +6,7 @@ weight: 50
 
 ![Project Lionheart feature image](/images/project_lionheart_featured.jpg)
 
-Project Lionheart featured my story with David Hoe as part of its national storytelling initiative. Seeing that work presented in public spaces was surreal, but the part that mattered to me was the reminder that community work is only possible because many people choose to show up when it counts.
-
-The feature was also a good moment to restate something I believe strongly: when the next crisis comes, the way through it will still depend on whether we notice people around us and step in early.
+Project Lionheart featured my story with David Hoe in its national storytelling initiative. Seeing the story presented in public spaces was surreal; what mattered to me was the reminder that this work depends on many people choosing to show up.
 
 ## Links
 

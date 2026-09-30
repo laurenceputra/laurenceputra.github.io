@@ -1,14 +1,12 @@
 ---
 title: NUS Computing Outstanding Young Alumni
-description: Recognition from NUS Computing and a chance to reflect on the people who shaped my work.
+description: NUS Computing Outstanding Young Alumni recognition and event photos.
 weight: 20
 ---
 
 ![NUS Computing Outstanding Young Alumni award](/images/nus_oya_receiving.jpg)
 
-It was an honor to be invited back to NUS Computing, celebrate the opening of the new Computing building, and receive the Outstanding Young Alumni recognition. Awards like this always make me think less about individual achievement and more about the ecosystem of people who made the work possible.
-
-I have been lucky to learn from, build with, and be supported by many people over the years. That support is a big part of why I have been able to stay involved in both engineering and community work.
+I received the NUS Computing Outstanding Young Alumni recognition at the opening of the new Computing building.
 
 ## Links
 

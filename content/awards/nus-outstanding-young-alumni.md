@@ -1,18 +1,17 @@
 ---
 title: NUS Outstanding Young Alumni 2021
-description: University-level recognition that reminded me how much of my work has always been collective.
+description: NUS Outstanding Young Alumni 2021 recognition and ceremony photos.
 weight: 30
 ---
 
 ![NUS Outstanding Young Alumni 2021 award](/images/nus_oya_award_ceremony.jpeg)
 
-Receiving the NUS Outstanding Young Alumni award meant a lot to me. It felt less like a finish line and more like recognition of the community that helped me grow into the person I became.
-
-From my student years through my career, I have had people who gave guidance, created room for me to contribute, and supported the time I spent on work outside my core job. This recognition belongs in part to all of them.
+I received the NUS Outstanding Young Alumni award in 2021. The citation recognised my contributions to fundraising and charity, citing Project Stable Staples, I Am Talented, and my mentoring and volunteering at NUS Computing.
 
 ## Links
 
-- Official page: <https://www.nus.edu.sg/alumnet/community/alumniawards>
+- [NUS award citation](https://www.nus.edu.sg/alumnet/docs/default-source/alumni-awards/outstanding-young-alumni-award-citations.pdf?sfvrsn=8776b266_0)
+- [NUS alumni awards page](https://www.nus.edu.sg/alumnet/community/alumniawards)
 
 
 ## Selected photos
