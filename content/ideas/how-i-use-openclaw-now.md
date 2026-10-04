@@ -13,7 +13,7 @@ Since [my June architecture post](/ideas/how-openclaw-is-architected/), both the
 
 I wanted an agentic investment workflow from the outset. OpenClaw would research an investment, maintain the records, review what had changed, and bring decisions back to me. In my experience building this with GPT-5.6 Sol, it repeatedly drifted towards more code despite that direction being specified at the start. Several rebuilds left me with brittle workflows that failed more than they worked. Too often, I was dealing with the system rather than reviewing the investment.
 
-There are steps where code makes sense, especially when something needs to be repeatable and precise. But the versions I built were not working reliably enough. I have been able to work around the limitations I encountered, with substantial rebuilding and continued checking of both the investment analysis and what actually completed.
+I still check the investment analysis and whether the work actually completed.
 
 The daily price-risk monitor runs across my portfolios. Alongside it, OpenClaw looks for developments that improve or otherwise change the investment case for a holding, keeps the thesis and portfolio records current, and recommends allocation changes. A price move can change the weight of a position, while a change in the business can affect whether I still want that exposure.
 
