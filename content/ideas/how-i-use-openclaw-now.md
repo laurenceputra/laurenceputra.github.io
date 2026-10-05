@@ -15,7 +15,7 @@ With GPT-6 and GPT-6.1 Sol, I have been able to get closer to the workflow I int
 
 The daily price-risk workflow helps me monitor changes in my portfolios. When a holding makes a significant price move, OpenClaw researches what might be behind it and assesses whether the evidence changes the investment thesis or calls for action in each affected portfolio. A price move can change the weight of a position, while a change in the business can affect whether I still want that exposure.
 
-Monthly and quarterly reviews answer different questions and run alongside each other, so both can happen in the same month. The monthly review looks at every holding within one portfolio: does it still fit the mandate, and should I hold, add, trim, exit, or investigate? It considers valuation, concentration, cash, and new evidence, and compares thesis-aligned alternatives when there is a reason to do so.
+Monthly and quarterly reviews answer different questions. The monthly review looks at every holding within one portfolio: does it still fit the mandate, and should I hold, add, trim, exit, or investigate? It considers valuation, concentration, cash, and new evidence, and compares thesis-aligned alternatives when there is a reason to do so.
 
 The quarterly review goes deeper into the portfolio’s strategy and structure: do the mechanisms behind its thesis still hold, what evidence would invalidate them, and does the portfolio still justify the capital and effort compared with a simpler alternative? It reuses relevant monthly evidence and focuses further research on holdings that matter to those questions. Both reviews produce proposals for me to consider, rather than executing trades.
 
@@ -31,7 +31,7 @@ With Discord’s [Hide After Inactivity](https://support.discord.com/hc/en-us/ar
 
 Away from the portfolios, I use OpenClaw for tasks that are easy to leave sitting on a list. The childcare excursion PDF is one example: it filled the document for me to inspect and submit. Other random forms follow much the same pattern.
 
-For commitments, it builds a local agenda from invitations received through Gmail. It processes emailed calendar files, including updates, cancellations, and recurring events, and a native schedule is configured to produce a briefing. An invitation in that agenda is not necessarily one I have accepted. Direct Google Calendar integration is still planned. For an upcoming event, OpenClaw has the ticket stored and is due to surface it two hours beforehand.
+For commitments, it builds a local agenda from invitations received through Gmail. It processes emailed calendar files, including updates, cancellations, and recurring events, and a native schedule is configured to produce a briefing. An invitation in that agenda is not necessarily one I have accepted. For an upcoming event, OpenClaw has the ticket stored and is due to surface it two hours beforehand.
 
 ## What changed underneath
 
