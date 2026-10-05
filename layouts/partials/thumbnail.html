@@ -1,0 +1,4 @@
+{{ $matches := findRE `!\[[^\]]*\]\(([^)]+)\)` .RawContent 1 }}{{ if $matches }}{{ $src := replaceRE `.*\]\(([^)]+)\).*` "$1" (index $matches 0) }}{{ $alt := replaceRE `!\[([^\]]*)\].*` "$1" (index $matches 0) }}{{ partial "image.html" (dict "src" $src "alt" $alt "class" "thumbnail") }}{{ else }}<div class="thumbnail image-fallback" aria-hidden="true">
+<span>{{ with .Params.tags }}{{ index . 0 }}{{ else }}Ideas{{ end }}</span>
+<span>↗</span>
+</div>{{ end }}

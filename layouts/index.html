@@ -1,0 +1,29 @@
+{{ define "main" }}<div class="container">
+<section class="home-hero">
+<div>
+<p class="eyebrow">Ideas. People. Progress.</p>
+<h1>{{ site.Params.tagline }}</h1>
+<p class="lead">{{ site.Params.currentRole }}</p>
+<div class="cta-row">
+<a class="button" href="/advisory/">Discuss an operating challenge</a>
+<a class="button secondary" href="/ideas/">Read my essays</a>
+</div>
+</div>{{ partial "image.html" (dict "src" site.Params.profileImage "alt" "Laurence Putra seated in a studio portrait" "class" "portrait" "eager" true) }}</section>
+<section class="selected-work">
+<p class="eyebrow">Selected work</p>
+<div class="work-row">
+<div class="project-fallback" aria-hidden="true">Project<br>Stable Staples<small>Community response · 2020</small>
+</div>
+<div>
+<h2>Project Stable Staples</h2>
+<p>During COVID, I co-founded Project Stable Staples to get essentials to families in rental blocks while longer-term help caught up. Volunteers and partners made that possible through fundraising, logistics, and a fast-built donation portal.</p>
+<a href="/about/#community-work">More about the work →</a>
+</div>
+</div>
+</section>
+<section class="recent-essays">
+<div class="section-heading">
+<h2>Recent essays</h2>
+<a href="/ideas/">All ideas →</a>
+</div>{{ range first 3 (where site.RegularPages "Section" "ideas").ByDate.Reverse }}{{ partial "essay-row.html" . }}{{ end }}</section>
+<section class="page-content home-context">{{ .Content }}</section>{{ partial "connect.html" . }}</div>{{ end }}

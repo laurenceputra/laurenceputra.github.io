@@ -1,0 +1,50 @@
+{{ define "main" }}<div class="container page-shell">
+<header class="page-header">
+<h1>{{ .Title }}</h1>{{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}</header>{{ if eq .Section "ideas" }}<div class="page-content intro">{{ .Content }}</div>
+<div class="filters" aria-label="Filter essays by topic" hidden>
+<button class="filter active" aria-pressed="true" data-filter="">All</button>{{ $tags := slice }}{{ range .Pages }}{{ range .Params.tags }}{{ $tags = $tags | append . }}{{ end }}{{ end }}{{ range sort (uniq $tags) }}<button class="filter" aria-pressed="false" data-filter="{{ . }}">{{ . }}</button>{{ end }}</div>
+<p class="sr-only" id="filter-status" aria-live="polite">
+</p>
+<div class="essay-list">{{ range .Pages.ByDate.Reverse }}{{ partial "essay-row.html" . }}{{ end }}</div>{{ else if eq .Section "advisory" }}<div class="advisory-visual image-fallback">
+<span>From the problem to a practical test</span>
+<div class="flow" aria-hidden="true">Work → Decisions → Change</div>
+</div>
+<ol class="process">
+<li>
+<span aria-hidden="true">◎</span>Understand where the work waits</li>
+<li>
+<span aria-hidden="true">◇</span>Find a change worth testing</li>
+<li>
+<span aria-hidden="true">↗</span>Test and learn together</li>
+</ol>
+<a class="button" href="{{ site.Params.linkedin }}">Discuss an operating challenge</a>
+<div class="page-content substantive">{{ .Content }}</div>{{ else if eq .Section "about" }}<div class="about-intro">{{ partial "image.html" (dict "src" site.Params.profileImage "alt" "Laurence Putra seated in a studio portrait" "class" "portrait" "eager" true) }}<div>
+<p class="lead">{{ site.Params.currentRole }}</p>
+<nav class="anchor-nav" aria-label="About sections">
+<a href="#engineering-and-operations">Career →</a>
+<a href="#community-work">Community Work →</a>
+<a href="#how-i-work">How I work →</a>
+</nav>
+</div>
+</div>
+<div class="page-content substantive">{{ .Content }}</div>{{ else if eq .Section "media" }}{{ with site.GetPage "/media/channel8-interview" }}<a class="featured-media" href="{{ .RelPermalink }}">{{ partial "image.html" (dict "src" "/images/channel8_frontline.png" "alt" "Channel 8 Frontline interview on Project Stable Staples" "class" "media-image" "eager" true) }}<span class="eyebrow">Featured interview · Video</span>
+<h2>{{ .Title }}</h2>
+<p>{{ .Description }}</p>
+<span>Watch the interview →</span>
+</a>{{ end }}<div class="page-content intro">{{ .Content }}</div>
+{{ $mediaFormats := dict "channel8-interview" "Video interview" "cna-interview" "Video interview" "we-are-majulah-feature" "Video" "paypal-newsroom-feature" "Video / newsroom feature" "project-lionheart" "Storytelling feature" "the-pride-singapore-kindness-movement" "Article / feature" "yahoo-sg-news-article" "Article / feature" "github-profile" "Public profile" "linkedin-profile" "Public profile" }}
+<div class="coverage-list">{{ range .Pages }}<article>
+<h2>
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</h2>
+<p>{{ .Description }}</p>
+<p class="metadata">{{ with index $mediaFormats .File.ContentBaseName }}{{ . }}{{ else }}Coverage{{ end }}{{ if not .Date.IsZero }} · {{ .Date.Format "2 Jan 2006" }}{{ end }}</p>
+</article>{{ end }}</div>{{ else if eq .Section "awards" }}<div class="timeline">{{ range slice (dict "path" "/awards/voice-of-loving-kindness" "year" "2022") (dict "path" "/awards/nus-outstanding-young-alumni" "year" "2021") (dict "path" "/awards/president-volunteerism-award" "year" "2020") (dict "path" "/awards/nus-computing-outstanding-young-alumni" "year" "Year not confirmed") }}<article>
+<p class="timeline-date">{{ .year }}</p>{{ with site.GetPage .path }}<div>
+<h2>
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</h2>
+<p>{{ .Description }}</p>
+<a href="{{ .RelPermalink }}">Details and sources →</a>
+</div>{{ end }}</article>{{ end }}</div>
+<div class="page-content substantive">{{ .Content }}</div>{{ else }}<div class="page-content">{{ .Content }}</div>{{ end }}{{ if ne .Section "ideas" }}{{ partial "connect.html" . }}{{ end }}</div>{{ end }}

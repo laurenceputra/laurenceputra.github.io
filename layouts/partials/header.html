@@ -1,0 +1,9 @@
+<header class="site-header">
+<div class="container header-inner">
+<a class="brand" href="/">Laurence Putra</a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" hidden>☰<span class="sr-only">Toggle navigation</span>
+</button>
+<nav id="main-nav" class="site-nav" aria-label="Main navigation">{{ $page := . }}{{ range slice "ideas" "advisory" "about" "media" "awards" }}<a href="/{{ . }}/"{{ if eq $page.Section . }} aria-current="page"{{ end }}>{{ . | title }}</a>{{ end }}<a class="button" href="{{ site.Params.linkedin }}">Contact</a>
+</nav>
+</div>
+</header>
