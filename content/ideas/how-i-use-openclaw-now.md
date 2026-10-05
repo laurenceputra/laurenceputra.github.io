@@ -17,7 +17,7 @@ The daily price-risk workflow helps me monitor changes in my portfolios. When a 
 
 Monthly and quarterly reviews answer different questions. The monthly review looks at every holding within one portfolio: does it still fit the mandate, and should I hold, add, trim, exit, or investigate? It considers valuation, concentration, cash, and new evidence, and compares thesis-aligned alternatives when there is a reason to do so.
 
-The quarterly review goes deeper into the portfolio’s strategy and structure: do the mechanisms behind its thesis still hold, what evidence would invalidate them, and does the portfolio still justify the capital and effort compared with a simpler alternative? It reuses relevant monthly evidence and focuses further research on holdings that matter to those questions. Both reviews produce proposals for me to consider, rather than executing trades.
+The quarterly review goes deeper into the portfolio’s strategy and structure: do the mechanisms behind its thesis still hold, what evidence would invalidate them, and does the portfolio still justify the capital and effort compared with a simpler alternative? It reuses relevant monthly evidence and focuses further research on holdings that matter to those questions.
 
 After a substantial climb in NTRA, the position had become a concentration issue. OpenClaw flagged it and recommended a reduction, which I made. I still check the analysis and whether the work actually completed, decide whether a recommendation makes sense, and execute the transaction. In that sense, I’m OpenClaw’s MCP.
 
@@ -31,11 +31,11 @@ With Discord’s [Hide After Inactivity](https://support.discord.com/hc/en-us/ar
 
 Away from the portfolios, I use OpenClaw for tasks that are easy to leave sitting on a list. The childcare excursion PDF is one example: it filled the document for me to inspect and submit. Other random forms follow much the same pattern.
 
-For commitments, it builds a local agenda from invitations received through Gmail. It processes emailed calendar files, including updates, cancellations, and recurring events, and a native schedule is configured to produce a briefing. An invitation in that agenda is not necessarily one I have accepted. For an upcoming event, OpenClaw has the ticket stored and is due to surface it two hours beforehand.
+For commitments, it builds a local agenda from invitations received through Gmail. It uses emailed calendar invitations, including updates, cancellations, and recurring events, to put together the briefing. An invitation in that agenda is not necessarily one I have accepted. For an upcoming event, OpenClaw has the ticket stored and is due to surface it two hours beforehand.
 
 ## What changed underneath
 
-These uses need records that stay current, results that come back for review, and concurrent tasks that can proceed without losing their place. Consequential actions still need permission. The architecture has to support that work without becoming another job to maintain.
+These uses need records that stay current, results that come back for review, and concurrent tasks that can proceed without losing their place. The architecture has to support that work without becoming another job to maintain.
 
 The June setup used Telegram topics, a custom capabilities registry, a context-loading layer, and separate analyst, execution, writing, and coding lanes. In [July's post](/ideas/delete-yesterdays-ai-scaffolding/), I described removing duplicated instructions while retaining routing and context-loading helpers. As the models improved, I found those helpers less useful. That was a large part of why I retired them, along with the custom capabilities directory. Native discovery and retrieval now handle finding the relevant tools and context, with skills loaded selectively for the task.
 
@@ -52,8 +52,8 @@ Background work also uses the native runtime now. OpenClaw schedules start the w
 
 The local workspace still supplies the rules and records that OpenClaw cannot infer for me. There is an owner for how work is handled and approved, a map of domains to workspaces and channels, and domain files containing current state. For investments, that includes the portfolio records and theses. The local rules also require outputs to be checked and permission obtained before consequential actions.
 
-## What I judge it by
+## Getting value from AI
 
-I judge the setup by the work it completes, the decisions it helps me make, and the effort it takes to keep running. That includes the time I spend checking results and maintaining the system.
+I started with OpenClaw to explore what AI could do outside coding. It now helps with investment decisions and everyday tasks, but getting here has involved rebuilding systems that often failed. Adding more machinery did not necessarily bring me closer to the work I wanted done. The work has to justify the effort of running the system around it.
 
-For the next change, I want to start with the work and what completion requires: what result I need, what needs checking, and which decisions remain mine. I will retain or add orchestration where it serves a concrete need, such as keeping concurrent tasks separate or returning a scheduled result for review.
+What started as an experiment is now helping me manage work I actually need to do. That is the value I want to keep building on. If I spend more time maintaining the AI workflow than doing the work it was meant to help with, then I need to revisit what I have built.
