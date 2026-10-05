@@ -16,7 +16,7 @@ My experience with GPT-5.6 made me reconsider those assumptions. Some work that 
 
 A Reddit discussion helped me see one possible mechanism more clearly. The original poster reported that a routine Push/Deploy task consumed about 4% of their weekly limit and that more than 80% of the limit had been used within six hours. In the discussion, other users attributed the unexpected consumption to the `Superpowers` plugin. According to the original poster, they deleted the plugin and then used barely 3% over roughly the next six hours, while the workload, model, and reasoning setting remained unchanged.
 
-Those figures and conditions come from the poster's own account. They are source-reported observations from that discussion, and they do not measure my system. The commenters' attribution of the consumption to the plugin remains an explanation offered in the discussion. The example does not isolate every variable or establish causation with confidence. I found it useful because it illustrated a failure mode that matched what I had begun to suspect in my own setup: a layer introduced to improve an AI workflow can eventually account for a significant share of its cost. A plugin can remain useful in principle while its particular implementation, configuration, or interaction with a newer model creates more work than value.
+Those figures and conditions come from the poster's own account, not measurements of my system. The commenters' attribution of the consumption to the plugin remains an explanation offered in the discussion. The example does not isolate every variable or establish causation with confidence. I found it useful because it illustrated a failure mode that matched what I had begun to suspect in my own setup: a layer introduced to improve an AI workflow can eventually account for a significant share of its cost. A plugin can remain useful in principle while its particular implementation, configuration, or interaction with a newer model creates more work than value.
 
 That is why I am increasingly interested in the architecture around the model. When token consumption rises, the model is the most visible component, so it is easy to blame model pricing, model reasoning, or the complexity of the task. The Reddit example points to a wider diagnostic process. Before changing the model or reducing the quality of the work, inspect the prompts, plugins, replay rules, and orchestration that cause the model to process the request in the first place.
 
@@ -42,7 +42,7 @@ I removed duplicated bootstrap instructions from `AGENTS.md`, `SOUL.md`, `TOOLS.
 
 I deliberately retained controls whose purpose extends beyond compensating for model weakness. Safety and privacy rules still define what the system may do. Approval remains necessary for external, consequential, destructive, or privacy-sensitive actions. Provenance and source attribution still show where important claims came from. Current-information checks remain necessary when facts may have changed, and context-loader discipline still helps retrieve the appropriate bounded context before broader investigation. Verification remains essential before the system claims that work is complete.
 
-This is the one distinction I want to preserve clearly: I am removing redundant scaffolding, not delegating judgment and accountability to the model. The system should become easier to operate as models improve, with the parts that make its actions inspectable and governable remaining visible.
+I am removing redundant scaffolding, not delegating judgment and accountability to the model. The system should become easier to operate as models improve, with the parts that make its actions inspectable and governable remaining visible.
 
 ## What my rough quota estimates suggest
 
@@ -50,7 +50,7 @@ My own numbers are rough user-assessed observations from weekly quota usage, wit
 
 I consider that improvement meaningful enough to investigate. The figures cannot support a precise causal claim. The model generation and surrounding architecture changed together, individual research tasks vary, and the quota observations were collected during ordinary work rather than a controlled experiment. I therefore cannot determine how much of the improvement came from GPT-5.6, how much came from removing redundant system layers, or how much came from workflow variation.
 
-The narrower inference is that the newer combination of model, runtime, and simplified architecture appears more efficient for my workflows. I also think the architecture changes probably contributed because they reduced repeated context and coordination, although the available observations do not let me quantify that contribution. Keeping the observation, the inference, and the remaining uncertainty separate matters because a plausible explanation can quickly harden into an unsupported story about causation.
+The narrower inference is that the newer combination of model, runtime, and simplified architecture appears more efficient for my workflows. I also think the architecture changes probably contributed because they reduced repeated context and coordination, although the available observations do not let me quantify that contribution.
 
 ## Why model upgrades change system economics
 
@@ -86,7 +86,7 @@ Those controls serve accountability as much as they serve model performance. The
 
 AI architecture changes every week, even when the configuration file does not. A new model can make an old prompt redundant. A plugin can quietly turn into a token multiplier. A routing rule can survive after the workflow it served has changed. A memory layer can preserve context that no longer helps. These changes are easy to miss when the system is treated as a fixed collection of instructions, even though it is an evolving set of assumptions.
 
-The maintenance habit is to review the system with the same seriousness used to review code. Re-test the assumptions, inspect the token and latency costs, delete duplicated instructions, preserve safety and approval boundaries, check provenance and currentness, and verify the result before declaring the change an improvement. The aim is a system that can absorb new model capabilities while remaining inspectable and economical by default.
+The maintenance habit is to review the system with the same seriousness used to review code. The aim is a system that can absorb new model capabilities while remaining inspectable and economical by default.
 
 Use the new model, inspect the system around it, and adapt before the old scaffolding becomes the bottleneck. The deeper risk is that we keep managing today's models with yesterday's scaffolding, then call the resulting waste a limitation of AI.
 

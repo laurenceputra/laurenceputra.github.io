@@ -6,17 +6,9 @@ tags: ["AI", "OpenClaw", "architecture", "agents", "systems"]
 aliases: ["/blog/openclaw-architecture/"]
 ---
 
-Open-source OpenClaw gives me the runtime: agents, tools, sessions, messaging surfaces, cron, browser access, filesystem access, and a way to run a personal AI system on my own machine.
+I use my OpenClaw instance for branding edits, portfolio reviews, email writing, travel, and recurring reports. Those tasks need different context and procedures. Search instructions should stay out of a branding edit, and portfolio monitor rules should stay out of a Hugo post.
 
-My instance adds the operating layer above that substrate.
-
-That layer turns the framework into a working system for my own life and work: Telegram topic routing, owner files, memory discipline, execution lanes, recurring jobs, and a split between front-door skills and lazy-loaded capabilities.
-
-![OpenClaw runtime architecture diagram showing Telegram topic routing, selective context loading, execution lanes, scheduled jobs, runtime tools, and safety gates](/images/openclaw-runtime-architecture.png)
-
-_The runtime architecture of my OpenClaw instance: a lightweight main agent, selective context loading, topic-based routing, execution lanes, recurring jobs, and safety gates._
-
-The skills-to-capabilities split became the central architectural lesson.
+Keeping the relevant workflows visible without loading all of them became the architectural problem. The skills-to-capabilities split became the central lesson.
 
 At first, I treated skills as the natural home for every repeatable procedure. Search skill. Email skill. Memory skill. Portfolio skill. Review skill. Writing skill. Travel skill. Deployment skill. Cron skill.
 
@@ -24,11 +16,15 @@ That worked for a while.
 
 Then the skills catalog became too large. The runtime-visible instruction surface started flooding the context. The assistant could see too many possible procedures at once, which made the system slower, noisier, and more likely to pick up the wrong pattern.
 
-It also created context rot.
+The growing catalog also created context rot: old instructions stayed visible after the system had moved on. Stale routing names, retired workflow assumptions, and older helper patterns could sit beside newer ones. The model then had to infer which version of the system was real. That is a poor use of intelligence. The assistant should spend its reasoning budget on the user's problem, rather than on archaeology across stale instructions.
 
-Old instructions stayed visible after the system had moved on. Stale routing names, retired workflow assumptions, and older helper patterns could sit beside newer ones. The model then had to infer which version of the system was real. That is a poor use of intelligence. The assistant should spend its reasoning budget on the user's problem, rather than on archaeology across stale instructions.
+So I changed the architecture. Open-source OpenClaw gives me the runtime: agents, tools, sessions, messaging surfaces, cron, browser access, filesystem access, and a way to run a personal AI system on my own machine. My instance adds the operating layer above that substrate.
 
-So I changed the architecture. OpenClaw remained the open-source runtime. My instance grew its own control plane on top.
+That layer turns the framework into a working system for my own life and work: Telegram topic routing, owner files, memory discipline, execution lanes, recurring jobs, and a split between front-door skills and lazy-loaded capabilities.
+
+![OpenClaw runtime architecture diagram showing Telegram topic routing, selective context loading, execution lanes, scheduled jobs, runtime tools, and safety gates](/images/openclaw-runtime-architecture.png)
+
+_The runtime architecture of my OpenClaw instance: a lightweight main agent, selective context loading, topic-based routing, execution lanes, recurring jobs, and safety gates._
 
 ---
 
@@ -133,13 +129,9 @@ The task procedures moved into `capabilities/`.
 
 That includes search, memory governance, scheduled-job resilience, daily reports, market-confidence monitoring, portfolio monitors, email writing, media relay, large-artifact analysis, Git push handling, Hugo deployment, and other workflows.
 
-These capabilities are loaded only when needed.
+These capabilities are loaded only when needed through a registry in `CAPABILITIES.md`. When a task calls for one, `context-loader` or the main agent identifies the relevant capability, then the main agent reads that specific file before acting.
 
-They sit behind a registry in `CAPABILITIES.md`. When a task calls for one, `context-loader` or the main agent identifies the relevant capability, then the main agent reads that specific file before acting.
-
-This makes the system quieter.
-
-Search instructions stay out of a branding edit. Portfolio monitor rules stay out of a Hugo post. Deployment rules stay out of a memory governance task. Memory deletion rules appear only when the task is actually about memory governance.
+This makes the system quieter: search instructions stay out of a branding edit. Portfolio monitor rules stay out of a Hugo post. Deployment rules stay out of a memory governance task. Memory deletion rules appear only when the task is actually about memory governance.
 
 The shape is now clearer:
 
@@ -256,10 +248,6 @@ The main lesson from building my OpenClaw instance is that context is something 
 
 Too little context makes the assistant ignorant. Too much context makes it noisy. Stale context makes it worse: the model may follow a dead instruction confidently because it was still visible.
 
-The useful middle is an architecture that decides what should be visible, when, and under whose authority.
+Moving most task workflows out of `skills/` and into `capabilities/` gave the system a smaller front door, a better registry, and a disciplined loading path.
 
-That is why I moved most task workflows out of `skills/` and into `capabilities/`. The system needed a smaller front door, a better registry, and a disciplined loading path.
-
-OpenClaw gave me the substrate. My instance turns it into a working operating layer by making the environment around the assistant legible: topics, owner files, state, capabilities, lanes, cron, and gates.
-
-That is how the open-source runtime becomes my operating layer.
+The useful middle is an architecture that decides what should be visible, when, and under whose authority. The assistant should spend its reasoning budget on the user's problem, rather than on deciding which of my instructions is still valid.
