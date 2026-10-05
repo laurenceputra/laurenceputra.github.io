@@ -54,6 +54,6 @@ The local workspace still supplies the rules and records that OpenClaw cannot in
 
 ## Getting value from AI
 
-I started with OpenClaw to explore what AI could do outside coding. It now helps with investment decisions and everyday tasks, but getting here has involved rebuilding systems that often failed. Adding more machinery did not necessarily bring me closer to the work I wanted done. The work has to justify the effort of running the system around it.
+I started with OpenClaw to explore what AI could do outside coding. It now helps with investment decisions and everyday tasks, but getting here has involved rebuilding systems that often failed. Adding more machinery did not necessarily bring me closer to the work I wanted done.
 
 What started as an experiment is now helping me manage work I actually need to do. That is what I expect from AI: useful work that justifies the effort of running it. Building an elaborate system is not enough. It has to earn its place.

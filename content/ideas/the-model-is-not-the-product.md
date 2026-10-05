@@ -8,7 +8,7 @@ aliases: ["/blog/the-model-is-not-the-product/"]
 
 Everyone is arguing about which model is best. Claude, GPT, Gemini. The leaderboard changes every quarter and so does the conversation.
 
-The Claude Code leak made something visible that we should have noticed earlier. What made Anthropic's coding product feel powerful was not the weights. It was the orchestration layer sitting on top: query routing, context enrichment through search, artifact management, output validation, planning loops. When you could see the code, product magic looked like engineering.
+The Claude Code leak made something visible that we should have noticed earlier. Part of what made Anthropic's coding product feel powerful was the orchestration layer sitting on top of the weights: query routing, context enrichment through search, artifact management, output validation, planning loops. When you could see the code, product magic looked like engineering.
 
 A few weeks ago at a leadership offsite, I half-joked that Laozi taught us how to use AI 2,000 years ago. I still think that was partly right.
 
@@ -24,7 +24,7 @@ Not because the models do not matter. But because the harness shapes what the mo
 
 When you ask a coding agent to build something, the model does not just receive your prompt and start writing. The harness intercepts your request. It routes it. It enriches the context with relevant code from your repository, pulls in documentation from the web, structures the task into sub-problems, validates intermediate outputs against constraints, and maintains state across multiple planning cycles.
 
-All of that happens before the model does its part. And all of it determines the quality of the result far more than the difference between a GPT-5.4 and an Opus 4.6 prompt.
+That work happens before, between, and after model calls. It can matter more to the quality of the result than the difference between a GPT-5.4 and an Opus 4.6 prompt.
 
 What we often call a model gap is really a thinking gap, hidden by a better harness.
 
@@ -42,7 +42,7 @@ I built a travel research workflow in OpenClaw, an open-source AI harness runnin
 
 The output was weak.
 
-The obvious interpretation: the model was not as good. But the problem was not capability. It was that the prompt relied on ChatGPT's harness doing invisible work around it. The Deep Research harness fills in context, searches, structures, validates. The OpenClaw setup was different. It did not do the same invisible scaffolding, and the prompt did not know it was missing.
+The obvious interpretation: the model was not as good. But the improvement after reworking the instructions suggested that capability was not the whole problem. The prompt relied on ChatGPT's harness doing invisible work around it. The Deep Research harness fills in context, searches, structures, validates. The OpenClaw setup was different. It did not do the same invisible scaffolding, and the prompt did not know it was missing.
 
 Only after reworking the instruction stack specifically for the OpenClaw setup did the output improve dramatically. Not a new model. A different set of instructions that accounted for what this harness actually does and does not do automatically.
 
@@ -58,21 +58,21 @@ The prompt that works in one harness is not automatically good in another. Instr
 
 Two products using the same model feel different because they are different harnesses. One wraps the model in better context assembly. Another gives it richer search. A third has tighter validation loops. A fourth decomposes tasks more carefully and remembers what you tried last week.
 
-The user experiences this as "the model is better here." Sometimes it is. But more often, the difference is how much work the harness does before and after the model speaks.
+The user experiences this as "the model is better here." Sometimes it is. But the difference can also be how much work the harness does before, between, and after model calls.
 
 For users, this means the question to ask is not which model does a product use. It is what is the product doing around the model. Context or no context. Search or no search. Memory or amnesia. Tool use or just chat. Planning loop or single shot. Those are the real differentiators.
 
-That distinction matters because it shifts how you evaluate any AI tool. You are not buying a model. You are buying a harness. Always.
+That distinction matters because it shifts how you evaluate any AI tool. You are evaluating the harness as well as the model.
 
 ---
 
 ## Model Commoditization Has Arrived
 
-Models are converging. The distance between the top tier is shrinking. Open-weight options are competitive with closed models on most benchmarks. The API cost curves look like commodity curves.
+As of April 2026, my assessment is that models are converging and the distance between the top tier is shrinking. Open-weight options look competitive with closed models on benchmarks. The API cost curves look like commodity curves.
 
-The barbell is forming. Commodity models on the bottom. The orchestration layer on the top. Everything in between gets squeezed out.
+The barbell is forming. Commodity models on the bottom. The orchestration layer on the top. In that assessment, the layers in between face pressure.
 
-Model commoditization has arrived. The non-commodity layer is the harness. The system that shapes what the model sees, what it can touch, how it validates its own work, and how it chains its own reasoning together.
+That is why I think model commoditization has arrived. The non-commodity layer is the harness. The system that shapes what the model sees, what it can touch, how it validates its own work, and how it chains its own reasoning together.
 
 For anyone thinking about AI strategy, this flips the vendor question. The point is not which company has the best model. The point is which harness gives you the most control, the most transparency, and the most portability. Not because you will swap models every week. But because you should be able to.
 
@@ -96,15 +96,15 @@ A research workflow that looks impressive in a demo is one thing. A research wor
 
 ## The Risk: Borrowed Cognition
 
-Strong harnesses change the user. When a system is good enough, you stop doing the thinking it used to do for you. First-principles atrophy. Borrowed cognition gets mistaken for your own. You cannot tell the difference between what you figured out and what the harness figured out for you.
+Strong harnesses can change the user. When a system is good enough, you may stop doing the thinking it does for you. First-principles thinking can atrophy. Borrowed cognition can get mistaken for your own. It becomes harder to tell the difference between what you figured out and what the harness figured out for you.
 
-This is not hypothetical. It already happens with search engines and calculators, just at lower stakes. AI harnesses go much further because they make decisions, not just retrieve.
+Search engines and calculators already let us offload parts of our thinking. AI harnesses can go further because they can make decisions, not just retrieve.
 
 What kind of harness is shaping how we think, and what happens to us if we cannot leave it?
 
-Strategically, this creates a dangerous dependency: commoditized models plus a black-box harness equals lock-in. You are not choosing the best tool. You are negotiating from weakness. You cannot leave because you no longer understand what the harness was doing for you, and you cannot rebuild it from the outside.
+Strategically, this can create a dangerous dependency: even with commoditized models, a black-box harness can lock you in. You may be negotiating from weakness rather than choosing the best tool. Leaving becomes harder if you no longer understand what the harness was doing for you and cannot rebuild it from the outside.
 
-Economic dependency follows. When the underlying commodity is cheap and interchangeable, the supplier with the best harness holds all the pricing power. Not because their intelligence is unique. Because they shaped the conditions so that leaving feels impossible.
+Economic dependency can follow. When the underlying commodity is cheap and interchangeable, a supplier whose harness is hard to replace gains pricing power. Not because their intelligence is unique. Because the conditions they shaped make leaving difficult.
 
 That is the trap.
 
@@ -114,7 +114,7 @@ That is the trap.
 
 有之以为利，无之以为用. We benefit from what is there, but we make use of what is not there. A vessel is useful because of the empty space it leaves open. A good harness is the same. It leaves room for the right things to happen without forcing them.
 
-Translated into plain terms: do not ask what the model can do. Ask what conditions you have built around it. Context, search, memory, validation, permissions, boundaries. Get the conditions right and the model does the rest. Get them wrong and no model is good enough.
+Translated into plain terms: do not ask what the model can do. Ask what conditions you have built around it. Context, search, memory, validation, permissions, boundaries. Good conditions help the model perform. Poor conditions can make even a strong model underperform.
 
 ---
 
@@ -129,8 +129,6 @@ Test your instructions across harnesses. If they only work in one, you do not ha
 Build or use harnesses you can inspect, modify, and walk away from. Open-source is not a moral choice. It is a leverage choice.
 
 The real risk is not that models will think badly for us. It is that they will think well enough, inside systems we cannot see, that we stop thinking deeply and lose the leverage to leave.
-
-That loss is the only one that matters.
 
 ---
 
