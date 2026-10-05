@@ -5,13 +5,19 @@ date: 2026-10-04
 tags: ["AI", "OpenClaw", "architecture", "agents"]
 ---
 
-I want OpenClaw to help me keep up with my investments and get everyday tasks done. The value of using AI depends on whether that work gets done and helps me make decisions. Since [my June architecture post](/ideas/how-openclaw-is-architected/), both the way I use OpenClaw and the machinery underneath have changed.
+When I first started using OpenClaw, it was a way for me to explore using AI and understand how to use it in non-coding scenarios. Over time, it has started taking on more responsibilities in my personal life, from scheduling and managing my investment research to helping me with mundane form-filling work. Also, since [the June post](/ideas/how-openclaw-is-architected/), my OpenClaw has changed a fair bit, both in how I use it and what runs underneath it.
 
 ## Getting the investment workflow to work
 
-I wanted an agentic investment workflow from the outset. OpenClaw would research an investment, maintain the records, review what had changed, and bring decisions back to me. In my experience building this with GPT-5.6 Sol, it repeatedly drifted towards more code despite that direction being specified at the start. Several rebuilds left me with brittle workflows that failed more than they worked. Too often, maintaining the system displaced reviewing the investment.
+I wanted an agentic investment workflow from the outset. OpenClaw would research an investment, maintain the records, review what had changed, and bring decisions back to me. In my experience building this with GPT-5.5 and GPT-5.6 Sol, it repeatedly drifted towards more code despite that direction being specified at the start. Several rebuilds left me with brittle workflows that failed more than they worked. Too often, maintaining the system displaced reviewing the investment.
 
-The daily price-risk monitor now runs across my portfolios. Alongside it, OpenClaw looks for developments that improve or otherwise change the investment case for a holding, keeps the thesis and portfolio records current, and recommends allocation changes. A price move can change the weight of a position, while a change in the business can affect whether I still want that exposure. The current setup is better at managing my investments, although I would not say I understand exactly how everything works or that I have finished rebuilding it.
+With GPT-6 and GPT-6.1 Sol, I have been able to get closer to the workflow I intended, faster and more accurately. The current setup is better at helping me manage my investments, although I would not say I understand exactly how everything works or that I have finished rebuilding it.
+
+The daily price-risk workflow helps me monitor changes in my portfolios. When a holding makes a significant price move, OpenClaw researches what might be behind it and assesses whether the evidence changes the investment thesis or calls for action in each affected portfolio. A price move can change the weight of a position, while a change in the business can affect whether I still want that exposure.
+
+Monthly and quarterly reviews answer different questions and run alongside each other, so both can happen in the same month. The monthly review looks at every holding within one portfolio: does it still fit the mandate, and should I hold, add, trim, exit, or investigate? It considers valuation, concentration, cash, and new evidence, and compares thesis-aligned alternatives when there is a reason to do so.
+
+The quarterly review goes deeper into the portfolio’s strategy and structure: do the mechanisms behind its thesis still hold, what evidence would invalidate them, and does the portfolio still justify the capital and effort compared with a simpler alternative? It reuses relevant monthly evidence and focuses further research on holdings that matter to those questions. Both reviews produce proposals for me to consider, rather than executing trades.
 
 After a substantial climb in NTRA, the position had become a concentration issue. OpenClaw flagged it and recommended a reduction, which I made. I still check the analysis and whether the work actually completed, decide whether a recommendation makes sense, and execute the transaction. In that sense, I’m OpenClaw’s MCP.
 
