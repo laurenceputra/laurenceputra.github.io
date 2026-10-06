@@ -3,7 +3,7 @@ title: About
 description: Engineering leadership, operations, and community work.
 ---
 
-I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce manual work and shorten triage. I have worked across engineering management, infrastructure, payments, compliance, and platform operations.
+I have worked across engineering management, infrastructure, payments, compliance, and platform operations.
 
 ## Engineering and operations
 

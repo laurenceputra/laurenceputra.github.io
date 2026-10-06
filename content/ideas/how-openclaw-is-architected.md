@@ -40,8 +40,6 @@ The open-source project gives me powerful primitives.
 
 A personal AI system still needs local answers: where a branding request lives, which portfolio file owns current state, which agent can mutate code, when a Telegram reply should stay in the same topic, which facts are durable, which memories are raw capture, which actions need approval, which workflows can run on cron, and which outputs require verification.
 
-Those are instance questions.
-
 My architecture is built around that distinction. The upstream runtime supplies the machine. My workspace supplies the constitution, routing map, memory owners, capability registry, execution lanes, and safety gates.
 
 That separation keeps the system from confusing available tool access with permission to act.
@@ -119,7 +117,7 @@ In my current architecture, `skills/` is reserved for front-door controls:
 
 These controls help the main agent decide what to load, where to route work, and which review path applies.
 
-The naming matters. These controls exist to keep the main assistant from loading the world. They return bounded context and routing pointers, then stop.
+These controls exist to keep the main assistant from loading the world. They return bounded context and routing pointers, then stop.
 
 I also added `context-loader` as a combined pre-routing helper. It loads the memory and capability context contracts, returns a packet with separate memory context, capability context, routing hints, and unknowns, and leaves the final decision to the main agent.
 
