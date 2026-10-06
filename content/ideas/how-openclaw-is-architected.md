@@ -5,6 +5,9 @@ date: 2026-06-30
 tags: ["AI", "OpenClaw", "architecture", "agents", "systems"]
 aliases: ["/blog/openclaw-architecture/"]
 hideHero: true
+illustration:
+  src: /images/illustrations/openclaw-architecture.webp
+  alt: Sage-and-sand conceptual illustration of a layered architecture built from wood and muted green blocks
 ---
 
 I use my OpenClaw instance for branding edits, portfolio reviews, email writing, travel, and recurring reports. Those tasks need different context and procedures. Search instructions should stay out of a branding edit, and portfolio monitor rules should stay out of a Hugo post.
@@ -24,6 +27,8 @@ So I changed the architecture. Open-source OpenClaw gives me the runtime: agents
 That layer turns the framework into a working system for my own life and work: Telegram topic routing, owner files, memory discipline, execution lanes, recurring jobs, and a split between front-door skills and lazy-loaded capabilities.
 
 ![OpenClaw runtime architecture diagram showing Telegram topic routing, selective context loading, execution lanes, scheduled jobs, runtime tools, and safety gates](/images/openclaw-runtime-architecture.png)
+
+[Open the full-size architecture diagram](/images/openclaw-runtime-architecture.png).
 
 _The runtime architecture of my OpenClaw instance: a lightweight main agent, selective context loading, topic-based routing, execution lanes, recurring jobs, and safety gates._
 

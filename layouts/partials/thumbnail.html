@@ -1,4 +1,11 @@
-{{ with .Params.illustration }}{{ partial "image.html" (dict "src" .src "alt" .alt "class" "thumbnail conceptual-art") }}{{ else }}{{ $matches := findRE `!\[[^\]]*\]\(([^)]+)\)` .RawContent 1 }}{{ if $matches }}{{ $src := replaceRE `.*\]\(([^)]+)\).*` "$1" (index $matches 0) }}{{ $alt := replaceRE `!\[([^\]]*)\].*` "$1" (index $matches 0) }}{{ partial "image.html" (dict "src" $src "alt" $alt "class" "thumbnail") }}{{ else }}<div class="thumbnail image-fallback" aria-hidden="true">
-<span>{{ with .Params.tags }}{{ index . 0 }}{{ else }}Ideas{{ end }}</span>
+{{- $page := .page -}}
+{{- with $page.Params.illustration -}}{{ partial "image.html" (dict "src" .src "alt" .alt "class" "thumbnail conceptual-art" "sizes" $.sizes) }}{{- else -}}
+{{- $matches := findRE `!\[[^\]]*\]\(([^)]+)\)` $page.RawContent 1 -}}
+{{- if $matches -}}
+{{- $src := replaceRE `.*\]\(([^)]+)\).*` "$1" (index $matches 0) -}}
+{{- $alt := replaceRE `!\[([^\]]*)\].*` "$1" (index $matches 0) -}}
+{{ partial "image.html" (dict "src" $src "alt" $alt "class" "thumbnail" "sizes" $.sizes) }}
+{{- else -}}<div class="thumbnail image-fallback" aria-hidden="true">
+<span>{{ with $page.Params.tags }}{{ index . 0 }}{{ else }}Ideas{{ end }}</span>
 <span>↗</span>
-</div>{{ end }}{{ end }}
+</div>{{- end -}}{{- end -}}
