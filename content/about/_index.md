@@ -9,7 +9,7 @@ I have worked across engineering management, infrastructure, payments, complianc
 
 I started programming young with microchips, LEDs, datasheets, and small experiments. I still prefer getting close enough to a problem to see what is actually happening before proposing a fix. My career has taken me from mobile and payments engineering into infrastructure, reliability, and leading teams.
 
-At TikTok, I moved from building the initial reliability team in 2022 to leading engineering and operational platforms. My Cost and Performance appointment began in August 2026. Before that, I led Operational Support and Efficiency, following earlier reliability leadership roles.
+At TikTok, I moved from building the initial reliability team in 2022 to leading engineering and operational platforms. My appointment to lead the Cost and Performance team in Singapore began in August 2026. Before that, I led Operational Support and Efficiency, following earlier reliability leadership roles.
 
 ### Making platforms useful to their users
 
