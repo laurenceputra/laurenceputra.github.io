@@ -145,6 +145,26 @@ p {
   gap:32px;
   align-items:center
 }
+.selected-work .work-row {
+  align-items:start
+}
+.selected-work .work-copy {
+  grid-column:2;
+  grid-row:1
+}
+.selected-work .work-evidence {
+  grid-column:1;
+  grid-row:1
+}
+.selected-work .work-row+.work-row {
+  margin-top:32px;
+  padding-top:32px;
+  border-top:1px solid var(--stone)
+}
+.selected-work .work-result {
+  font:2rem/1.2 Georgia,"Times New Roman",serif;
+  margin-bottom:14px
+}
 .project-fallback {
   background:var(--sand);
   border:1px solid var(--stone);
@@ -494,6 +514,11 @@ p {
 .related .essay-row h2 {
   font-size:1.3rem
 }
+.page-header.detail-header {
+  max-width:760px;
+  margin-left:auto;
+  margin-right:auto
+}
 .detail-body {
   margin:auto
 }
@@ -623,6 +648,10 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
   .work-row {
     grid-template-columns:1fr;
     gap:22px
+  }
+  .selected-work .work-copy, .selected-work .work-evidence {
+    grid-column:auto;
+    grid-row:auto
   }
   .project-fallback {
     min-height:160px
