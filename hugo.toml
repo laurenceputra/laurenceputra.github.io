@@ -8,7 +8,7 @@ disableKinds = ["taxonomy", "term"]
 [params]
   description = "Engineering leader working on operations, AI, and community projects."
   tagline = "I help teams find where work stalls."
-  currentRole = "I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce manual work and shorten triage."
+  currentRole = "I lead TikTok’s Cost and Performance team in Singapore and also serve as Singapore Site Leader for Server Architecture."
   profileImage = "/images/laurence-studio-portrait.webp"
   aboutImage = "/images/laurence-outdoor-portrait.webp"
   heroImage = "/images/cover.jpg"
