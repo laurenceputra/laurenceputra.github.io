@@ -11,7 +11,7 @@
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $description }}">
 <link rel="canonical" href="{{ .Permalink }}">
-{{ if .IsHome }}<link rel="preload" as="image" href="{{ site.Params.heroImage | relURL }}" fetchpriority="high">{{ end }}
+{{ if .IsHome }}<link rel="preload" as="image" href="{{ site.Params.profileImage | relURL }}" fetchpriority="high">{{ end }}
 
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $description }}">
