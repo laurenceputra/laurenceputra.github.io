@@ -32,7 +32,7 @@ if (filters) {
       row.hidden = !!button.dataset.filter && !row.dataset.tags.split('|').includes(button.dataset.filter);
       if (!row.hidden) count++;
     });
-    document.querySelector('#filter-status').textContent = count + ' essays shown';
+    document.querySelector('#filter-status').textContent = count + (count === 1 ? ' essay shown' : ' essays shown');
   });
 }
 

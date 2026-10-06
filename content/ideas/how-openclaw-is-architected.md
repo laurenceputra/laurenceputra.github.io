@@ -4,6 +4,7 @@ description: "The open-source OpenClaw runtime gives me the substrate. The real 
 date: 2026-06-30
 tags: ["AI", "OpenClaw", "architecture", "agents", "systems"]
 aliases: ["/blog/openclaw-architecture/"]
+hideHero: true
 ---
 
 I use my OpenClaw instance for branding edits, portfolio reviews, email writing, travel, and recurring reports. Those tasks need different context and procedures. Search instructions should stay out of a branding edit, and portfolio monitor rules should stay out of a Hugo post.

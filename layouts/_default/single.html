@@ -5,7 +5,7 @@
 <p class="metadata">{{ .Date.Format "2 Jan 2006" }} · {{ .ReadingTime }} min read · {{ delimit .Params.tags ", " }}</p>
 </header>
 <div class="article-layout">
-<div class="essay-hero">{{ partial "thumbnail.html" . }}</div>
+{{ if not .Params.hideHero }}<div class="essay-hero">{{ partial "thumbnail.html" . }}</div>{{ end }}
 <aside class="article-sidebar">{{ if gt (len .TableOfContents) 32 }}<details class="toc" open>
 <summary>On this page</summary>{{ .TableOfContents }}</details>{{ end }}<a class="discussion" href="{{ site.Params.linkedin }}">Prefer to discuss this topic?<br>Reach out on LinkedIn ↗</a>
 </aside>
