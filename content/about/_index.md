@@ -7,15 +7,29 @@ I have worked across engineering management, infrastructure, payments, complianc
 
 ## Engineering and operations
 
-I started programming young with microchips, LEDs, datasheets, and small experiments. I still prefer getting close enough to a problem to see what is actually happening before proposing a fix. My professional work has included:
+I started programming young with microchips, LEDs, datasheets, and small experiments. I still prefer getting close enough to a problem to see what is actually happening before proposing a fix. My career has taken me from mobile and payments engineering into infrastructure, reliability, and leading teams.
 
-- **TikTok:** Site Leader for Server Architecture, OSE Engineering Leader
-- **PayPal:** Engineering management in Consumer In-Store, Digital Commerce, and Compliance
-- **Singapore Power:** DevOps Lead
-- **Nugit:** Senior Engineer
-- **Earlier roles:** software engineering across mobile, web, and platforms
+At TikTok, I moved from building the initial reliability team in 2022 to leading engineering and operational platforms. My Cost and Performance appointment began in August 2026. Before that, I led Operational Support and Efficiency, following earlier reliability leadership roles.
 
-I also helped build developer communities through GeekcampSG and PayPal developer outreach. Moving from software engineering into leadership and operations meant looking beyond the tool itself: who handles the queue, what information they need, and who can make the next decision.
+### Making platforms useful to their users
+
+Across my previous reliability and operations roles, I took over under-adopted platforms as part of a reorganisation. For an inherited monitoring platform, I repositioned the offering and redesigned user flows. It helped engineers configure monitoring and keep configurations aligned across regions. Adoption expanded from within Server Architecture to 33 engineering teams across TikTok within a year of the July 2025 takeover.
+
+Another inherited platform handled alarm response, while a separate database recorded which teams owned services. I connected their use cases into one workflow and improved onboarding. The alarm-response workflow gave teams a practical reason to keep ownership records up to date, making it easier to find the team responsible for a service. Adoption of both platforms together grew from one engineering team to 11 by the time of the reorganisation.
+
+In my earlier Singapore reliability remit, I led development of a capacity-inspection platform that reduced the time needed to identify capacity-related risks by more than 80%. Development teams could use it to manage those risks proactively.
+
+### Leading teams and a growing site
+
+The Singapore Server Architecture site grew from 6 to more than 50 engineers and 5 leaders under my site leadership. I built the local leadership layer and operating routines, including onboarding, feedback loops, and leadership training. Separately, my largest directly managed organisation comprised 20 people across three countries, with four team leads. Site leadership also meant supporting teams whose direct leaders were elsewhere.
+
+### Earlier engineering experience
+
+At **PayPal**, I worked in software engineering and later as Manager, Software Development across Compliance Engineering, Consumer In-Store and Digital Commerce, and Digital Wallet Infra. In the Consumer In-Store and Digital Commerce role, I led reliability and latency work. Profiling, isolating bottlenecks, and coordinating fixes across services and dependencies reduced iOS P99 latency by nearly 60%: an improvement in the slow end of the response-time distribution.
+
+At **SP Group**, Singapore's grid operator, I was Digital Infra Lead. I managed five engineers and designed controls that enabled DevOps adoption while satisfying audit requirements, working with infrastructure and security teams in a regulated environment. Earlier roles included Senior Engineer at **Nugit** and software engineering at **BillPin**.
+
+I also helped build developer communities through GeekcampSG and PayPal developer outreach.
 
 ## Community work
 
