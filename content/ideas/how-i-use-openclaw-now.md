@@ -3,6 +3,9 @@ title: "How I Use OpenClaw Now, and What Changed Underneath"
 description: "How I use OpenClaw for investment reviews, forms, and upcoming commitments, and how the architecture has changed since June."
 date: 2026-10-04
 tags: ["AI", "OpenClaw", "architecture", "agents"]
+illustration:
+  src: /images/illustrations/everyday-openclaw.webp
+  alt: "Conceptual illustration of a hand connecting charts, a checklist, and a calendar"
 ---
 
 When I first started using OpenClaw, it was a way for me to explore using AI and understand how to use it in non-coding scenarios. Over time, it has started taking on more responsibilities in my personal life, from scheduling and managing my investment research to helping me with mundane form-filling work. Also, since [the June post](/ideas/how-openclaw-is-architected/), my OpenClaw has changed a fair bit, both in how I use it and what runs underneath it.

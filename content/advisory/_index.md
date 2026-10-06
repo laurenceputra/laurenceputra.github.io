@@ -1,6 +1,9 @@
 ---
 title: Advisory
 description: Advisory for teams dealing with slow decisions, difficult handoffs, and operational load.
+illustration:
+  src: /images/illustrations/advisory-workspace.webp
+  alt: "Conceptual illustration of an open notebook, plant, and wooden steps for advisory work"
 ---
 
 I help mission-driven teams understand where work stalls and what can be simplified.

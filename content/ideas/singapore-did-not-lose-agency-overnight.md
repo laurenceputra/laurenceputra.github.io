@@ -3,6 +3,9 @@ title: "Singapore Did Not Lose Agency Overnight"
 description: "A systems essay on how centralisation can narrow local judgment while preserving state capacity."
 date: 2026-04-11
 tags: ["Singapore", "systems", "policy", "agency"]
+illustration:
+  src: /images/illustrations/singapore-agency.webp
+  alt: "Conceptual illustration of branching paths between a civic centre and neighbourhoods"
 ---
 
 Singapore did not lose agency overnight. If anything, agency has been gradually narrowed by systems that make compliance easier than judgment, and central provision easier than local adaptation.

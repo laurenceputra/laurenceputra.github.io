@@ -4,6 +4,9 @@ description: "As models improve, the next AI productivity gain may come from rem
 date: 2026-07-23
 tags: ["AI", "architecture", "agents", "systems", "judgment"]
 aliases: ["/blog/delete-yesterdays-ai-scaffolding/"]
+illustration:
+  src: /images/illustrations/ai-scaffolding.webp
+  alt: "Conceptual illustration of a stone arch with removable wooden scaffolding"
 ---
 
 When an AI workflow becomes more expensive, my first instinct is usually to ask whether the work has become harder. Recently, that explanation stopped fitting what I was seeing. I was using more tokens for broadly similar work even though the underlying tasks had not changed much. The model had improved, and the system around it had accumulated more instructions, routing decisions, memory, retrieval, and coordination. The cost was increasingly coming from the way I had organised the work.

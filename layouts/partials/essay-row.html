@@ -1,0 +1,8 @@
+<article class="essay-row" data-tags="{{ delimit .Params.tags "|" }}">{{ partial "thumbnail.html" . }}<div>
+<h2>
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</h2>
+<p class="metadata">{{ .Date.Format "2 Jan 2006" }} · {{ .ReadingTime }} min read{{ with .Params.tags }} · {{ delimit . ", " }}{{ end }}</p>
+<p>{{ .Description }}</p>
+</div>
+</article>

@@ -9,7 +9,8 @@ disableKinds = ["taxonomy", "term"]
   description = "Engineering leader working on operations, AI, and community projects."
   tagline = "I help teams find where work stalls."
   currentRole = "I lead Operational Support and Efficiency at TikTok. My team uses AI to reduce manual work and shorten triage."
-  profileImage = "/images/profile_2021_full_body_chair.jpg"
+  profileImage = "/images/laurence-studio-portrait.webp"
+  aboutImage = "/images/laurence-outdoor-portrait.webp"
   heroImage = "/images/cover.jpg"
   linkedin = "https://www.linkedin.com/in/laurenceputra/"
 

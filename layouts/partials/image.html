@@ -1,0 +1,1 @@
+{{ $config := imageConfig (printf "static/%s" (strings.TrimPrefix "/" .src)) }}<img class="{{ .class }}" src="{{ .src | relURL }}" alt="{{ .alt }}" width="{{ $config.Width }}" height="{{ $config.Height }}" decoding="async"{{ if not .eager }} loading="lazy"{{ end }}>
