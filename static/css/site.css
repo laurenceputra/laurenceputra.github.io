@@ -141,7 +141,7 @@ p {
 }
 .work-row {
   display:grid;
-  grid-template-columns:260px 1fr;
+  grid-template-columns:minmax(0, .44fr) minmax(0, .56fr);
   gap:32px;
   align-items:center
 }
@@ -260,7 +260,7 @@ p {
 }
 .essay-row {
   display:grid;
-  grid-template-columns:180px minmax(0,1fr);
+  grid-template-columns:260px minmax(0,1fr);
   gap:28px;
   border-top:1px solid var(--stone);
   padding:26px 0;
@@ -486,7 +486,7 @@ p {
   margin-top:48px
 }
 .related .essay-row {
-  grid-template-columns:130px minmax(0,1fr)
+  grid-template-columns:240px minmax(0,1fr)
 }
 .related .thumbnail {
   height:100px
@@ -634,7 +634,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
     margin-bottom:28px
   }
   .essay-row {
-    grid-template-columns:100px minmax(0,1fr);
+    grid-template-columns:minmax(0,1fr);
     gap:16px;
     padding:22px 0
   }
@@ -706,7 +706,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
     font-size:1rem
   }
   .related .essay-row {
-    grid-template-columns:85px minmax(0,1fr)
+    grid-template-columns:minmax(0,1fr)
   }
   .related .thumbnail {
     height:85px
@@ -736,6 +736,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
 /* Hero before mobile TOC; sticky left desktop sidebar. */
 .essay-hero { grid-column: 2; grid-row: 1; }
 .essay-hero .thumbnail { height: 300px; object-fit: contain; background: var(--sand); }
+.essay-hero .thumbnail.conceptual-art { height: auto; }
 .article-sidebar { grid-column: 1; grid-row: 1 / span 2; }
 .article-main { grid-column: 2; grid-row: 2; }
 @media (max-width: 767px) {
@@ -743,10 +744,11 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
   .essay-hero .thumbnail { height: 200px; }
 }
 
-/* Keep complete conceptual scenes in wide heroes and square mobile lists. */
+/* Show complete conceptual scenes at their natural aspect ratio. */
 .conceptual-art { object-fit: contain; background: #f8f7ef; }
+.essay-row .thumbnail.conceptual-art { height: auto; }
 .advisory-visual { margin: 0 0 2rem; padding: 0; }
-.advisory-art { width: 100%; height: auto; max-height: 300px; }
+.advisory-art { display: block; width: 100%; height: auto; }
 .community-illustration { margin: 0; min-width: 0; width: 100%; }
-.community-illustration img { width: 100%; height: auto; max-height: 260px; }
+.community-illustration img { display: block; width: 100%; height: auto; }
 .advisory-visual figcaption, .community-illustration figcaption { font-size: .82rem; color: #55594f; margin-top: .5rem; }
