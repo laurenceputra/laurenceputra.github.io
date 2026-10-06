@@ -7,9 +7,7 @@ awardYear: 2020
 
 ![NUS Computing Outstanding Young Alumni award](/images/nus_oya_receiving.jpg)
 
-I received the NUS Computing Outstanding Young Alumni recognition at the opening of the new Computing building.
-
-NUS Computing lists this recognition in its 2020 Outstanding Computing Alumni Awards cohort, under “Young Alumni Award”. The award year is distinct from the presentation event.
+I received the 2020 NUS Computing Young Alumni Award at the opening of the new Computing building.
 
 ## Links
 

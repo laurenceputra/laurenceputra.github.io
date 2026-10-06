@@ -19,6 +19,8 @@ I received People of Good recognition for my work on Project Stable Staples duri
 
 ## Selected photos
 
+{{< gallery >}}
+
 ![People of Good award photo 1](/images/pog_award1.jpeg)
 ![People of Good award photo 2](/images/pog_award2.jpeg)
 ![People of Good award photo 3](/images/pog_award3.jpeg)
@@ -27,3 +29,5 @@ I received People of Good recognition for my work on Project Stable Staples duri
 ![People of Good award photo 6](/images/pog_award6.jpeg)
 ![People of Good award photo 7](/images/pog_award7.jpeg)
 ![People of Good award photo 8](/images/pog_award8.jpeg)
+
+{{< /gallery >}}
