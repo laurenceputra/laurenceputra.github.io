@@ -4,6 +4,9 @@ description: "AI changes leverage, not the logic of judgment. Chinese-first post
 date: 2026-05-06
 tags: ["AI", "strategy", "Chinese classics", "judgment"]
 aliases: ["/blog/sunzi-daodejing-ai-operating-logic/"]
+illustration:
+  src: /images/illustrations/principles-methods-practice-tools.webp
+  alt: "Conceptual illustration of layered building blocks, a compass, and a hand tool"
 ---
 
 [中文正文](#中文正文) | [English companion](#english-companion)

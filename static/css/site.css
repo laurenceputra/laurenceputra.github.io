@@ -742,3 +742,11 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
   .essay-hero { width: 100%; }
   .essay-hero .thumbnail { height: 200px; }
 }
+
+/* Keep complete conceptual scenes in wide heroes and square mobile lists. */
+.conceptual-art { object-fit: contain; background: #f8f7ef; }
+.advisory-visual { margin: 0 0 2rem; padding: 0; }
+.advisory-art { width: 100%; height: auto; max-height: 300px; }
+.community-illustration { margin: 0; min-width: 0; width: 100%; }
+.community-illustration img { width: 100%; height: auto; max-height: 260px; }
+.advisory-visual figcaption, .community-illustration figcaption { font-size: .82rem; color: #55594f; margin-top: .5rem; }

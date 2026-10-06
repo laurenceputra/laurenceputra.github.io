@@ -4,6 +4,9 @@ description: "The real power in AI is not the model. It is the harness around it
 date: 2026-04-06
 tags: ["AI", "engineering", "OpenClaw", "harness", "systems"]
 aliases: ["/blog/the-model-is-not-the-product/"]
+illustration:
+  src: /images/illustrations/model-and-harness.webp
+  alt: "Conceptual illustration of a faceted model inside a wooden harness with inputs and outputs"
 ---
 
 Everyone is arguing about which model is best. Claude, GPT, Gemini. The leaderboard changes every quarter and so does the conversation.
