@@ -30,8 +30,6 @@ The Taoist line that best explains this is 有之以为利，无之以为用. Wh
 
 A cup needs clay. It also needs the hollow inside. Institutions work the same way. Rules, agencies, subsidies, standards, and platforms give a system shape. But the useful part of a system is the room it leaves for judgment and initiative. If every gap is filled, the system does not become perfect. It becomes rigid.
 
-That is the hinge.
-
 Singapore is unusually strong at form. We value legibility, standardisation, and predictability. We are less comfortable with unevenness, informal judgment, and local variation. So the bias in system design is often to reduce them. Central templates expand. Entitlements get calibrated. Approved pathways multiply. Operating conditions tighten.
 
 That does not mean the system is irrational. These designs usually exist for real reasons: equity, accountability, procurement integrity, coordination, reputational risk, and the desire to avoid postcode lotteries. The question is not whether those aims are legitimate. It is how much room remains for discretion where local knowledge actually matters.

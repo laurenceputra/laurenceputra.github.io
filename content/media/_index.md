@@ -3,7 +3,7 @@ title: Media
 description: Interviews, articles, and public profiles on engineering and community work.
 ---
 
-These sources show two sides of my work. The engineering references trace an early technical path and point to public work and professional history; the community coverage follows Project Stable Staples and the people involved in responding to families' needs.
+The engineering references trace an early technical path and point to public work and professional history; the community coverage follows Project Stable Staples and the people involved in responding to families' needs.
 
 ## Engineering and professional profiles
 

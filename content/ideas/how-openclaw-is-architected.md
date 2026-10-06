@@ -5,6 +5,9 @@ date: 2026-06-30
 tags: ["AI", "OpenClaw", "architecture", "agents", "systems"]
 aliases: ["/blog/openclaw-architecture/"]
 hideHero: true
+illustration:
+  src: /images/illustrations/openclaw-architecture.webp
+  alt: Sage-and-sand conceptual illustration of a layered architecture built from wood and muted green blocks
 ---
 
 I use my OpenClaw instance for branding edits, portfolio reviews, email writing, travel, and recurring reports. Those tasks need different context and procedures. Search instructions should stay out of a branding edit, and portfolio monitor rules should stay out of a Hugo post.
@@ -25,6 +28,8 @@ That layer turns the framework into a working system for my own life and work: T
 
 ![OpenClaw runtime architecture diagram showing Telegram topic routing, selective context loading, execution lanes, scheduled jobs, runtime tools, and safety gates](/images/openclaw-runtime-architecture.png)
 
+[Open the full-size architecture diagram](/images/openclaw-runtime-architecture.png).
+
 _The runtime architecture of my OpenClaw instance: a lightweight main agent, selective context loading, topic-based routing, execution lanes, recurring jobs, and safety gates._
 
 ---
@@ -34,8 +39,6 @@ _The runtime architecture of my OpenClaw instance: a lightweight main agent, sel
 The open-source project gives me powerful primitives.
 
 A personal AI system still needs local answers: where a branding request lives, which portfolio file owns current state, which agent can mutate code, when a Telegram reply should stay in the same topic, which facts are durable, which memories are raw capture, which actions need approval, which workflows can run on cron, and which outputs require verification.
-
-Those are instance questions.
 
 My architecture is built around that distinction. The upstream runtime supplies the machine. My workspace supplies the constitution, routing map, memory owners, capability registry, execution lanes, and safety gates.
 
@@ -114,7 +117,7 @@ In my current architecture, `skills/` is reserved for front-door controls:
 
 These controls help the main agent decide what to load, where to route work, and which review path applies.
 
-The naming matters. These controls exist to keep the main assistant from loading the world. They return bounded context and routing pointers, then stop.
+These controls exist to keep the main assistant from loading the world. They return bounded context and routing pointers, then stop.
 
 I also added `context-loader` as a combined pre-routing helper. It loads the memory and capability context contracts, returns a packet with separate memory context, capability context, routing hints, and unknowns, and leaves the final decision to the main agent.
 

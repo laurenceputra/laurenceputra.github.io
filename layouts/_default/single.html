@@ -5,13 +5,13 @@
 <p class="metadata">{{ .Date.Format "2 Jan 2006" }} · {{ .ReadingTime }} min read · {{ delimit .Params.tags ", " }}</p>
 </header>
 <div class="article-layout">
-{{ if not .Params.hideHero }}<div class="essay-hero">{{ partial "thumbnail.html" . }}</div>{{ end }}
+{{ if not .Params.hideHero }}<div class="essay-hero">{{ partial "thumbnail.html" (dict "page" . "sizes" "(max-width: 767px) calc(100vw - 36px), 760px") }}</div>{{ end }}
 <aside class="article-sidebar">{{ if gt (len .TableOfContents) 32 }}<details class="toc" open>
 <summary>On this page</summary>{{ .TableOfContents }}</details>{{ end }}<a class="discussion" href="{{ site.Params.linkedin }}">Prefer to discuss this topic?<br>Reach out on LinkedIn ↗</a>
 </aside>
 <div class="article-main">
 <article class="page-content essay-body">{{ .Content }}</article>{{ $ideas := where site.RegularPages "Section" "ideas" }}{{ $related := $ideas.Related . | first 3 }}{{ if lt (len $related) 2 }}{{ $related = (where $ideas "RelPermalink" "ne" .RelPermalink).ByDate.Reverse | first 3 }}{{ end }}{{ with $related }}<section class="related">
-<h2>Related reading</h2>{{ range . }}{{ partial "essay-row.html" . }}{{ end }}</section>{{ end }}{{ partial "connect.html" . }}</div>
+<h2>Related reading</h2>{{ range . }}{{ partial "essay-row.html" (dict "page" . "sizes" "(max-width: 767px) calc(100vw - 36px), 240px") }}{{ end }}</section>{{ end }}{{ partial "connect.html" . }}</div>
 </div>{{ else }}<header class="page-header">
 <a class="back-link" href="/{{ .Section }}/">← Back to {{ .Section | title }}</a>
 <h1>{{ .Title }}</h1>{{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}</header>

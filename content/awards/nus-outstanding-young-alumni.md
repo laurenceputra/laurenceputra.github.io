@@ -16,7 +16,8 @@ I received the NUS Outstanding Young Alumni award in 2021. The citation recognis
 
 ## Selected photos
 
-![NUS award ceremony](/images/nus_oya_award_ceremony.jpeg)
+{{< gallery >}}
+
 ![NUS award trophy](/images/nus_oya_trophy.jpeg)
 ![NUS award trophy detail](/images/nus_oya_trophy2.jpeg)
 ![NUS award with award](/images/nus_oya_with_award.jpeg)
@@ -26,3 +27,5 @@ I received the NUS Outstanding Young Alumni award in 2021. The citation recognis
 ![NUS award group photo 1](/images/nus_oya_group1.jpeg)
 ![NUS award group photo 2](/images/nus_oya_group2.jpeg)
 ![NUS award collection](/images/nus_oya_collection.jpeg)
+
+{{< /gallery >}}

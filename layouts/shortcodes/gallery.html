@@ -1,0 +1,12 @@
+<div class="award-gallery">
+{{- $photos := findRE `![[][^]]*[]][(][^)]+[)]` .Inner -}}
+{{- $sizes := "(max-width: 491px) calc(100vw - 36px), (max-width: 727px) calc((100vw - 52px) / 2), (max-width: 767px) calc((100vw - 68px) / 3), (max-width: 824px) calc((100vw - 96px) / 3), 243px" -}}
+{{- if eq (len $photos) 1 -}}
+{{- $sizes = "(max-width: 767px) calc(100vw - 36px), (max-width: 823px) calc(100vw - 64px), 760px" -}}
+{{- end -}}
+{{- range $photos -}}
+{{- $src := replaceRE `.*[]][(]([^)]+)[)].*` "$1" . -}}
+{{- $alt := replaceRE `![[]([^]]*)[]].*` "$1" . -}}
+<a href="{{ $src | relURL }}">{{ partial "image.html" (dict "src" $src "alt" $alt "class" "thumbnail" "sizes" $sizes) }}</a>
+{{- end -}}
+</div>

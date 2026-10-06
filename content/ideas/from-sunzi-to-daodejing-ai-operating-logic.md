@@ -286,8 +286,6 @@ AI changes leverage, not the logic of judgment. The real question is not which m
 
 The Chinese stack of 经、法、术、器 gives a better operating order than model obsession does. Start with purpose and boundaries. Then define the judgment method. Then define the workflow. Only then choose the tools.
 
-That is not mysticism. It is simply a better sequence.
-
 If purpose is unstable, method bends. If method is unclear, workflow gets noisy. If workflow is unclear, tools only amplify the noise.
 
 Sunzi is useful because it teaches positioning before force. Know the tool boundary. Know the task boundary. Shape the terrain before spending intelligence. Do not rely on heroic prompting when better decomposition, routing, and review rules will do the job.

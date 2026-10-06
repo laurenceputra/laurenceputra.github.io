@@ -2,11 +2,12 @@
 title: NUS Computing Outstanding Young Alumni
 description: NUS Computing Outstanding Young Alumni recognition and event photos.
 weight: 20
+awardYear: 2020
 ---
 
 ![NUS Computing Outstanding Young Alumni award](/images/nus_oya_receiving.jpg)
 
-I received the NUS Computing Outstanding Young Alumni recognition at the opening of the new Computing building.
+I received the 2020 NUS Computing Young Alumni Award at the opening of the new Computing building.
 
 ## Links
 
@@ -16,6 +17,8 @@ I received the NUS Computing Outstanding Young Alumni recognition at the opening
 
 ## Selected photos
 
-![NUS award receiving photo](/images/nus_oya_receiving.jpg)
+{{< gallery >}}
+
 ![NUS award with dean](/images/nus_oya_dean.jpeg)
-![NUS alumni page screenshot](/images/nus_oya_alumni_page.png)
+
+{{< /gallery >}}

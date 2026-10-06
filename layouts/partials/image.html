@@ -1,1 +1,13 @@
-{{ $config := imageConfig (printf "static/%s" (strings.TrimPrefix "/" .src)) }}<img class="{{ .class }}" src="{{ .src | relURL }}" alt="{{ .alt }}" width="{{ $config.Width }}" height="{{ $config.Height }}" decoding="async"{{ if not .eager }} loading="lazy"{{ end }}>
+{{- $path := printf "static/%s" (strings.TrimPrefix "/" .src) -}}
+{{- $config := imageConfig $path -}}
+{{- $image := resources.FromString (strings.TrimPrefix "/" .src) (readFile $path) -}}
+{{- $srcset := slice -}}
+{{- if $image -}}
+{{- range slice 320 640 960 1280 1600 -}}
+{{- if lt . $config.Width -}}
+{{- $small := $image.Resize (printf "%dx webp q85" .) -}}
+{{- $srcset = $srcset | append (printf "%s %dw" $small.RelPermalink $small.Width) -}}
+{{- end -}}{{- end -}}
+{{- end -}}
+{{- $srcset = $srcset | append (printf "%s %dw" (.src | relURL) $config.Width) -}}
+<img class="{{ .class }}" src="{{ .src | relURL }}" alt="{{ .alt }}" width="{{ $config.Width }}" height="{{ $config.Height }}"{{ if gt (len $srcset) 1 }} srcset="{{ delimit $srcset ", " }}" sizes="{{ default "100vw" .sizes }}"{{ end }} decoding="async"{{ if not .eager }} loading="lazy"{{ end }}>

@@ -752,3 +752,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
 .community-illustration { margin: 0; min-width: 0; width: 100%; }
 .community-illustration img { display: block; width: 100%; height: auto; }
 .advisory-visual figcaption, .community-illustration figcaption { font-size: .82rem; color: #55594f; margin-top: .5rem; }
+
+.award-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 1rem; align-items: start; }
+.award-gallery p { margin: 0; }
+.award-gallery img { display: block; width: 100%; height: auto; }
