@@ -2,7 +2,6 @@
 title: "Building Is Getting Cheaper. Here Are Two Plugins I Needed."
 description: "Custom search and fetch providers for OpenClaw, and what cheaper software changes about the value of building."
 date: 2026-10-08
-draft: true
 tags: ["AI", "engineering", "OpenClaw", "Codex"]
 ---
 
